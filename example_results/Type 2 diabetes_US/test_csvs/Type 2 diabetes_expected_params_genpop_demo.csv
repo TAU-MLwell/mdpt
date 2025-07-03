@@ -1,0 +1,12 @@
+flag,column name,codes,data type,value column name,description,expected value,expected value max,expected value min,range low,range high,comparison type,references
+demography,gender_concept_id,[45878463],integer,gender_concept_id,Female,50.8,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/gender.html
+demography,gender_concept_id,[45880669],integer,gender_concept_id,Male,49.2,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/gender.html
+demography,gender_concept_id,[2000000003],integer,gender_concept_id,Other,0.1,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/gender.html
+demography,race_concept_id,[8527],integer,race_concept_id,White,76.3,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/race.html
+demography,race_concept_id,[8516],integer,race_concept_id,Black or African American,13.4,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/race.html
+demography,race_concept_id,[8657],integer,race_concept_id,Asian,5.9,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/race.html
+demography,race_concept_id,[44814659],integer,race_concept_id,Native Hawaiian or Other Pacific Islander,0.2,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/race.html
+demography,race_concept_id,[44814653],integer,race_concept_id,American Indian or Alaska Native,1.3,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/race.html
+demography,race_concept_id,[44814649],integer,race_concept_id,Other,2.9,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/race.html
+demography,ethnicity_concept_id,[38003564],integer,ethnicity_concept_id,Not Hispanic or Latino,81.1,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/ethnicity.html
+demography,ethnicity_concept_id,[38003563],integer,ethnicity_concept_id,Hispanic or Latino,18.9,np.nan,np.nan,np.nan,np.nan,percentage,https://www.census.gov/topics/population/ethnicity.html

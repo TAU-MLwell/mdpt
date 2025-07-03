@@ -1,0 +1,146 @@
+comorbidity,SNOMED-CT codes,prevalence
+Diabetes mellitus,"73211009, 44054006, 111552007, 46635009, 28032008",18.5%
+Type 1 diabetes mellitus,46635009,9.0%
+Type 2 diabetes mellitus,44054006,9.0%
+Hyperglycemia,80394007,Data is unavailable
+Hypoglycemia,"237633009, 237630007",Data is unavailable
+Dysglycemia,426255005,Data is unavailable
+Non-diabetic hyperglycemia,700449008,Data is unavailable
+Hypoglycemic disorder,237630007,Data is unavailable
+Hyperlipidemia,"55822004, 267434003, 238090007, 190774002, 3723001",36.1%
+Coronary artery disease,"53741008, 398274000, 194842008, 233970002, 21930005",2.73%
+Obesity,44054006,65-78%
+Morbid obesity,162864005,65-78%
+Obesity due to excess calories,161891005,65-78%
+Obesity hypoventilation syndrome,162865006,65-78%
+Heart failure,84114007,20%
+Heart failure,395105005,20%
+Heart failure,703272007,20%
+Heart failure,703275009,20%
+Heart failure,23341000119109,20%
+Heart failure,446221000,20%
+Heart failure,417996009,20%
+Heart failure,233924009,20%
+Heart failure,56675007,20%
+Heart failure,703273002,20%
+Heart failure,471880001,20%
+Heart failure,85232009,20%
+Heart failure,42343007,20%
+Heart failure,364006,20%
+Heart failure,10633002,20%
+Heart failure,359617009,20%
+Heart failure,698594003,20%
+Heart failure,101281000119107,20%
+Heart failure,788950000,20%
+Heart failure,111283005,20%
+Heart failure,10335000,20%
+Heart failure,703276005,20%
+Heart failure,88805009,20%
+Heart failure,426263006,20%
+Heart failure,48447003,20%
+Heart failure,443254009,20%
+Heart failure,418304008,20%
+Heart failure,153931000119109,20%
+Heart failure,426611007,20%
+Heart failure,80479009,20%
+Heart failure,74960003,20%
+Heart failure,441481004,20%
+Heart failure,424404003,20%
+Heart failure,314206003,20%
+Heart failure,153941000119100,20%
+Heart failure,153951000119103,20%
+Heart failure,5375005,20%
+Heart failure,10091002,20%
+Heart failure,46113002,20%
+Heart failure,443253003,20%
+Heart failure,92506005,20%
+Heart failure,609556008,20%
+Heart failure,120861000119102,20%
+Heart failure,5148006,20%
+Heart failure,443343001,20%
+Heart failure,66989003,20%
+Heart failure,703274008,20%
+Heart failure,441530006,20%
+Heart failure,82523003,20%
+Heart failure,120851000119104,20%
+Heart failure,394927007,20%
+Heart failure,44313006,20%
+Heart failure,717840005,20%
+Heart failure,16838951000119100,20%
+Heart failure,609555007,20%
+Heart failure,120871000119108,20%
+Heart failure,443344007,20%
+Heart failure,67441000119101,20%
+Heart failure,462172006,20%
+Heart failure,67431000119105,20%
+Heart failure,25544003,20%
+Heart failure,15629591000119103,20%
+Heart failure,15629541000119106,20%
+Heart failure,7411000175102,20%
+Heart failure,15629641000119107,20%
+Heart failure,120891000119109,20%
+Atrial fibrillation,49436004,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation detected,1066831000000104,1.8-fold increase in risk among hypertension patients
+Non-rheumatic atrial fibrillation,233911009,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation with rapid ventricular response,120041000119109,1.8-fold increase in risk among hypertension patients
+Atrial arrhythmia,17366009,1.8-fold increase in risk among hypertension patients
+Chronic atrial fibrillation,426749004,1.8-fold increase in risk among hypertension patients
+Atrial thrombosis,195147006,1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial fibrillation,282825002,1.8-fold increase in risk among hypertension patients
+Atrial flutter,5370000,1.8-fold increase in risk among hypertension patients
+Typical atrial flutter,720448006,1.8-fold increase in risk among hypertension patients
+Persistent atrial fibrillation,440059007,1.8-fold increase in risk among hypertension patients
+Atypical atrial flutter,15964901000119107,1.8-fold increase in risk among hypertension patients
+Preexcited atrial fibrillation,762247006,1.8-fold increase in risk among hypertension patients
+Permanent atrial fibrillation,440028005,1.8-fold increase in risk among hypertension patients
+Chronic atrial flutter,425615007,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation due to heart valve disorder,313377641000119105,1.8-fold increase in risk among hypertension patients
+Ventricular fibrillation,71908006,1.8-fold increase in risk among hypertension patients
+Controlled atrial fibrillation,300996004,1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial fibrillation with rapid ventricular response,1010405004,1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial flutter,427665004,1.8-fold increase in risk among hypertension patients
+Rapid atrial fibrillation,314208002,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation not detected,1067061000000104,1.8-fold increase in risk among hypertension patients
+Fibrillation,40593004,1.8-fold increase in risk among hypertension patients
+Normal atrial rhythm,81437007,1.8-fold increase in risk among hypertension patients
+Atrial bigeminy,251173003,1.8-fold increase in risk among hypertension patients
+Longstanding persistent atrial fibrillation,706923002,1.8-fold increase in risk among hypertension patients
+Transient cerebral ischemia due to atrial fibrillation,426814001,1.8-fold increase in risk among hypertension patients
+Atrial tachycardia,276796006,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation excluded,816401000000105,1.8-fold increase in risk among hypertension patients
+Lone atrial fibrillation,233910005,1.8-fold increase in risk among hypertension patients
+Atrial cardiopathy,870575001,1.8-fold increase in risk among hypertension patients
+Atrial aneurysm,36665001,1.8-fold increase in risk among hypertension patients
+Atrial parasystole,251188008,1.8-fold increase in risk among hypertension patients
+Sustained ventricular fibrillation,429243003,1.8-fold increase in risk among hypertension patients
+Persistent atrial fibrillation due to heart valve disorder,489609371000119104,1.8-fold increase in risk among hypertension patients
+Hypercoagulable state due to atrial fibrillation,129032061000119103,1.8-fold increase in risk among hypertension patients
+ECG: atrial fibrillation,164889003,1.8-fold increase in risk among hypertension patients
+Atrial paroxysmal tachycardia,195069001,1.8-fold increase in risk among hypertension patients
+Atrial septal aneurysm,95440004,1.8-fold increase in risk among hypertension patients
+Atrial trigeminy,251174009,1.8-fold increase in risk among hypertension patients
+Left atrial rhythm,49760004,1.8-fold increase in risk among hypertension patients
+"Atrial septal defect, atrioventricular conduction disorder",725145002,1.8-fold increase in risk among hypertension patients
+Re-entrant atrial tachycardia,233893007,1.8-fold increase in risk among hypertension patients
+"Thrombosis of atrium, auricular appendage, and atrial septum",194868001,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation annual review,248411000000105,1.8-fold increase in risk among hypertension patients
+Atrioventricular tachycardia,278482008,1.8-fold increase in risk among hypertension patients
+Atrial fibrillation resolved,196371000000102,1.8-fold increase in risk among hypertension patients
+"Familial atrial tachyarrhythmia, infra-Hisian",1197418004,1.8-fold increase in risk among hypertension patients
+EKG: atrial flutter,164890007,1.8-fold increase in risk among hypertension patients
+Ventricular arrhythmia,44103008,1.8-fold increase in risk among hypertension patients
+Chronic atrial and intestinal dysrhythmia,720507006,1.8-fold increase in risk among hypertension patients
+Brainstem stroke syndrome,195212005,64%
+Nonparalytic stroke,111297002,64%
+Ischemic stroke,422504002,64%
+Thrombotic stroke,371040005,64%
+Occlusive stroke,373606000,64%
+Paralytic stroke,116288000,64%
+Stroke test positive,299403002,64%
+Stroke and TIA,720191000000104,64%
+Stroke medicine,828261000000103,64%
+Stroke test finding,366609000,64%
+Embolic stroke,371041009,64%
+Haemorrhagic stroke,1078001000000105,64%
+Cerebellar stroke syndrome,195213000,64%
+Ischemic stroke without residual deficits,725132001,64%

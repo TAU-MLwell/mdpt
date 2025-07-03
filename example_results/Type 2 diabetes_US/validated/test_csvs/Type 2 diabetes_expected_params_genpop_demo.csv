@@ -1,0 +1,12 @@
+flag,column_name,codes,data_type,value_column_name,description,expected_value,expected_value_max,expected_value_min,range_low,range_high,comparison_type,references,fixed,remove
+demography,gender_concept_id,[45878463],integer,gender_concept_id,Female,50.8,,,,,percentage,"(""https://www.census.gov/topics/population/gender.html"")",False,False
+demography,gender_concept_id,[45880669],integer,gender_concept_id,Male,49.5,,,,,percentage,"""https://www.census.gov/topics/population/gender.html""",True,False
+demography,gender_concept_id,[2000000003],integer,gender_concept_id,Other,,,,0.6,,less_than,"""https://www.census.gov/topics/population/gender.html, https://news.gallup.com/poll/389792/lgbt-identification-ticks-up.aspx""",True,False
+demography,race_concept_id,[8527],integer,race_concept_id,White,75.8,,,,,percentage,"""https://www.census.gov/topics/population/race.html""",True,False
+demography,race_concept_id,[8516],integer,race_concept_id,Black or African American,13.6,,,,,percentage,"""https://www.census.gov/topics/population/race.html""",True,False
+demography,race_concept_id,[8657],integer,race_concept_id,Asian,6.2,,,,,percentage,"""https://www.census.gov/topics/population/race.html""",True,False
+demography,race_concept_id,[44814659],integer,race_concept_id,Native Hawaiian or Other Pacific Islander,0.2,,,,,percentage,"(""https://www.census.gov/topics/population/race.html"")",False,False
+demography,race_concept_id,[44814653],integer,race_concept_id,American Indian or Alaska Native,1.1,,,,,percentage,"""https://www.census.gov/topics/population/race.html""",True,False
+demography,race_concept_id,[44814649],integer,race_concept_id,Other,6.2,,,,,percentage,"""https://www.census.gov/topics/population/race.html""",True,False
+demography,ethnicity_concept_id,[38003564],integer,ethnicity_concept_id,Not Hispanic or Latino,81.3,,,,,percentage,"""https://www.census.gov/topics/population/ethnicity.html""",True,False
+demography,ethnicity_concept_id,[38003563],integer,ethnicity_concept_id,Hispanic or Latino,18.9,,,,,percentage,"""https://www.census.gov/topics/population/ethnicity.html""",False,False

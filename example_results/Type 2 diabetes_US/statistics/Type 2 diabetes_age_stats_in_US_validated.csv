@@ -1,0 +1,2 @@
+mean_age,std,count,reference
+54,10,33000000,"""CDC (https://www.cdc.gov/diabetes/data/statistics-report/index.html), PubMed"

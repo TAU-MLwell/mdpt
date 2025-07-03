@@ -1,0 +1,5 @@
+table_name,column_name,description,generic
+person,birth_datetime,The date and time of birth of the person.,birthDate
+condition_occurrence,condition_concept_id,A foreign key to a standard concept identifier for the condition.,code
+condition_occurrence,condition_start_datetime,The date and time when the instance of the Condition is recorded as occurring.,codeDate
+person,person_id,A unique identifier for each person.,personID

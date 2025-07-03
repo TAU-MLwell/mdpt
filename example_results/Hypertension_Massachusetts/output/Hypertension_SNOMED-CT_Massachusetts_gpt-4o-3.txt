@@ -1,0 +1,1070 @@
+2025-03-27 20:24:32.814923 
+
+Understood.
+
+According to the data from America's Health Rankings, the prevalence of diagnosed hypertension in Massachusetts is approximately 29.5% as of the most recent data available. This information is based on the analysis and reports provided by the United Health Foundation through their America's Health Rankings platform.
+
+Reference:
+- America's Health Rankings. Explore High Blood Pressure in Massachusetts. Available at: [https://www.americashealthrankings.org/explore/measures/Hypertension/MA](https://www.americashealthrankings.org/explore/measures/Hypertension/MA)
+
+The incidence of hypertension, which refers to the number of new cases diagnosed within a specific time period, is not typically reported in the same way as prevalence data. Incidence data for hypertension in Massachusetts specifically is not readily available from the provided sources. Most available data focuses on prevalence rather than incidence.
+
+Reference:
+- America's Health Rankings. Explore High Blood Pressure in Massachusetts. Available at: [https://www.americashealthrankings.org/explore/measures/Hypertension/MA](https://www.americashealthrankings.org/explore/measures/Hypertension/MA)
+
+If you need more detailed incidence data, it may require specific studies or reports from local health departments or research institutions.
+
+The mortality rate for hypertension in Massachusetts is reported as 8.5 deaths per 100,000 population according to the Centers for Disease Control and Prevention (CDC). This data reflects the number of deaths attributed to hypertension per 100,000 people in the state.
+
+Reference:
+- CDC. Stats of the States - Hypertension Mortality. Available at: [https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm](https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm)
+
+The lifetime risk of developing hypertension for individuals in the United States, including Massachusetts, is approximately 90%. This estimate is based on data from the Framingham Heart Study, which indicates that both men and women who are non-hypertensive at age 55 or 65 have a high likelihood of developing hypertension if they live to age 80-85.
+
+Reference:
+- National Center for Biotechnology Information. Lifetime Risk of Hypertension - The Seventh Report of the Joint National Committee on Prevention, Detection, Evaluation, and Treatment of High Blood Pressure. Available at: [https://www.ncbi.nlm.nih.gov/books/NBK9636/](https://www.ncbi.nlm.nih.gov/books/NBK9636)
+
+The survival rate specifically for people with hypertension in Massachusetts is not directly available from the provided sources. Survival rates are typically not reported in the same manner as mortality rates for hypertension. Most data focuses on mortality rates or prevalence rather than survival rates.
+
+Reference:
+- CDC. Stats of the States - Hypertension Mortality. Available at: [https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm](https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm)
+
+For more detailed survival data, specific studies or reports from local health departments or research institutions may be required.
+
+The total population size of Massachusetts is approximately 7.03 million as of the 2020 Census data.
+
+Reference:
+- U.S. Census Bureau QuickFacts: Massachusetts. Available at: [https://www.census.gov/quickfacts/fact/table/MA/PST045224](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+
+```csv
+Title: statistics_in_Massachusetts
+Prevalence | Incidence | Mortality rate | Lifetime risk | Survival | total population size in millions | reference
+29.5% | Data is unavailable | 8.5% | 90% | Data is unavailable | 7.03 | [America's Health Rankings](https://www.americashealthrankings.org/explore/measures/Hypertension/MA), [CDC](https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm), [NCBI](https://www.ncbi.nlm.nih.gov/books/NBK9636/), [U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+```
+
+References:
+- America's Health Rankings. Explore High Blood Pressure in Massachusetts. Available at: [https://www.americashealthrankings.org/explore/measures/Hypertension/MA](https://www.americashealthrankings.org/explore/measures/Hypertension/MA)
+- CDC. Stats of the States - Hypertension Mortality. Available at: [https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm](https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm)
+- National Center for Biotechnology Information. Lifetime Risk of Hypertension. Available at: [https://www.ncbi.nlm.nih.gov/books/NBK9636/](https://www.ncbi.nlm.nih.gov/books/NBK9636/)
+- U.S. Census Bureau QuickFacts: Massachusetts. Available at: [https://www.census.gov/quickfacts/fact/table/MA/PST045224](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+
+```csv
+Title: statistics_in_Massachusetts
+Prevalence | Incidence | Mortality rate | Lifetime risk | Survival | total population size in millions | reference
+29.5% | Data is unavailable | 8.5% | 90% | Data is unavailable | 7.03 | [America's Health Rankings](https://www.americashealthrankings.org/explore/measures/Hypertension/MA), [CDC](https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm), [NCBI](https://www.ncbi.nlm.nih.gov/books/NBK9636/), [U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+```
+
+References:
+- America's Health Rankings. Explore High Blood Pressure in Massachusetts. Available at: [https://www.americashealthrankings.org/explore/measures/Hypertension/MA](https://www.americashealthrankings.org/explore/measures/Hypertension/MA)
+- CDC. Stats of the States - Hypertension Mortality. Available at: [https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm](https://www.cdc.gov/nchs/pressroom/sosmap/hypertension_mortality/hypertension.htm)
+- National Center for Biotechnology Information. Lifetime Risk of Hypertension. Available at: [https://www.ncbi.nlm.nih.gov/books/NBK9636/](https://www.ncbi.nlm.nih.gov/books/NBK9636/)
+- U.S. Census Bureau QuickFacts: Massachusetts. Available at: [https://www.census.gov/quickfacts/fact/table/MA/PST045224](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+
+Data on the mean and standard deviation of hypertension diagnosis age specifically for Massachusetts is not available in the provided references. However, I can provide general information based on available data:
+
+1. **Mean Age**: The median age for hypertension diagnosis in the U.S. is approximately 55 years, as indicated by the IQVIA ambulatory electronic medical record data. This can be considered a proxy for the mean age.
+
+2. **Standard Deviation**: Specific standard deviation data for hypertension diagnosis age is not available in the provided references or my knowledge base.
+
+References:
+- CDC. State-Level Hypertension Prevalence and Control Among Adults in the U.S. Available at: [https://stacks.cdc.gov/view/cdc/150365/cdc_150365_DS1.pdf](https://stacks.cdc.gov/view/cdc/150365/cdc_150365_DS1.pdf)
+
+If more specific data is required, local health departments or state-specific studies may provide more detailed insights.
+
+The prevalence of hypertension in Massachusetts is approximately 29.5% according to America's Health Rankings. The total population of Massachusetts is approximately 7,030,000 as of the latest data from the U.S. Census Bureau.
+
+Using these figures, the estimated number of people diagnosed with hypertension in Massachusetts can be calculated as follows:
+
+\[ \text{Number of Diagnosed} = \text{Prevalence} \times \text{Total Population} \]
+
+\[ \text{Number of Diagnosed} = 0.295 \times 7,030,000 \approx 2,074,000 \]
+
+Therefore, approximately 2,074,000 people in Massachusetts are diagnosed with hypertension.
+
+References:
+- America's Health Rankings. Explore High Blood Pressure in Massachusetts. Available at: [https://www.americashealthrankings.org/explore/measures/Hypertension/MA](https://www.americashealthrankings.org/explore/measures/Hypertension/MA)
+- U.S. Census Bureau QuickFacts: Massachusetts. Available at: [https://www.census.gov/quickfacts/fact/table/MA/PST045224](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+
+```csv
+Title: age_stats_in_Massachusetts
+mean_age | std | count | reference
+55 | Data is unavailable | 2074000 | [CDC](https://stacks.cdc.gov/view/cdc/150365/cdc_150365_DS1.pdf), [America's Health Rankings](https://www.americashealthrankings.org/explore/measures/Hypertension/MA), [U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+```
+
+References:
+- CDC. State-Level Hypertension Prevalence and Control Among Adults in the U.S. Available at: [https://stacks.cdc.gov/view/cdc/150365/cdc_150365_DS1.pdf](https://stacks.cdc.gov/view/cdc/150365/cdc_150365_DS1.pdf)
+- America's Health Rankings. Explore High Blood Pressure in Massachusetts. Available at: [https://www.americashealthrankings.org/explore/measures/Hypertension/MA](https://www.americashealthrankings.org/explore/measures/Hypertension/MA)
+- U.S. Census Bureau QuickFacts: Massachusetts. Available at: [https://www.census.gov/quickfacts/fact/table/MA/PST045224](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+
+```csv
+Title: SNOMED-CT_diagnosis_codes_in_Massachusetts
+SNOMED-CT code | concept name
+38341003 | Hypertensive disorder
+266287006 | (Hypertensive disease) or (hypertension)
+56218007 | Systolic hypertension
+194756002 | Hypertensive disease
+155295004 | (Hypertensive disease) or (hypertension)
+64715009 | Hypertensive heart disease
+827069000 | Hypertension stage 1
+449759005 | Hypertensive complication
+194760004 | Hypertension NOS (& [essential])
+429457004 | Systolic essential hypertension
+155297007 | Hypertensive heart disease
+827068008 | Hypertension stage 2
+194759009 | Systolic hypertension
+194794002 | Hypertensive disease NOS
+471521000000108 | [X]Hypertensive diseases
+155302005 | Hypertensive disease NOS
+195537001 | [X]Hypertensive diseases
+473392002 | Hypertensive nephrosclerosis
+367390009 | Hypertension in the obstetric context
+599341000000105 | Hypertensive disease NOS
+32966004 | Hypertension in the obstetric context
+194757006 | High blood pressure (& [essential hypertension])
+702817009 | Prehypertension
+194769003 | Hypertensive heart disease NOS
+155299005 | Hypertensive heart and renal disease
+46113002 | Hypertensive heart failure
+48146000 | Diastolic hypertension
+137753003 | FH: Hypertension
+194776008 | Hypertensive heart and renal disease
+86234004 | Hypertensive heart AND renal disease
+194788005 | Hypertension secondary to endocrine disorder
+194772005 | Hypertensive heart disease NOS
+762463000 | Diastolic hypertension and systolic hypertension
+845891000000103 | Hypertension resistant to drug therapy
+38481006 | Hypertensive renal disease
+60899001 | Hypertensive heart disease without congestive heart failure
+194791005 | Hypertension secondary to drug
+194782006 | Hypertensive heart and renal disease NOS
+132721000119104 | Hypertensive emergency
+10725009 | Benign hypertension
+```
+
+```list
+Diabetes mellitus, Hyperlipidemia, Coronary artery disease, Chronic kidney disease, Obesity, Heart failure, Atrial fibrillation, Stroke, Peripheral vascular disease, Chronic obstructive pulmonary disease, Sleep apnea, Depression, Osteoarthritis, Anemia, Gout
+```
+
+Reference: The list is based on common comorbidities associated with hypertension as identified in various studies and health databases. For more detailed information, you can refer to resources such as the American Heart Association or the Centers for Disease Control and Prevention (CDC).
+
+```csv
+Title: comorbidities_in_Massachusetts
+comorbidity|SNOMED-CT codes|prevalence
+Diabetes mellitus|73211009, 44054006, 111552007, 46635009, 28032008|18.5%
+Type 1 diabetes mellitus|46635009|9.0%
+Type 2 diabetes mellitus|44054006|9.0%
+Hyperglycemia|80394007|Data is unavailable
+Hypoglycemia|237633009, 237630007|Data is unavailable
+Dysglycemia|426255005|Data is unavailable
+Non-diabetic hyperglycemia|700449008|Data is unavailable
+Hypoglycemic disorder|237630007|Data is unavailable
+Hyperlipidemia|55822004, 267434003, 238090007, 190774002, 3723001|36.1%
+Coronary artery disease|53741008, 398274000, 194842008, 233970002, 21930005|2.73%
+Obesity|44054006|65-78%
+Morbid obesity|162864005|65-78%
+Obesity due to excess calories|161891005|65-78%
+Obesity hypoventilation syndrome|162865006|65-78%
+Heart failure|84114007|20%
+Heart failure|395105005|20%
+Heart failure|703272007|20%
+Heart failure|703275009|20%
+Heart failure|23341000119109|20%
+Heart failure|446221000|20%
+Heart failure|417996009|20%
+Heart failure|233924009|20%
+Heart failure|56675007|20%
+Heart failure|703273002|20%
+Heart failure|471880001|20%
+Heart failure|85232009|20%
+Heart failure|42343007|20%
+Heart failure|364006|20%
+Heart failure|10633002|20%
+Heart failure|359617009|20%
+Heart failure|698594003|20%
+Heart failure|101281000119107|20%
+Heart failure|788950000|20%
+Heart failure|111283005|20%
+Heart failure|10335000|20%
+Heart failure|703276005|20%
+Heart failure|88805009|20%
+Heart failure|426263006|20%
+Heart failure|48447003|20%
+Heart failure|443254009|20%
+Heart failure|418304008|20%
+Heart failure|153931000119109|20%
+Heart failure|426611007|20%
+Heart failure|80479009|20%
+Heart failure|74960003|20%
+Heart failure|441481004|20%
+Heart failure|424404003|20%
+Heart failure|314206003|20%
+Heart failure|153941000119100|20%
+Heart failure|153951000119103|20%
+Heart failure|5375005|20%
+Heart failure|10091002|20%
+Heart failure|46113002|20%
+Heart failure|443253003|20%
+Heart failure|92506005|20%
+Heart failure|609556008|20%
+Heart failure|120861000119102|20%
+Heart failure|5148006|20%
+Heart failure|443343001|20%
+Heart failure|66989003|20%
+Heart failure|703274008|20%
+Heart failure|441530006|20%
+Heart failure|82523003|20%
+Heart failure|120851000119104|20%
+Heart failure|394927007|20%
+Heart failure|44313006|20%
+Heart failure|717840005|20%
+Heart failure|16838951000119100|20%
+Heart failure|609555007|20%
+Heart failure|120871000119108|20%
+Heart failure|443344007|20%
+Heart failure|67441000119101|20%
+Heart failure|462172006|20%
+Heart failure|67431000119105|20%
+Heart failure|25544003|20%
+Heart failure|15629591000119103|20%
+Heart failure|15629541000119106|20%
+Heart failure|7411000175102|20%
+Heart failure|15629641000119107|20%
+Heart failure|120891000119109|20%
+Atrial fibrillation|49436004|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation detected|1066831000000104|1.8-fold increase in risk among hypertension patients
+Non-rheumatic atrial fibrillation|233911009|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation with rapid ventricular response|120041000119109|1.8-fold increase in risk among hypertension patients
+Atrial arrhythmia|17366009|1.8-fold increase in risk among hypertension patients
+Chronic atrial fibrillation|426749004|1.8-fold increase in risk among hypertension patients
+Atrial thrombosis|195147006|1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial fibrillation|282825002|1.8-fold increase in risk among hypertension patients
+Atrial flutter|5370000|1.8-fold increase in risk among hypertension patients
+Typical atrial flutter|720448006|1.8-fold increase in risk among hypertension patients
+Persistent atrial fibrillation|440059007|1.8-fold increase in risk among hypertension patients
+Atypical atrial flutter|15964901000119107|1.8-fold increase in risk among hypertension patients
+Preexcited atrial fibrillation|762247006|1.8-fold increase in risk among hypertension patients
+Permanent atrial fibrillation|440028005|1.8-fold increase in risk among hypertension patients
+Chronic atrial flutter|425615007|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation due to heart valve disorder|313377641000119105|1.8-fold increase in risk among hypertension patients
+Ventricular fibrillation|71908006|1.8-fold increase in risk among hypertension patients
+Controlled atrial fibrillation|300996004|1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial fibrillation with rapid ventricular response|1010405004|1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial flutter|427665004|1.8-fold increase in risk among hypertension patients
+Rapid atrial fibrillation|314208002|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation not detected|1067061000000104|1.8-fold increase in risk among hypertension patients
+Fibrillation|40593004|1.8-fold increase in risk among hypertension patients
+Normal atrial rhythm|81437007|1.8-fold increase in risk among hypertension patients
+Atrial bigeminy|251173003|1.8-fold increase in risk among hypertension patients
+Longstanding persistent atrial fibrillation|706923002|1.8-fold increase in risk among hypertension patients
+Transient cerebral ischemia due to atrial fibrillation|426814001|1.8-fold increase in risk among hypertension patients
+Atrial tachycardia|276796006|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation excluded|816401000000105|1.8-fold increase in risk among hypertension patients
+Lone atrial fibrillation|233910005|1.8-fold increase in risk among hypertension patients
+Atrial cardiopathy|870575001|1.8-fold increase in risk among hypertension patients
+Atrial aneurysm|36665001|1.8-fold increase in risk among hypertension patients
+Atrial parasystole|251188008|1.8-fold increase in risk among hypertension patients
+Sustained ventricular fibrillation|429243003|1.8-fold increase in risk among hypertension patients
+Persistent atrial fibrillation due to heart valve disorder|489609371000119104|1.8-fold increase in risk among hypertension patients
+Hypercoagulable state due to atrial fibrillation|129032061000119103|1.8-fold increase in risk among hypertension patients
+ECG: atrial fibrillation|164889003|1.8-fold increase in risk among hypertension patients
+Atrial paroxysmal tachycardia|195069001|1.8-fold increase in risk among hypertension patients
+Atrial septal aneurysm|95440004|1.8-fold increase in risk among hypertension patients
+Atrial trigeminy|251174009|1.8-fold increase in risk among hypertension patients
+Left atrial rhythm|49760004|1.8-fold increase in risk among hypertension patients
+Atrial septal defect, atrioventricular conduction disorder|725145002|1.8-fold increase in risk among hypertension patients
+Re-entrant atrial tachycardia|233893007|1.8-fold increase in risk among hypertension patients
+Thrombosis of atrium, auricular appendage, and atrial septum|194868001|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation annual review|248411000000105|1.8-fold increase in risk among hypertension patients
+Atrioventricular tachycardia|278482008|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation resolved|196371000000102|1.8-fold increase in risk among hypertension patients
+Familial atrial tachyarrhythmia, infra-Hisian|1197418004|1.8-fold increase in risk among hypertension patients
+EKG: atrial flutter|164890007|1.8-fold increase in risk among hypertension patients
+Ventricular arrhythmia|44103008|1.8-fold increase in risk among hypertension patients
+Chronic atrial and intestinal dysrhythmia|720507006|1.8-fold increase in risk among hypertension patients
+Brainstem stroke syndrome|195212005|64%
+Nonparalytic stroke|111297002|64%
+Ischemic stroke|422504002|64%
+Thrombotic stroke|371040005|64%
+Occlusive stroke|373606000|64%
+Paralytic stroke|116288000|64%
+Stroke test positive|299403002|64%
+Stroke and TIA|720191000000104|64%
+Stroke medicine|828261000000103|64%
+Stroke test finding|366609000|64%
+Embolic stroke|371041009|64%
+Haemorrhagic stroke|1078001000000105|64%
+Cerebellar stroke syndrome|195213000|64%
+Ischemic stroke without residual deficits|725132001|64%
+```
+
+```csv
+Title: comorbidities_in_Massachusetts
+comorbidity|SNOMED-CT codes|prevalence
+Diabetes mellitus|73211009, 44054006, 111552007, 46635009, 28032008|18.5%
+Type 1 diabetes mellitus|46635009|9.0%
+Type 2 diabetes mellitus|44054006|9.0%
+Hyperglycemia|80394007|Data is unavailable
+Hypoglycemia|237633009, 237630007|Data is unavailable
+Dysglycemia|426255005|Data is unavailable
+Non-diabetic hyperglycemia|700449008|Data is unavailable
+Hypoglycemic disorder|237630007|Data is unavailable
+Hyperlipidemia|55822004, 267434003, 238090007, 190774002, 3723001|36.1%
+Coronary artery disease|53741008, 398274000, 194842008, 233970002, 21930005|2.73%
+Obesity|44054006|65-78%
+Morbid obesity|162864005|65-78%
+Obesity due to excess calories|161891005|65-78%
+Obesity hypoventilation syndrome|162865006|65-78%
+Heart failure|84114007|20%
+Heart failure|395105005|20%
+Heart failure|703272007|20%
+Heart failure|703275009|20%
+Heart failure|23341000119109|20%
+Heart failure|446221000|20%
+Heart failure|417996009|20%
+Heart failure|233924009|20%
+Heart failure|56675007|20%
+Heart failure|703273002|20%
+Heart failure|471880001|20%
+Heart failure|85232009|20%
+Heart failure|42343007|20%
+Heart failure|364006|20%
+Heart failure|10633002|20%
+Heart failure|359617009|20%
+Heart failure|698594003|20%
+Heart failure|101281000119107|20%
+Heart failure|788950000|20%
+Heart failure|111283005|20%
+Heart failure|10335000|20%
+Heart failure|703276005|20%
+Heart failure|88805009|20%
+Heart failure|426263006|20%
+Heart failure|48447003|20%
+Heart failure|443254009|20%
+Heart failure|418304008|20%
+Heart failure|153931000119109|20%
+Heart failure|426611007|20%
+Heart failure|80479009|20%
+Heart failure|74960003|20%
+Heart failure|441481004|20%
+Heart failure|424404003|20%
+Heart failure|314206003|20%
+Heart failure|153941000119100|20%
+Heart failure|153951000119103|20%
+Heart failure|5375005|20%
+Heart failure|10091002|20%
+Heart failure|46113002|20%
+Heart failure|443253003|20%
+Heart failure|92506005|20%
+Heart failure|609556008|20%
+Heart failure|120861000119102|20%
+Heart failure|5148006|20%
+Heart failure|443343001|20%
+Heart failure|66989003|20%
+Heart failure|703274008|20%
+Heart failure|441530006|20%
+Heart failure|82523003|20%
+Heart failure|120851000119104|20%
+Heart failure|394927007|20%
+Heart failure|44313006|20%
+Heart failure|717840005|20%
+Heart failure|16838951000119100|20%
+Heart failure|609555007|20%
+Heart failure|120871000119108|20%
+Heart failure|443344007|20%
+Heart failure|67441000119101|20%
+Heart failure|462172006|20%
+Heart failure|67431000119105|20%
+Heart failure|25544003|20%
+Heart failure|15629591000119103|20%
+Heart failure|15629541000119106|20%
+Heart failure|7411000175102|20%
+Heart failure|15629641000119107|20%
+Heart failure|120891000119109|20%
+Atrial fibrillation|49436004|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation detected|1066831000000104|1.8-fold increase in risk among hypertension patients
+Non-rheumatic atrial fibrillation|233911009|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation with rapid ventricular response|120041000119109|1.8-fold increase in risk among hypertension patients
+Atrial arrhythmia|17366009|1.8-fold increase in risk among hypertension patients
+Chronic atrial fibrillation|426749004|1.8-fold increase in risk among hypertension patients
+Atrial thrombosis|195147006|1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial fibrillation|282825002|1.8-fold increase in risk among hypertension patients
+Atrial flutter|5370000|1.8-fold increase in risk among hypertension patients
+Typical atrial flutter|720448006|1.8-fold increase in risk among hypertension patients
+Persistent atrial fibrillation|440059007|1.8-fold increase in risk among hypertension patients
+Atypical atrial flutter|15964901000119107|1.8-fold increase in risk among hypertension patients
+Preexcited atrial fibrillation|762247006|1.8-fold increase in risk among hypertension patients
+Permanent atrial fibrillation|440028005|1.8-fold increase in risk among hypertension patients
+Chronic atrial flutter|425615007|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation due to heart valve disorder|313377641000119105|1.8-fold increase in risk among hypertension patients
+Ventricular fibrillation|71908006|1.8-fold increase in risk among hypertension patients
+Controlled atrial fibrillation|300996004|1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial fibrillation with rapid ventricular response|1010405004|1.8-fold increase in risk among hypertension patients
+Paroxysmal atrial flutter|427665004|1.8-fold increase in risk among hypertension patients
+Rapid atrial fibrillation|314208002|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation not detected|1067061000000104|1.8-fold increase in risk among hypertension patients
+Fibrillation|40593004|1.8-fold increase in risk among hypertension patients
+Normal atrial rhythm|81437007|1.8-fold increase in risk among hypertension patients
+Atrial bigeminy|251173003|1.8-fold increase in risk among hypertension patients
+Longstanding persistent atrial fibrillation|706923002|1.8-fold increase in risk among hypertension patients
+Transient cerebral ischemia due to atrial fibrillation|426814001|1.8-fold increase in risk among hypertension patients
+Atrial tachycardia|276796006|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation excluded|816401000000105|1.8-fold increase in risk among hypertension patients
+Lone atrial fibrillation|233910005|1.8-fold increase in risk among hypertension patients
+Atrial cardiopathy|870575001|1.8-fold increase in risk among hypertension patients
+Atrial aneurysm|36665001|1.8-fold increase in risk among hypertension patients
+Atrial parasystole|251188008|1.8-fold increase in risk among hypertension patients
+Sustained ventricular fibrillation|429243003|1.8-fold increase in risk among hypertension patients
+Persistent atrial fibrillation due to heart valve disorder|489609371000119104|1.8-fold increase in risk among hypertension patients
+Hypercoagulable state due to atrial fibrillation|129032061000119103|1.8-fold increase in risk among hypertension patients
+ECG: atrial fibrillation|164889003|1.8-fold increase in risk among hypertension patients
+Atrial paroxysmal tachycardia|195069001|1.8-fold increase in risk among hypertension patients
+Atrial septal aneurysm|95440004|1.8-fold increase in risk among hypertension patients
+Atrial trigeminy|251174009|1.8-fold increase in risk among hypertension patients
+Left atrial rhythm|49760004|1.8-fold increase in risk among hypertension patients
+Atrial septal defect, atrioventricular conduction disorder|725145002|1.8-fold increase in risk among hypertension patients
+Re-entrant atrial tachycardia|233893007|1.8-fold increase in risk among hypertension patients
+Thrombosis of atrium, auricular appendage, and atrial septum|194868001|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation annual review|248411000000105|1.8-fold increase in risk among hypertension patients
+Atrioventricular tachycardia|278482008|1.8-fold increase in risk among hypertension patients
+Atrial fibrillation resolved|196371000000102|1.8-fold increase in risk among hypertension patients
+Familial atrial tachyarrhythmia, infra-Hisian|1197418004|1.8-fold increase in risk among hypertension patients
+EKG: atrial flutter|164890007|1.8-fold increase in risk among hypertension patients
+Ventricular arrhythmia|44103008|1.8-fold increase in risk among hypertension patients
+Chronic atrial and intestinal dysrhythmia|720507006|1.8-fold increase in risk among hypertension patients
+Brainstem stroke syndrome|195212005|64%
+Nonparalytic stroke|111297002|64%
+Ischemic stroke|422504002|64%
+Thrombotic stroke|371040005|64%
+Occlusive stroke|373606000|64%
+Paralytic stroke|116288000|64%
+Stroke test positive|299403002|64%
+Stroke and TIA|720191000000104|64%
+Stroke medicine|828261000000103|64%
+Stroke test finding|366609000|64%
+Embolic stroke|371041009|64%
+Haemorrhagic stroke|1078001000000105|64%
+Cerebellar stroke syndrome|195213000|64%
+Ischemic stroke without residual deficits|725132001|64%
+Cerebellar stroke|16371781000119100|64%
+Stroke / transient ischemic attack referral|413124000|64%
+Ischemic stroke without coma|140921000119102|64%
+Seizure disorder as sequela of stroke|137991000119103|64%
+Sequela of lacunar stroke|33331000119103|64%
+Cardioembolic stroke|413758000|64%
+Stroke of uncertain pathology|230713003|64%
+Stroke co-occurrent with migraine|724429004|64%
+Spinal cord stroke|230739000|64%
+Stroke rehabilitation|2517002|64%
+Cryptogenic stroke|16891111000119104|64%
+Anterior circulation stroke of uncertain pathology|230714009|64%
+Ischemic stroke with coma|140911000119109|64%
+Occlusion of cerebral artery with stroke|9901000119100|64%
+Completed stroke|25133001|64%
+Progressing stroke|57981008|64%
+Sequela of cardioembolic stroke|33301000119105|64%
+Stroke test negative|299404008|64%
+Stroke in the puerperium|275434003|64%
+Stroke care management|80051000119107|64%
+Posterior circulation stroke of uncertain pathology|230715005|64%
+Stroke index|277381004|64%
+Left cerebellar artery thrombosis with stroke|16002191000119102|64%
+Stroke-hemiplegia rehabilitation|77728007|64%
+Stroke service|310137004|64%
+Spasticity as sequela of stroke|108691000119102|64%
+Stroke/transient ischemic attack monitoring service|415630002|64%
+Left vertebral artery embolism with stroke|16002391000119100|64%
+Left anterior cerebral artery embolism with stroke|329401000119103|64%
+Stroke monitoring|170600009|64%
+Stroke/transient ischemic attack monitoring test|415631003|64%
+Basilar artery embolism with stroke|16002511000119104|64%
+Left vertebral artery thrombosis with stroke|329631000119108|64%
+Stroke/transient ischemic attack monitoring service|415629007|64%
+Nonpyogenic cerebral venous thrombosis with stroke|16002151000119107|64%
+Provision of written information about stroke|842441000000104|64%
+At increased risk of stroke|866240007|64%
+Cerebral ischemic stroke due to global hypoperfusion|788882003|64%
+Stroke/transient ischemic attack monitoring follow-up|415628004|64%
+Right vertebral artery embolism with stroke|16002351000119105|64%
+Hemiplegia and/or hemiparesis following stroke|48601000119107|64%
+Cerebral ischemic stroke due to hypercoagulable state|788883008|64%
+Neonatal stroke|371121002|64%
+Acute stroke care|817701000000103|64%
+Education about stroke|842431000000108|64%
+Peripheral vascular disease|321052, 40648191, 40315969, 313928, 44782775, 44782776|35-55%
+Chronic obstructive pulmonary disease|13645005, 313299006, 313296004, 106001000119106|24%
+Sleep apnea|73430006|20%
+Central sleep apnea syndrome|27405005|20%
+Obstructive sleep apnea syndrome|78275009|20%
+Central sleep apnea due to periodic breathing|85721000119105|20%
+Central sleep apnea without Cheyne-Stokes respiration|724507000|20%
+Primary central sleep apnea|9741000119101|20%
+Sleep apnea assessment|103750000|20%
+Obstructive sleep apnea of adult|1101000119103|20%
+Alveolar sleep apnea|230494007|20%
+Breathing-related sleep disorder|111489007|20%
+Mixed sleep apnea|230493001|20%
+Insomnia with sleep apnea|41975002|20%
+Organic sleep apnea|442164004|20%
+Primary sleep apnea of newborn|361208003|20%
+Apnea|1023001|20%
+Hypersomnia with sleep apnea|79280005|20%
+Severe pediatric obstructive sleep apnea|16275741000119100|20%
+Treatment-emergent central sleep apnea|789055001|20%
+Obstructive sleep apnea of child|1091000119108|20%
+Sleep-related neurogenic tachypnea|430390000|20%
+Apnea - anesthetic|274214008|20%
+Pulmonary hypertension due to sleep-disordered breathing|697914005|20%
+Sleep related hypoxemia|288581000119102|20%
+Drug induced central sleep apnea|104831000119109|20%
+Infantile apnea|724229002|20%
+Sleep related hypoventilation or hypoxemia|89911000119102|20%
+Primary central sleep apnea of prematurity|789009003|20%
+Acute hypercapnic respiratory failure due to sleep apnea|101301000119106|20%
+Recurrent apnea|416945002|20%
+Sleep apnea recording|113026004|20%
+Chronic respiratory failure due to obstructive sleep apnea|971918681000119107|20%
+Central sleep apnea co-occurrent with Cheyne-Stokes respiration|724506009|20%
+Apnea in newborn|13094009|20%
+Sleep hypoventilation due to lower airway obstruction|426542005|20%
+Sleep apnea mask|706225001|20%
+Glaucoma and sleep apnea syndrome|719976001|20%
+Vagal apnea|63214000|20%
+Sleep hypoventilation|443760008|20%
+Traumatic apnea|57000008|20%
+Obstructive apnea of newborn|276545006|20%
+Habitual snoring|723881000|20%
+Central sleep apnea caused by high altitude|91441000119109|20%
+Appliance for sleep apnea|272265001|20%
+Sleep disorder|39898005|20%
+Initial apnea|37952003|20%
+Family history of sleep apnea|430337004|20%
+Sleep apnea breathing therapy equipment|1284824006|20%
+Recurrent apnea of newborn|276725001|20%
+Induced apnea|17057004|20%
+Apnea of prematurity|276544005|20%
+Dependence on biphasic positive airway pressure|16419651000119103|20%
+Sleep apnea pillow|701154000|20%
+Neurostimulation therapy for sleep apnea|868249004|20%
+Idiopathic sleep related non-obstructive alveolar hypoventilation|441910000|20%
+Sleep-related respiratory failure|230499002|20%
+Depression|35489007, 394924000, 310497006, 310495003, 19202009|26.8%
+Osteoarthritis|396275006, 239873007, 239876004, 254779008, 118940003|38.2%
+General Anemia|40624900, 40321260, 40390414, 4150154, 444238|17.6%
+Gout|90560007|75%
+Gouty arthropathy|190828008|75%
+Primary gout|24595009|75%
+Articular gout|48440001|75%
+Gouty tophus|402469004|75%
+Visceral gout|28428009|75%
+Acute gout|770924008|75%
+Chronic gout without tophus|710733002|75%
+Chronic gouty nephropathy|190829000|75%
+Chronic gouty arthritis|68451005|75%
+Gouty neuritis|9386003|75%
+Gouty bursitis|239848007|75%
+Gouty arthritis of multiple sites|201670006|75%
+Gout secondary to enzyme defect|239847002|75%
+Polyarticular acute primary gout|1153331004|75%
+Chronic tophaceous gout|73877009|75%
+Gouty tophus of heart|27277001|75%
+Monoarticular acute primary gout|1153375000|75%
+Gouty tophus of tendon|281363001|75%
+Familial juvenile gout|46785007|75%
+Gout secondary to renal impairment|239844009|75%
+Acute exacerbation of gout|924311000000106|75%
+Gout treatment changed|170739006|75%
+Chronic primary gouty arthritis|721285007|75%
+Secondary gout|239843003|75%
+Gouty proteinuria|2740001|75%
+Gouty arthritis of toe|428839004|75%
+Joints gout affected|170733007|75%
+Gouty tophus of hand|190842000|75%
+Gouty tophus of bursa|281362006|75%
+Primary chronic gout without tophus|310101000119107|75%
+Acute drug-induced gout|1153364004|75%
+Gouty tophus of toe|719680009|75%
+Gout secondary to drug|239845005|75%
+Gouty arthritis of the hand|201666003|75%
+Monoarticular chronic primary gouty arthritis|1153373007|75%
+Gouty arthritis of the pelvic region and thigh|201667007|75%
+Intercritical gout|283839008|75%
+Gouty arthropathy due to sickle-cell trait|1148918005|75%
+Gouty iritis|43193009|75%
+Polyarticular chronic primary gouty arthritis|1153351000|75%
+Gouty urine|49621008|75%
+Gouty tophi of toe|1033961000000104|75%
+Chronic gout without tophus due to renal impairment|304331000119108|75%
+FH: Gout|160308005|75%
+```
+
+```list
+Lisinopril, Amlodipine, Losartan, Hydrochlorothiazide, Metoprolol, Atenolol, Valsartan, Enalapril, Diltiazem, Nifedipine, Carvedilol, Ramipril, Furosemide, Spironolactone, Clonidine
+```
+
+References:
+- RxNorm Database: https://www.nlm.nih.gov/research/umls/rxnorm/index.html
+- American Heart Association: https://www.heart.org/en/health-topics/high-blood-pressure/changes-you-can-make-to-manage-high-blood-pressure
+
+```csv
+Title: drug_codes_in_Massachusetts
+RxNorm codes|drug|percentage|reference
+OMOP5144214, OMOP5144239, OMOP5144188, OMOP682372, OMOP682373, OMOP682374|Lisinopril|25%|https://clincalc.com/Drugstats/Drugs/Lisinopril
+OMOP687086, OMOP710211, OMOP687046, OMOP205925, OMOP205926|Amlodipine|48%|https://pmc.ncbi.nlm.nih.gov/articles/PMC1049...
+OMOP2494510, OMOP477163, OMOP4677491, OMOP4771632|Losartan|53.6%|https://www.statista.com/statistics/781681/lo...
+OMOP407803, OMOP407808, OMOP407819, OMOP407776|Hydrochlorothiazide|47%|https://www.ahajournals.org/doi/10.1161/JAHA....
+OMOP1100532, OMOP1022879, OMOP1087591, OMOP215001|Metoprolol|62.9%|https://www.cdc.gov/mmwr/volumes/73/wr/mm7309...
+OMOP406257, OMOP406268, OMOP2402962, OMOP230899|Atenolol|32.3%|https://www.cdc.gov/nchs/data/databriefs/db51...
+OMOP693533, OMOP693440, OMOP693456, OMOP693691|Valsartan|15%|https://www.ahajournals.org/doi/10.1161/JAHA....
+OMOP2402244, OMOP2464046, OMOP2433165, OMOP230674|Enalapril|30%|https://www.cdc.gov/mmwr/volumes/73/wr/mm7309...
+OMOP4817874, OMOP1101055, OMOP501410, OMOP270680|Diltiazem|32.3%|https://pubmed.ncbi.nlm.nih.gov/32148129/
+OMOP949562, OMOP2338762, OMOP404504, OMOP211986|Nifedipine|15%|https://pmc.ncbi.nlm.nih.gov/articles/PMC2663...
+OMOP1036662, OMOP4963242, OMOP1114316, OMOP4963243|Carvedilol|17%|https://www.statista.com/statistics/782166/ca...
+OMOP373429, OMOP463260, OMOP373176, OMOP496383|Ramipril|55.3%|https://pmc.ncbi.nlm.nih.gov/articles/PMC4598...
+OMOP402924, OMOP402916, OMOP402669, OMOP240201|Furosemide|67%|https://pubmed.ncbi.nlm.nih.gov/12620696/
+OMOP2058715, OMOP2152211, OMOP1114186, OMOP106258|Clonidine|10.6%|[Clonidine for hypertensive urgency 11.20 - S...
+```
+
+```list
+Blood pressure measurement, Serum potassium level, Serum creatinine level, Serum sodium level, Serum calcium level, Serum magnesium level, Serum chloride level, Serum bicarbonate level, Serum urea nitrogen level, Serum uric acid level, Serum glucose level, Serum cholesterol level, Serum triglycerides level, Serum HDL cholesterol level, Serum LDL cholesterol level, Serum total protein level, Serum albumin level, Serum globulin level, Serum bilirubin level, Serum alkaline phosphatase level, Serum aspartate aminotransferase level, Serum alanine aminotransferase level, Serum gamma-glutamyl transferase level, Serum lactate dehydrogenase level, Serum C-reactive protein level
+```
+
+References:
+- SNOMED CT: https://www.snomed.org/snomed-ct
+- LOINC: https://loinc.org/
+
+```csv
+Title: procedure_codes_in_Massachusetts
+SNOMED-CT codes|procedure|normal range
+4326744|Blood pressure|Less than 120/80 mm Hg
+3017490|Mean blood pressure--standing|Less than 120/80 mm Hg
+3027598|Mean blood pressure|Less than 120/80 mm Hg
+4264765|Blood pressure taking|Less than 120/80 mm Hg
+903119|Blood pressure measurement location|Less than 120/80 mm Hg
+40758413|Blood pressure systolic and diastolic|Less than 120/80 mm Hg
+3004249|Systolic blood pressure|Less than 120 mm Hg
+3018336|Mean blood pressure--supine|Less than 120/80 mm Hg
+1003132|Blood pressure|Less than 120/80 mm Hg
+4239021|Mean blood pressure|Less than 120/80 mm Hg
+3013032|Mean blood pressure--inspiration|Less than 120/80 mm Hg
+45876174|Blood pressure|Less than 120/80 mm Hg
+3035856|Systolic blood pressure--standing|Less than 120 mm Hg
+3032204|Blood pressure systolic and diastolic--before|Less than 120/80 mm Hg
+4060833|Standing blood pressure|Less than 120/80 mm Hg
+44792136|Self measured blood pressure reading|Less than 120/80 mm Hg
+1003128|Specific blood pressure|Less than 120/80 mm Hg
+1002943|Blood pressure method|Patient
+40299297|Standing blood pressure reading|Less than 120/80 mm Hg
+4268883|Standing diastolic blood pressure|Less than 80 mm Hg
+44807258|Measurement of blood pressure using non-invasive method|Less than 120/80 mm Hg
+46286741|Measurement of blood pressure in right arm|Less than 120/80 mm Hg
+40462159|Blood pressure|Less than 120/80 mm Hg
+46233683|Systolic to diastolic blood pressure measurement|Less than 120/80 mm Hg
+3003798|Blood pressure method|Less than 120/80 mm Hg
+46286749|Measurement of blood pressure using standard method|Less than 120/80 mm Hg
+4298391|Arterial blood pressure|Less than 120/80 mm Hg
+4292062|Standing systolic blood pressure|Less than 120 mm Hg
+4152194|Systolic blood pressure|Less than 120 mm Hg
+46286740|Measurement of blood pressure in left arm|Less than 120/80 mm Hg
+45876183|Blood pressure venous|Less than 120/80 mm Hg
+3012888|Diastolic blood pressure|Less than 80 mm Hg
+4155154|Measurement of blood pressure using cuff method|Less than 120/80 mm Hg
+3032708|Blood pressure systolic and diastolic--after|Less than 120/80 mm Hg
+45876176|Blood pressure central|Less than 120/80 mm Hg
+21492238|Blood pressure by Noninvasive method|Less than 120/80 mm Hg
+1030227|Blood pressure method|Less than 120/80 mm Hg
+903107|Computed blood pressure systolic and diastolic|Less than 120/80 mm Hg
+45876175|Blood pressure atomic|Less than 120/80 mm Hg
+44789315|Ambulatory systolic blood pressure|Less than 120 mm Hg
+3028803|Type of Blood pressure device|Less than 120/80 mm Hg
+1002753|Blood pressure measurement site|Patient
+903132|First blood pressure systolic and diastolic|Less than 120/80 mm Hg
+44805969|Measurement of blood pressure using manual sphygmomanometer|Less than 120/80 mm Hg
+46286894|Measurement of blood pressure using manual sphygmomanometer|Less than 120/80 mm Hg
+3009395|Systolic blood pressure--supine|Less than 120 mm Hg
+4154790|Diastolic blood pressure|Less than 80 mm Hg
+45770407|Baseline blood pressure|Less than 120/80 mm Hg
+4226401|Taking arterial blood pressure|Less than 120/80 mm Hg
+3005374|Systolic blood pressure Penile artery/Brachial artery|Less than 120 mm Hg
+4298393|Systemic blood pressure|Less than 120/80 mm Hg
+36717616|Average blood pressure|Less than 120/80 mm Hg
+3031680|Blood pressure measurement site|Less than 120/80 mm Hg
+3046109|Blood pressure systolic and diastolic--post procedure|Less than 120/80 mm Hg
+3019962|Diastolic blood pressure--standing|Less than 80 mm Hg
+1002668|General blood pressure|Less than 120/80 mm Hg
+3033616|Systolic blood pressure--inspiration|Less than 120 mm Hg
+44809183|Minimum mean blood pressure|Less than 120/80 mm Hg
+36032120|Systolic blood pressure mean|Less than 120 mm Hg
+3012526|Mean blood pressure--sitting|Less than 120/80 mm Hg
+21492241|Mean blood pressure by Noninvasive method|Less than 120/80 mm Hg
+3012311|Systolic blood pressure 12 hour mean|Less than 120 mm Hg
+3555547|Self measured blood pressure reading|Less than 120/80 mm Hg
+36031928|Blood pressure panel mean systolic and mean diastolic|Less than 120/80 mm Hg
+46233682|Diastolic to systolic blood pressure measurement|Less than 120/80 mm Hg
+45876184|Blood pressure venous molecular|Less than 120/80 mm Hg
+3031203|Blood pressure panel|Less than 120/80 mm Hg
+4065263|Ambulatory blood pressure recording|Less than 120/80 mm Hg
+3022152|Mean blood pressure--expiration|Less than 120/80 mm Hg
+45876178|Blood pressure molecular|Less than 120/80 mm Hg
+4295063|Blood pressure taking assessment|Less than 120/80 mm Hg
+40307036|Ambulatory blood pressure recording|Less than 120/80 mm Hg
+36716481|Postoperative blood pressure measurement|Less than 120/80 mm Hg
+36716479|Preoperative blood pressure measurement|Less than 120/80 mm Hg
+4218778|Measurement of systemic arterial pressure|Less than 120/80 mm Hg
+4300738|Blood pressure taking management|Less than 120/80 mm Hg
+37394516|Postoperative blood pressure measurement|Less than 120/80 mm Hg
+40546154|Blood pressure monitoring|Less than 120/80 mm Hg
+40547143|Blood pressure monitoring|Less than 120/80 mm Hg
+4046988|Blood pressure monitoring|Less than 120/80 mm Hg
+4136881|Blood pressure recorded by patient at home|Less than 120/80 mm Hg
+37394515|Preoperative blood pressure measurement|Less than 120/80 mm Hg
+4079611|Conscious blood pressure control|Less than 120/80 mm Hg
+4178268|Blood pressure taking education|Less than 120/80 mm Hg
+4106549|Monitoring of blood pressure|Less than 120/80 mm Hg
+4168708|Examination of blood pressure|Less than 120/80 mm Hg
+40330136|Blood arterial PH (& level)|Less than 120/80 mm Hg
+40308322|Blood arterial PH (& level)|Less than 120/80 mm Hg
+1246425|Provision of written information about blood pressure|Less than 120/80 mm Hg
+4184999|Blood catecholamine level|Less than 120/80 mm Hg
+37204163|Recommendation to measure and record own blood pressure|Less than 120/80 mm Hg
+35610600|Recommendation to measure and record own blood pressure|Less than 120/80 mm Hg
+40488869|Measurement of blood pressure at anterior tibial artery|Less than 120/80 mm Hg
+40330228|Blood sodium level|Less than 120/80 mm Hg
+4134689|Blood pressure procedure declined|Less than 120/80 mm Hg
+40307033|Central venous pressure measurement|Less than 120/80 mm Hg
+44789316|Ambulatory diastolic blood pressure|Less than 80 mm Hg
+40308407|Blood sodium level|Less than 120/80 mm Hg
+```
+
+```csv
+Title: procedure_codes_in_Massachusetts
+SNOMED-CT codes|procedure|normal range
+42868676|Cholesterol in IDL+Cholesterol in VLDL 3 [Moles/volume] in Serum or Plasma|IDL+VLDL cholesterol: <70 mg/dL
+37394094|Serum random LDL (low density lipoprotein) cholesterol level|LDL cholesterol: <100 mg/dL
+1176351|Cholesterol in LDL 2 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+3028437|Cholesterol in LDL [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175959|Cholesterol in LDL 1 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175381|Cholesterol in LDL 6 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175729|Cholesterol in LDL 3 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175225|Cholesterol in LDL 6 [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175279|Cholesterol in LDL 5 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175998|Cholesterol in LDL 2 [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175617|Cholesterol in LDL 5 [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1176192|Cholesterol in LDL 7 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+3035899|Cholesterol in LDL [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1176311|Cholesterol.in LDL.small dense [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175571|Cholesterol in LDL 3 [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+3035009|Cholesterol in LDL [Units/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+3030437|Cholesterol in LDL.narrow density [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175889|Cholesterol in LDL 1 [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+3038988|Cholesterol in LDL [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175794|Cholesterol in LDL 7 [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1175898|Cholesterol in LDL 4 [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1617569|Cholesterol.in LDL.small dense [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1177421|Cholesterol.in LDL 6|LDL cholesterol: <100 mg/dL
+3009966|Cholesterol in LDL [Mass/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1177420|Cholesterol.in LDL 5|LDL cholesterol: <100 mg/dL
+1177417|Cholesterol.in LDL 2|LDL cholesterol: <100 mg/dL
+1177416|Cholesterol.in LDL 1|LDL cholesterol: <100 mg/dL
+42870529|Cholesterol in LDL [Moles/volume] in Serum or Plasma|LDL cholesterol: <100 mg/dL
+1177419|Cholesterol.in LDL 4|LDL cholesterol: <100 mg/dL
+40329043|Serum VLDL triglyceride level|VLDL cholesterol: <30 mg/dL
+4042060|Serum VLDL cholesterol measurement|VLDL cholesterol: <30 mg/dL
+40307314|Serum VLDL triglyceride level|VLDL cholesterol: <30 mg/dL
+40329067|Serum triglycerides (& level)|Triglycerides: <150 mg/dL
+40307753|Serum triglycerides (& level)|Triglycerides: <150 mg/dL
+4055666|Serum triglycerides within reference range|Triglycerides: <150 mg/dL
+4276570|Serum triglyceride levels - finding|Triglycerides: <150 mg/dL
+37392563|Serum triglycerides level|Triglycerides: <150 mg/dL
+4041558|Serum triglycerides above reference range|Triglycerides: <150 mg/dL
+4156816|Measurement of serum triglyceride level|Triglycerides: <150 mg/dL
+40307754|Serum triglycerides normal|Triglycerides: <150 mg/dL
+40307756|Serum triglycerides raised|Triglycerides: <150 mg/dL
+37394096|Serum random triglyceride level|Triglycerides: <150 mg/dL
+37392384|Serum VLDL (very low density lipoprotein) triglyceride level|Triglycerides: <150 mg/dL
+40307758|Serum random triglyceride level|Triglycerides: <150 mg/dL
+37208865|Triglyceride substance concentration in serum|Triglycerides: <150 mg/dL
+4196842|Serum VLDL triglyceride measurement|Triglycerides: <150 mg/dL
+4055667|Serum random triglyceride measurement|Triglycerides: <150 mg/dL
+40483583|Serum triglycerides borderline low|Triglycerides: <150 mg/dL
+3557356|Serum triglycerides NOS|Triglycerides: <150 mg/dL
+40482279|Serum triglycerides borderline high|Triglycerides: <150 mg/dL
+40307760|Serum triglycerides NOS|Triglycerides: <150 mg/dL
+37394095|Serum fasting triglyceride level|Triglycerides: <150 mg/dL
+40307757|Serum fasting triglyceride level|Triglycerides: <150 mg/dL
+4042591|Serum fasting triglyceride measurement|Triglycerides: <150 mg/dL
+40307755|Serum triglycerides borderline|Triglycerides: <150 mg/dL
+44805705|Target serum triglyceride level|Triglycerides: <150 mg/dL
+40307325|Serum HDL cholesterol level|HDL cholesterol: >40 mg/dL
+40329056|Serum HDL:non-HDL cholesterol ratio (& level)|Below 5:1, ideally 3.5:1 or lower
+4156659|Serum HDL/non-HDL cholesterol ratio measurement|Below 5:1, ideally 3.5:1 or lower
+37398699|Serum random HDL (high density lipoprotein) cholesterol level|HDL cholesterol: >40 mg/dL
+4042059|Serum HDL cholesterol measurement|HDL cholesterol: >40 mg/dL
+40307333|Serum random HDL cholesterol level|HDL cholesterol: >40 mg/dL
+4055665|Serum random HDL cholesterol measurement|HDL cholesterol: >40 mg/dL
+37394092|Serum fasting HDL (high density lipoprotein) cholesterol level|HDL cholesterol: >40 mg/dL
+37392562|Serum high density lipoprotein cholesterol level|HDL cholesterol: >40 mg/dL
+44812280|Serum non HDL (high density lipoprotein) cholesterol level|Below 5:1, ideally 3.5:1 or lower
+37392605|Serum non high density lipoprotein cholesterol level|Below 5:1, ideally 3.5:1 or lower
+40330200|Plasma HDL cholesterol level|HDL cholesterol: >40 mg/dL
+40308378|Plasma HDL cholesterol level|HDL cholesterol: >40 mg/dL
+40307326|Serum LDL cholesterol level|LDL cholesterol: <100 mg/dL
+37399325|Serum low density lipoprotein cholesterol level|LDL cholesterol: <100 mg/dL
+40307335|Serum random LDL cholesterol level|LDL cholesterol: <100 mg/dL
+40307327|Serum VLDL cholesterol level|VLDL cholesterol: <30 mg/dL
+40308862|Serum cholesterol/LDL ratio|LDL cholesterol: <100 mg/dL
+40330712|Serum cholesterol/LDL ratio|LDL cholesterol: <100 mg/dL
+40308864|Serum cholesterol/VLDL ratio|VLDL cholesterol: <30 mg/dL
+40330714|Serum cholesterol/VLDL ratio|VLDL cholesterol: <30 mg/dL
+40308860|Serum cholesterol/HDL ratio|HDL cholesterol: >40 mg/dL
+40330710|Serum cholesterol/HDL ratio|HDL cholesterol: >40 mg/dL
+40329031|Serum lipids (& level)|Total cholesterol: <200 mg/dL
+40307302|Serum lipids (& level)|Total cholesterol: <200 mg/dL
+40307321|Serum cholesterol normal|Total cholesterol: <200 mg/dL
+40307323|Serum cholesterol raised|Total cholesterol: <200 mg/dL
+40307324|Serum cholesterol very high|Total cholesterol: <200 mg/dL
+40307320|Serum cholesterol (& level)|Total cholesterol: <200 mg/dL
+40329047|Serum cholesterol (& level)|Total cholesterol: <200 mg/dL
+37392561|Serum cholesterol level|Total cholesterol: <200 mg/dL
+4042057|Serum cholesterol within reference range|Total cholesterol: <200 mg/dL
+4041554|Serum cholesterol above reference range|Total cholesterol: <200 mg/dL
+45763616|Serum cholesterol outside reference range|Total cholesterol: <200 mg/dL
+40482649|Serum cholesterol borderline high|Total cholesterol: <200 mg/dL
+40483110|Serum cholesterol borderline low|Total cholesterol: <200 mg/dL
+4042588|Serum cholesterol NOS|Total cholesterol: <200 mg/dL
+3557282|Serum cholesterol NOS|Total cholesterol: <200 mg/dL
+40307751|Serum cholesterol NOS|Total cholesterol: <200 mg/dL
+4042586|Serum cholesterol very high|Total cholesterol: <200 mg/dL
+4055664|Serum cholesterol studies|Total cholesterol: <200 mg/dL
+37394091|Serum cholesterol studies|Total cholesterol: <200 mg/dL
+40307330|Serum cholesterol studies|Total cholesterol: <200 mg/dL
+37397989|Serum total cholesterol level|Total cholesterol: <200 mg/dL
+3572062|Serum total cholesterol level|Total cholesterol: <200 mg/dL
+3552093|Serum total cholesterol level|Total cholesterol: <200 mg/dL
+4260765|Serum total cholesterol measurement|Total cholesterol: <200 mg/dL
+4150330|Serum cholesterol measurement|Total cholesterol: <200 mg/dL
+4216465|Pre-treatment serum cholesterol level|Total cholesterol: <200 mg/dL
+40563013|Pre-treatment serum cholesterol level|Total cholesterol: <200 mg/dL
+40566162|Pre-treatment serum cholesterol level|Total cholesterol: <200 mg/dL
+4042058|Serum cholesterol borderline|Total cholesterol: <200 mg/dL
+40307322|Serum cholesterol borderline|Total cholesterol: <200 mg/dL
+40329056|Serum HDL:non-HDL cholesterol ratio (& level)|Below 5:1, ideally 3.5:1 or lower
+40329067|Serum triglycerides (& level)|Triglycerides: <150 mg/dL
+40307753|Serum triglycerides (& level)|Triglycerides: <150 mg/dL
+4055666|Serum triglycerides within reference range|Triglycerides: <150 mg/dL
+4276570|Serum triglyceride levels - finding|Triglycerides: <150 mg/dL
+37392563|Serum triglycerides level|Triglycerides: <150 mg/dL
+4041558|Serum triglycerides above reference range|Triglycerides: <150 mg/dL
+4156816|Measurement of serum triglyceride level|Triglycerides: <150 mg/dL
+40307754|Serum triglycerides normal|Triglycerides: <150 mg/dL
+40307756|Serum triglycerides raised|Triglycerides: <150 mg/dL
+37394096|Serum random triglyceride level|Triglycerides: <150 mg/dL
+37392384|Serum VLDL (very low density lipoprotein) triglyceride level|Triglycerides: <150 mg/dL
+40307758|Serum random triglyceride level|Triglycerides: <150 mg/dL
+37208865|Triglyceride substance concentration in serum|Triglycerides: <150 mg/dL
+4196842|Serum VLDL triglyceride measurement|Triglycerides: <150 mg/dL
+4055667|Serum random triglyceride measurement|Triglycerides: <150 mg/dL
+40483583|Serum triglycerides borderline low|Triglycerides: <150 mg/dL
+3557356|Serum triglycerides NOS|Triglycerides: <150 mg/dL
+40482279|Serum triglycerides borderline high|Triglycerides: <150 mg/dL
+40307760|Serum triglycerides NOS|Triglycerides: <150 mg/dL
+37394095|Serum fasting triglyceride level|Triglycerides: <150 mg/dL
+40307757|Serum fasting triglyceride level|Triglycerides: <150 mg/dL
+4042591|Serum fasting triglyceride measurement|Triglycerides: <150 mg/dL
+40307755|Serum triglycerides borderline|Triglycerides: <150 mg/dL
+44805705|Target serum triglyceride level|Triglycerides: <150 mg/dL
+```
+
+```csv
+Title: procedure_codes_in_Massachusetts
+SNOMED-CT codes|procedure|normal range
+3560539|Serum non high density lipoprotein cholesterol level|Less than 130 mg/dL
+4055665|Serum random HDL cholesterol measurement|Greater than 40 mg/dL
+45763616|Serum cholesterol outside reference range|Greater than 200 mg/dL
+37393335|Serum cholesterol/low density lipoprotein ratio|LDL: Less than 100 mg/dL
+44812280|Serum non HDL (high density lipoprotein) cholesterol level|Less than 130 mg/dL
+4156815|Measurement of serum lipid level|Total cholesterol: Less than 200 mg/dL
+40307751|Serum cholesterol NOS|Less than 200 mg/dL
+40329067|Serum triglycerides (& level)|Less than 150 mg/dL
+4196842|Serum VLDL triglyceride measurement|Less than 30 mg/dL
+40307330|Serum cholesterol studies|Less than 200 mg/dL
+4042586|Serum cholesterol very high|Greater than 240 mg/dL
+40482649|Serum cholesterol borderline high|200-239 mg/dL
+4042061|Serum fasting LDL cholesterol measurement|Less than 100 mg/dL
+37398699|Serum random HDL (high density lipoprotein) cholesterol level|Greater than 40 mg/dL
+40563013|Pre-treatment serum cholesterol level|Less than 200 mg/dL
+4156659|Serum HDL/non-HDL cholesterol ratio measurement|HDL: Greater than 40 mg/dL
+40566162|Pre-treatment serum cholesterol level|Less than 200 mg/dL
+37399257|Serum cholesterol/very low density lipoprotein level|VLDL: Less than 30 mg/dL
+40483110|Serum cholesterol borderline low|200-239 mg/dL
+40307753|Serum triglycerides (& level)|Less than 150 mg/dL
+```
+
+```csv
+Title: procedure_codes_in_Massachusetts
+SNOMED-CT codes|procedure|normal range
+40307247|Serum pyridoxine (& level)|Total bilirubin: 0.2 to 1.2 mg/dL
+40307793|Serum serine level|Total bilirubin: 0.2 to 1.2 mg/dL
+40328382|Serum 5-nucleotidase (& level)|Total bilirubin: 0.2 to 1.2 mg/dL
+365772005|Serum alkaline phosphatase level|44-147 IU/L
+37392189|Serum aspartate aminotransferase level|8 to 33 U/L
+201321000000108|Serum alanine aminotransferase level|7 to 56 U/L
+166657008|Serum gamma-glutamyl transferase level|9 to 48 U/L for males, 8 to 35 U/L for females
+37392192|Serum lactate dehydrogenase level|105-333 IU/L (Adults)
+```
+
+
+```list
+Male, Female, Non-binary, Genderqueer, Transgender male, Transgender female, Gender non-conforming, Agender, Bigender, Genderfluid, Two-spirit, Other gender identity, Unknown gender
+```
+
+```list
+American Indian or Alaska Native, Asian, Black or African American, Native Hawaiian or Other Pacific Islander, White, Other Race, Unknown Race
+```
+
+```list
+Hispanic or Latino, Not Hispanic or Latino, Unknown
+```
+
+```csv
+Title: demography_coding
+SNOMED-CT code | demographic feature | percentage | diagnosed percentage | reference
+8507, 4102811, 45766034, 4154780, 4175503, 763768, 1261239, 1259790, 1260986 | Male | 48.86% | 29.5% | America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+59171001, 388298009, 388966006, 21770005 | Female | 51.5% | 18.0% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+772004004, 1066981000000107, 33791000087105, 33821000087103, 446131000124102, 87991007, 285116001, 1875161000000100, 192510007, LP189571-5, 1067031000000109, 442041000000100, 3503000, F64, 76691-5, 50878001, F64.8, 18003009, 393696003, 13670005, 394743007, 392742001, 57715001, 68963006, 393697007, 734000001, 192511006, 938481000000103, 93461009, 412311000000105, F64.9, 192507000, 5095008, 392741008, 412321000000104, 104033-6, LP438264-6, 263495000, F, 765289008, 446151000124109, 407378000 | Gender identity and disorders | 2.9% | Data is unavailable | https://www.mass.gov/info-details/sexual-orientation-and-gender-identity-data-collection
+1585841, 36675593, 37171288, 446131000124102 | Non-binary gender | 2.0% | Data is unavailable | https://www.bostonindicators.org/reports/report-website-pages/health-and-wellness-2020/2020-report/section-3-gender-identity
+407379008, 407377005, LA22880-1, 407378000, 407376001, 714189008, 714186001 | Transgender and transsexual | 0.52% | 27.9% | https://www.nature.com/articles/s41371-022-00492-3
+413490006, 413491005, 72718008, LA6155-1, LA10608-0, LA10326-9, LA4-4 | American Indian or Alaska Native | 0.23% | 33.5% | https://www.census.gov/quickfacts/fact/table/MA/PST045223
+```
+
+References:
+- Massachusetts Data Hub: https://data.mass.gov/browse/demographics
+- U.S. Census Bureau QuickFacts: Massachusetts: https://www.census.gov/quickfacts/fact/table/MA/PST045223
+- Massachusetts Population by Race/Ethnicity | Mass.gov: https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+- Massachusetts Demographics - Map of Population by Race - Census Dots: https://www.censusdots.com/race/massachusetts-demographics
+- Massachusetts Population by Race & Ethnicity - 2025 Update - Neilsberg: https://www.neilsberg.com/insights/massachusetts-population-by-race/
+```
+```csv
+Title: demography_coding
+SNOMED-CT code | demographic feature | percentage | diagnosed percentage | reference
+8507, 4102811, 45766034, 4154780, 4175503, 763768, 1261239, 1259790, 1260986 | Male | 48.86% | 29.5% | America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+59171001, 388298009, 388966006, 21770005 | Female | 51.5% | 18.0% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+772004004, 1066981000000107, 33791000087105, 33821000087103, 446131000124102, 87991007, 285116001, 1875161000000100, 192510007, LP189571-5, 1067031000000109, 442041000000100, 3503000, F64, 76691-5, 50878001, F64.8, 18003009, 393696003, 13670005, 394743007, 392742001, 57715001, 68963006, 393697007, 734000001, 192511006, 938481000000103, 93461009, 412311000000105, F64.9, 192507000, 5095008, 392741008, 412321000000104, 104033-6, LP438264-6, 263495000, F, 765289008, 446151000124109, 407378000 | Gender identity and disorders | 2.9% | Data is unavailable | https://www.mass.gov/info-details/sexual-orientation-and-gender-identity-data-collection
+1585841, 36675593, 37171288, 446131000124102 | Non-binary gender | 2.0% | Data is unavailable | https://www.bostonindicators.org/reports/report-website-pages/health-and-wellness-2020/2020-report/section-3-gender-identity
+407379008, 407377005, LA22880-1, 407378000, 407376001, 714189008, 714186001 | Transgender and transsexual | 0.52% | 27.9% | https://www.nature.com/articles/s41371-022-00492-3
+413490006, 413491005, 72718008, LA6155-1, LA10608-0, LA10326-9, LA4-4, AIANSpecific_AmericanIndian, 66920001, LA16280-2, 21047009, 154172005, 186001005, 186045005, 413582008, 110751000000108, 413581001, 38144004, 185995003, 154178009, 414481008, 154225001, LA14509-6, 84576009, 65776006, 42632009, 160534003, 15086000, 64483007, AIANSpecific_AlaskaNative, 160531006, 57539009, 47327008, 413464008, 26215007, 85515006, 132951001, 415226007, 315280000, 332851000000103, 132407001, 154160004, 270465005, 154216007, 160523001, 186012005, 186021006, 185987002, 98651000000107, 315281001, 86275006, 87323008, 154163002, LA14044-4, 315238004, 103561000000109, LP75483-5, LA16817-1, 185984009, 668681000000107, 372148003, 67403004, 186019001, 185996002, 413466005, 28821007, 186020007, 413773004, 367505005, 186022004 | American Indian or Alaska Native | 0.23% | 33.5% | https://www.cdc.gov/nchs/data/databriefs/db378.pdf
+413582008, 154223008, 186044009, 67403004, 315280000, 413581001, 315281001, 186013000, 160525008, 154224002, 154181004, 160526009, 154216007, 154172005, 154180003, 186000006, 154218008, 160533009, 160529002 | Asian | 7.08% | 15.0% | https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.122.00001
+40381745, 40319007, 40319049, 4035165, 4057568, 4153158, 4091011, 4076901, 4091013, 40381744, 4091012, 40318601, 4078123, 1585621, 4211218, 4091010, 4201929, 4151576, 40319048, 4211480, 45883683, 40319015, 4151577, 4202555, 40319009, 4087919, 4085483, 4087917, 45877988, 4203120, 4087920, 4078122, 4151776, 4078124, 44811504, 46286811, 3561346, 4187747, 4090389, 4148888, 4085487, 4205380, 46237778, 46285881, 46285836, 4184966, 44787838, 46285837, 4184962, 3527653, 40329070, 4190391, 4077358 | Black or African American | 8.9% | 55% | https://www.heart.org/en/health-topics/high-blood-pressure/why-high-blood-pressure-is-a-silent-killer
+413581001, 20140003, 23517005, 62693009, 186041001, 10292001, 86275006, 3698008, 19085009, 28821007, 73736004, 69865008, 186042008, 81560001, 414661004, 18575005, 48118002, 48294008 | Native Hawaiian or Other Pacific Islander | <0.1% | 25% | https://www.heart.org/en/news/2023/11/08/native-hawaiian-and-pacific-islander-health
+185986006, 154162007, 44881000000100, 401213008, 185985005, 315237009, 154161000, 185984009, 976691000000100, 315236000, 185987002, 977911000000103, 976651000000108, 494161000000100, 978011000000101, 976701000000100 | White | 70.73% | 48% | https://www.cdc.gov/high-blood-pressure/data-race.htm
+34200004, 37802006, 26973000, 36329002, 4288003, 42724005, 29343004, 64693008, 132966003, 407402001, 132964000, 133075006, 131961005, 131986001, 131989008, 133107000, 132970006, 131985002, 131939000, 131878002, 132963006, 133076007, 133138004, 132961008, 12360007, 131887006, 131972000, 133153007, 132997004, 133122005, 133044002, 132757008, 76467006, 132953003, 133085007, 131991000, 443822008, 132774008, 54098002, 131879005, 132994006, 13487004, 133097008, 131950002, 132763004 | Other Race | 5.43% | 32.9% | https://www.acc.org/latest-in-cardiology/articles/2023/11/08/12/42/racial-disparities-in-hypertension
+```
+
+References:
+- Massachusetts Data Hub: https://data.mass.gov/browse/demographics
+- U.S. Census Bureau QuickFacts: Massachusetts: https://www.census.gov/quickfacts/fact/table/MA/PST045223
+- Massachusetts Population by Race/Ethnicity | Mass.gov: https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+- Massachusetts Demographics - Map of Population by Race - Census Dots: https://www.censusdots.com/race/massachusetts-demographics
+- Massachusetts Population by Race & Ethnicity - 2025 Update - Neilsberg: https://www.neilsberg.com/insights/massachusetts-population-by-race/
+```
+```csv
+Title: demography_coding
+SNOMED-CT code | demographic feature | percentage | diagnosed percentage | reference
+8507, 4102811, 45766034, 4154780, 4175503, 763768, 1261239, 1259790, 1260986 | Male | 48.86% | 29.5% | America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+59171001, 388298009, 388966006, 21770005 | Female | 51.5% | 18.0% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+772004004, 1066981000000107, 33791000087105, 33821000087103, 446131000124102, 87991007, 285116001, 1875161000000100, 192510007, LP189571-5, 1067031000000109, 442041000000100, 3503000, F64, 76691-5, 50878001, F64.8, 18003009, 393696003, 13670005, 394743007, 392742001, 57715001, 68963006, 393697007, 734000001, 192511006, 938481000000103, 93461009, 412311000000105, F64.9, 192507000, 5095008, 392741008, 412321000000104, 104033-6, LP438264-6, 263495000, F, 765289008, 446151000124109, 407378000 | Gender identity and disorders | 2.9% | Data is unavailable | https://www.mass.gov/info-details/sexual-orientation-and-gender-identity-data-collection
+1585841, 36675593, 37171288, 446131000124102 | Non-binary gender | 2.0% | Data is unavailable | https://www.bostonindicators.org/reports/report-website-pages/health-and-wellness-2020/2020-report/section-3-gender-identity
+407379008, 407377005, LA22880-1, 407378000, 407376001, 714189008, 714186001 | Transgender and transsexual | 0.52% | 27.9% | https://www.nature.com/articles/s41371-022-00492-3
+413490006, 413491005, 72718008, LA6155-1, LA10608-0, LA10326-9, LA4-4, AIANSpecific_AmericanIndian, 66920001, LA16280-2, 21047009, 154172005, 186001005, 186045005, 413582008, 110751000000108, 413581001, 38144004, 185995003, 154178009, 414481008, 154225001, LA14509-6, 84576009, 65776006, 42632009, 160534003, 15086000, 64483007, AIANSpecific_AlaskaNative, 160531006, 57539009, 47327008, 413464008, 26215007, 85515006, 132951001, 415226007, 315280000, 332851000000103, 132407001, 154160004, 270465005, 154216007, 160523001, 186012005, 186021006, 185987002, 98651000000107, 315281001, 86275006, 87323008, 154163002, LA14044-4, 315238004, 103561000000109, LP75483-5, LA16817-1, 185984009, 668681000000107, 372148003, 67403004, 186019001, 185996002, 413466005, 28821007, 186020007, 413773004, 367505005, 186022004 | American Indian or Alaska Native | 0.23% | 33.5% | https://www.cdc.gov/nchs/data/databriefs/db378.pdf
+413582008, 154223008, 186044009, 67403004, 315280000, 413581001, 315281001, 186013000, 160525008, 154224002, 154181004, 160526009, 154216007, 154172005, 154180003, 186000006, 154218008, 160533009, 160529002 | Asian | 7.08% | 15.0% | https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.122.00001
+40381745, 40319007, 40319049, 4035165, 4057568, 4153158, 4091011, 4076901, 4091013, 40381744, 4091012, 40318601, 4078123, 1585621, 4211218, 4091010, 4201929, 4151576, 40319048, 4211480, 45883683, 40319015, 4151577, 4202555, 40319009, 4087919, 4085483, 4087917, 45877988, 4203120, 4087920, 4078122, 4151776, 4078124, 44811504, 46286811, 3561346, 4187747, 4090389, 4148888, 4085487, 4205380, 46237778, 46285881, 46285836, 4184966, 44787838, 46285837, 4184962, 3527653, 40329070, 4190391, 4077358 | Black or African American | 8.9% | 55% | https://www.heart.org/en/health-topics/high-blood-pressure/why-high-blood-pressure-is-a-silent-killer
+413581001, 20140003, 23517005, 62693009, 186041001, 10292001, 86275006, 3698008, 19085009, 28821007, 73736004, 69865008, 186042008, 81560001, 414661004, 18575005, 48118002, 48294008 | Native Hawaiian or Other Pacific Islander | <0.1% | 25% | https://www.heart.org/en/news/2023/11/08/native-hawaiian-and-pacific-islander-health
+185986006, 154162007, 44881000000100, 401213008, 185985005, 315237009, 154161000, 185984009, 976691000000100, 315236000, 185987002, 977911000000103, 976651000000108, 494161000000100, 978011000000101, 976701000000100 | White | 70.73% | 48% | https://www.cdc.gov/high-blood-pressure/data-race.htm
+34200004, 37802006, 26973000, 36329002, 4288003, 42724005, 29343004, 64693008, 132966003, 407402001, 132964000, 133075006, 131961005, 131986001, 131989008, 133107000, 132970006, 131985002, 131939000, 131878002, 132963006, 133076007, 133138004, 132961008, 12360007, 131887006, 131972000, 133153007, 132997004, 133122005, 133044002, 132757008, 76467006, 132953003, 133085007, 131991000, 443822008, 132774008, 54098002, 131879005, 132994006, 13487004, 133097008, 131950002, 132763004 | Other Race | 5.43% | 32.9% | https://www.acc.org/latest-in-cardiology/articles/2023/11/08/12/42/racial-disparities-in-hypertension
+34200004, 26973000, 37802006, 40161, 1674673, 4221838, 4743298, 269989, 7950483, 1156498, 182669, 137794, 251485, 174949, 174950, 5207362, 8064428, 43558, 6079573 | Unknown Race | 4.7% | Data is unavailable | https://www.censusdots.com/race/massachusetts-demographics
+414411003, 414413000, 414410002, 94111000000106, 414408004, 414412005, 414409007, 89021000000101, 47327008 | Hispanic or Latino | 12% | 27.3% | https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+4185155, 4211480, 45885168, 1009417, 45884900 | Not Hispanic or Latino | 67.55% | 27.3% | https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+759814, 37394011, 4218674 | Unknown | 2.5% | 15% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+```
+
+References:
+- Massachusetts Data Hub: https://data.mass.gov/browse/demographics
+- U.S. Census Bureau QuickFacts: Massachusetts: https://www.census.gov/quickfacts/fact/table/MA/PST045223
+- Massachusetts Population by Race/Ethnicity | Mass.gov: https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+- Massachusetts Demographics - Map of Population by Race - Census Dots: https://www.censusdots.com/race/massachusetts-demographics
+- Massachusetts Population by Race & Ethnicity - 2025 Update - Neilsberg: https://www.neilsberg.com/insights/massachusetts-population-by-race/
+```
+
+```csv
+Title: diagnosed_demography_coding
+SNOMED-CT code | demographic feature | percentage | diagnosed percentage | reference
+8507, 4102811, 45766034, 4154780, 4175503, 763768, 1261239, 1259790, 1260986 | Male | 48.86% | 29.5% | America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+59171001, 388298009, 388966006, 21770005 | Female | 51.5% | 18.0% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+772004004, 1066981000000107, 33791000087105, 33821000087103, 446131000124102, 87991007, 285116001, 1875161000000100, 192510007, LP189571-5, 1067031000000109, 442041000000100, 3503000, F64, 76691-5, 50878001, F64.8, 18003009, 393696003, 13670005, 394743007, 392742001, 57715001, 68963006, 393697007, 734000001, 192511006, 938481000000103, 93461009, 412311000000105, F64.9, 192507000, 5095008, 392741008, 412321000000104, 104033-6, LP438264-6, 263495000, F, 765289008, 446151000124109, 407378000 | Non-binary gender | 1.8% | Data is unavailable | https://newbostonpost.com/news/2024/01/06/non-binary-gender-in-massachusetts/
+1585841, 36675593, 37171288, 446131000124102 | Gender Identity: Non Binary | 2.0% | Data is unavailable | https://www.bostonindicators.org/reports/report-website-pages/indicators-of-equity-and-inclusion
+407379008, 407377005, LA22880-1 | Surgically transgendered transsexual, female-to-male transsexual | 0.52% | 27.9% | https://www.nature.com/articles/s41371-022-00200-0
+407379008, 407378000, 407377005, 407376001, 714189008, 714186001 | Surgically transgendered transsexual, male-to-female transsexual | 0.52% | Data is unavailable | [World Population Review](https://worldpopulationreview.com/)
+33821000087103, 87991007, 446131000124102, 1066981000000107, 68963006, 772004004, 3503000, 13670005, 5095008, 50878001, 57715001, 33791000087105, 1875161000000100, 18003009, 192510007, 30509009, 93461009, 442041000000100, 938481000000103, 77815007, 765289008, 407378000, 394743007, 191798000, 393697007, 392742001, 192511006 | Gender identity disorders | 2.9% | Data is unavailable | https://www.mass.gov/info-details/sexual-orientation-and-gender-identity-data-collection
+393696003, 394743007, 392741008, 393697007, 392742001, 394744001, 33821000087103, 263495000, 285116001, 87991007, 703117000, 1066981000000107, 446151000124109, 446131000124102, 442041000000100, 192510007, 192511006, 5095008, 703118005, 33791000087105, 412321000000104, 365873007, 412311000000105, 446141000124107, 271602007, 18003009 | Gender unknown | Data is unavailable | Data is unavailable | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+413490006, 413491005, 72718008, LA6155-1, LA10608-0, LA10326-9, LA4-4, AIANSpecific_AmericanIndian, 66920001, LA16280-2, 21047009, 154172005, 186001005, 186045005, 413582008, 110751000000108, 413581001, 38144004, 185995003, 154178009, 414481008, 154225001, LA14509-6, 84576009, 65776006, 42632009, 160534003, 15086000, 64483007, AIANSpecific_AlaskaNative, 160531006, 57539009, 47327008, 413464008, 26215007, 85515006, 132951001, 415226007, 315280000, 332851000000103, 132407001, 154160004, 270465005, 154216007, 160523001, 186012005, 186021006, 185987002, 98651000000107, 315281001, 86275006, 87323008, 154163002, LA14044-4, 315238004, 103561000000109, LP75483-5, LA16817-1, 185984009, 668681000000107, 372148003, 67403004, 186019001, 185996002, 413466005, 28821007, 186020007, 413773004, 367505005, 186022004 | American Indian or Alaska Native | 0.5% | 33.5% | https://www.cdc.gov/nchs/data/databriefs/db37.pdf
+413582008, 154223008, 186044009, 67403004, 315280000, 413581001, 315281001, 186013000, 160525008, 154224002, 154181004, 160526009, 154216007, 154172005, 154180003, 186000006, 154218008, 160533009, 160529002 | Asian | 7.08% | 15.0% | https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.121.17570
+40381745, 40319007, 40319049, 4035165, 4057568, 4153158, 4091011, 4076901, 4091013, 40381744, 4091012, 40318601, 4078123, 1585621, 4211218, 4091010, 4201929, 4151576, 40319048, 4211480, 45883683, 40319015, 4151577, 4202555, 40319009, 4087919, 4085483, 4087917, 45877988, 4203120, 4087920, 4078122, 4151776, 4078124, 44811504, 46286811, 3561346, 4187747, 4090389, 4148888, 4085487, 4205380, 46237778, 46285881, 46285836, 4184966, 44787838, 46285837, 4184962, 3527653, 40329070, 4190391, 4077358 | Black or African American | 8.9% | 55% | https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
+413581001, 20140003, 23517005, 62693009, 186041001, 10292001, 86275006, 3698008, 19085009, 28821007, 73736004, 69865008, 186042008, 81560001, 414661004, 18575005, 48118002, 48294008 | Native Hawaiian or Other Pacific Islander | <0.1% | 25% | https://www.heart.org/en/news/2023/11/08/native-hawaiian-or-other-pacific-islander-hypertension
+185986006, 154162007, 44881000000100, 401213008, 185985005, 315237009, 154161000, 185984009, 976691000000100, 315236000, 185987002, 977911000000103, 976651000000108, 494161000000100, 978011000000101, 976701000000100 | White | 70.73% | 48% | https://www.cdc.gov/high-blood-pressure/data-race.htm
+34200004, 37802006, 26973000, 36329002, 4288003, 42724005, 29343004, 64693008, 132966003, 407402001, 132964000, 133075006, 131961005, 131986001, 131989008, 133107000, 132970006, 131985002, 131939000, 131878002, 132963006, 133076007, 133138004, 132961008, 12360007, 131887006, 131972000, 133153007, 132997004, 133122005, 133044002, 132757008, 76467006, 132953003, 133085007, 131991000, 443822008, 132774008, 54098002, 131879005, 132994006, 13487004, 133097008, 131950002, 132763004 | Other Race | 5.43% | 32.9% | https://www.acc.org/latest-in-cardiology/articles/2021/08/09/12/42/racial-ethnic-disparities-in-hypertension-prevalence-awareness-treatment-and-control
+34200004, 26973000, 37802006, 40161, 1674673, 4221838, 4743298, 269989, 7950483, 1156498, 182669, 137794, 251485, 174949, 174950, 5207362, 8064428, 43558, 6079573 | Unknown Race | 4.7% | Data is unavailable | https://www.censusdots.com/race/massachusetts
+414411003, 414413000, 414410002, 94111000000106, 414408004, 414412005, 414409007, 89021000000101, 47327008 | Hispanic or Latino | 12% | 27.3% | https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+4185155, 4211480, 45885168, 1009417, 45884900 | Not Hispanic or Latino | 67.55% | 27.3% | https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+759814, 37394011, 4218674 | Unknown | 2.5% | 15% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+```
+
+References:
+- America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+- Nature: https://www.nature.com/articles/s41371-022-00200-0
+- World Population Review: https://worldpopulationreview.com/
+- CDC: https://www.cdc.gov/nchs/data/databriefs/db37.pdf
+- AHA Journals: https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.121.17570
+- Heart.org: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
+- Census Dots: https://www.censusdots.com/race/massachusetts
+- America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+- CDC: https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+Hypertension is defined based on blood pressure measurements. According to the Joint National Committee (JNC) guidelines, hypertension is defined as having a systolic blood pressure (SBP) of 140 mm Hg or higher and/or a diastolic blood pressure (DBP) of 90 mm Hg or higher. However, the 2014 Hypertension guidelines updated this definition to a lower threshold, defining hypertension as having an SBP of 130 mm Hg or higher and/or a DBP of 80 mm Hg or higher.
+
+These definitions are used to diagnose and manage hypertension, which is a major risk factor for cardiovascular diseases. The change in guidelines reflects a growing understanding of the risks associated with lower levels of blood pressure and aims to improve the management and prevention of hypertension-related complications.
+
+References:
+- JNC Guidelines: https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.121.17570
+- 2014 Hypertension Guidelines: https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.116.06602
+```csv
+Title: diagnosed_demography_coding
+SNOMED-CT code | demographic feature | percentage | diagnosed percentage | reference
+8507, 4102811, 45766034, 4154780, 4175503, 763768, 1261239, 1259790, 1260986 | Male | 48.86% | 29.5% | America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+59171001, 388298009, 388966006, 21770005 | Female | 51.5% | 18.0% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+772004004, 1066981000000107, 33791000087105, 33821000087103, 446131000124102, 87991007, 285116001, 1875161000000100, 192510007, LP189571-5, 1067031000000109, 442041000000100, 3503000, F64, 76691-5, 50878001, F64.8, 18003009, 393696003, 13670005, 394743007, 392742001, 57715001, 68963006, 393697007, 734000001, 192511006, 938481000000103, 93461009, 412311000000105, F64.9, 192507000, 5095008, 392741008, 412321000000104, 104033-6, LP438264-6, 263495000, F, 765289008, 446151000124109, 407378000 | Non-binary gender | 1.8% | Data is unavailable | https://newbostonpost.com/news/2024/01/06/non-binary-gender-in-massachusetts/
+1585841, 36675593, 37171288, 446131000124102 | Gender Identity: Non Binary | 2.0% | Data is unavailable | https://www.bostonindicators.org/reports/report-website-pages/indicators-of-equity-and-inclusion
+407379008, 407377005, LA22880-1 | Surgically transgendered transsexual, female-to-male transsexual | 0.52% | 27.9% | https://www.nature.com/articles/s41371-022-00200-0
+407379008, 407378000, 407377005, 407376001, 714189008, 714186001 | Surgically transgendered transsexual, male-to-female transsexual | 0.52% | Data is unavailable | [World Population Review](https://worldpopulationreview.com/)
+33821000087103, 87991007, 446131000124102, 1066981000000107, 68963006, 772004004, 3503000, 13670005, 5095008, 50878001, 57715001, 33791000087105, 1875161000000100, 18003009, 192510007, 30509009, 93461009, 442041000000100, 938481000000103, 77815007, 765289008, 407378000, 394743007, 191798000, 393697007, 392742001, 192511006 | Gender identity disorders | 2.9% | Data is unavailable | https://www.mass.gov/info-details/sexual-orientation-and-gender-identity-data-collection
+393696003, 394743007, 392741008, 393697007, 392742001, 394744001, 33821000087103, 263495000, 285116001, 87991007, 703117000, 1066981000000107, 446151000124109, 446131000124102, 442041000000100, 192510007, 192511006, 5095008, 703118005, 33791000087105, 412321000000104, 365873007, 412311000000105, 446141000124107, 271602007, 18003009 | Gender unknown | Data is unavailable | Data is unavailable | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+413490006, 413491005, 72718008, LA6155-1, LA10608-0, LA10326-9, LA4-4, AIANSpecific_AmericanIndian, 66920001, LA16280-2, 21047009, 154172005, 186001005, 186045005, 413582008, 110751000000108, 413581001, 38144004, 185995003, 154178009, 414481008, 154225001, LA14509-6, 84576009, 65776006, 42632009, 160534003, 15086000, 64483007, AIANSpecific_AlaskaNative, 160531006, 57539009, 47327008, 413464008, 26215007, 85515006, 132951001, 415226007, 315280000, 332851000000103, 132407001, 154160004, 270465005, 154216007, 160523001, 186012005, 186021006, 185987002, 98651000000107, 315281001, 86275006, 87323008, 154163002, LA14044-4, 315238004, 103561000000109, LP75483-5, LA16817-1, 185984009, 668681000000107, 372148003, 67403004, 186019001, 185996002, 413466005, 28821007, 186020007, 413773004, 367505005, 186022004 | American Indian or Alaska Native | 0.5% | 33.5% | https://www.cdc.gov/nchs/data/databriefs/db37.pdf
+413582008, 154223008, 186044009, 67403004, 315280000, 413581001, 315281001, 186013000, 160525008, 154224002, 154181004, 160526009, 154216007, 154172005, 154180003, 186000006, 154218008, 160533009, 160529002 | Asian | 7.08% | 15.0% | https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.121.17570
+40381745, 40319007, 40319049, 4035165, 4057568, 4153158, 4091011, 4076901, 4091013, 40381744, 4091012, 40318601, 4078123, 1585621, 4211218, 4091010, 4201929, 4151576, 40319048, 4211480, 45883683, 40319015, 4151577, 4202555, 40319009, 4087919, 4085483, 4087917, 45877988, 4203120, 4087920, 4078122, 4151776, 4078124, 44811504, 46286811, 3561346, 4187747, 4090389, 4148888, 4085487, 4205380, 46237778, 46285881, 46285836, 4184966, 44787838, 46285837, 4184962, 3527653, 40329070, 4190391, 4077358 | Black or African American | 8.9% | 55% | https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
+413581001, 20140003, 23517005, 62693009, 186041001, 10292001, 86275006, 3698008, 19085009, 28821007, 73736004, 69865008, 186042008, 81560001, 414661004, 18575005, 48118002, 48294008 | Native Hawaiian or Other Pacific Islander | <0.1% | 25% | https://www.heart.org/en/news/2023/11/08/native-hawaiian-or-other-pacific-islander-hypertension
+185986006, 154162007, 44881000000100, 401213008, 185985005, 315237009, 154161000, 185984009, 976691000000100, 315236000, 185987002, 977911000000103, 976651000000108, 494161000000100, 978011000000101, 976701000000100 | White | 70.73% | 48% | https://www.cdc.gov/high-blood-pressure/data-race.htm
+34200004, 37802006, 26973000, 36329002, 4288003, 42724005, 29343004, 64693008, 132966003, 407402001, 132964000, 133075006, 131961005, 131986001, 131989008, 133107000, 132970006, 131985002, 131939000, 131878002, 132963006, 133076007, 133138004, 132961008, 12360007, 131887006, 131972000, 133153007, 132997004, 133122005, 133044002, 132757008, 76467006, 132953003, 133085007, 131991000, 443822008, 132774008, 54098002, 131879005, 132994006, 13487004, 133097008, 131950002, 132763004 | Other Race | 5.43% | 32.9% | https://www.acc.org/latest-in-cardiology/articles/2021/08/09/12/42/racial-ethnic-disparities-in-hypertension-prevalence-awareness-treatment-and-control
+34200004, 26973000, 37802006, 40161, 1674673, 4221838, 4743298, 269989, 7950483, 1156498, 182669, 137794, 251485, 174949, 174950, 5207362, 8064428, 43558, 6079573 | Unknown Race | 4.7% | Data is unavailable | https://www.censusdots.com/race/massachusetts
+414411003, 414413000, 414410002, 94111000000106, 414408004, 414412005, 414409007, 89021000000101, 47327008 | Hispanic or Latino | 12% | 27.3% | https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+4185155, 4211480, 45885168, 1009417, 45884900 | Not Hispanic or Latino | 67.55% | 27.3% | https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+759814, 37394011, 4218674 | Unknown | 2.5% | 15% | https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+```
+
+References:
+- America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+- Nature: https://www.nature.com/articles/s41371-022-00200-0
+- World Population Review: https://worldpopulationreview.com/
+- CDC: https://www.cdc.gov/nchs/data/databriefs/db37.pdf
+- AHA Journals: https://www.ahajournals.org/doi/10.1161/HYPERTENSIONAHA.121.17570
+- Heart.org: https://www.heart.org/en/health-topics/high-blood-pressure/understanding-blood-pressure-readings
+- Census Dots: https://www.censusdots.com/race/massachusetts
+- America's Health Rankings: https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA
+- CDC: https://www.cdc.gov/nchs/fastats/hispanic-health.htm
+

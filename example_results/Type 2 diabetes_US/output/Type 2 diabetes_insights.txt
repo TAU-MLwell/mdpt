@@ -1,0 +1,59 @@
+**Type 2 Diabetes Overview**
+
+Type 2 diabetes is a chronic condition characterized by insulin resistance and relative insulin deficiency. It is the most common form of diabetes, affecting millions of people worldwide. In the United States, it represents a significant public health challenge due to its prevalence and associated complications.
+
+**Epidemiology**
+
+- **Prevalence**: According to the Centers for Disease Control and Prevention (CDC), as of 2020, approximately 34.2 million Americans have diabetes, with Type 2 diabetes accounting for 90-95% of these cases.
+- **Risk Factors**: Major risk factors include obesity, physical inactivity, age, family history, and certain ethnic backgrounds (e.g., African American, Hispanic, Native American).
+- **Global Context**: The International Diabetes Federation (IDF) estimates that over 463 million adults worldwide were living with diabetes in 2019, with numbers expected to rise significantly.
+
+**Medical Context**
+
+- **Pathophysiology**: Type 2 diabetes involves insulin resistance in muscle and liver cells, leading to elevated blood glucose levels. Over time, the pancreas may fail to produce sufficient insulin.
+- **Symptoms**: Common symptoms include increased thirst, frequent urination, fatigue, blurred vision, and slow-healing sores.
+- **Complications**: Long-term complications can include cardiovascular disease, neuropathy, nephropathy, retinopathy, and increased risk of infections.
+
+**Guidelines in the US**
+
+- **Diagnosis**: The American Diabetes Association (ADA) recommends diagnosing Type 2 diabetes using criteria such as fasting plasma glucose ≥126 mg/dL, 2-hour plasma glucose ≥200 mg/dL during an oral glucose tolerance test, or HbA1c ≥6.5%.
+- **Management**: The ADA emphasizes lifestyle modifications (diet and exercise) as first-line interventions. Pharmacological treatments may include metformin, sulfonylureas, GLP-1 receptor agonists, and SGLT2 inhibitors, among others.
+- **Monitoring**: Regular monitoring of blood glucose levels, HbA1c, blood pressure, and lipid profiles is recommended to manage and prevent complications.
+
+**References**
+
+1. Centers for Disease Control and Prevention (CDC). National Diabetes Statistics Report, 2020.
+2. American Diabetes Association. Standards of Medical Care in Diabetes—2023.
+3. International Diabetes Federation (IDF). IDF Diabetes Atlas, 9th Edition, 2019.
+
+
+**Policy Changes in Diagnosis and Treatment of Type 2 Diabetes Since 2000**
+
+**Global Policy Changes**
+
+1. **2006 - WHO Guidelines**: The World Health Organization (WHO) updated its guidelines to include HbA1c as a diagnostic criterion for diabetes, recognizing it as a reliable measure of chronic hyperglycemia.
+
+2. **2011 - IDF Global Guideline**: The International Diabetes Federation (IDF) released guidelines emphasizing the importance of early diagnosis and the use of HbA1c for screening and diagnosis, aligning with WHO recommendations.
+
+3. **2019 - WHO Package of Essential Noncommunicable (PEN) Disease Interventions**: This initiative aimed to strengthen health systems globally by providing a framework for the management of diabetes and other noncommunicable diseases, focusing on primary care and cost-effective interventions.
+
+**US Policy Changes**
+
+1. **2003 - ADA Standards of Care**: The American Diabetes Association (ADA) began annual updates to its Standards of Medical Care in Diabetes, reflecting ongoing research and changes in clinical practice.
+
+2. **2010 - Inclusion of HbA1c**: The ADA officially included HbA1c ≥6.5% as a diagnostic criterion for diabetes, aligning with international standards and providing a more stable measure of long-term glucose control.
+
+3. **2015 - Emphasis on Individualized Treatment**: The ADA guidelines began to emphasize personalized treatment plans, considering patient preferences, comorbidities, and potential side effects of medications.
+
+4. **2018 - Cardiovascular Outcome Trials (CVOTs)**: The ADA incorporated findings from CVOTs into its guidelines, recommending certain glucose-lowering medications (e.g., SGLT2 inhibitors, GLP-1 receptor agonists) for patients with Type 2 diabetes and established cardiovascular disease.
+
+5. **2021 - Focus on Technology and Telemedicine**: The ADA guidelines highlighted the role of technology, including continuous glucose monitoring and telemedicine, in managing diabetes, especially in response to the COVID-19 pandemic.
+
+**References**
+
+1. World Health Organization. Use of Glycated Haemoglobin (HbA1c) in the Diagnosis of Diabetes Mellitus, 2011.
+2. International Diabetes Federation. Global Guideline for Type 2 Diabetes, 2011.
+3. American Diabetes Association. Standards of Medical Care in Diabetes—2023.
+4. World Health Organization. WHO Package of Essential Noncommunicable (PEN) Disease Interventions, 2019.
+
+

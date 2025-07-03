@@ -1,0 +1,5 @@
+table_name,column_name,description,generic
+patients,BirthDate,The date the patient was born.,birthDate
+conditions,Code,Diagnosis code from SNOMED-CT,code
+conditions,Start,The date the condition was diagnosed.,codeDate
+patients,Patient,Primary Key. Unique Identifier of the patient.,personID

@@ -1,0 +1,10 @@
+flag,column_name,codes,data_type,value_column_name,description,expected_value,expected_value_max,expected_value_min,range_low,range_high,comparison_type,references,fixed,remove
+demography,gender_concept_id,[45878463],integer,gender_concept_id,Female,,,,48.0,50.0,range,"""https://www.cdc.gov/diabetes/data/statistics-report/index.html""",True,False
+demography,gender_concept_id,[45880669],integer,gender_concept_id,Male,51.0,,,,,percentage,"""https://www.cdc.gov/diabetes/data/statistics-report/index.html""",True,False
+demography,race_concept_id,[8527],integer,race_concept_id,White,58.0,,,,,percentage,"""https://www.cdc.gov/diabetes/data/statistics-report/index.html""",True,False
+demography,race_concept_id,[8516],integer,race_concept_id,Black or African American,18.0,,,,,percentage,"(""https://www.cdc.gov/diabetes/data/statistics-report/index.html"", ""https://www.cdc.gov/diabetes/php/data-research"")",False,False
+demography,race_concept_id,[8657],integer,race_concept_id,Asian,9.0,,,,,percentage,"""https://www.cdc.gov/diabetes/data/statistics-report.html""",True,False
+demography,race_concept_id,[44814659],integer,race_concept_id,Native Hawaiian or Other Pacific Islander,14.5,,,,,percentage,"(""https://www.cdc.gov/diabetes/data/statistics-report/index.html"")",True,False
+demography,race_concept_id,[44814653],integer,race_concept_id,American Indian or Alaska Native,,,,14.5,,less_than,"""CDC National Diabetes Statistics Report (2022): https://www.cdc.gov/diabetes/data/statistics-report/index.html""",True,False
+demography,ethnicity_concept_id,[38003564],integer,ethnicity_concept_id,Not Hispanic or Latino,66.0,,,,,percentage,"""https://www.cdc.gov/diabetes/library/reports.html""",True,False
+demography,ethnicity_concept_id,[38003563],integer,ethnicity_concept_id,Hispanic or Latino,17.0,,,,,percentage,"""https://www.cdc.gov/diabetes/data/statistics-report/index.html""",True,False

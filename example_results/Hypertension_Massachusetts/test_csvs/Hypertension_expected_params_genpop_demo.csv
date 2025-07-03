@@ -1,0 +1,12 @@
+flag,column name,codes,data type,value column name,description,expected value,expected value max,expected value min,range low,range high,comparison type,references
+demography,Gender,"[""M""]",text,Gender,Male gender.,48.86%,np.nan,np.nan,np.nan,np.nan,percentage,[America's Health Rankings](https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA)
+demography,Gender,"[""F""]",text,Gender,Female gender.,51.5%,np.nan,np.nan,np.nan,np.nan,percentage,[America's Health Rankings](https://www.americashealthrankings.org/explore/annual/measure/Hypertension/state/MA)
+demography,Race,"[""white""]",text,Race,White race.,70.73%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Race,"[""black""]",text,Race,Black or African American race.,8.9%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Race,"[""asian""]",text,Race,Asian race.,7.08%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Race,"[""native""]",text,Race,American Indian or Alaska Native race.,0.23%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Race,"[""hawaiian"", ""pacific""]",text,Race,Native Hawaiian or Other Pacific Islander race.,<0.1%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Race,"[""other""]",text,Race,Other race.,5.43%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Ethnicity,"[""Hispanic or Latino""]",text,Ethnicity,Hispanic or Latino ethnicity.,12%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Ethnicity,"[""Not Hispanic or Latino""]",text,Ethnicity,Not Hispanic or Latino ethnicity.,67.55%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
+demography,Ethnicity,"[""Unknown""]",text,Ethnicity,Unknown ethnicity.,2.5%,np.nan,np.nan,np.nan,np.nan,percentage,[U.S. Census Bureau](https://www.census.gov/quickfacts/fact/table/MA/PST045224)
