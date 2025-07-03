@@ -1,0 +1,5 @@
+flag,column name,codes,data type,value column name,description,expected value,expected value max,expected value min,range low,range high,comparison type,references
+procedure,icd9_code,"[93306, 93307, 93314, 93312, 93319, 93318, 93320, 93321, 93350, 93351, 93355, 93315, 93303, 93362]",string,np.nan,"Echocardiography, transthoracic, real-time with image documentation",55,70,55,55,70,range,https://ecgwaves.com/reference-values-for-echocardiography/
+procedure,icd9_code,"[71045, 71046, 71047, 71030, 71020, 71023, 71022, 71021]",string,np.nan,"Radiologic examination, chest; single view",np.nan,np.nan,np.nan,np.nan,np.nan,np.nan,https://www.emedicinehealth.com/chest_x-ray/article_em.htm
+procedure,icd9_code,[84450],string,np.nan,Transferase; aspartate amino (AST) (SGOT),8,33,8,8,33,range,https://www.verywellhealth.com/ast-sgot-8411027
+procedure,icd9_code,[84460],string,np.nan,Alanine aminotransferase (ALT) measurement,7,56,7,7,56,range,https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-alt

@@ -1,0 +1,104 @@
+comorbidity,ICD-9 codes,prevalence
+Essential hypertension,401,25%
+Unspecified essential hypertension,401.9,25%
+Hypertensive heart disease,402,25%
+Unspecified hypertensive heart disease,402.9,25%
+"Hypertensive renal disease, unspecified",403.9,25%
+"Hypertensive heart and renal disease, unspecified",404.9,25%
+Secondary hypertension,405,25%
+Hypertensive retinopathy,362.11,25%
+Diabetes mellitus,250,10-30%
+Diabetes mellitus without mention of complication,250.0,10-30%
+"Diabetes mellitus without mention of complication, type II",250.02,10-30%
+Diabetes with ophthalmic manifestations,250.5,10-30%
+Diabetes with peripheral circulatory disorders,250.7,10-30%
+Secondary diabetes mellitus,249,10-30%
+Chronic Obstructive Pulmonary Disease,491,14%
+Obstructive Chronic Bronchitis,491.2,14%
+Chronic Obstructive Asthma,493.2,14%
+Obstructive Chronic Bronchitis without exacerbation,491.20,14%
+"Chronic Obstructive Asthma, unspecified",493.20,14%
+Chronic Pulmonary Heart Disease,416,14%
+"Chronic Pulmonary Heart Disease, unspecified",416.9,14%
+Atrial fibrillation,427.31,30%
+Atrial fibrillation and flutter,427.3,30%
+Atrial flutter,427.32,30%
+Ventricular fibrillation and flutter,427.4,30%
+Ventricular fibrillation,427.41,30%
+"Atrioventricular block, unspecified",426.10,30%
+Coronary artery disease,414.0,35% to 76%
+Coronary atherosclerosis of native coronary artery,414.01,35% to 76%
+Coronary atherosclerosis of native coronary artery bypass graft,414.06,35% to 76%
+Coronary atherosclerosis of artery bypass graft,414.04,35% to 76%
+Aneurysm of coronary vessels,414.11,35% to 76%
+Coronary atherosclerosis due to calcified coronary lesion,414.4,35% to 76%
+"Cardiovascular disease, unspecified",429.2,35% to 76%
+"Heart disease, unspecified",429.9,35% to 76%
+Coronary artery anomaly,746.85,35% to 76%
+"Anemia, unspecified",285.9,28.3%
+Anemia in neoplastic disease,285.22,28.3%
+Anemia of chronic disease,285.2,28.3%
+Anemia associated with other specified nutritional deficiency,281.8,28.3%
+Anemia of other chronic disease,285.29,28.3%
+"Iron deficiency anemia, unspecified",280.9,28.3%
+Iron deficiency anemias,280,28.3%
+Sideroblastic anemia,285.0,28.3%
+Other deficiency anemias,281,28.3%
+Acute renal failure,584,28%
+Acute renal failure with lesion of renal cortex,584.6,28%
+Acute renal failure with lesion of renal medulla,584.7,28%
+"Acute renal failure, unspecified",584.9,28%
+"Renal sclerosis, unspecified",587,28%
+Disorders resulting from impaired renal function,588,28%
+Renal dysplasia,753.15,28%
+"Obesity, unspecified",278.00,66%
+Morbid obesity,278.01,66%
+Obesity hypoventilation syndrome,278.03,66%
+Overweight and obesity,278.0,66%
+"Overweight, obesity and other hyperalimentation",278,66%
+Hyperlipidemia,"272.2, 272.4, 272.0",30%
+"Depressive disorder, not elsewhere classified",311,27.8%
+"Major depressive disorder, single episode",296.2,36%
+"Major depressive affective disorder, single episode",296.20,54.7%
+"Major depressive affective disorder, single episode, mild",296.21,54.7%
+"Major depressive affective disorder, single episode, moderate",296.22,54.7%
+"Major depressive affective disorder, recurrent episode",296.30,54.7%
+"Major depressive affective disorder, recurrent episode, mild",296.31,54.7%
+"Major depressive affective disorder, recurrent episode, moderate",296.32,54.7%
+"Major depressive affective disorder, recurrent episode, severe",296.34,54.7%
+Depressive type psychosis,298.0,17.3%
+"Major depressive disorder, recurrent episode",296.3,27.8%
+Atypical depressive disorder,296.82,27.8%
+"Peripheral vascular disease, unspecified",443.9,15%
+Other specified peripheral vascular diseases,443.8,15%
+Other peripheral vascular diseases,443,15%
+"Peripheral vascular complications, not elsewhere classified",997.2,15%
+Peripheral angiopathy in diseases classified elsewhere,443.81,15%
+Diabetes with peripheral circulatory disorders,250.7,15%
+"Anomaly of the peripheral vascular system, unspecified",747.60,15%
+Other congenital anomalies of peripheral vascular system,747.6,15%
+Organic sleep apnea,327.2,40%-70%
+"Organic sleep apnea, unspecified",327.20,40%-70%
+Primary central sleep apnea,327.21,40%-70%
+Obstructive sleep apnea (adult)(pediatric),327.23,40%-70%
+Sleep related hypoventilation/hypoxemia in conditions classified elsewhere,327.26,40%-70%
+Central sleep apnea in conditions classified elsewhere,327.27,40%-70%
+Other organic sleep apnea,327.29,40%-70%
+"Insomnia with sleep apnea, unspecified",780.51,40%-70%
+"Hypersomnia with sleep apnea, unspecified",780.53,40%-70%
+Unspecified sleep apnea,780.57,40%-70%
+Sleep arousal disorder,307.46,40%-70%
+Apnea,786.03,40%-70%
+Hypothyroidism,244,17%
+Unspecified acquired hypothyroidism,244.9,17%
+Other postablative hypothyroidism,244.1,17%
+Iodine hypothyroidism,244.2,17%
+Congenital hypothyroidism,243,17%
+Thyroiditis,245,17%
+"Stroke, unspecified",434.91,20%
+Cerebral thrombosis with infarction,434.01,20%
+Cerebral embolism with infarction,434.11,20%
+Acute but ill-defined cerebrovascular disease,436,20%
+Chronic liver disease and cirrhosis,571,35%
+Other diseases of liver,573,35%
+Liver abscess and sequelae of chronic liver disease,572,35%

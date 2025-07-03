@@ -1,0 +1,11 @@
+flag,column name,codes,data type,value column name,description,expected value,expected value max,expected value min,range low,range high,comparison type,references
+lab,itemid,"[2339-0, 2345-7, 2340-8]",string,valuenum,B-type Natriuretic Peptide (BNP) measurement,np.nan,100,np.nan,np.nan,100,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[3094-0, 3097-3]",string,valuenum,Troponin I measurement,np.nan,0.04,np.nan,np.nan,0.04,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[10839-9, 10840-7]",string,valuenum,Troponin T measurement,np.nan,0.01,np.nan,np.nan,0.01,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[2951-2, 2955-3, 2956-1]",string,valuenum,Serum Creatinine measurement,0.6,1.3,0.6,0.6,1.3,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[3094-0, 3097-3]",string,valuenum,Blood Urea Nitrogen (BUN) measurement,7,20,7,7,20,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[2345-7, 2340-8]",string,valuenum,Serum Electrolytes measurement,135,145,135,135,145,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[1751-7, 1759-0]",string,valuenum,Serum Magnesium measurement,1.7,2.2,1.7,1.7,2.2,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[17861-6, 17862-4]",string,valuenum,Serum Calcium measurement,8.5,10.2,8.5,8.5,10.2,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[17861-6, 17862-4]",string,valuenum,Serum Phosphate measurement,2.5,4.5,2.5,2.5,4.5,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab,itemid,"[2345-7, 2340-8]",string,valuenum,Serum Glucose measurement,70,99,70,70,99,range,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/

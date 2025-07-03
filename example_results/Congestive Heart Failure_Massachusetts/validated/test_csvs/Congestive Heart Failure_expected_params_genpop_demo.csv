@@ -1,0 +1,8 @@
+flag,column_name,codes,data_type,value_column_name,description,expected_value,expected_value_max,expected_value_min,range_low,range_high,comparison_type,references,fixed,remove
+demography,gender,"[""M""]",categorical,gender,Gender of the patient: Male.,48.5%,,,,,percentage,"""https://www.mass.gov/info-details/basic-facts, https://www.census.gov/quickfacts/MA""",False,False
+demography,gender,"[""F""]",categorical,gender,Gender of the patient: Female.,51.5%,,,,,percentage,"(""https://www.mass.gov/info-details/basic-facts"", ""https://www.census.gov/quickfacts/MA"")",False,False
+demography,ethnicity,"[""WHITE""]",categorical,ethnicity,Ethnicity of the patient: White.,67.6%,,,,,percentage,"""https://www.census.gov/quickfacts/MA""",True,False
+demography,ethnicity,"[""BLACK/AFRICAN AMERICAN""]",categorical,ethnicity,Ethnicity of the patient: Black/African American.,9%,,,,,percentage,"""https://www.census.gov/quickfacts/MA""",True,False
+demography,ethnicity,"[""ASIAN""]",categorical,ethnicity,Ethnicity of the patient: Asian.,7.2%,,,,,percentage,"(""https://www.census.gov/quickfacts/MA"")",True,False
+demography,ethnicity,"[""HISPANIC/LATINO""]",categorical,ethnicity,Ethnicity of the patient: Hispanic/Latino.,12.8%,,,,,percentage,"(""https://www.census.gov/quickfacts/MA"")",True,False
+demography,ethnicity,"[""OTHER""]",categorical,ethnicity,Ethnicity of the patient: Other.,2.6%,,,,,percentage,"""https://www.census.gov/quickfacts/fact/table/US/PST045222""",True,False

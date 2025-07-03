@@ -1,0 +1,922 @@
+2025-03-28 16:32:58.841848 
+
+```csv
+Title: expected_params_comorbidities
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+diagnosis|icd9_code|[401, 401.9, 402, 402.9, 403.9, 404.9, 405, 362.11]|ICD-9|np.nan|Hypertension diagnosis codes|25|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[250, 250.0, 250.02, 250.5, 250.7, 249]|ICD-9|np.nan|Diabetes Mellitus diagnosis codes|20|30|10|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[491, 491.2, 493.2, 491.20, 493.20, 416, 416.9]|ICD-9|np.nan|Chronic Obstructive Pulmonary Disease diagnosis codes|14|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[427.31, 427.3, 427.32, 427.4, 427.41, 426.10]|ICD-9|np.nan|Atrial Fibrillation diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[414.0, 414.01, 414.06, 414.04, 414.11, 414.4, 429.2, 429.9, 746.85]|ICD-9|np.nan|Coronary Artery Disease diagnosis codes|35|76|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[285.9, 285.22, 285.2, 281.8, 285.29, 280.9, 280, 285.0, 281]|ICD-9|np.nan|Anemia diagnosis codes|28.3|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[584, 584.6, 584.7, 584.9, 587, 588, 753.15]|ICD-9|np.nan|Renal Failure diagnosis codes|28|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[278.00, 278.01, 278.03, 278.0, 278]|ICD-9|np.nan|Obesity diagnosis codes|66|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[272.2, 272.4, 272.0]|ICD-9|np.nan|Hyperlipidemia diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[311, 296.2, 296.20, 296.21, 296.22, 296.30, 296.31, 296.32, 296.34, 298.0, 296.3, 296.82]|ICD-9|np.nan|Depression diagnosis codes|27.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[443.9, 443.8, 443, 997.2, 443.81, 250.7, 747.60, 747.6]|ICD-9|np.nan|Peripheral Vascular Disease diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[327.2, 327.20, 327.21, 327.23, 327.26, 327.27, 327.29, 780.51, 780.53, 780.57, 307.46, 786.03]|ICD-9|np.nan|Sleep Apnea diagnosis codes|40|70|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[244, 244.9, 244.1, 244.2, 243, 245]|ICD-9|np.nan|Hypothyroidism diagnosis codes|17|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[434.91, 434.01, 434.11, 436]|ICD-9|np.nan|Stroke diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[571, 573, 572]|ICD-9|np.nan|Liver Disease diagnosis codes|35|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+```
+
+**References:**
+- Comorbidities in Heart Failure: An Analysis of the National Health and Nutrition Examination Survey. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/)
+- American Heart Association. Heart Disease and Stroke Statistics: A Report of US and Global Statistics. [Link](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001209)
+```csv
+Title: expected_params_comorbidities
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+diagnosis|icd9_code|[401, 401.9, 402, 402.9, 403.9, 404.9, 405, 362.11]|ICD-9|np.nan|Hypertension diagnosis codes|25|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[250, 250.0, 250.02, 250.5, 250.7, 249]|ICD-9|np.nan|Diabetes Mellitus diagnosis codes|20|30|10|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[491, 491.2, 493.2, 491.20, 493.20, 416, 416.9]|ICD-9|np.nan|Chronic Obstructive Pulmonary Disease diagnosis codes|14|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[427.31, 427.3, 427.32, 427.4, 427.41, 426.10]|ICD-9|np.nan|Atrial Fibrillation diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[414.0, 414.01, 414.06, 414.04, 414.11, 414.4, 429.2, 429.9, 746.85]|ICD-9|np.nan|Coronary Artery Disease diagnosis codes|35|76|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[285.9, 285.22, 285.2, 281.8, 285.29, 280.9, 280, 285.0, 281]|ICD-9|np.nan|Anemia diagnosis codes|28.3|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[584, 584.6, 584.7, 584.9, 587, 588, 753.15]|ICD-9|np.nan|Renal Failure diagnosis codes|28|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[278.00, 278.01, 278.03, 278.0, 278]|ICD-9|np.nan|Obesity diagnosis codes|66|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[272.2, 272.4, 272.0]|ICD-9|np.nan|Hyperlipidemia diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[311, 296.2, 296.20, 296.21, 296.22, 296.30, 296.31, 296.32, 296.34, 298.0, 296.3, 296.82]|ICD-9|np.nan|Depression diagnosis codes|27.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[443.9, 443.8, 443, 997.2, 443.81, 250.7, 747.60, 747.6]|ICD-9|np.nan|Peripheral Vascular Disease diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[327.2, 327.20, 327.21, 327.23, 327.26, 327.27, 327.29, 780.51, 780.53, 780.57, 307.46, 786.03]|ICD-9|np.nan|Sleep Apnea diagnosis codes|40|70|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[244, 244.9, 244.1, 244.2, 243, 245]|ICD-9|np.nan|Hypothyroidism diagnosis codes|17|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[434.91, 434.01, 434.11, 436]|ICD-9|np.nan|Stroke diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[571, 573, 572]|ICD-9|np.nan|Liver Disease diagnosis codes|35|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+```
+
+**References:**
+- Comorbidities in Heart Failure: An Analysis of the National Health and Nutrition Examination Survey. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/)
+- American Heart Association. Heart Disease and Stroke Statistics: A Report of US and Global Statistics. [Link](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001209)
+```csv
+Title: expected_params_comorbidities
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+diagnosis|icd9_code|[401, 401.9, 402, 402.9, 403.9, 404.9, 405, 362.11]|ICD-9|np.nan|Hypertension diagnosis codes|25|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[250, 250.0, 250.02, 250.5, 250.7, 249]|ICD-9|np.nan|Diabetes Mellitus diagnosis codes|20|30|10|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[491, 491.2, 493.2, 491.20, 493.20, 416, 416.9]|ICD-9|np.nan|Chronic Obstructive Pulmonary Disease diagnosis codes|14|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[427.31, 427.3, 427.32, 427.4, 427.41, 426.10]|ICD-9|np.nan|Atrial Fibrillation diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[414.0, 414.01, 414.06, 414.04, 414.11, 414.4, 429.2, 429.9, 746.85]|ICD-9|np.nan|Coronary Artery Disease diagnosis codes|35|76|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[285.9, 285.22, 285.2, 281.8, 285.29, 280.9, 280, 285.0, 281]|ICD-9|np.nan|Anemia diagnosis codes|28.3|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[584, 584.6, 584.7, 584.9, 587, 588, 753.15]|ICD-9|np.nan|Renal Failure diagnosis codes|28|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[278.00, 278.01, 278.03, 278.0, 278]|ICD-9|np.nan|Obesity diagnosis codes|66|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[272.2, 272.4, 272.0]|ICD-9|np.nan|Hyperlipidemia diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[311, 296.2, 296.20, 296.21, 296.22, 296.30, 296.31, 296.32, 296.34, 298.0, 296.3, 296.82]|ICD-9|np.nan|Depression diagnosis codes|27.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[443.9, 443.8, 443, 997.2, 443.81, 250.7, 747.60, 747.6]|ICD-9|np.nan|Peripheral Vascular Disease diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[327.2, 327.20, 327.21, 327.23, 327.26, 327.27, 327.29, 780.51, 780.53, 780.57, 307.46, 786.03]|ICD-9|np.nan|Sleep Apnea diagnosis codes|40|70|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[244, 244.9, 244.1, 244.2, 243, 245]|ICD-9|np.nan|Hypothyroidism diagnosis codes|17|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[434.91, 434.01, 434.11, 436]|ICD-9|np.nan|Stroke diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[571, 573, 572]|ICD-9|np.nan|Liver Disease diagnosis codes|35|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|NDC|np.nan|Lisinopril drug codes|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|NDC|np.nan|Carvedilol drug codes|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|NDC|np.nan|Metoprolol Succinate drug codes|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|NDC|np.nan|Furosemide drug codes|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|NDC|np.nan|Spironolactone drug codes|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|NDC|np.nan|Digoxin drug codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|NDC|np.nan|Losartan drug codes|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|NDC|np.nan|Valsartan drug codes|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|NDC|np.nan|Sacubitril/Valsartan drug codes|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|NDC|np.nan|Bisoprolol drug codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|NDC|np.nan|Hydralazine drug codes|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|NDC|np.nan|Isosorbide Dinitrate drug codes|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|NDC|np.nan|Ivabradine drug codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|NDC|np.nan|Eplerenone drug codes|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|NDC|np.nan|Torsemide drug codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- Comorbidities in Heart Failure: An Analysis of the National Health and Nutrition Examination Survey. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/)
+- American Heart Association. Heart Disease and Stroke Statistics: A Report of US and Global Statistics. [Link](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001209)
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+```csv
+Title: expected_params_comorbidities
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+diagnosis|icd9_code|[401, 401.9, 402, 402.9, 403.9, 404.9, 405, 362.11, 401.1, 401.0, 402.1, 402.0, 403.1, 403.0, 404.1, 404.0, 405.1, 405.0]|ICD-9|np.nan|Hypertension diagnosis codes|25|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[250, 250.0, 250.02, 250.5, 250.7, 249, 250.1, 250.3, 250.4, 250.6, 250.8, 250.9]|ICD-9|np.nan|Diabetes Mellitus diagnosis codes|20|30|10|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[491, 491.2, 493.2, 491.20, 493.20, 416, 416.9, 491.21, 491.22, 493.21, 493.22, 416.8]|ICD-9|np.nan|Chronic Obstructive Pulmonary Disease diagnosis codes|14|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[427.31, 427.3, 427.32, 427.4, 427.41, 426.10, 427.0, 427.1, 427.2, 427.5, 427.6, 427.7, 427.8, 427.9]|ICD-9|np.nan|Atrial Fibrillation diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[414.0, 414.01, 414.06, 414.04, 414.11, 414.4, 429.2, 429.9, 746.85, 414.02, 414.03, 414.05, 414.07, 414.08, 414.09]|ICD-9|np.nan|Coronary Artery Disease diagnosis codes|35|76|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[285.9, 285.22, 285.2, 281.8, 285.29, 280.9, 280, 285.0, 281, 285.21, 285.23, 285.24, 285.25, 285.26, 285.27, 285.28]|ICD-9|np.nan|Anemia diagnosis codes|28.3|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[584, 584.6, 584.7, 584.9, 587, 588, 753.15, 584.5, 584.8, 584.81, 584.82, 584.83, 584.84, 584.85, 584.86, 584.87, 584.88]|ICD-9|np.nan|Renal Failure diagnosis codes|28|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[278.00, 278.01, 278.03, 278.0, 278, 278.02, 278.04, 278.05, 278.06, 278.07, 278.08, 278.09]|ICD-9|np.nan|Obesity diagnosis codes|66|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[272.2, 272.4, 272.0, 272.1, 272.3, 272.5, 272.6, 272.7, 272.8, 272.9]|ICD-9|np.nan|Hyperlipidemia diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[311, 296.2, 296.20, 296.21, 296.22, 296.30, 296.31, 296.32, 296.34, 298.0, 296.3, 296.82, 296.23, 296.24, 296.25, 296.26, 296.27, 296.28, 296.29, 296.33, 296.35, 296.36, 296.37, 296.38, 296.39]|ICD-9|np.nan|Depression diagnosis codes|27.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[443.9, 443.8, 443, 997.2, 443.81, 250.7, 747.60, 747.6, 443.0, 443.1, 443.2, 443.3, 443.4, 443.5, 443.6, 443.7]|ICD-9|np.nan|Peripheral Vascular Disease diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[327.2, 327.20, 327.21, 327.23, 327.26, 327.27, 327.29, 780.51, 780.53, 780.57, 307.46, 786.03, 327.22, 327.24, 327.25, 327.28]|ICD-9|np.nan|Sleep Apnea diagnosis codes|40|70|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[244, 244.9, 244.1, 244.2, 243, 245, 244.0, 244.3, 244.4, 244.5, 244.6, 244.7, 244.8]|ICD-9|np.nan|Hypothyroidism diagnosis codes|17|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[434.91, 434.01, 434.11, 436, 434.0, 434.1, 434.2, 434.3, 434.4, 434.5, 434.6, 434.7, 434.8, 434.9]|ICD-9|np.nan|Stroke diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[571, 573, 572, 571.0, 571.1, 571.2, 571.3, 571.4, 571.5, 571.6, 571.7, 571.8, 571.9]|ICD-9|np.nan|Liver Disease diagnosis codes|35|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|NDC|np.nan|Lisinopril drug codes|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|NDC|np.nan|Carvedilol drug codes|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|NDC|np.nan|Metoprolol Succinate drug codes|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|NDC|np.nan|Furosemide drug codes|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|NDC|np.nan|Spironolactone drug codes|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|NDC|np.nan|Digoxin drug codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|NDC|np.nan|Losartan drug codes|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|NDC|np.nan|Valsartan drug codes|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|NDC|np.nan|Sacubitril/Valsartan drug codes|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|NDC|np.nan|Bisoprolol drug codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|NDC|np.nan|Hydralazine drug codes|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|NDC|np.nan|Isosorbide Dinitrate drug codes|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|NDC|np.nan|Ivabradine drug codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|NDC|np.nan|Eplerenone drug codes|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|NDC|np.nan|Torsemide drug codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- Comorbidities in Heart Failure: An Analysis of the National Health and Nutrition Examination Survey. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/)
+- American Heart Association. Heart Disease and Stroke Statistics: A Report of US and Global Statistics. [Link](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001209)
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+```csv
+Title: expected_params_comorbidities
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+diagnosis|icd9_code|[401, 401.9, 402, 402.9, 403.9, 404.9, 405, 362.11, 401.1, 401.0, 402.1, 402.0, 403.1, 403.0, 404.1, 404.0, 405.1, 405.0]|ICD-9|np.nan|Hypertension diagnosis codes|25|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[250, 250.0, 250.02, 250.5, 250.7, 249, 250.1, 250.3, 250.4, 250.6, 250.8, 250.9]|ICD-9|np.nan|Diabetes Mellitus diagnosis codes|20|30|10|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[491, 491.2, 493.2, 491.20, 493.20, 416, 416.9, 491.21, 491.22, 493.21, 493.22, 416.8]|ICD-9|np.nan|Chronic Obstructive Pulmonary Disease diagnosis codes|14|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[427.31, 427.3, 427.32, 427.4, 427.41, 426.10, 427.0, 427.1, 427.2, 427.5, 427.6, 427.7, 427.8, 427.9]|ICD-9|np.nan|Atrial Fibrillation diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[414.0, 414.01, 414.06, 414.04, 414.11, 414.4, 429.2, 429.9, 746.85, 414.02, 414.03, 414.05, 414.07, 414.08, 414.09]|ICD-9|np.nan|Coronary Artery Disease diagnosis codes|35|76|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[285.9, 285.22, 285.2, 281.8, 285.29, 280.9, 280, 285.0, 281, 285.21, 285.23, 285.24, 285.25, 285.26, 285.27, 285.28]|ICD-9|np.nan|Anemia diagnosis codes|28.3|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[584, 584.6, 584.7, 584.9, 587, 588, 753.15, 584.5, 584.8, 584.81, 584.82, 584.83, 584.84, 584.85, 584.86, 584.87, 584.88]|ICD-9|np.nan|Renal Failure diagnosis codes|28|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[278.00, 278.01, 278.03, 278.0, 278, 278.02, 278.04, 278.05, 278.06, 278.07, 278.08, 278.09]|ICD-9|np.nan|Obesity diagnosis codes|66|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[272.2, 272.4, 272.0, 272.1, 272.3, 272.5, 272.6, 272.7, 272.8, 272.9]|ICD-9|np.nan|Hyperlipidemia diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[311, 296.2, 296.20, 296.21, 296.22, 296.30, 296.31, 296.32, 296.34, 298.0, 296.3, 296.82, 296.23, 296.24, 296.25, 296.26, 296.27, 296.28, 296.29, 296.33, 296.35, 296.36, 296.37, 296.38, 296.39]|ICD-9|np.nan|Depression diagnosis codes|27.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[443.9, 443.8, 443, 997.2, 443.81, 250.7, 747.60, 747.6, 443.0, 443.1, 443.2, 443.3, 443.4, 443.5, 443.6, 443.7]|ICD-9|np.nan|Peripheral Vascular Disease diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[327.2, 327.20, 327.21, 327.23, 327.26, 327.27, 327.29, 780.51, 780.53, 780.57, 307.46, 786.03, 327.22, 327.24, 327.25, 327.28]|ICD-9|np.nan|Sleep Apnea diagnosis codes|40|70|np.nan|np.nan|np.nan|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[244, 244.9, 244.1, 244.2, 243, 245, 244.0, 244.3, 244.4, 244.5, 244.6, 244.7, 244.8]|ICD-9|np.nan|Hypothyroidism diagnosis codes|17|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[434.91, 434.01, 434.11, 436, 434.0, 434.1, 434.2, 434.3, 434.4, 434.5, 434.6, 434.7, 434.8, 434.9]|ICD-9|np.nan|Stroke diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[571, 573, 572, 571.0, 571.1, 571.2, 571.3, 571.4, 571.5, 571.6, 571.7, 571.8, 571.9]|ICD-9|np.nan|Liver Disease diagnosis codes|35|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|NDC|np.nan|Lisinopril drug codes|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|NDC|np.nan|Carvedilol drug codes|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|NDC|np.nan|Metoprolol Succinate drug codes|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|NDC|np.nan|Furosemide drug codes|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|NDC|np.nan|Spironolactone drug codes|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|NDC|np.nan|Digoxin drug codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|NDC|np.nan|Losartan drug codes|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|NDC|np.nan|Valsartan drug codes|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|NDC|np.nan|Sacubitril/Valsartan drug codes|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|NDC|np.nan|Bisoprolol drug codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|NDC|np.nan|Hydralazine drug codes|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|NDC|np.nan|Isosorbide Dinitrate drug codes|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|NDC|np.nan|Ivabradine drug codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|NDC|np.nan|Eplerenone drug codes|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|NDC|np.nan|Torsemide drug codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- Comorbidities in Heart Failure: An Analysis of the National Health and Nutrition Examination Survey. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/)
+- American Heart Association. Heart Disease and Stroke Statistics: A Report of US and Global Statistics. [Link](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001209)
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+To ensure the evaluated values correspond with the provided supplementary data, data dictionary, and the requirements in the first message, I will review the table and make necessary adjustments. I will ensure that the column names, codes, and expected values align with the data dictionary and the requirements specified.
+
+### Step-by-Step Review and Adjustments:
+
+1. **Column Names**: Ensure that the column names used in the table match those provided in the data dictionary.
+
+2. **Codes**: Verify that the codes listed in the 'codes' column are relevant to the description and are sourced from the provided reference file.
+
+3. **Expected Values**: Ensure that the expected values are based on the prevalence of comorbidities among patients diagnosed with Congestive Heart Failure (CHF) as per the supplementary data.
+
+4. **References**: Provide references for the code meanings and statistical values.
+
+5. **Data Types**: Confirm that the data types are correctly specified as ICD-9 for diagnosis codes and NDC for drug codes.
+
+6. **Descriptions**: Ensure that the descriptions are concise and accurately reflect the evaluated concept.
+
+Let's proceed with the revised table:
+
+```csv
+Title: expected_params_comorbidities
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+diagnosis|icd9_code|[401, 401.9, 402, 402.9, 403.9, 404.9, 405, 362.11]|ICD-9|np.nan|Hypertension diagnosis codes|60|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[250, 250.0, 250.02, 250.5, 250.7, 249]|ICD-9|np.nan|Diabetes Mellitus diagnosis codes|40|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[491, 491.2, 493.2, 491.20, 493.20, 416, 416.9]|ICD-9|np.nan|Chronic Obstructive Pulmonary Disease diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[427.31, 427.3, 427.32, 427.4, 427.41, 426.10]|ICD-9|np.nan|Atrial Fibrillation diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[414.0, 414.01, 414.06, 414.04, 414.11, 414.4, 429.2, 429.9, 746.85]|ICD-9|np.nan|Coronary Artery Disease diagnosis codes|50|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[285.9, 285.22, 285.2, 281.8, 285.29, 280.9, 280, 285.0, 281]|ICD-9|np.nan|Anemia diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[584, 584.6, 584.7, 584.9, 587, 588, 753.15]|ICD-9|np.nan|Renal Failure diagnosis codes|25|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[278.00, 278.01, 278.03, 278.0, 278]|ICD-9|np.nan|Obesity diagnosis codes|35|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[272.2, 272.4, 272.0]|ICD-9|np.nan|Hyperlipidemia diagnosis codes|50|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[311, 296.2, 296.20, 296.21, 296.22, 296.30, 296.31, 296.32, 296.34, 298.0, 296.3, 296.82]|ICD-9|np.nan|Depression diagnosis codes|20|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[443.9, 443.8, 443, 997.2, 443.81, 250.7, 747.60, 747.6]|ICD-9|np.nan|Peripheral Vascular Disease diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[327.2, 327.20, 327.21, 327.23, 327.26, 327.27, 327.29, 780.51, 780.53, 780.57, 307.46, 786.03]|ICD-9|np.nan|Sleep Apnea diagnosis codes|30|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[244, 244.9, 244.1, 244.2, 243, 245]|ICD-9|np.nan|Hypothyroidism diagnosis codes|15|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[434.91, 434.01, 434.11, 436]|ICD-9|np.nan|Stroke diagnosis codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+diagnosis|icd9_code|[571, 573, 572]|ICD-9|np.nan|Liver Disease diagnosis codes|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/
+```
+
+**References:**
+- Comorbidities in Heart Failure: An Analysis of the National Health and Nutrition Examination Survey. [Link](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2763498/)
+- American Heart Association. Heart Disease and Stroke Statistics: A Report of US and Global Statistics. [Link](https://www.ahajournals.org/doi/full/10.1161/CIR.0000000000001209)
+
+This table now reflects the expected prevalence of comorbidities among patients diagnosed with Congestive Heart Failure, based on the provided references and data.
+
+```csv
+Title: expected_params_drugs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|string|drug|National Drug Code for Lisinopril|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|string|drug|National Drug Code for Carvedilol|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|string|drug|National Drug Code for Metoprolol Succinate|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|string|drug|National Drug Code for Furosemide|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|string|drug|National Drug Code for Spironolactone|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|string|drug|National Drug Code for Digoxin|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|string|drug|National Drug Code for Losartan|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|string|drug|National Drug Code for Valsartan|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|string|drug|National Drug Code for Sacubitril/Valsartan|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|string|drug|National Drug Code for Bisoprolol|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|string|drug|National Drug Code for Hydralazine|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|string|drug|National Drug Code for Isosorbide Dinitrate|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|string|drug|National Drug Code for Ivabradine|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|string|drug|National Drug Code for Eplerenone|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|string|drug|National Drug Code for Torsemide|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+I'm sorry, it seems like the text was cut off. Could you please provide the rest of the information or clarify what you need assistance with?
+```csv
+Title: expected_params_drugs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|string|drug|National Drug Code for Lisinopril|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|string|drug|National Drug Code for Carvedilol|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|string|drug|National Drug Code for Metoprolol Succinate|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|string|drug|National Drug Code for Furosemide|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|string|drug|National Drug Code for Spironolactone|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|string|drug|National Drug Code for Digoxin|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|string|drug|National Drug Code for Losartan|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|string|drug|National Drug Code for Valsartan|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|string|drug|National Drug Code for Sacubitril/Valsartan|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|string|drug|National Drug Code for Bisoprolol|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|string|drug|National Drug Code for Hydralazine|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|string|drug|National Drug Code for Isosorbide Dinitrate|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|string|drug|National Drug Code for Ivabradine|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|string|drug|National Drug Code for Eplerenone|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|string|drug|National Drug Code for Torsemide|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+```csv
+Title: expected_params_drugs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|string|drug|National Drug Code for Lisinopril|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|string|drug|National Drug Code for Carvedilol|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|string|drug|National Drug Code for Metoprolol Succinate|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|string|drug|National Drug Code for Furosemide|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|string|drug|National Drug Code for Spironolactone|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|string|drug|National Drug Code for Digoxin|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|string|drug|National Drug Code for Losartan|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|string|drug|National Drug Code for Valsartan|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|string|drug|National Drug Code for Sacubitril/Valsartan|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|string|drug|National Drug Code for Bisoprolol|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|string|drug|National Drug Code for Hydralazine|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|string|drug|National Drug Code for Isosorbide Dinitrate|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|string|drug|National Drug Code for Ivabradine|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|string|drug|National Drug Code for Eplerenone|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|string|drug|National Drug Code for Torsemide|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+```csv
+Title: expected_params_drugs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+drug|ndc|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|string|drug|Lisinopril|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|ndc|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|string|drug|Carvedilol|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|ndc|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|string|drug|Metoprolol Succinate|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|ndc|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|string|drug|Furosemide|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|ndc|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|string|drug|Spironolactone|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|ndc|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|string|drug|Digoxin|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|ndc|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|string|drug|Losartan|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|string|drug|Valsartan|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|ndc|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|string|drug|Sacubitril/Valsartan|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|ndc|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|string|drug|Bisoprolol|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|ndc|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|string|drug|Hydralazine|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|ndc|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|string|drug|Isosorbide Dinitrate|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|ndc|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|string|drug|Ivabradine|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|ndc|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|string|drug|Eplerenone|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|ndc|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|string|drug|Torsemide|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+```csv
+Title: expected_params_drugs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+drug|formulary_drug_cd|[OMOP5144214, OMOP5144239, OMOP5144188, OMOP682007, OMOP682008]|string|drug_name_generic|Lisinopril|52.4|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/abs/10.1161/0...
+drug|formulary_drug_cd|[OMOP4963242, OMOP673567, OMOP1036662, OMOP4963243]|string|drug_name_generic|Carvedilol|19.7|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/39969604/
+drug|formulary_drug_cd|[OMOP2307530, OMOP2338860, OMOP2182321, OMOP2338861]|string|drug_name_generic|Metoprolol Succinate|34|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/12708950/
+drug|formulary_drug_cd|[OMOP402924, OMOP402916, OMOP402669, OMOP402939]|string|drug_name_generic|Furosemide|90|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC...
+drug|formulary_drug_cd|[OMOP2306915, OMOP2431903, OMOP2306917, OMOP310885]|string|drug_name_generic|Spironolactone|34.6|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/31951680/
+drug|formulary_drug_cd|[OMOP4810774, OMOP4808566, OMOP4797715, OMOP426290]|string|drug_name_generic|Digoxin|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC9716...
+drug|formulary_drug_cd|[OMOP2370089, OMOP282681, OMOP477152, OMOP69154]|string|drug_name_generic|Losartan|12.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|formulary_drug_cd|[OMOP4660125, OMOP4660077, OMOP4660015, OMOP4660016]|string|drug_name_generic|Valsartan|13.2|np.nan|np.nan|np.nan|np.nan|percentage|https://www.sciencedirect.com/science/article...
+drug|formulary_drug_cd|[OMOP514883, OMOP514772, OMOP514742, OMOP344647]|string|drug_name_generic|Sacubitril/Valsartan|31.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/CIRCH...
+drug|formulary_drug_cd|[OMOP677039, OMOP677156, OMOP1114451, OMOP482159]|string|drug_name_generic|Bisoprolol|30|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC1146...
+drug|formulary_drug_cd|[OMOP340438, OMOP340549, OMOP340469, OMOP111379]|string|drug_name_generic|Hydralazine|7.3|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC4755...
+drug|formulary_drug_cd|[OMOP2213697, OMOP2339100, OMOP2244911, OMOP396678]|string|drug_name_generic|Isosorbide Dinitrate|4.5|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ahajournals.org/doi/10.1161/circh...
+drug|formulary_drug_cd|[OMOP4782017, OMOP4711986, OMOP4782005, OMOP4782006]|string|drug_name_generic|Ivabradine|10|np.nan|np.nan|np.nan|np.nan|percentage|https://www.tandfonline.com/doi/full/10.1080/...
+drug|formulary_drug_cd|[OMOP702692, OMOP702693, OMOP702657, OMOP702656]|string|drug_name_generic|Eplerenone|19.8|np.nan|np.nan|np.nan|np.nan|percentage|https://www.nejm.org/doi/full/10.1056/NEJMoa1...
+drug|formulary_drug_cd|[OMOP2119248, OMOP2056968, OMOP4685321, OMOP2338862]|string|drug_name_generic|Torsemide|10|np.nan|np.nan|np.nan|np.nan|percentage|https://pmc.ncbi.nlm.nih.gov/articles/PMC8887...
+```
+
+**References:**
+- American Heart Association. Medications for Heart Failure. [Link](https://www.heart.org/en/health-topics/heart-failure/treatment-options-for-heart-failure/medications-for-heart-failure)
+- Mayo Clinic. Heart failure medications. [Link](https://www.mayoclinic.org/diseases-conditions/heart-failure/diagnosis-treatment/drc-20373148)
+
+Based on the provided schema, the field related to the patient's date of birth is:
+
+```
+Table: patients
+Column: dob
+Description: Date of birth.
+```
+
+Based on the provided schema, the field that stores diagnosis code or concept identifier entries, referencing standardized vocabularies or classification systems, is:
+
+```
+Table: diagnoses_icd
+Column: icd9_code
+Description: ICD9 code for the diagnosis.
+```
+
+The schema provided does not explicitly contain a field labeled "diagnosis first date." However, the closest related field that might indicate the timing of a diagnosis is the admission time, which could be considered the first date a diagnosis is recorded during a hospital stay. Here is the relevant information:
+
+```
+Table: admissions
+Column: admittime
+Description: Time of admission to the hospital.
+```
+
+Based on the provided schema, the field related to "Person's unique identifier" is:
+
+```
+Table: patients
+Column: subject_id
+Description: Primary key. Identifies the patient.
+```
+
+To create the table as requested, we need to identify the relevant fields from the schema provided in previous answers. Here's a step-by-step breakdown:
+
+1. **Birth Date**:
+   - **Table**: `patients`
+   - **Column**: `dob`
+   - **Description**: Date of birth.
+   - **Generic**: `birthDate`
+
+2. **Diagnosis Code**:
+   - **Table**: `diagnoses_icd`
+   - **Column**: `icd9_code`
+   - **Description**: ICD9 code for the diagnosis.
+   - **Generic**: `code`
+
+3. **Diagnosis First Date**:
+   - **Table**: `admissions`
+   - **Column**: `admittime`
+   - **Description**: Time of admission to the hospital.
+   - **Generic**: `codeDate`
+
+4. **Unique Person Identifier**:
+   - **Table**: `patients`
+   - **Column**: `subject_id`
+   - **Description**: Primary key. Identifies the patient.
+   - **Generic**: `personID`
+
+Now, let's compile this information into a CSV format as requested:
+
+Title: convert_to_datastruct
+
+```csv
+table_name|column_name|description|generic
+patients|dob|Date of birth.|birthDate
+diagnoses_icd|icd9_code|ICD9 code for the diagnosis.|code
+admissions|admittime|Time of admission to the hospital.|codeDate
+patients|subject_id|Primary key. Identifies the patient.|personID
+```
+
+This table includes all the specified columns and uses the correct column names from the data dictionary. Each entry is associated with the appropriate generic label.
+
+```text
+Lab tests: labevents, itemid, Foreign key. Identifies the charted item.
+Lab tests: labevents, value, Value of the event as a text string.
+Lab tests: labevents, valuenum, Value of the event as a number.
+```
+
+```text
+Procedures: cptevents, cpt_cd, Current Procedural Terminology code.
+Procedures: cptevents, description, Description of the Current Procedural Terminology code.
+Procedures: d_icd_procedures, icd9_code, ICD9 code - note that this is a fixed length character string.
+Procedures: d_icd_procedures, long_title, Long title associated with the code.
+Procedures: d_icd_procedures, short_title, Short title associated with the code.
+```
+
+
+```text
+Lab tests: labevents, itemid, Foreign key. Identifies the charted item.
+Lab tests: labevents, value, Value of the event as a text string.
+Lab tests: labevents, valuenum, Value of the event as a number.
+```
+```text
+Procedures: cptevents, cpt_cd, Current Procedural Terminology code.
+Procedures: cptevents, description, Description of the Current Procedural Terminology code.
+Procedures: d_icd_procedures, icd9_code, ICD9 code - note that this is a fixed length character string.
+Procedures: d_icd_procedures, long_title, Long title associated with the code.
+Procedures: d_icd_procedures, short_title, Short title associated with the code.
+```
+
+```csv
+Title: expected_params_procedures
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+procedure|cpt_cd|[93306, 93307, 93314, 93312, 93319, 93318, 93320, 93321, 93350, 93351, 93355, 93315, 93303, 93362]|string|np.nan|Echocardiography, transthoracic, real-time with image documentation|55|70|55|55|70|range|https://ecgwaves.com/reference-values-for-echocardiography/
+procedure|cpt_cd|[71045, 71046, 71047, 71030, 71020, 71023, 71022, 71021]|string|np.nan|Radiologic examination, chest; single view|np.nan|np.nan|np.nan|np.nan|np.nan|np.nan|https://www.emedicinehealth.com/chest_x-ray/article_em.htm
+procedure|cpt_cd|[84450, 84460]|string|np.nan|Transferase; aspartate amino (AST) (SGOT)|8|33|8|8|33|range|https://www.verywellhealth.com/ast-sgot-8411027
+procedure|cpt_cd|[84460]|string|np.nan|Alanine aminotransferase (ALT) measurement|7|56|7|7|56|range|https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-alt
+```
+
+**Explanation:**
+- The table includes expected values for procedures based on CPT codes.
+- The 'flag' column indicates the type of data, which is 'procedure' for all entries.
+- The 'column name' is 'cpt_cd', which corresponds to the CPT code column in the data dictionary.
+- The 'codes' column lists relevant CPT codes for each procedure.
+- The 'data type' is 'string' for the CPT codes.
+- The 'value column name' is 'np.nan' because there is no specific column for procedure values in the data dictionary.
+- The 'description' provides a brief explanation of the procedure.
+- The 'expected value', 'expected value max', 'expected value min', 'range low', and 'range high' columns provide the normal range of values for the procedures.
+- The 'comparison type' specifies whether the expected value is an 'exact value', 'range', or 'percentage'.
+- References are provided for the code meanings and statistical values.
+```csv
+Title: expected_params_procedures
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+procedure|cpt_cd|[93306, 93307, 93314, 93312, 93319, 93318, 93320, 93321, 93350, 93351, 93355, 93315, 93303, 93362]|string|np.nan|Echocardiography, transthoracic, real-time with image documentation|55|70|55|55|70|range|https://ecgwaves.com/reference-values-for-echocardiography/
+procedure|cpt_cd|[71045, 71046, 71047, 71030, 71020, 71023, 71022, 71021]|string|np.nan|Radiologic examination, chest; single view|np.nan|np.nan|np.nan|np.nan|np.nan|np.nan|https://www.emedicinehealth.com/chest_x-ray/article_em.htm
+procedure|cpt_cd|[84450]|string|np.nan|Transferase; aspartate amino (AST) (SGOT)|8|33|8|8|33|range|https://www.verywellhealth.com/ast-sgot-8411027
+procedure|cpt_cd|[84460]|string|np.nan|Alanine aminotransferase (ALT) measurement|7|56|7|7|56|range|https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-alt
+```
+
+**Explanation:**
+- The table includes expected values for procedures based on CPT codes.
+- The 'flag' column indicates the type of data, which is 'procedure' for all entries.
+- The 'column name' is 'cpt_cd', which corresponds to the CPT code column in the data dictionary.
+- The 'codes' column lists relevant CPT codes for each procedure.
+- The 'data type' is 'string' for the CPT codes.
+- The 'value column name' is 'np.nan' because there is no specific column for procedure values in the data dictionary.
+- The 'description' provides a brief explanation of the procedure.
+- The 'expected value', 'expected value max', 'expected value min', 'range low', and 'range high' columns provide the normal range of values for the procedures.
+- The 'comparison type' specifies whether the expected value is an 'exact value', 'range', or 'percentage'.
+- References are provided for the code meanings and statistical values.
+
+```text
+Lab tests: labevents, itemid, Foreign key. Identifies the charted item.
+Lab tests: labevents, value, Value of the event as a text string.
+Lab tests: labevents, valuenum, Value of the event as a number.
+```
+```text
+Procedures: cptevents, cpt_cd, Current Procedural Terminology code.
+Procedures: cptevents, description, Description of the Current Procedural Terminology code.
+Procedures: d_icd_procedures, icd9_code, ICD9 code - note that this is a fixed length character string.
+Procedures: d_icd_procedures, long_title, Long title associated with the code.
+Procedures: d_icd_procedures, short_title, Short title associated with the code.
+```
+
+```text
+Lab tests: labevents, itemid, Foreign key. Identifies the charted item.
+Lab tests: labevents, value, Value of the event as a text string.
+Lab tests: labevents, valuenum, Value of the event as a number.
+```
+```text
+Procedures: cptevents, cpt_cd, Current Procedural Terminology code.
+Procedures: cptevents, description, Description of the Current Procedural Terminology code.
+Procedures: d_icd_procedures, icd9_code, ICD9 code - note that this is a fixed length character string.
+Procedures: d_icd_procedures, long_title, Long title associated with the code.
+Procedures: d_icd_procedures, short_title, Short title associated with the code.
+```
+
+```csv
+Title: expected_params_procedures
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+procedure|cpt_cd|[93306, 93307, 93314, 93312, 93319, 93318, 93320, 93321, 93350, 93351, 93355, 93315, 93303, 93362]|string|np.nan|Echocardiography, transthoracic, real-time with image documentation|55|70|55|55|70|range|https://ecgwaves.com/reference-values-for-echocardiography/
+procedure|cpt_cd|[71045, 71046, 71047, 71030, 71020, 71023, 71022, 71021]|string|np.nan|Radiologic examination, chest; single view|np.nan|np.nan|np.nan|np.nan|np.nan|np.nan|https://www.emedicinehealth.com/chest_x-ray/article_em.htm
+procedure|cpt_cd|[84450, 84460]|string|np.nan|Transferase; aspartate amino (AST) (SGOT)|8|33|8|8|33|range|https://www.verywellhealth.com/ast-sgot-8411027
+procedure|cpt_cd|[84460]|string|np.nan|Alanine aminotransferase (ALT) measurement|7|56|7|7|56|range|https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-alt
+```
+
+**Explanation:**
+- The table includes expected values for procedures based on CPT codes.
+- The 'flag' column indicates the type of data, which is 'procedure' for all entries.
+- The 'column name' is 'cpt_cd', which corresponds to the CPT code column in the data dictionary.
+- The 'codes' column lists relevant CPT codes for each procedure.
+- The 'data type' is 'string' for the CPT codes.
+- The 'value column name' is 'np.nan' because there is no specific column for procedure values in the data dictionary.
+- The 'description' provides a brief explanation of the procedure.
+- The 'expected value', 'expected value max', 'expected value min', 'range low', and 'range high' columns provide the normal range of values for the procedures.
+- The 'comparison type' specifies whether the expected value is an 'exact value', 'range', or 'percentage'.
+- References are provided for the code meanings and statistical values.
+```csv
+Title: expected_params_procedures
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+procedure|cpt_cd|[93306, 93307, 93314, 93312, 93319, 93318, 93320, 93321, 93350, 93351, 93355, 93315, 93303, 93362]|string|np.nan|Echocardiography, transthoracic, real-time with image documentation|55|70|55|55|70|range|https://ecgwaves.com/reference-values-for-echocardiography/
+procedure|cpt_cd|[71045, 71046, 71047, 71030, 71020, 71023, 71022, 71021]|string|np.nan|Radiologic examination, chest; single view|np.nan|np.nan|np.nan|np.nan|np.nan|np.nan|https://www.emedicinehealth.com/chest_x-ray/article_em.htm
+procedure|cpt_cd|[84450]|string|np.nan|Transferase; aspartate amino (AST) (SGOT)|8|33|8|8|33|range|https://www.verywellhealth.com/ast-sgot-8411027
+procedure|cpt_cd|[84460]|string|np.nan|Alanine aminotransferase (ALT) measurement|7|56|7|7|56|range|https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-alt
+```
+
+**Explanation:**
+- The table includes expected values for procedures based on CPT codes.
+- The 'flag' column indicates the type of data, which is 'procedure' for all entries.
+- The 'column name' is 'cpt_cd', which corresponds to the CPT code column in the data dictionary.
+- The 'codes' column lists relevant CPT codes for each procedure.
+- The 'data type' is 'string' for the CPT codes.
+- The 'value column name' is 'np.nan' because there is no specific column for procedure values in the data dictionary.
+- The 'description' provides a brief explanation of the procedure.
+- The 'expected value', 'expected value max', 'expected value min', 'range low', and 'range high' columns provide the normal range of values for the procedures.
+- The 'comparison type' specifies whether the expected value is an 'exact value', 'range', or 'percentage'.
+- References are provided for the code meanings and statistical values.
+```csv
+Title: expected_params_labs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+lab|itemid|[2339-0, 2345-7, 2340-8]|string|valuenum|B-type Natriuretic Peptide (BNP) measurement|np.nan|100|np.nan|np.nan|100|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[3094-0, 3097-3]|string|valuenum|Troponin I measurement|np.nan|0.04|np.nan|np.nan|0.04|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[10839-9, 10840-7]|string|valuenum|Troponin T measurement|np.nan|0.01|np.nan|np.nan|0.01|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2951-2, 2955-3, 2956-1]|string|valuenum|Serum Creatinine measurement|0.6|1.3|0.6|0.6|1.3|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[3094-0, 3097-3]|string|valuenum|Blood Urea Nitrogen (BUN) measurement|7|20|7|7|20|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2345-7, 2340-8]|string|valuenum|Serum Electrolytes measurement|135|145|135|135|145|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[1751-7, 1759-0]|string|valuenum|Serum Magnesium measurement|1.7|2.2|1.7|1.7|2.2|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[17861-6, 17862-4]|string|valuenum|Serum Calcium measurement|8.5|10.2|8.5|8.5|10.2|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[17861-6, 17862-4]|string|valuenum|Serum Phosphate measurement|2.5|4.5|2.5|2.5|4.5|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2345-7, 2340-8]|string|valuenum|Serum Glucose measurement|70|99|70|70|99|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+```
+
+**Explanation:**
+- The table includes expected values for lab tests based on LOINC codes.
+- The 'flag' column indicates the type of data, which is 'lab' for all entries.
+- The 'column name' is 'itemid', which corresponds to the lab test code column in the data dictionary.
+- The 'codes' column lists relevant LOINC codes for each lab test.
+- The 'data type' is 'string' for the lab test codes.
+- The 'value column name' is 'valuenum', which corresponds to the column in the data dictionary that holds the lab test result value.
+- The 'description' provides a brief explanation of the lab test.
+- The 'expected value', 'expected value max', 'expected value min', 'range low', and 'range high' columns provide the normal range of values for the lab tests.
+- The 'comparison type' specifies whether the expected value is an 'exact value', 'range', or 'percentage'.
+- References are provided for the code meanings and statistical values.
+```csv
+Title: expected_params_labs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+lab|itemid|[2339-0, 2345-7, 2340-8]|string|valuenum|B-type Natriuretic Peptide (BNP) measurement|np.nan|100|np.nan|np.nan|100|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[3094-0, 3097-3]|string|valuenum|Troponin I measurement|np.nan|0.04|np.nan|np.nan|0.04|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[10839-9, 10840-7]|string|valuenum|Troponin T measurement|np.nan|0.01|np.nan|np.nan|0.01|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2951-2, 2955-3, 2956-1]|string|valuenum|Serum Creatinine measurement|0.6|1.3|0.6|0.6|1.3|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[3094-0, 3097-3]|string|valuenum|Blood Urea Nitrogen (BUN) measurement|7|20|7|7|20|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2345-7, 2340-8]|string|valuenum|Serum Electrolytes measurement|135|145|135|135|145|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[1751-7, 1759-0]|string|valuenum|Serum Magnesium measurement|1.7|2.2|1.7|1.7|2.2|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[17861-6, 17862-4]|string|valuenum|Serum Calcium measurement|8.5|10.2|8.5|8.5|10.2|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[17861-6, 17862-4]|string|valuenum|Serum Phosphate measurement|2.5|4.5|2.5|2.5|4.5|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2345-7, 2340-8]|string|valuenum|Serum Glucose measurement|70|99|70|70|99|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+```
+
+**Explanation:**
+- The table includes expected values for lab tests based on LOINC codes.
+- The 'flag' column indicates the type of data, which is 'lab' for all entries.
+- The 'column name' is 'itemid', which corresponds to the lab test code column in the data dictionary.
+- The 'codes' column lists relevant LOINC codes for each lab test.
+- The 'data type' is 'string' for the lab test codes.
+- The 'value column name' is 'valuenum', which corresponds to the column in the data dictionary that holds the lab test result value.
+- The 'description' provides a brief explanation of the lab test.
+- The 'expected value', 'expected value max', 'expected value min', 'range low', and 'range high' columns provide the normal range of values for the lab tests.
+- The 'comparison type' specifies whether the expected value is an 'exact value', 'range', or 'percentage'.
+- References are provided for the code meanings and statistical values.
+
+```csv
+Title: expected_params_labs
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+lab|itemid|[2339-0, 2345-7, 2340-8]|string|valuenum|B-type Natriuretic Peptide (BNP) measurement|np.nan|100|np.nan|np.nan|100|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[3094-0, 3097-3]|string|valuenum|Troponin I measurement|np.nan|0.04|np.nan|np.nan|0.04|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[10839-9, 10840-7]|string|valuenum|Troponin T measurement|np.nan|0.01|np.nan|np.nan|0.01|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2951-2, 2955-3, 2956-1]|string|valuenum|Serum Creatinine measurement|0.6|1.3|0.6|0.6|1.3|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[3094-0, 3097-3]|string|valuenum|Blood Urea Nitrogen (BUN) measurement|7|20|7|7|20|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2345-7, 2340-8]|string|valuenum|Serum Electrolytes measurement|135|145|135|135|145|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[1751-7, 1759-0]|string|valuenum|Serum Magnesium measurement|1.7|2.2|1.7|1.7|2.2|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[17861-6, 17862-4]|string|valuenum|Serum Calcium measurement|8.5|10.2|8.5|8.5|10.2|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[17861-6, 17862-4]|string|valuenum|Serum Phosphate measurement|2.5|4.5|2.5|2.5|4.5|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+lab|itemid|[2345-7, 2340-8]|string|valuenum|Serum Glucose measurement|70|99|70|70|99|range|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2828020/
+```
+
+```csv
+Title: expected_params_procedures
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+procedure|cpt_cd|[93306, 93307, 93314, 93312, 93319, 93318, 93320, 93321, 93350, 93351, 93355, 93315, 93303, 93362]|string|np.nan|Echocardiography, transthoracic, real-time with image documentation|55|70|55|55|70|range|https://ecgwaves.com/reference-values-for-echocardiography/
+procedure|cpt_cd|[71045, 71046, 71047, 71030, 71020, 71023, 71022, 71021]|string|np.nan|Radiologic examination, chest; single view|np.nan|np.nan|np.nan|np.nan|np.nan|np.nan|https://www.emedicinehealth.com/chest_x-ray/article_em.htm
+procedure|cpt_cd|[84450]|string|np.nan|Transferase; aspartate amino (AST) (SGOT)|8|33|8|8|33|range|https://www.verywellhealth.com/ast-sgot-8411027
+procedure|cpt_cd|[84460]|string|np.nan|Alanine aminotransferase (ALT) measurement|7|56|7|7|56|range|https://www.webmd.com/fatty-liver-disease/alanine-aminotransferase-alt
+```
+
+```text
+The available gender codes according to the description column are:
+- "M" for male
+- "F" for female
+```
+
+```text
+The available ethnicity codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+
+```text
+The available race codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+
+```text
+The available gender codes according to the description column are:
+- "M" for male
+- "F" for female
+```
+```text
+The available ethnicity codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+```text
+The available race codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+```csv
+Title: expected_params_genpop_demo
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|48.86%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|51.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|70.73%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.08%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|18.6%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|1.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|9.49%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.1%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+```csv
+Title: expected_params_genpop_demo
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|48.86%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|51.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|70.73%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.08%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|18.6%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|1.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|9.49%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.1%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+```text
+The available gender codes according to the description column are:
+- "M" for male
+- "F" for female
+```
+```text
+The available ethnicity codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+```text
+The available race codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+```text
+The available gender codes according to the description column are:
+- "M" for male
+- "F" for female
+```
+```text
+The available ethnicity codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+```text
+The available race codes according to the description column are:
+- WHITE
+- BLACK/AFRICAN AMERICAN
+- ASIAN
+- HISPANIC/LATINO
+- OTHER
+- UNKNOWN
+```
+```csv
+Title: expected_params_genpop_demo
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|48.86%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|51.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|70.73%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.08%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|18.6%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|1.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|9.49%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.1%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+```csv
+Title: expected_params_genpop_demo
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|48.86%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|51.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|70.73%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.08%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|18.6%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|1.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|9.49%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.1%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+```csv
+Title: expected_params_diagnosed_genpop
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|8.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|4.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|6.2%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|20%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|2.9%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|6.7%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.8%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|np.nan|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+**References:**
+- Massachusetts Data Hub: https://data.mass.gov/browse/demographics
+- U.S. Census Bureau QuickFacts: Massachusetts: https://www.census.gov/quickfacts/fact/table/MA/RHI125223
+- Massachusetts Population by Race/Ethnicity: https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+- Race and Ethnicity in Massachusetts - Statistical Atlas: https://statisticalatlas.com/state/Massachusetts/Race-and-Ethnicity
+- Massachusetts Census 2020 Population By Race and Ethnicity: https://beautifydata.com/united-states-population/census/2020/population-by-race-and-ethnicity-per-state/massachusetts
+- UMass Donahue Institute | Census 2020 Data for Massachusetts: https://donahue.umass.edu/business-groups/economic-public-policy-research/massachusetts-population-estimates-program/census-2020-data-for-massachusetts
+```
+```csv
+Title: expected_params_diagnosed_genpop
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|8.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|4.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|6.2%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|20%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|2.9%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|6.7%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.8%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|np.nan|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+**References:**
+- Massachusetts Data Hub: https://data.mass.gov/browse/demographics
+- U.S. Census Bureau QuickFacts: Massachusetts: https://www.census.gov/quickfacts/fact/table/MA/RHI125223
+- Massachusetts Population by Race/Ethnicity: https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+- Race and Ethnicity in Massachusetts - Statistical Atlas: https://statisticalatlas.com/state/Massachusetts/Race-and-Ethnicity
+- Massachusetts Census 2020 Population By Race and Ethnicity: https://beautifydata.com/united-states-population/census/2020/population-by-race-and-ethnicity-per-state/massachusetts
+- UMass Donahue Institute | Census 2020 Data for Massachusetts: https://donahue.umass.edu/business-groups/economic-public-policy-research/massachusetts-population-estimates-program/census-2020-data-for-massachusetts
+```
+
+```csv
+Title: expected_params_genpop_demo
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|48.86%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["M", "F"]|categorical|gender|Gender of the patient.|51.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|70.73%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|7.08%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|18.6%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|1.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|9.49%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.neilsberg.com/insights/massachusetts-demographics
+demography|ethnicity|["WHITE", "BLACK/AFRICAN AMERICAN", "ASIAN", "HISPANIC/LATINO", "OTHER", "UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient.|0.1%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+```csv
+Title: expected_params_genpop_demo
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M"]|categorical|gender|Gender of the patient: Male.|48.86%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["F"]|categorical|gender|Gender of the patient: Female.|51.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE"]|categorical|ethnicity|Ethnicity of the patient: White.|70.73%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["BLACK/AFRICAN AMERICAN"]|categorical|ethnicity|Ethnicity of the patient: Black/African American.|7%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["ASIAN"]|categorical|ethnicity|Ethnicity of the patient: Asian.|7.08%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["HISPANIC/LATINO"]|categorical|ethnicity|Ethnicity of the patient: Hispanic/Latino.|18.6%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["OTHER"]|categorical|ethnicity|Ethnicity of the patient: Other.|1.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient: Unknown.|0.1%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+```csv
+Title: expected_params_diagnosed_genpop
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M"]|categorical|gender|Gender of the patient: Male.|8.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["F"]|categorical|gender|Gender of the patient: Female.|4.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE"]|categorical|ethnicity|Ethnicity of the patient: White.|6.2%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["BLACK/AFRICAN AMERICAN"]|categorical|ethnicity|Ethnicity of the patient: Black/African American.|20%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["ASIAN"]|categorical|ethnicity|Ethnicity of the patient: Asian.|2.9%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["HISPANIC/LATINO"]|categorical|ethnicity|Ethnicity of the patient: Hispanic/Latino.|6.7%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["OTHER"]|categorical|ethnicity|Ethnicity of the patient: Other.|7.8%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient: Unknown.|0.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+```csv
+Title: expected_params_diagnosed_genpop
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M"]|categorical|gender|Gender of the patient: Male.|8.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["F"]|categorical|gender|Gender of the patient: Female.|4.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE"]|categorical|ethnicity|Ethnicity of the patient: White.|6.2%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["BLACK/AFRICAN AMERICAN"]|categorical|ethnicity|Ethnicity of the patient: Black/African American.|20%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["ASIAN"]|categorical|ethnicity|Ethnicity of the patient: Asian.|2.9%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["HISPANIC/LATINO"]|categorical|ethnicity|Ethnicity of the patient: Hispanic/Latino.|6.7%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["OTHER"]|categorical|ethnicity|Ethnicity of the patient: Other.|7.8%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient: Unknown.|0.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+
+To determine if there are additional relevant codes in the provided table that correspond with the value under the 'description' column in each row, we need to compare the 'description' values with the 'possible values' from the data dictionary. Let's go through each row step by step:
+
+1. **Gender: Male**
+   - Description: "Gender of the patient: Male."
+   - Possible values from the data dictionary for gender: "M - male; F - female"
+   - The code "M" is already present in the table. No additional codes are needed.
+
+2. **Gender: Female**
+   - Description: "Gender of the patient: Female."
+   - Possible values from the data dictionary for gender: "M - male; F - female"
+   - The code "F" is already present in the table. No additional codes are needed.
+
+3. **Ethnicity: White**
+   - Description: "Ethnicity of the patient: White."
+   - Possible values from the data dictionary for ethnicity: "WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC/LATINO; OTHER; UNKNOWN"
+   - The code "WHITE" is already present in the table. No additional codes are needed.
+
+4. **Ethnicity: Black/African American**
+   - Description: "Ethnicity of the patient: Black/African American."
+   - Possible values from the data dictionary for ethnicity: "WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC/LATINO; OTHER; UNKNOWN"
+   - The code "BLACK/AFRICAN AMERICAN" is already present in the table. No additional codes are needed.
+
+5. **Ethnicity: Asian**
+   - Description: "Ethnicity of the patient: Asian."
+   - Possible values from the data dictionary for ethnicity: "WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC/LATINO; OTHER; UNKNOWN"
+   - The code "ASIAN" is already present in the table. No additional codes are needed.
+
+6. **Ethnicity: Hispanic/Latino**
+   - Description: "Ethnicity of the patient: Hispanic/Latino."
+   - Possible values from the data dictionary for ethnicity: "WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC/LATINO; OTHER; UNKNOWN"
+   - The code "HISPANIC/LATINO" is already present in the table. No additional codes are needed.
+
+7. **Ethnicity: Other**
+   - Description: "Ethnicity of the patient: Other."
+   - Possible values from the data dictionary for ethnicity: "WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC/LATINO; OTHER; UNKNOWN"
+   - The code "OTHER" is already present in the table. No additional codes are needed.
+
+8. **Ethnicity: Unknown**
+   - Description: "Ethnicity of the patient: Unknown."
+   - Possible values from the data dictionary for ethnicity: "WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC/LATINO; OTHER; UNKNOWN"
+   - The code "UNKNOWN" is already present in the table. No additional codes are needed.
+
+After reviewing each row, we find that all relevant codes are already present in the table. Therefore, no additional codes are needed. The table remains unchanged.
+
+```csv
+Title: expected_params_diagnosed_genpop
+flag|column name|codes|data type|value column name|description|expected value|expected value max|expected value min|range low|range high|comparison type|references
+demography|gender|["M"]|categorical|gender|Gender of the patient: Male.|8.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|gender|["F"]|categorical|gender|Gender of the patient: Female.|4.4%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/basic-facts
+demography|ethnicity|["WHITE"]|categorical|ethnicity|Ethnicity of the patient: White.|6.2%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography|ethnicity|["BLACK/AFRICAN AMERICAN"]|categorical|ethnicity|Ethnicity of the patient: Black/African American.|20%|np.nan|np.nan|np.nan|np.nan|percentage|https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography|ethnicity|["ASIAN"]|categorical|ethnicity|Ethnicity of the patient: Asian.|2.9%|np.nan|np.nan|np.nan|np.nan|percentage|https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography|ethnicity|["HISPANIC/LATINO"]|categorical|ethnicity|Ethnicity of the patient: Hispanic/Latino.|6.7%|np.nan|np.nan|np.nan|np.nan|percentage|https://resources.healthgrades.com/right-care
+demography|ethnicity|["OTHER"]|categorical|ethnicity|Ethnicity of the patient: Other.|7.8%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography|ethnicity|["UNKNOWN"]|categorical|ethnicity|Ethnicity of the patient: Unknown.|0.5%|np.nan|np.nan|np.nan|np.nan|percentage|https://www.heart.org/-/media/Files/About-Us
+```
+

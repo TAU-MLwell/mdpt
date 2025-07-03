@@ -1,0 +1,9 @@
+flag,column name,codes,data type,value column name,description,expected value,expected value max,expected value min,range low,range high,comparison type,references
+demography,gender,"[""M""]",categorical,gender,Gender of the patient: Male.,48.86%,np.nan,np.nan,np.nan,np.nan,percentage,https://www.mass.gov/info-details/basic-facts
+demography,gender,"[""F""]",categorical,gender,Gender of the patient: Female.,51.5%,np.nan,np.nan,np.nan,np.nan,percentage,https://www.mass.gov/info-details/basic-facts
+demography,ethnicity,"[""WHITE""]",categorical,ethnicity,Ethnicity of the patient: White.,70.73%,np.nan,np.nan,np.nan,np.nan,percentage,https://www.mass.gov/info-details/massachusetts-population-by-raceethnicity
+demography,ethnicity,"[""BLACK/AFRICAN AMERICAN""]",categorical,ethnicity,Ethnicity of the patient: Black/African American.,7%,np.nan,np.nan,np.nan,np.nan,percentage,https://pubmed.ncbi.nlm.nih.gov/33741769/
+demography,ethnicity,"[""ASIAN""]",categorical,ethnicity,Ethnicity of the patient: Asian.,7.08%,np.nan,np.nan,np.nan,np.nan,percentage,https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645
+demography,ethnicity,"[""HISPANIC/LATINO""]",categorical,ethnicity,Ethnicity of the patient: Hispanic/Latino.,18.6%,np.nan,np.nan,np.nan,np.nan,percentage,https://resources.healthgrades.com/right-care
+demography,ethnicity,"[""OTHER""]",categorical,ethnicity,Ethnicity of the patient: Other.,1.5%,np.nan,np.nan,np.nan,np.nan,percentage,https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5
+demography,ethnicity,"[""UNKNOWN""]",categorical,ethnicity,Ethnicity of the patient: Unknown.,0.1%,np.nan,np.nan,np.nan,np.nan,percentage,https://www.heart.org/-/media/Files/About-Us

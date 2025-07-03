@@ -1,0 +1,8 @@
+flag,column_name,codes,data_type,value_column_name,description,expected_value,expected_value_max,expected_value_min,range_low,range_high,comparison_type,references,fixed,remove
+demography,gender,"[""M""]",categorical,gender,Gender of the patient: Male.,56%,,,,,percentage,"""American Heart Association, 2023 Heart Disease and Stroke Statistics Update (https://www.heart.org/en/news/2023)""",True,False
+demography,gender,"[""F""]",categorical,gender,Gender of the patient: Female.,,,,50,55,range,"(""American Heart Association (AHA) 2023 Heart Disease and Stroke Statistics Update"")",True,False
+demography,ethnicity,"[""WHITE""]",categorical,ethnicity,Ethnicity of the patient: White.,,,,70,75,range,"""CDC (https://www.cdc.gov/heartdisease/heart_failure.htm); American Heart Association (https://www.heart.org/en/health-topics/heart-failure)""",True,False
+demography,ethnicity,"[""BLACK/AFRICAN AMERICAN""]",categorical,ethnicity,Ethnicity of the patient: Black/African American.,25%,,,,,percentage,"""https://pubmed.ncbi.nlm.nih.gov/33741769/""",True,False
+demography,ethnicity,"[""ASIAN""]",categorical,ethnicity,Ethnicity of the patient: Asian.,2.9%,,,,,percentage,"(""https://jamanetwork.com/journals/jamanetworkopen/fullarticle/2770645"")",False,False
+demography,ethnicity,"[""HISPANIC/LATINO""]",categorical,ethnicity,Ethnicity of the patient: Hispanic/Latino.,7.5%,,,,,percentage,"(""American Heart Association, 2021"", ""https://resources.healthgrades.com/right-care"")",True,False
+demography,ethnicity,"[""OTHER""]",categorical,ethnicity,Ethnicity of the patient: Other.,6.5%,,,,,percentage,"(""American Heart Association, 2023"")",True,False

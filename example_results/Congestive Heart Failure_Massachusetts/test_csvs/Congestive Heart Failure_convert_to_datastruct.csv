@@ -1,0 +1,5 @@
+table_name,column_name,description,generic
+patients,dob,Date of birth.,birthDate
+diagnoses_icd,icd9_code,ICD9 code for the diagnosis.,code
+admissions,admittime,Time of admission to the hospital.,codeDate
+patients,subject_id,Primary key. Identifies the patient.,personID
