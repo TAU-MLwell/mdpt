@@ -1,0 +1,2 @@
+mean_age , std , count , reference
+60 , 15 , 35500000 , CDC: https://www.cdc.gov/kidney-disease/php/data-research/index.html; NIDDK: https://www.niddk.nih.gov/health-information/health-statistics/kidney-disease

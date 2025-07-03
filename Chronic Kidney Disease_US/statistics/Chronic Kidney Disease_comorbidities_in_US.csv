@@ -1,0 +1,85 @@
+comorbidity,OMOP codes,prevalence
+Hypertension,"316866, 40398391, 40345175, 40323436, 40398396",24.4%
+Diabetes Mellitus without complication,"40389543, 201820, 111552007, 31321000119102",30%-40%
+Diabetes Mellitus with complication,"40386733, 4096038, 3520110, 4099213, 40547638",39.2%
+Hyperlipidemia,"432867, 438720, 4292079, 4096215, 40321212",45.5% to 67.8%
+Heart failure,"316139, 45766164, 4215689, 3548004, 3540945",18.6%
+Coronary Artery Disease,"317576, 4187067, 316995, 4134723, 4194618, 40321192",40%
+Peripheral Vascular Disease,"321052, 40648191, 40315969, 44782775, 317309",27.8%
+Major depressive disorder,370143000,29.9%
+Agitated depression,83458005,29.9%
+Depression,41006004,29.9%
+Severe depression,310497006,29.9%
+Symptoms of depression,394924000,29.9%
+Stuporous depression,79842004,29.9%
+Moderately severe depression,719593009,29.9%
+Depressed bipolar I disorder,49468007,29.9%
+Minimal depression,718636001,29.9%
+Endogenous depression,300706003,29.9%
+Depressed mood,366979004,29.9%
+"Major depression, melancholic type",320751009,29.9%
+Chronic depression,192080009,29.9%
+Depression requiring intervention,413296003,29.9%
+Minor depressive disorder,48589009,29.9%
+Moderate depression,310496002,29.9%
+Severe major depression,450714000,29.9%
+Mild major depression,87512008,29.9%
+Acute depression,712823008,29.9%
+FH: Depression,160329001,29.9%
+Recurrent depression,191616006,29.9%
+Depressive conduct disorder,231542000,29.9%
+"Major depression, melancholic type",62951006,29.9%
+Moderately severe major depression,719592004,29.9%
+Central nervous system depression,418072004,29.9%
+"Bipolar affective disorder, currently depressed",191630001,29.9%
+Depression - motion,255339005,29.9%
+Depression education,428901000124105,29.9%
+Depressive personality disorder,1084061000000106,29.9%
+Moderate major depression,832007,29.9%
+Atypical depressive disorder,191659001,29.9%
+Endogenous depression - recurrent,274948002,29.9%
+Knowledge level about depression management,440547003,29.9%
+Organic mood disorder of depressed type,42594001,29.9%
+"Major depression, single episode",36923009,29.9%
+Reactive depression (situational),87414006,29.9%
+Depressed mood in Alzheimer's disease,142001000119106,29.9%
+"Major depressive disorder, single episode with",63778009,29.9%
+Endogenous depression first episode,231499006,29.9%
+Masked depression,231500002,29.9%
+Persistent depressive disorder,1153575004,29.9%
+Severe recurrent major depression,281000119103,29.9%
+Education about depression,860721000000107,29.9%
+Level of depression,405049007,29.9%
+Recurrent major depression,66344007,29.9%
+Minimal major depression,720455008,29.9%
+Depression,LA10576-9,29.9%
+Mood disorder with depressive features due to,75837004,29.9%
+Depressive preoccupation,247776002,29.9%
+Moderately severe recurrent major depression,720452006,29.9%
+Self-control behavior: depression,405071002,29.9%
+Osteoporosis,"80502, 40321845, 4173335, 4002134, 44824536",31.8%
+Osteopenia,"4195039, 40321904, 45767044, 45757320, 40557720",28.5%
+Gout,"440674, 40321216, 4096347, 40321215, 40388651","16.6% overall, 7.5% in CKD stages 1–2, 22.8% in CKD stages 3–5"
+Sleep Apnea,"313459, 442588, 42872389, 27405005, 442164004",53.2%
+Hyperparathyroidism,"133729, 4009174, 40321160, 136934, 40387238",12-54%
+Disease of liver,194984,28.46%
+Liver disorder NOS,"4059300, 40317584, 3539203, 40317578",28.46%
+Liver problem,4113557,28.46%
+Liver disease due to peroxisomal disease,37162164,28.46%
+Other liver disorders,4059292,28.46%
+Liver normal,4115573,28.46%
+Chronic liver disease,4212540,28.46%
+Liver adenomatosis,37164288,28.46%
+Liver damage,4352876,28.46%
+Liver disorder due to infection,4341650,28.46%
+Liver transplant disorder,4340951,28.46%
+Veno-occlusive disease of the liver,4277276,28.46%
+Vascular disorder of liver,4341654,28.46%
+Toxic liver disease,4055224,28.46%
+O/E - liver,4207165,28.46%
+Liver regeneration,4277921,28.46%
+Blood coagulation disorder due to liver disease,4290259,28.46%
+Disorder of liver and/or biliary tract,1244824,28.46%
+Liver cirrhosis due to classical cystic fibrosis,605193,28.46%
+Liver pain,4009394,28.46%
+Compensated liver disease,45771255,28.46%
