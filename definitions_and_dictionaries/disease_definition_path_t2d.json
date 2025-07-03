@@ -1,0 +1,14 @@
+{
+    "population": {
+        "diagnosis": "Type 2 diabetes",
+        "region" : "US"
+        },
+
+    "data": {
+        "coding": "OMOP",
+        "drug": "OMOP",
+        "procedure": "OMOP",
+        "lab": "OMOP",
+        "data_structure": "All of Us Registered Tier Dataset v7 CDR Data Dictionary (R2022Q4R9) - Field (Column) Generalizations simple minimal.csv"
+        }
+}

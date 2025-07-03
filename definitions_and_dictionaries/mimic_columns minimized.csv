@@ -1,0 +1,126 @@
+Table,Field Name,Description,possible values
+admissions,admission_location,Admission location.
+admissions,admission_type,"Type of admission, for example emergency or elective."
+admissions,admittime,Time of admission to the hospital.
+admissions,deathtime,Time of death.
+admissions,diagnosis,Diagnosis.
+admissions,discharge_location,Discharge location
+admissions,dischtime,Time of discharge from the hospital.
+admissions,ethnicity,Ethnicity,"WHITE; BLACK/AFRICAN AMERICAN; ASIAN; HISPANIC OR LATINO; OTHER; UNKNOWN; WHITE - RUSSIAN; ASIAN - CHINESE; HISPANIC/LATINO - PUERTO RICAN; ASIAN - VIETNAMESE; WHITE - BRAZILIAN; BLACK/AFRICAN; ASIAN - FILIPINO; WHITE - EASTERN EUROPEAN; ASIAN - CAMBODIAN; HISPANIC/LATINO - DOMINICAN; ASIAN - JAPANESE; BLACK/HAITIAN; ASIAN - KOREAN; WHITE - NORTH AFRICAN; ASIAN - INDIAN; HISPANIC/LATINO - CENTRAL AMERICAN (OTHER); ASIAN - THAI; WHITE - MIDDLE EASTERN; ASIAN - ASIAN INDIAN; HISPANIC/LATINO - CUBAN; ASIAN - LAOTIAN; WHITE - WESTERN EUROPEAN; HISPANIC/LATINO - MEXICAN; HISPANIC/LATINO - SOUTH AMERICAN"
+admissions,hadm_id,Primary key. Identifies the hospital stay.
+admissions,has_chartevents_data,Hospital admission has at least one observation in the CHARTEVENTS table.
+admissions,hospital_expire_flag,
+admissions,insurance,Insurance type.
+admissions,language,Language.
+admissions,marital_status,Marital status.
+admissions,religion,Religon.
+admissions,row_id,Unique row identifier.
+admissions,subject_id,Foreign key. Identifies the patient.
+caregivers,cgid,Unique caregiver identifier.
+caregivers,description,"More detailed description of the caregiver, if available."
+caregivers,label,"Title of the caregiver, for example MD or RN."
+caregivers,row_id,Unique row identifier.
+chartevents,cgid,Foreign key. Identifies the caregiver.
+chartevents,charttime,Time when the event occured.
+chartevents,error,Flag to highlight an error with the event.
+chartevents,hadm_id,Foreign key. Identifies the hospital stay.
+chartevents,icustay_id,Foreign key. Identifies the ICU stay.
+chartevents,itemid,Foreign key. Identifies the charted item.
+chartevents,resultstatus,Result status of lab data.
+chartevents,row_id,Unique row identifier.
+chartevents,stopped,"Text string indicating the stopped status of an event (i.e. stopped, not stopped)."
+chartevents,storetime,Time when the event was recorded in the system.
+chartevents,subject_id,Foreign key. Identifies the patient.
+chartevents,value,Value of the event as a text string.
+chartevents,valuenum,Value of the event as a number.
+chartevents,valueuom,Unit of measurement.
+chartevents,warning,Flag to highlight that the value has triggered a warning.
+cptevents,chartdate,"Date when the event occured, if available."
+cptevents,costcenter,"Center recording the code, for example the ICU or the respiratory unit."
+cptevents,cpt_cd,Current Procedural Terminology code.
+cptevents,cpt_number,Numerical element of the Current Procedural Terminology code.
+cptevents,cpt_suffix,"Text element of the Current Procedural Terminology, if any. Indicates code category."
+cptevents,description,"Description of the Current Procedural Terminology, if available."
+cptevents,hadm_id,Foreign key. Identifies the hospital stay.
+cptevents,row_id,Unique row identifier.
+cptevents,sectionheader,High-level section of the Current Procedural Terminology code.
+cptevents,subject_id,Foreign key. Identifies the patient.
+cptevents,subsectionheader,Subsection of the Current Procedural Terminology code.
+cptevents,ticket_id_seq,"Sequence number of the event, derived from the ticket ID."
+d_cpt,category,Code category.
+d_cpt,codesuffix,"Text element of the Current Procedural Terminology, if any."
+d_cpt,maxcodeinsubsection,Maximum code within the subsection.
+d_cpt,mincodeinsubsection,Minimum code within the subsection.
+d_cpt,row_id,Unique row identifier.
+d_cpt,sectionheader,Section header.
+d_cpt,sectionrange,Range of codes within the high-level section.
+d_cpt,subsectionheader,Subsection header.
+d_cpt,subsectionrange,Range of codes within the subsection.
+d_icd_diagnoses,icd9_code,"ICD9 code - note that this is a fixed length character field, as whitespaces are important in uniquely identifying ICD-9 codes."
+d_icd_diagnoses,long_title,Long title associated with the code.
+d_icd_diagnoses,row_id,Unique row identifier.
+d_icd_diagnoses,short_title,Short title associated with the code.
+d_icd_procedures,icd9_code,"ICD9 code - note that this is a fixed length character field, as whitespaces are important in uniquely identifying ICD-9 codes."
+d_icd_procedures,long_title,Long title associated with the code.
+d_icd_procedures,row_id,Unique row identifier.
+d_icd_procedures,short_title,Short title associated with the code.
+datetimeevents,cgid,Foreign key. Identifies the caregiver.
+datetimeevents,charttime,Time when the event occured.
+datetimeevents,error,Flag to highlight an error with the event.
+datetimeevents,hadm_id,Foreign key. Identifies the hospital stay.
+datetimeevents,icustay_id,Foreign key. Identifies the ICU stay.
+datetimeevents,itemid,Foreign key. Identifies the charted item.
+datetimeevents,resultstatus,Result status of lab data.
+datetimeevents,row_id,Unique row identifier.
+datetimeevents,stopped,Event was explicitly marked as stopped. Infrequently used by caregivers.
+datetimeevents,storetime,Time when the event was recorded in the system.
+datetimeevents,subject_id,Foreign key. Identifies the patient.
+datetimeevents,value,Value of the event as a text string.
+datetimeevents,valueuom,Unit of measurement.
+datetimeevents,warning,Flag to highlight that the value has triggered a warning.
+diagnoses_icd,hadm_id,Foreign key. Identifies the hospital stay.
+diagnoses_icd,icd9_code,ICD9 code for the diagnosis.
+diagnoses_icd,row_id,Unique row identifier.
+diagnoses_icd,seq_num,Priority of the code. Sequence 1 is the primary code.
+diagnoses_icd,subject_id,Foreign key. Identifies the patient.
+labevents,charttime,Time when the event occured.
+labevents,flag,Flag indicating whether the lab test value is considered abnormal (null if the test was normal).
+labevents,hadm_id,Foreign key. Identifies the hospital stay.
+labevents,itemid,Foreign key. Identifies the charted item.
+labevents,row_id,Unique row identifier.
+labevents,subject_id,Foreign key. Identifies the patient.
+labevents,value,Value of the event as a text string.
+labevents,valuenum,Value of the event as a number.
+labevents,valueuom,Unit of measurement.
+patients,dob,Date of birth.
+patients,dod,Date of death. Null if the patient was alive at least 90 days post hospital discharge.
+patients,dod_hosp,Date of death recorded in the hospital records.
+patients,dod_ssn,Date of death recorded in the social security records.
+patients,expire_flag,Flag indicating that the patient has died.
+patients,gender,Gender., "M - male; F - female" 
+patients,row_id,Unique row identifier.
+patients,subject_id,Primary key. Identifies the patient.
+prescriptions,dose_unit_rx,Unit of measurement associated with the dose.
+prescriptions,dose_val_rx,Dose of the drug prescribed.
+prescriptions,drug,Name of the drug.
+prescriptions,drug_name_generic,Generic drug name.
+prescriptions,drug_name_poe,Name of the drug on the Provider Order Entry interface.
+prescriptions,drug_type,Type of drug.
+prescriptions,enddate,Date when the prescription ended.
+prescriptions,form_unit_disp,Unit of measurement associated with the formulation.
+prescriptions,form_val_disp,Amount of the formulation dispensed.
+prescriptions,formulary_drug_cd,Formulary drug code.
+prescriptions,gsn,Generic Sequence Number.
+prescriptions,hadm_id,Foreign key. Identifies the hospital stay.
+prescriptions,icustay_id,Foreign key. Identifies the ICU stay.
+prescriptions,ndc,National Drug Code.
+prescriptions,prod_strength,Strength of the drug (product).
+prescriptions,route,"Route of administration, for example intravenous or oral."
+prescriptions,row_id,Unique row identifier.
+prescriptions,startdate,Date when the prescription started.
+prescriptions,subject_id,Foreign key. Identifies the patient.
+procedures_icd,hadm_id,Foreign key. Identifies the hospital stay.
+procedures_icd,icd9_code,ICD9 code associated with the procedure.
+procedures_icd,row_id,Unique row identifier.
+procedures_icd,seq_num,Lower procedure numbers occurred earlier.
+procedures_icd,subject_id,Foreign key. Identifies the patient.

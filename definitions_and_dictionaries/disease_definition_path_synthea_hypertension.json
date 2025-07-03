@@ -1,0 +1,14 @@
+{
+    "population": {
+        "diagnosis": "Hypertension",
+        "region" : "Massachusetts"
+        },
+
+    "data": {
+        "coding": "SNOMED-CT", 
+        "drug": "RxNorm", 
+        "procedure": "SNOMED-CT",
+        "lab": "LOINC",
+        "data_structure": "synthea_columns minimized.csv"
+        }
+}

@@ -1,0 +1,14 @@
+{
+    "population": {
+        "diagnosis": "Congestive Heart Failure",
+        "region" : "Massachusetts"
+        },
+
+    "data": {
+        "coding": "ICD-9", 
+        "drug": "NDC", 
+        "procedure": "CPT",
+        "lab": "LOINC",
+        "data_structure": "mimic_columns minimized.csv"
+        }
+}
