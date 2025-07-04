@@ -1,5 +1,7 @@
 # MDPT: Medical Data Pecking Tool
->A context-aware framework for automated quality assessment of structured medical data, introduced in our paper: [Medical Data Pecking: A Context-Aware Approach for Automated Quality Evaluation of Structured Medical Data](https://arxiv.org/abs/2507.02628)
+This repository contains the implementation of our framework for automatically evaluating the quality of structured medical datasets. The approach leverages contextual information to identify data inconsistencies, detect anomalies, and assess overall data reliability.
+
+ The method is detailed in our paper: [Medical Data Pecking: A Context-Aware Approach for Automated Quality Evaluation of Structured Medical Data](https://arxiv.org/abs/2507.02628)
 
 ![A schematic description of MDPT](figures/MDPT_flowchart.png)
 
