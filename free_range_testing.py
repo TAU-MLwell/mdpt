@@ -549,3 +549,5 @@ def free_range_testing(diagnosis, region, coding, drug, procedure,  lab, data_st
                 else:
                     f.write(message['content'] + "\n\n")
         f.close()
+
+    return

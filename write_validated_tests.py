@@ -400,7 +400,7 @@ def write_tests(diagnosis, region, coding, drug, procedure, lab, data_struct, mo
     global messages, client
 
     client = connect_to_openAI(model)
-
+    
     tests = pd.read_csv(f"validated/test_csvs/{diagnosis}_expected_params_comorbidities.csv", encoding="utf-8")
     tests.replace('np.nan', np.nan, inplace=True)
     
@@ -572,7 +572,7 @@ def write_tests(diagnosis, region, coding, drug, procedure, lab, data_struct, mo
         chk_age_dist_smlrty = f"""
         def dftest_calculate_age_distribution(data_df):
             # ref: {age_dist_stats['reference'].values}
-            '''Calculates and compares age distribution of {diagnosis} patients'''
+            # Calculates and compares age distribution of {diagnosis} patients
             limit = 0.05
             #calculate age distribution of patients
             try:

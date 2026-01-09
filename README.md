@@ -33,6 +33,7 @@ To address this gap, MDPT introduces a context-aware framework for automated dat
 ## Instructions
 **Prerequisites**
 - DFtest 0.5.4 should be pre-installed **where the evaluated dataset is stored**.
+- Install Python dependencies with `pip install -r requirements.txt` (covers core MDPT dependencies plus optional vector DB tooling).
 - The following system variables should be defined:
   - AZURE_API_KEY_4o - AzureOpenAI API key
   - AZURE_ENDPOINT_4o - AzureOpenAI API endpoint

@@ -15,7 +15,6 @@ def create_latex(diagnosis, region, coding, drug, procedure, lab, model):
     # Create a pdf file from the LaTeX document
     create_pdf = False
     
-    
     file = glob.glob('output/*_insights.txt')
     insights = open(file[0]).read()
     file = glob.glob('output/%s_%s_%s_*.txt' %(diagnosis,coding,region))

@@ -126,17 +126,6 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Give me your best answer. Please provide references.""",
     ]
 
-            #f"""Please provide age distribution among diagnosed patients with {diagnosis} in {region}. Please provide the age groups and the percentage of
-            #patients in each group. Use the following information:
-            #
-            #{search1['webPages']['value']}      
-            #
-            #if you can't find relevant data, use your intrinsic knowledge.      
-            #
-            #Arrange them in a csv table with a vertical line 
-            #as delimiter. Please add references. Add 'Title: age_distribution_in_{region}' before the CSV. Wrap the csv in '```csv' and '```'. Do not add 
-            #any other symbols (such as dashes or hypens) to the table. Give me your best answer. If needed, search the web and provide references.""",
-
     message_queue2 = [f"""Please provide mean and standard deviation of {diagnosis} diagnosis age in {region}. 
                       Please use the following information and prioritize more recent data:
 
@@ -312,10 +301,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
         drugs1.append(make_df(messages2[-1]['content']))
-        #messages1 += messages2[1:]
     
-    #messages = messages + messages1
-    #del messages[-len(messages1)+3:-2]
     
     messages3 = []
     messages3.append(messages[0])
@@ -381,9 +367,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
         Labs1.append(make_df(messages2[-1]['content']))
-        #messages1 += messages2[1:]
-        #messages = messages + messages1
-        #del messages[-len(messages1)+2:-2]
+
     
     messages3 = []
     messages3.append(messages[0])
@@ -399,7 +383,6 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
 
     messages = messages + messages1[1:]
 
-    #del messages[-len(messages1)+3:-2]
     
     # gender
     messages1 = []
@@ -468,14 +451,6 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     messages = messages + messages1[1:]
         #del messages[-len(messages1)+2:-2]
 
-    '''messages.append({"role": "user", "content":f"""Please arange the data according to the following table: {demo_list1}. Aggregate similar codes into a single row - codes under
-    '{coding} code', description of the similar codes under 'demographic feature'. Remove non-demographic codes. Keep the rest."""})
-    
-    messages = LLMwrapper(messages=messages, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
-    
-    messages.append({"role": "user", "content":f"""To the table you just created, add a column with population percentage in {region}. Give me your best answer.
-                        Do not change or remove any other column. Add 'Title: demography_coding' before the CSV."""})'''
-    
     # race
     messages1 = []
     messages1.append(messages[0])

@@ -247,3 +247,4 @@ def validate_suggestions(diagnosis, region, coding, drug, procedure, lab, model)
     d = make_df(reply[-1]['content'])[1]
     name = f"{diagnosis}_age_stats_in_{region}_validated.csv"
     d.to_csv(f"statistics/{name}", index=False, encoding="utf-8")
+    return

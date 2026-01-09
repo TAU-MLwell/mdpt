@@ -8,7 +8,7 @@ import os
 from pprint import pprint
 import requests
 import datetime as dt
-from azure.ai.projects.models import BingGroundingTool
+from azure.ai.agents.models import BingGroundingTool
 
 
 

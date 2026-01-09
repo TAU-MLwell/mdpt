@@ -1,0 +1,13 @@
+numpy
+pandas
+requests
+tiktoken
+openai
+azure-ai-projects
+azure-ai-agents
+azure-identity
+chromadb
+tqdm
+torch
+dftest
+scipy
