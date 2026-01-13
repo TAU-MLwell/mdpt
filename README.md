@@ -68,3 +68,6 @@ data_eval(data_df, measurement_df, drug_df)
 - To turn the output files into a final report, please run 'create_latex_report.py'. The path to the definition file and to the required report location should be changed:
   - definition_path
   - data_reports_path
+
+## License
+This project is licensed under the MIT License.
