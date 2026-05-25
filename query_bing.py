@@ -10,7 +10,7 @@ import requests
 import datetime as dt
 from tavily import TavilyClient
 
-def query_bing(query):
+def query_tavily(query):
     client = TavilyClient(os.environ['TAVILY_API_KEY'])
     response = client.search(
         query=query,
@@ -19,7 +19,7 @@ def query_bing(query):
     )
     return response
 
-def query_bing2(query):
+def query_bing(query):
     '''
     This sample makes a call to the Bing Web Search API with a query and returns relevant web search.
     Documentation: https://docs.microsoft.com/en-us/bing/search-apis/bing-web-search/overview

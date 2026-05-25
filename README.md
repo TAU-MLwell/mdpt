@@ -37,7 +37,7 @@ To prevent hallucinations and ensure tests are anchored in verifiable evidence, 
 
 ## Key Features
 
-- **Generative semantic test synthesis** using LLMs and a RAG architecture (Bing Search + OHDSI vocabulary vector database).
+- **Generative semantic test synthesis** using LLMs and a RAG architecture (Bing Search / Tavily + OHDSI vocabulary vector database).
 - **Three-level semantic taxonomy**: metadata, distributional, and contextual (subpopulation) validation.
 - **Auditor Agent (double-pass verification)**: an independent agent verifies and corrects each proposed reference value before generating unit tests, mitigating hallucinations.
 - **Decoupled architecture**: the Generation Module operates only on the study specification and data dictionary — no raw patient data is ever transmitted to external models.
@@ -63,6 +63,7 @@ To prevent hallucinations and ensure tests are anchored in verifiable evidence, 
   | `AGENT_CONNECTION_STRING` | Azure OpenAI agent connection string |
   | `BING_API_KEY` | Bing Search API key |
   | `BING_ENDPOINT` | Bing Search API endpoint |
+  | `TAVILY_API_KEY` | Tavily Search API key |
 
 ---
 
@@ -111,14 +112,14 @@ python evaluate_data.py \
 | `--results` | `-r` | `results` | Name of the top-level output folder |
 
 The pipeline will:
-1. Retrieve regional epidemiological statistics via Bing Search.
+1. Retrieve regional epidemiological statistics via Bing Search / Tavily.
 2. Map clinical concepts to standardised vocabularies via a Chroma vector database.
 3. Construct a structured test matrix (expected values for diagnoses, drugs, lab tests, procedures, and demographics).
 4. Run the **Auditor Agent** to verify and correct expected values (double-pass verification).
 5. Generate executable Python unit tests.
 
 Outputs are saved under `<result_folder>/<Diagnosis>_<Region>/`:
-- `output/` — LLM conversation logs and reference statistics
+- `output/` — logs and reference statistics
 - `statistics/` — extracted reference CSVs
 - `test_csvs/` — proposed test matrices
 - `validated/test_csvs/` — auditor-verified test matrices
