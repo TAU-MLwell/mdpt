@@ -221,6 +221,24 @@ Example test suites and result files for four cohorts are provided in `example_r
 
 ---
 
+## Citation
+
+If you find this work useful, please consider citing:
+
+```bibtex
+@article{girshovitz2025mdpt,
+  title={A Generative Approach for Semantic Auditing of Electronic Health Records},
+  author={Irena Girshovitz and Atai Ambus and Moni Shahar and Ran Gilad-Bachrach},
+  year={2025},
+  eprint={2507.02628},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  url={https://arxiv.org/abs/2507.02628},
+}
+```
+
+---
+
 ## License
 
 This project is licensed under the MIT License.
