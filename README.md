@@ -60,10 +60,49 @@ To prevent hallucinations and ensure tests are anchored in verifiable evidence, 
   |---|---|
   | `AZURE_API_KEY_4o` | Azure OpenAI API key |
   | `AZURE_ENDPOINT_4o` | Azure OpenAI API endpoint |
+  | `AZURE_ENDPOINT_EMBEDDING` | Azure OpenAI embedding model endpoint |
   | `AGENT_CONNECTION_STRING` | Azure OpenAI agent connection string |
-  | `BING_API_KEY` | Bing Search API key |
-  | `BING_ENDPOINT` | Bing Search API endpoint |
+  | `BING_API_KEY` | Bing Search API key (optional, legacy) |
+  | `BING_ENDPOINT` | Bing Search API endpoint (optional, legacy) |
   | `TAVILY_API_KEY` | Tavily Search API key |
+
+---
+
+### Step 0 — Build the OHDSI Concept Vector Database
+
+The pipeline uses a [Chroma](https://www.trychroma.com/) vector database pre-loaded with OHDSI clinical concepts to map free-text terms to standardised vocabularies. You only need to do this **once** before running the pipeline for the first time.
+
+**1. Download OHDSI concept data**
+
+Download the `CONCEPT.csv` file from [Athena (OHDSI)](https://athena.ohdsi.org/vocabulary/list). Select the vocabularies relevant to your study (e.g. SNOMED, RxNorm, LOINC, ICD-9) and export.
+
+**2. Convert to JSON**
+
+Place `CONCEPT.csv` in `vector_db_creation/` and run:
+
+```bash
+cd vector_db_creation
+python csv_to_json.py
+```
+
+This produces `concepts.json` in the same folder. Move it to the expected data path:
+
+```bash
+mkdir -p data/micro-concepts
+mv concepts.json data/micro-concepts/
+```
+
+**3. Embed and index**
+
+Run the parallel embedding script to create the Chroma database:
+
+```bash
+python vector_db_creation/embed_concepts_parallel.py
+```
+
+The index is saved to `data/micro-concepts/embeddings/`. This step calls the Azure OpenAI embedding model (`text-embedding-3-small`) and requires `AZURE_API_KEY_4o` and `AZURE_ENDPOINT_EMBEDDING` to be set.
+
+> **Note:** Embedding all OHDSI concepts can take a while depending on the vocabulary size. The script parallelises calls with up to 40 threads to speed things up.
 
 ---
 
