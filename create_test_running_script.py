@@ -1,6 +1,9 @@
 import pandas as pd
 
-pd.set_option("future.no_silent_downcasting", True)
+try:
+    pd.set_option("future.no_silent_downcasting", True)
+except:
+    pass  # Option not available in older pandas versions
 
 
 def write_data_eval(diagnosis, region, coding):

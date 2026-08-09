@@ -7,7 +7,10 @@ from ask_gpt import LLMwrapper
 from extraction_functions import make_py, make_all_py
 from connect_openAI import connect_to_openAI
 
-pd.set_option("future.no_silent_downcasting", True)
+try:
+    pd.set_option("future.no_silent_downcasting", True)
+except:
+    pass  # Option not available in older pandas versions
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 

@@ -11,6 +11,17 @@ from vector_query import get_concepts
 from connect_openAI import connect_to_openAI
 from extraction_functions import make_df, make_list, json_to_df
 
+def format_search_results(search_data, n=5, indent=""):
+    results = search_data.get('results', [])
+    formatted_results = []
+    for i in range(n):
+        if i < len(results):
+            url = results[i].get('url', 'N/A')
+            title = results[i].get('title', 'N/A')
+            formatted_results.append(f"{url}, {title}")
+    return ("\n" + indent).join(formatted_results)
+
+
 pd.set_option('display.max_columns', None)
 pd.set_option('display.max_rows', None)
 
@@ -73,7 +84,11 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Prioritize more recent data, preferably from government sources.
             Please use the following information and provide numbers:
 
-            {searchs['webPages']['value']}
+            {searchs['answer']}
+
+            sources:
+            {format_search_results(searchs, indent="            ")}
+
             
             Numbers are mandatory. Please provide references.""",
 
@@ -81,7 +96,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Prioritize more recent data, preferably from government sources.
             Please use the following information and provide numbers:
 
-            {searchs1['webPages']['value']}
+            {searchs1['answer']}
+
+            sources:
+            {format_search_results(searchs1, indent="            ")}
             
             Numbers are mandatory. Please provide references.""",
 
@@ -89,7 +107,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Prioritize more recent data, preferably from government sources.
             Please use the following information and provide numbers:
 
-            {searchs2['webPages']['value']}
+            {searchs2['answer']}
+
+            sources:
+            {format_search_results(searchs2, indent="            ")}
 
             Numbers are mandatory. Please provide references.""",
 
@@ -97,7 +118,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Prioritize more recent data, preferably from government sources.
             Please use the following information and provide numbers:
 
-            {searchs3['webPages']['value']}
+            {searchs3['answer']}
+
+            sources:
+            {format_search_results(searchs3, indent="            ")}
             
             Numbers are mandatory. Please provide references.""",
 
@@ -105,7 +129,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Prioritize more recent data, preferably from government sources.
             Please use the following information and provide numbers:
 
-            {searchs4['webPages']['value']}
+            {searchs4['answer']}
+
+            sources:
+            {format_search_results(searchs4, indent="            ")}
             
             Numbers are mandatory. Please provide references.""",
 
@@ -113,7 +140,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Prioritize more recent data, preferably from government sources.
             Please use the following information and provide numbers:
 
-            {search3['webPages']['value']}
+            {search3['answer']}
+
+            sources:
+            {format_search_results(search3, indent="            ")}
             
             Numbers are mandatory. Please provide references.""",
 
@@ -126,12 +156,30 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             Give me your best answer. Please provide references.""",
     ]
 
+            #f"""Please provide age distribution among diagnosed patients with {diagnosis} in {region}. Please provide the age groups and the percentage of
+            #patients in each group. Use the following information:
+            #
+            #{search1['webPages']['value']}      
+            #
+            #if you can't find relevant data, use your intrinsic knowledge.      
+            #
+            #Arrange them in a csv table with a vertical line 
+            #as delimiter. Please add references. Add 'Title: age_distribution_in_{region}' before the CSV. Wrap the csv in '```csv' and '```'. Do not add 
+            #any other symbols (such as dashes or hypens) to the table. Give me your best answer. If needed, search the web and provide references.""",
+
     message_queue2 = [f"""Please provide mean and standard deviation of {diagnosis} diagnosis age in {region}. 
                       Please use the following information and prioritize more recent data:
 
-                    {search1['webPages']['value']}
+                    {search1['answer']}
 
-                    {search2['webPages']['value']}
+                    sources:
+                    {format_search_results(search1, indent="                    ")}
+   
+
+                    {search2['answer']}
+
+                    sources:
+                    {format_search_results(search2, indent="                    ")}
 
                     If there is no information in the provided data, please use your knowledge.
                     Numbers are mandatory. Please provide references.""",
@@ -139,7 +187,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
             f"""Please provide the number of diagnosed with {diagnosis} in {region}. please write a full number 
                 (e.g instead of '10 million' write 10000000). Use the following reference:
             
-                {search4['webPages']['value']}
+                {search4['answer']}
+
+                sources:
+                {format_search_results(search4, indent="                ")}
 
                 If there is no information in the provided data, please provide it based on the prevalence and total population size.
 
@@ -206,10 +257,12 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
 
     comorbidity_list = make_list(messages1[-1]['content'])
     comorbidity_list = comorbidity_list.split(", ")
+    comorbidity_list = [x for x in comorbidity_list if x != '']
 
     comorbidities = []
     comorbidities1 = []
     for idx, comorbidity in enumerate(comorbidity_list):
+
         messages2 = []
         messages2.append(messages[0])
         comorbidities.append(json_to_df(get_concepts('concept_name: ' + comorbidity + ' domain_id: Condition ' + 'vocabulary_id: ' + coding + ' standard_concept: S', n_results=100)))
@@ -232,7 +285,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
                           Add a reference column with reference to the prevalence value. Prioritize more recent data, preferably from government sources.
                           use the following information:
 
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                         Give me your best answer. Do not change or remove any other column. Separate the csv using a vertical line as delimiter."""})
     
@@ -269,6 +325,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
 
     drug_list = make_list(messages1[-1]['content'])
     drug_list = drug_list.split(", ") 
+    drug_list = [x for x in drug_list if x != '']
 
     drugs = []
     drugs1 = []
@@ -294,14 +351,20 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
                         "reference" column for the percentage information source with te relevant references. Prioritize more recent data, preferably from government sources.
                         use the following information:
 
-                        {search['webPages']['value']}
+                        {search['answer']}
+
+                        sources:
+                        {format_search_results(search, indent="                        ")}
                           
                         Give me your best answer. Do not change or remove any other column."""}) 
     
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
         drugs1.append(make_df(messages2[-1]['content']))
+        #messages1 += messages2[1:]
     
+    #messages = messages + messages1
+    #del messages[-len(messages1)+3:-2]
     
     messages3 = []
     messages3.append(messages[0])
@@ -330,6 +393,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     messages1 = LLMwrapper(messages=messages1, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
     LabProc = make_list(messages1[-1]['content']) 
     LabProc = LabProc.split(", ") 
+    LabProc = [x for x in LabProc if x != '']
 
     Labs = []
     Labs1 = []
@@ -359,7 +423,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add a "normal range" column with normal ranges of results for each of the lab tests or procedures. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a "reference" column for the normal range information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column."""})
@@ -367,7 +434,9 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
         Labs1.append(make_df(messages2[-1]['content']))
-
+        #messages1 += messages2[1:]
+        #messages = messages + messages1
+        #del messages[-len(messages1)+2:-2]
     
     messages3 = []
     messages3.append(messages[0])
@@ -383,6 +452,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
 
     messages = messages + messages1[1:]
 
+    #del messages[-len(messages1)+3:-2]
     
     # gender
     messages1 = []
@@ -391,7 +461,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     messages1.append({"role": "user", "content":f"""List all possible {coding} concept names for all possible gender options in {region}. 
                       Prioritize more recent data, preferably from government sources. Please use the following as reference as well:
 
-                        {search['webPages']['value']}
+                        {search['answer']}
+
+                        sources:
+                        {format_search_results(search, indent="                        ")}
 
                       Provide a comma separated list of the concepts separated by '```list' and '```'.
                      Just write it as single list, do not declare the category title (gender, race, ethnicity)."""})
@@ -400,6 +473,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     
     gender = make_list(messages1[-1]['content'])
     gender = gender.split(", ")
+    gender = [x for x in gender if x != '']
 
     gender_list = []
     demo_list1 = []
@@ -427,7 +501,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add "percentage" column with the percentage of {demo} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a reference in the "reference" column for the percentage information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column."""})
@@ -438,7 +515,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add "diagnosed percentage" column with the percentage of {demo} diagnosed with {diagnosis} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a reference in the "reference" column for the diagnosed percentage information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column"""})
@@ -451,6 +531,14 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     messages = messages + messages1[1:]
         #del messages[-len(messages1)+2:-2]
 
+    '''messages.append({"role": "user", "content":f"""Please arange the data according to the following table: {demo_list1}. Aggregate similar codes into a single row - codes under
+    '{coding} code', description of the similar codes under 'demographic feature'. Remove non-demographic codes. Keep the rest."""})
+    
+    messages = LLMwrapper(messages=messages, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
+    
+    messages.append({"role": "user", "content":f"""To the table you just created, add a column with population percentage in {region}. Give me your best answer.
+                        Do not change or remove any other column. Add 'Title: demography_coding' before the CSV."""})'''
+    
     # race
     messages1 = []
     messages1.append(messages[0])
@@ -462,6 +550,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     
     race = make_list(messages1[-1]['content'])
     race = race.split(", ")
+    race = [x for x in race if x != '']
 
     race_list = []
     for idx, demo in enumerate(race):
@@ -484,7 +573,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add "percentage" column with the percentage of {demo} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a reference in the "reference" column for the percentage information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column."""})
@@ -495,7 +587,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add "diagnosed percentage" column with the percentage of {demo} diagnosed with {diagnosis} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a reference in the "reference" column for the diagnosed percentage information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column"""})
@@ -518,6 +613,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     
     ethnicity = make_list(messages1[-1]['content'])
     ethnicity = ethnicity.split(", ")
+    ethnicity = [x for x in ethnicity if x != '']
 
     ethnicity_list = []
     for idx, demo in enumerate(ethnicity):
@@ -541,7 +637,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add "percentage" column with the percentage of {demo} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a reference in the "reference" column for the percentage information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column."""})
@@ -552,7 +651,10 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         messages2.append({"role": "user", "content":f"""Please add "diagnosed percentage" column with the percentage of {demo} diagnosed with {diagnosis} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
-                          {search['webPages']['value']}
+                          {search['answer']}
+
+                          sources:
+                          {format_search_results(search, indent="                          ")}
 
                           Add a reference in the "reference" column for the diagnosed percentage information source with the relevant references.
                           Give me your best answer. Do not change or remove any other column"""})
@@ -581,11 +683,20 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
                     
                      use the following as reference:
 
-                        {search['webPages']['value']}
+                        {search['answer']}
 
-                        {search1['webPages']['value']}
+                        sources:
+                        {format_search_results(search, indent="                        ")}
 
-                        {search2['webPages']['value']}
+                        {search1['answer']}
+
+                        sources:
+                        {format_search_results(search1, indent="                        ")}
+
+                        {search2['answer']}
+
+                        sources:
+                        {format_search_results(search2, indent="                        ")}
 
                      Use a vertical line as delimiter.
                      **Do not** change or remove any other column. 
@@ -613,11 +724,20 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
                     
                      use the following as reference:
 
-                        {search['webPages']['value']}
+                        {search['answer']}
 
-                        {search1['webPages']['value']}
+                        sources:
+                        {format_search_results(search, indent="                        ")}
 
-                        {search2['webPages']['value']}
+                        {search1['answer']}
+
+                        sources:
+                        {format_search_results(search1, indent="                        ")}
+
+                        {search2['answer']}
+
+                        sources:
+                        {format_search_results(search2, indent="                        ")}
 
                      Use a vertical line as delimiter.
                      **Do not** change or remove any other column. 
