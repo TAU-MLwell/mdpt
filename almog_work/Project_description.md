@@ -1,23 +1,3 @@
-# Project description
-
-##### [**Undermind**](https://undermind.ai)
-
----
-
-
-## Table of Contents
-
-- [Project Description](#project-description)
-  - [Project Summary](#project-summary)
-  - [Research Description](#research-description)
-  - [Success Criteria](#success-criteria)
-  - [Reproducibility](#reproducibility)
-  - [Key Decisions](#key-decisions)
-  - [Key Achievements and Findings](#key-achievements-and-findings)
-  - [Current Roadmap](#current-roadmap)
-  - [Current Code and Project Files](#current-code-and-project-files)
-  - [Immediate Next Task](#immediate-next-task)
-
 # Project Description
 
 ## Project Summary
@@ -79,13 +59,13 @@ The LLM-based pipeline can process a paper through rule extraction, source valid
 
 **Publication or deliverable standard:**
 
-MSc thesis, research poster, reproducible code, documented prompts, and stored outputs from the POC and evaluation.
+MSc thesis, reproducible code, documented prompts, and stored outputs from the POC and evaluation.
 
 **Go/no-go decision rule:**
 
 If the one-paper POC produces structured rules with usable evidence and validation results, continue to the small paper-set evaluation. If not, narrow the rule schema and focus the thesis on the one-paper extraction and validation POC.
 
-**Target completion date:** 2026-10-31
+**Target completion date:** 2026-10-15
 
 ## Reproducibility
 
@@ -139,8 +119,9 @@ Python virtual environment using `requirements.txt`. LLM access will use the Azu
 | **8. Build the general rule-base workflow** | 1\. Connect PubMed ingestion to selected papers.\<br\>2. Connect selected papers to LLM-based extraction.\<br\>3. Connect extraction to LLM-based validation.\<br\>4. Connect validation to the database.\<br\>5. Add a simple paper-quality score version 1.\<br\>6. Define how new papers update existing statements.\<br\>7. Store conflicting statements with their sources and scores. | A small working prototype of an updateable clinical rule base. | How should the database be refreshed and how should conflicts be handled? | 2026-10-04 |  |
 | **9. Evaluate, demonstrate use, and write** | 1\. Select a small paper set, ideally 8–12 papers.\<br\>2. Run the pipeline on the selected papers.\<br\>3. Compare candidate statements before and after validation.\<br\>4. Count supported, rejected, and unclear statements.\<br\>5. Document common failure cases.\<br\>6. Link selected validated statements to structured-data variables.\<br\>7. Connect the demonstration to the existing MDPT pipeline.\<br\>8. Write the methods, results, limitations, and future work. | Thesis-ready results, figures, system description, MDPT connection, and a downstream semantic-auditing example. | What is the minimum demonstration needed to show usefulness? | 2026-10-31 |  |
 
-## Current Code and Project Files
+<details>
+<summary><strong>How to Fill This Project Description</summary></strong>
 
-- `almog_work/`
+Use this document for the stable project baseline. Fill it out at project start, then update it only when the scope, success criteria, reproducibility setup, or core decisions materially change. Replace bracketed placeholders and keep dates in `YYYY-MM-DD` format.
 
-## Immediate Next Task
+</details>

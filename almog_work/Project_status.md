@@ -45,7 +45,7 @@
 
 | Item | Type | Impact on Project | Owner | Target Resolution Date | Status |
 |:---|:---|:---|:---|:---|:---|
-| Local LLM setup | Dependency | Blocks LLM-based extraction and validation tests until a suitable model is running and connected to the agents. | Almog Alfamon | 2026-08-20 | 🔴 Open |
+
 
 ## Risks and Mitigations
 
