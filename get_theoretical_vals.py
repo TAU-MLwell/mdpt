@@ -6,7 +6,7 @@ import numpy as np
 import pandas as pd
 import datetime as dt
 from ask_gpt import LLMwrapper
-from query_bing import query_bing
+from query_bing import query_tavily
 from vector_query import get_concepts
 from connect_openAI import connect_to_openAI
 from extraction_functions import make_df, make_list, json_to_df
@@ -37,15 +37,15 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
 
     messages = []
 
-    searchs = query_bing(f'prevalence of {diagnosis} in {region}')
-    searchs1 = query_bing(f'incidence of {diagnosis} in {region}')
-    searchs2 = query_bing(f'mortality rate of {diagnosis} in {region}')
-    searchs3 = query_bing(f'lifetime risk of {diagnosis} in {region}')
-    searchs4 = query_bing(f'survival rate of {diagnosis} in {region}')
-    search1 = query_bing(f'age distribution among {diagnosis} patients in {region}')
-    search2 = query_bing(f'mean age and standard deviation of {diagnosis} in {region}')
-    search3 = query_bing(f'Total {region} population size')
-    search4 = query_bing(f'Number of diagnosed with {diagnosis} in {region}')
+    searchs = query_tavily(f'prevalence of {diagnosis} in {region}')
+    searchs1 = query_tavily(f'incidence of {diagnosis} in {region}')
+    searchs2 = query_tavily(f'mortality rate of {diagnosis} in {region}')
+    searchs3 = query_tavily(f'lifetime risk of {diagnosis} in {region}')
+    searchs4 = query_tavily(f'survival rate of {diagnosis} in {region}')
+    search1 = query_tavily(f'age distribution among {diagnosis} patients in {region}')
+    search2 = query_tavily(f'mean age and standard deviation of {diagnosis} in {region}')
+    search3 = query_tavily(f'Total {region} population size')
+    search4 = query_tavily(f'Number of diagnosed with {diagnosis} in {region}')
     # system prompt + generating statistics and additional insights for the diagnosis of interest in the region of interest
     message_queue1 = [f"""You are a public health and medical expert. Answer as concisely as possible. Answer for the provided diagnosis, region, coding system, 
             and drug classification system. Make sure the coding in all your answers fits the requirements. The following questions are about {diagnosis} 
@@ -280,7 +280,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
                         
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Prevalence of {comorbidity} among {diagnosis} patients in {region}')
+        search = query_tavily(f'Prevalence of {comorbidity} among {diagnosis} patients in {region}')
         messages2.append({"role": "user", "content":f"""Please add a "prevalence" column with prevalence of {comorbidity} among {diagnosis} patients. 
                           Add a reference column with reference to the prevalence value. Prioritize more recent data, preferably from government sources.
                           use the following information:
@@ -346,7 +346,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Percentage of {diagnosis} patients prescribed {drug_name} in {region}')
+        search = query_tavily(f'Percentage of {diagnosis} patients prescribed {drug_name} in {region}')
         messages2.append({"role": "user", "content":f"""Please add a "percentage" column with percentage of {diagnosis} patients treated with the drug and a 
                         "reference" column for the percentage information source with te relevant references. Prioritize more recent data, preferably from government sources.
                         use the following information:
@@ -419,7 +419,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
 
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Normal range of {lab} in {region}')
+        search = query_tavily(f'Normal range of {lab} in {region}')
         messages2.append({"role": "user", "content":f"""Please add a "normal range" column with normal ranges of results for each of the lab tests or procedures. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -457,7 +457,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     # gender
     messages1 = []
     messages1.append(messages[0])
-    search = query_bing(f'Gender identity distribution in {region}')
+    search = query_tavily(f'Gender identity distribution in {region}')
     messages1.append({"role": "user", "content":f"""List all possible {coding} concept names for all possible gender options in {region}. 
                       Prioritize more recent data, preferably from government sources. Please use the following as reference as well:
 
@@ -497,7 +497,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Percentage of {demo} in {region}')
+        search = query_tavily(f'Percentage of {demo} in {region}')
         messages2.append({"role": "user", "content":f"""Please add "percentage" column with the percentage of {demo} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -511,7 +511,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Percentage of {demo} diagnosed with {diagnosis} in {region}')
+        search = query_tavily(f'Percentage of {demo} diagnosed with {diagnosis} in {region}')
         messages2.append({"role": "user", "content":f"""Please add "diagnosed percentage" column with the percentage of {demo} diagnosed with {diagnosis} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -569,7 +569,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
                         Work step by step. Do not generate random codes. Use only the ones provided. Give me your best answer."""})
         
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
-        search = query_bing(f'Percentage of {demo} in {region}')
+        search = query_tavily(f'Percentage of {demo} in {region}')
         messages2.append({"role": "user", "content":f"""Please add "percentage" column with the percentage of {demo} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -583,7 +583,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Percentage of {demo} diagnosed with {diagnosis} in {region}')
+        search = query_tavily(f'Percentage of {demo} diagnosed with {diagnosis} in {region}')
         messages2.append({"role": "user", "content":f"""Please add "diagnosed percentage" column with the percentage of {demo} diagnosed with {diagnosis} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -633,7 +633,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
         
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Percentage of {demo} in {region}')
+        search = query_tavily(f'Percentage of {demo} in {region}')
         messages2.append({"role": "user", "content":f"""Please add "percentage" column with the percentage of {demo} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -647,7 +647,7 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     
         messages2 = LLMwrapper(messages=messages2, client=client, model=model, assistant=False, role=role, temperature = 0).return_conversation()
 
-        search = query_bing(f'Percentage of {demo} diagnosed with {diagnosis} in {region}')
+        search = query_tavily(f'Percentage of {demo} diagnosed with {diagnosis} in {region}')
         messages2.append({"role": "user", "content":f"""Please add "diagnosed percentage" column with the percentage of {demo} diagnosed with {diagnosis} in {region}. 
                         Prioritize more recent data, preferably from government sources. Please use the following:
                           
@@ -671,9 +671,9 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     #all demographics:
     messages1 = []
     messages1.append(messages[0])
-    search = query_bing(f'gender statistics in {region}')
-    search1 = query_bing(f'race statistics in {region}')
-    search2 = query_bing(f'ethnicity statistics in {region}')
+    search = query_tavily(f'gender statistics in {region}')
+    search1 = query_tavily(f'race statistics in {region}')
+    search2 = query_tavily(f'ethnicity statistics in {region}')
     messages1.append({"role": "user", "content":f"""Take the following table:
                       
                      {demo_list1}
@@ -711,9 +711,9 @@ def get_theoretical_vals(diagnosis, region, coding, drug, procedure, lab, model)
     #all demographics among diagnosed:
     messages1 = []
     messages1.append(messages[0])
-    search = query_bing(f'gender statistics among patients with {diagnosis} in {region}')
-    search1 = query_bing(f'race statistics among patients with {diagnosis} in {region}')
-    search2 = query_bing(f'ethnicity statistics among patients with {diagnosis} in {region}')
+    search = query_tavily(f'gender statistics among patients with {diagnosis} in {region}')
+    search1 = query_tavily(f'race statistics among patients with {diagnosis} in {region}')
+    search2 = query_tavily(f'ethnicity statistics among patients with {diagnosis} in {region}')
     messages1.append({"role": "user", "content":f"""Take the following table:
                       
                      {demo_list1}

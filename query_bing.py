@@ -8,9 +8,16 @@ import os
 from pprint import pprint
 import requests
 import datetime as dt
-from azure.ai.agents.models import BingGroundingTool
 from tavily import TavilyClient
 
+def query_tavily(query):
+    client = TavilyClient(os.environ['TAVILY_API_KEY'])
+    response = client.search(
+        query=query,
+        search_depth="advanced",
+        include_answer = "advanced"
+    )
+    return response
 
 def query_bing(query):
     client = TavilyClient(os.environ['TAVILY_API_KEY'])
