@@ -1,0 +1,91 @@
+[
+  {
+    "statement_text": "Systolic blood pressure was reduced by 12 mmHg after 6 months of treatment with an ACE inhibitor in a cohort of 1,245 adults with hypertension.",
+    "statement_type": "quantitative",
+    "variables": [
+      {
+        "name": "systolic blood pressure",
+        "role": "outcome",
+        "value": "reduced by 12 mmHg",
+        "condition": "after 6 months of ACE inhibitor treatment"
+      }
+    ],
+    "conditions": [
+      "adults with hypertension",
+      "6 months of treatment"
+    ],
+    "expected_value_or_relationship": "Reduction in systolic blood pressure",
+    "context": "Introduction/Results section",
+    "evidence_span": "systolic blood pressure was reduced by 12 mmHg after 6 months of treatment with an ACE inhibitor",
+    "source_paper": {
+      "pmid": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    "confidence": 0.95
+  },
+  {
+    "statement_text": "The reduction in systolic blood pressure was greater in patients with baseline systolic blood pressure >150 mmHg (mean reduction of 18 mmHg) compared to those with baseline systolic blood pressure 140-150 mmHg (mean reduction of 9 mmHg).",
+    "statement_type": "quantitative",
+    "variables": [
+      {
+        "name": "baseline systolic blood pressure",
+        "role": "exposure",
+        "value": ">150 mmHg",
+        "condition": "greater reduction"
+      },
+      {
+        "name": "baseline systolic blood pressure",
+        "role": "exposure",
+        "value": "140-150 mmHg",
+        "condition": "lesser reduction"
+      }
+    ],
+    "conditions": [
+      "after 6 months of ACE inhibitor treatment"
+    ],
+    "expected_value_or_relationship": "Greater reduction in systolic blood pressure for higher baseline values",
+    "context": "Results section",
+    "evidence_span": "The reduction was greater in patients with baseline systolic blood pressure greater than 150 mmHg (mean reduction of 18 mmHg) compared to those with baseline systolic blood pressure between 140 and 150 mmHg (mean reduction of 9 mmHg).",
+    "source_paper": {
+      "pmid": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    "confidence": 0.95
+  },
+  {
+    "statement_text": "No significant difference in response to ACE inhibitor treatment was observed between male and female patients.",
+    "statement_type": "qualitative",
+    "variables": [
+      {
+        "name": "gender",
+        "role": "exposure",
+        "value": "male",
+        "condition": "response"
+      },
+      {
+        "name": "gender",
+        "role": "exposure",
+        "value": "female",
+        "condition": "response"
+      }
+    ],
+    "conditions": [
+      "adults with hypertension",
+      "6 months of treatment"
+    ],
+    "expected_value_or_relationship": "No significant difference in response",
+    "context": "Results section",
+    "evidence_span": "No significant difference in response was observed between male and female patients.",
+    "source_paper": {
+      "pmid": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    "confidence": 0.9
+  }
+]

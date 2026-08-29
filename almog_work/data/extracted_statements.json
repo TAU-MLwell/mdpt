@@ -1,0 +1,101 @@
+[
+  {
+    "statement_text": "Systolic blood pressure was reduced by 12 mmHg after 6 months of treatment with an ACE inhibitor.",
+    "statement_type": "quantitative",
+    "variables": [
+      {
+        "name": "systolic blood pressure reduction",
+        "role": "outcome",
+        "value": "12 mmHg",
+        "condition": "6 months of treatment with an ACE inhibitor"
+      }
+    ],
+    "conditions": [
+      "cohort of 1,245 adults with hypertension"
+    ],
+    "expected_value_or_relationship": "reduction of 12 mmHg",
+    "context": "Results section",
+    "evidence_span": "Systolic blood pressure was reduced by 12 mmHg after 6 months of treatment with an ACE inhibitor.",
+    "source_paper": {
+      "pmid": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    "confidence": 0.95
+  },
+  {
+    "statement_text": "The reduction was greater in patients with baseline systolic blood pressure greater than 150 mmHg (mean reduction of 18 mmHg) compared to those with baseline systolic blood pressure between 140 and 150 mmHg (mean reduction of 9 mmHg).",
+    "statement_type": "quantitative",
+    "variables": [
+      {
+        "name": "baseline systolic blood pressure",
+        "role": "exposure",
+        "value": "greater than 150 mmHg",
+        "condition": "group 1"
+      },
+      {
+        "name": "baseline systolic blood pressure",
+        "role": "exposure",
+        "value": "140-150 mmHg",
+        "condition": "group 2"
+      },
+      {
+        "name": "mean systolic blood pressure reduction",
+        "role": "outcome",
+        "value": "18 mmHg",
+        "condition": "group 1"
+      },
+      {
+        "name": "mean systolic blood pressure reduction",
+        "role": "outcome",
+        "value": "9 mmHg",
+        "condition": "group 2"
+      }
+    ],
+    "conditions": [
+      "patients with hypertension"
+    ],
+    "expected_value_or_relationship": "greater reduction in group 1 (baseline >150 mmHg) than group 2 (140-150 mmHg)",
+    "context": "Results section",
+    "evidence_span": "The reduction was greater in patients with baseline systolic blood pressure greater than 150 mmHg (mean reduction of 18 mmHg) compared to those with baseline systolic blood pressure between 140 and 150 mmHg (mean reduction of 9 mmHg).",
+    "source_paper": {
+      "pmid": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    "confidence": 0.9
+  },
+  {
+    "statement_text": "No significant difference in response was observed between male and female patients.",
+    "statement_type": "qualitative",
+    "variables": [
+      {
+        "name": "gender",
+        "role": "exposure",
+        "value": "male vs female",
+        "condition": "comparative analysis"
+      },
+      {
+        "name": "response",
+        "role": "outcome",
+        "value": "significant difference",
+        "condition": "absent"
+      }
+    ],
+    "conditions": [
+      "patients with hypertension"
+    ],
+    "expected_value_or_relationship": "no significant difference",
+    "context": "Results section",
+    "evidence_span": "No significant difference in response was observed between male and female patients.",
+    "source_paper": {
+      "pmid": "",
+      "title": "",
+      "journal": "",
+      "year": ""
+    },
+    "confidence": 0.85
+  }
+]
