@@ -5,16 +5,26 @@ into the current Python process, following IBM's official usage pattern:
 https://github.com/ibm-granite/granite-4.1-language-models
 
 Model choice: ibm-granite/granite-4.1-8b (current Granite generation,
-dense instruct model). Chosen over the 3b variant for better extraction
-quality on complex biomedical text, since this machine has enough RAM
-(300GB+) to run it comfortably on CPU. Override with MDPT_LOCAL_MODEL,
-e.g. set it to ibm-granite/granite-4.1-3b for faster iteration/testing.
+dense instruct model). Override with MDPT_LOCAL_MODEL, e.g. set it to
+ibm-granite/granite-4.1-3b for faster iteration/testing.
+
+GPU usage: this machine has GPUs available, but GPU inference here uses a
+Triton kernel that needs to JIT-compile a small C extension at runtime,
+which requires Python.h (the python3-dev header). That header isn't
+installed system-wide and can't be added without sudo. As a workaround, we
+set CPATH to a conda-forge Python 3.12 environment's include dir
+(~/py312-headers-env), created once via micromamba, purely to supply that
+header for Triton's compiler. Set MDPT_DEVICE=cpu to force CPU instead.
 """
 import os
 import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 MODEL_PATH = os.getenv("MDPT_LOCAL_MODEL", "ibm-granite/granite-4.1-8b")
+
+_HEADERS_INCLUDE_DIR = os.path.expanduser("~/py312-headers-env/include/python3.12")
+if os.path.isdir(_HEADERS_INCLUDE_DIR) and _HEADERS_INCLUDE_DIR not in os.environ.get("CPATH", ""):
+    os.environ["CPATH"] = _HEADERS_INCLUDE_DIR + os.pathsep + os.environ.get("CPATH", "")
 
 _tokenizer = None
 _model = None
@@ -25,11 +35,8 @@ def load_granite():
     global _tokenizer, _model
 
     if _tokenizer is None or _model is None:
-        # Default to CPU: GPU inference here needs Triton to JIT-compile a kernel,
-        # which requires Python.h (python3-dev) headers that aren't installed and
-        # can't be added without sudo. Set MDPT_DEVICE=cuda to force GPU if headers
-        # are available.
-        device = os.getenv("MDPT_DEVICE", "cpu")
+        default_device = "cuda" if torch.cuda.is_available() else "cpu"
+        device = os.getenv("MDPT_DEVICE", default_device)
         _tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
         _model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, device_map=device)
         _model.eval()

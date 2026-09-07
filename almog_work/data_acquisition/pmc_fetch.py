@@ -3,12 +3,32 @@ Simple PMC fetch helper
 Fetches PMC full text and returns cleaned plain text (limited length).
 """
 import re
+from typing import List
+
 import requests
 import xml.etree.ElementTree as ET
 from html import unescape
 
 
 PMC_EFETCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi"
+PMC_ESEARCH_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi"
+
+
+def search_pmc(query: str, retmax: int = 10, timeout: int = 15) -> List[str]:
+    """Search PMC for a query and return a list of PMCIDs (e.g. ['PMC1234567', ...])."""
+    resp = requests.get(
+        PMC_ESEARCH_URL,
+        params={"db": "pmc", "term": query, "retmax": retmax, "retmode": "json"},
+        timeout=timeout,
+    )
+    resp.raise_for_status()
+    ids = resp.json().get("esearchresult", {}).get("idlist", [])
+    return [f"PMC{i}" for i in ids]
+
+
+def pmc_url_from_id(pmcid: str) -> str:
+    """Build the standard PMC article page URL for a given PMCID."""
+    return f"https://www.ncbi.nlm.nih.gov/pmc/articles/{pmcid}/"
 
 
 def clean_html_to_text(html: str) -> str:

@@ -75,6 +75,7 @@ class RunConfig:
     full_text_dir: Path
     full_text_char_limit: int
     full_text_max: Optional[int]
+    max_records: Optional[int]
 
 
 def parse_args() -> RunConfig:
@@ -135,6 +136,12 @@ def parse_args() -> RunConfig:
         default=None,
         help="Optional cap for number of full-text files to download in a run.",
     )
+    parser.add_argument(
+        "--max-records",
+        type=int,
+        default=None,
+        help="Optional cap for total number of PubMed IDs fetched for the day (for small test runs).",
+    )
 
     args = parser.parse_args()
     publication_date = validate_date(args.date)
@@ -151,6 +158,7 @@ def parse_args() -> RunConfig:
         full_text_dir=full_text_dir,
         full_text_char_limit=max(1000, int(args.full_text_char_limit)),
         full_text_max=max(1, args.full_text_max) if args.full_text_max else None,
+        max_records=max(1, args.max_records) if args.max_records else None,
     )
 
 
@@ -409,6 +417,8 @@ def fetch_ids_for_day(session: requests.Session, config: RunConfig) -> List[str]
 
         if count == 0 or len(collected_ids) >= count:
             break
+        if config.max_records and len(collected_ids) >= config.max_records:
+            break
 
         retstart += config.batch_size
 
@@ -418,6 +428,8 @@ def fetch_ids_for_day(session: requests.Session, config: RunConfig) -> List[str]
         if pmid not in seen:
             seen.add(pmid)
             ordered_unique_ids.append(pmid)
+        if config.max_records and len(ordered_unique_ids) >= config.max_records:
+            break
     return ordered_unique_ids
 
 

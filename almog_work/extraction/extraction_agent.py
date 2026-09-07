@@ -4,6 +4,8 @@ import re
 import sys
 from typing import Any, Dict, List, Optional
 
+from json_repair import repair_json
+
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "common"))
 from local_granite_client import run_granite_chat
 
@@ -84,21 +86,41 @@ def _clean_json_payload(raw_text: str) -> Any:
         except json.JSONDecodeError:
             pass
 
+    # fallback: model output was truncated or slightly malformed. Try to repair it
+    # (e.g. close an unfinished list/object) before giving up.
+    repair_candidate = text[start:] if start != -1 else text
+    try:
+        repaired = repair_json(repair_candidate)
+        parsed = json.loads(repaired)
+        if isinstance(parsed, (list, dict)):
+            return parsed
+    except (json.JSONDecodeError, ValueError):
+        pass
+
     raise ValueError(f"Could not parse model output as JSON: {raw_text[:500]}")
 
 
 def extract_clinical_statements(
     article_text: str,
+    chat_fn=run_granite_chat,
+    max_new_tokens: int = 4000,
 ) -> List[Dict[str, Any]]:
-    """Send article text to the local Granite model and extract evidence-backed clinical statements."""
-    raw_output = run_granite_chat(
+    """Send article text to a chat model and extract evidence-backed clinical statements.
+
+    chat_fn defaults to the local Granite model, but any callable with the signature
+    chat_fn(messages, max_new_tokens=...) -> str can be passed instead (e.g. run_gpt_chat).
+    max_new_tokens defaults higher than the chat_fn's own default since a full paper can
+    contain many statements, and each one takes ~150-200 tokens of verbose JSON output.
+    """
+    raw_output = chat_fn(
         messages=[
             {"role": "system", "content": EXTRACTION_SYSTEM_PROMPT},
             {
                 "role": "user",
-                "content": EXTRACTION_USER_PROMPT.replace("__ARTICLE_TEXT__", article_text[:20000]),
+                "content": EXTRACTION_USER_PROMPT.replace("__ARTICLE_TEXT__", article_text[:100000]),
             },
         ],
+        max_new_tokens=max_new_tokens,
     ) or "[]"
     parsed = _clean_json_payload(raw_output)
 

@@ -4,6 +4,8 @@ import re
 import sys
 from typing import Any, Dict, List
 
+from json_repair import repair_json
+
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "common"))
 from local_granite_client import run_granite_chat
 
@@ -79,17 +81,36 @@ def _clean_json_payload(raw_text: str) -> Any:
         except json.JSONDecodeError:
             pass
 
+    # fallback: model output was truncated or slightly malformed. Try to repair it
+    # (e.g. close an unfinished list/object) before giving up.
+    repair_candidate = text[start:] if start != -1 else text
+    try:
+        repaired = repair_json(repair_candidate)
+        parsed = json.loads(repaired)
+        if isinstance(parsed, (list, dict)):
+            return parsed
+    except (json.JSONDecodeError, ValueError):
+        pass
+
     raise ValueError(f"Could not parse model output as JSON: {raw_text[:500]}")
 
 
 def validate_clinical_statements(
     statements: List[Dict[str, Any]],
+    chat_fn=run_granite_chat,
+    max_new_tokens: int = 4000,
 ) -> List[Dict[str, Any]]:
-    """Send extracted statements to the local Granite model and validate each against its evidence_span."""
+    """Send extracted statements to a chat model and validate each against its evidence_span.
+
+    chat_fn defaults to the local Granite model, but any callable with the signature
+    chat_fn(messages, max_new_tokens=...) -> str can be passed instead (e.g. run_gpt_chat).
+    max_new_tokens defaults higher than the chat_fn's own default since each validated
+    statement's verdict/explanation/corrected_wording is verbose JSON output.
+    """
     if not statements:
         return []
 
-    raw_output = run_granite_chat(
+    raw_output = chat_fn(
         messages=[
             {"role": "system", "content": VALIDATION_SYSTEM_PROMPT},
             {
@@ -99,6 +120,7 @@ def validate_clinical_statements(
                 ),
             },
         ],
+        max_new_tokens=max_new_tokens,
     ) or "[]"
     parsed = _clean_json_payload(raw_output)
 
