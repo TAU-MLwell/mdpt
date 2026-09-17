@@ -1,0 +1,584 @@
+{
+  "pmcid": "PMC13549583",
+  "granite": {
+    "extracted": [
+      {
+        "statement_text": "Each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and 24% higher CVD mortality risk (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "WWI",
+            "role": "exposure",
+            "value": "1-unit increase",
+            "condition": "CKD patients"
+          }
+        ],
+        "conditions": [
+          "CKD patients"
+        ],
+        "expected_value_or_relationship": "Higher WWI increases risk of all-cause and CVD mortality.",
+        "context": "Results section",
+        "evidence_span": "Each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and 24% higher CVD mortality risk (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Association of Weight-Adjusted Waist Index with Mortality in Chronic Kidney Disease",
+          "journal": "Journal of Nephrology",
+          "year": "2023"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Compared with the lowest quartile (Q1) of WWI, the highest quartile (Q4) had significantly elevated risks for both all-cause (adjusted hazard ratio = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (adjusted hazard ratio = 1.39, 95% CI: 1.03\u20131.89, P = .033).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "WWI quartile",
+            "role": "exposure",
+            "value": "Q4 vs Q1",
+            "condition": "CKD patients"
+          }
+        ],
+        "conditions": [
+          "CKD patients"
+        ],
+        "expected_value_or_relationship": "Higher WWI quartile increases risk of all-cause and CVD mortality.",
+        "context": "Results section",
+        "evidence_span": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had significantly elevated risks for both all-cause (adjusted hazard ratio = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (adjusted hazard ratio = 1.39, 95% CI: 1.03\u20131.89, P = .033).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Association of Weight-Adjusted Waist Index with Mortality in Chronic Kidney Disease",
+          "journal": "Journal of Nephrology",
+          "year": "2023"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004), and the indirect effect of NLR accounted for 6.66% of the total effect on all-cause mortality (\u03b2 = \u22129.94, 95% CI:\u221220.90\u2013\u22122.85, P < .001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "WWI",
+            "role": "exposure",
+            "value": "continuous",
+            "condition": "CKD patients"
+          },
+          {
+            "name": "NLR",
+            "role": "mediator",
+            "value": "continuous",
+            "condition": "CKD patients"
+          }
+        ],
+        "conditions": [
+          "CKD patients"
+        ],
+        "expected_value_or_relationship": "WWI increases NLR, which partially mediates the association with all-cause mortality.",
+        "context": "Results section",
+        "evidence_span": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004). After adjustment, WWI remained directly associated with all-cause (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and CVD mortality (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001). NLR independently predicted all-cause (adjusted hazard ratio = 1.11, 95% CI: 1.08\u20131.15, P < .001) and CVD mortality (adjusted hazard ratio = 1.09, 95% CI: 1.04\u20131.15, P < .001). The indirect effect of NLR accounted for 6.66% of the total effect on all-cause mortality (\u03b2 = \u22129.94, 95% CI:\u221220.90\u2013\u22122.85, P < .001).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Association of Weight-Adjusted Waist Index with Mortality in Chronic Kidney Disease",
+          "journal": "Journal of Nephrology",
+          "year": "2023"
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "Subgroup analyses revealed that the WWI-associated mortality risk was higher in men (adjusted hazard ratio for all-cause mortality = 1.23, 95% CI: 1.08\u20131.41) and more pronounced among younger patients.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "WWI",
+            "role": "exposure",
+            "value": "continuous",
+            "condition": "CKD patients"
+          },
+          {
+            "name": "Sex",
+            "role": "condition",
+            "value": "men",
+            "condition": "CKD patients"
+          },
+          {
+            "name": "Age",
+            "role": "condition",
+            "value": "younger",
+            "condition": "CKD patients"
+          }
+        ],
+        "conditions": [
+          "CKD patients"
+        ],
+        "expected_value_or_relationship": "Higher WWI risk is greater in men and younger CKD patients.",
+        "context": "Results section",
+        "evidence_span": "Subgroup analyses revealed significant effect modification. The WWI-associated mortality risk was higher in men (adjusted hazard ratio = 1.23, 95% CI: 1.08\u20131.41 for all-cause; adjusted hazard ratio = 1.33, 95% CI: 1.11\u20131.59 for CVD) and more pronounced among younger patients.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Association of Weight-Adjusted Waist Index with Mortality in Chronic Kidney Disease",
+          "journal": "Journal of Nephrology",
+          "year": "2023"
+        },
+        "confidence": 0.85
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and 24% higher CVD mortality risk (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly states the adjusted hazard ratios and confidence intervals for both all-cause and CVD mortality risks per 1-unit increase in WWI, matching the statement.",
+        "corrected_wording": "Each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and 24% higher CVD mortality risk (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001).",
+        "evidence_span": "Each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and 24% higher CVD mortality risk (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001)."
+      },
+      {
+        "statement_text": "Compared with the lowest quartile (Q1) of WWI, the highest quartile (Q4) had significantly elevated risks for both all-cause (adjusted hazard ratio = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (adjusted hazard ratio = 1.39, 95% CI: 1.03\u20131.89, P = .033).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span explicitly provides the adjusted hazard ratios and p-values for the comparison between Q4 and Q1 for both all-cause and CVD mortality, confirming the statement.",
+        "corrected_wording": "Compared with the lowest quartile (Q1) of WWI, the highest quartile (Q4) had significantly elevated risks for both all-cause (adjusted hazard ratio = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (adjusted hazard ratio = 1.39, 95% CI: 1.03\u20131.89, P = .033).",
+        "evidence_span": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had significantly elevated risks for both all-cause (adjusted hazard ratio = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (adjusted hazard ratio = 1.39, 95% CI: 1.03\u20131.89, P = .033)."
+      },
+      {
+        "statement_text": "WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004), and the indirect effect of NLR accounted for 6.66% of the total effect on all-cause mortality (\u03b2 = \u22129.94, 95% CI:\u221220.90\u2013\u22122.85, P < .001).",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span contains both the regression coefficient and confidence interval for the association between WWI and NLR, as well as the indirect effect percentage and its confidence interval for all-cause mortality, directly supporting the statement.",
+        "corrected_wording": "WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004), and the indirect effect of NLR accounted for 6.66% of the total effect on all-cause mortality (\u03b2 = \u22129.94, 95% CI:\u221220.90\u2013\u22122.85, P < .001).",
+        "evidence_span": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004). After adjustment, WWI remained directly associated with all-cause (adjusted hazard ratio = 1.17, 95% CI: 1.09\u20131.26, P < .001) and CVD mortality (adjusted hazard ratio = 1.24, 95% CI: 1.09\u20131.41, P = .001). NLR independently predicted all-cause (adjusted hazard ratio = 1.11, 95% CI: 1.08\u20131.15, P < .001) and CVD mortality (adjusted hazard ratio = 1.09, 95% CI: 1.04\u20131.15, P < .001). The indirect effect of NLR accounted for 6.66% of the total effect on all-cause mortality (\u03b2 = \u22129.94, 95% CI:\u221220.90\u2013\u22122.85, P < .001)."
+      },
+      {
+        "statement_text": "Subgroup analyses revealed that the WWI-associated mortality risk was higher in men (adjusted hazard ratio for all-cause mortality = 1.23, 95% CI: 1.08\u20131.41) and more pronounced among younger patients.",
+        "verdict": "supported",
+        "confidence": 0.85,
+        "explanation": "The evidence_span explicitly mentions significant effect modification by sex and age, stating that the WWI-associated mortality risk was higher in men and more pronounced among younger patients, which aligns with the statement.",
+        "corrected_wording": "Subgroup analyses revealed that the WWI-associated mortality risk was higher in men (adjusted hazard ratio = 1.23, 95% CI: 1.08\u20131.41 for all-cause; adjusted hazard ratio = 1.33, 95% CI: 1.11\u20131.59 for CVD) and more pronounced among younger patients.",
+        "evidence_span": "Subgroup analyses revealed significant effect modification. The WWI-associated mortality risk was higher in men (adjusted hazard ratio = 1.23, 95% CI: 1.08\u20131.41 for all-cause; adjusted hazard ratio = 1.33, 95% CI: 1.11\u20131.59 for CVD) and more pronounced among younger patients."
+      }
+    ],
+    "elapsed_seconds": 54.18
+  },
+  "gpt": {
+    "extracted": [
+      {
+        "statement_text": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio [aHR] = 1.17, 95% CI: 1.09\u20131.26, P < .001) among patients with CKD.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI)",
+            "role": "exposure",
+            "value": "per 1-unit increase",
+            "condition": "patients with CKD in NHANES 1999\u20132016"
+          },
+          {
+            "name": "All-cause mortality",
+            "role": "outcome",
+            "value": "aHR 1.17 (95% CI 1.09\u20131.26)",
+            "condition": "follow-up until death or December 31, 2019"
+          }
+        ],
+        "conditions": [
+          "Adults \u2265 20 years with CKD in NHANES 1999\u20132016",
+          "Fully adjusted Cox model (sex, age, race, education, marital status, PIR, drinking, smoking, BMI, daily energy intake, HTN, DM, hyperlipidemia, CVD, serum albumin, Hb, UACR, eGFR)"
+        ],
+        "expected_value_or_relationship": "Each 1-unit increase in WWI is associated with a 17% higher risk of all-cause mortality",
+        "context": "Results section (WWI and risk of all-cause and CVD mortality; Table 2)",
+        "evidence_span": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk adjusted hazard ratio (aHR) = 1.17, 95% CI: 1.09\u20131.26, P < .001)",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Each 1-unit increase in WWI was associated with 24% higher cardiovascular (CVD) mortality risk (aHR = 1.24, 95% CI: 1.09\u20131.41, P = .001) among patients with CKD.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI)",
+            "role": "exposure",
+            "value": "per 1-unit increase",
+            "condition": "patients with CKD in NHANES 1999\u20132016"
+          },
+          {
+            "name": "Cardiovascular mortality",
+            "role": "outcome",
+            "value": "aHR 1.24 (95% CI 1.09\u20131.41)",
+            "condition": "follow-up until death or December 31, 2019"
+          }
+        ],
+        "conditions": [
+          "Adults \u2265 20 years with CKD in NHANES 1999\u20132016",
+          "Fully adjusted Cox model as in Table 2"
+        ],
+        "expected_value_or_relationship": "Each 1-unit increase in WWI is associated with a 24% higher risk of cardiovascular mortality",
+        "context": "Results section (WWI and risk of all-cause and CVD mortality; Table 3)",
+        "evidence_span": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with \u2026 24% higher CVD mortality risk (aHR = 1.24, 95% CI: 1.09\u20131.41, P = .001).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Compared with the lowest WWI quartile (Q1), patients with CKD in the highest quartile (Q4) had a significantly elevated risk of all-cause mortality (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005) after full adjustment.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI) quartiles",
+            "role": "exposure",
+            "value": "Q4 vs Q1",
+            "condition": "patients with CKD"
+          },
+          {
+            "name": "All-cause mortality",
+            "role": "outcome",
+            "value": "aHR 1.28 (95% CI 1.08\u20131.52)",
+            "condition": "fully adjusted model"
+          }
+        ],
+        "conditions": [
+          "Adults with CKD in NHANES 1999\u20132016",
+          "Fully adjusted Cox model (Model 3)"
+        ],
+        "expected_value_or_relationship": "Highest WWI quartile has higher all-cause mortality risk than lowest quartile",
+        "context": "Results section (WWI and risk of all-cause and CVD mortality; Table 2)",
+        "evidence_span": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had significantly elevated risks for both all-cause (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005)\u2026\n\nQ4 4.34 (3.27\u20135.76) < .001 1.50 (1.26\u20131.78) < .001 1.28 (1.08\u20131.52) .005",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.97
+      },
+      {
+        "statement_text": "Compared with the lowest WWI quartile (Q1), patients with CKD in the highest quartile (Q4) had a significantly elevated risk of cardiovascular mortality (aHR = 1.39, 95% CI: 1.03\u20131.89, P = .033) after full adjustment.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI) quartiles",
+            "role": "exposure",
+            "value": "Q4 vs Q1",
+            "condition": "patients with CKD"
+          },
+          {
+            "name": "Cardiovascular mortality",
+            "role": "outcome",
+            "value": "aHR 1.39 (95% CI 1.03\u20131.89)",
+            "condition": "fully adjusted model"
+          }
+        ],
+        "conditions": [
+          "Adults with CKD in NHANES 1999\u20132016",
+          "Fully adjusted Cox model (Model 3)"
+        ],
+        "expected_value_or_relationship": "Highest WWI quartile has higher cardiovascular mortality risk than lowest quartile",
+        "context": "Results section (WWI and risk of all-cause and CVD mortality; Table 3)",
+        "evidence_span": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had significantly elevated risks for both all-cause (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (aHR = 1.39, 95% CI: 1.03\u20131.89, P = .033) (Table 2 and 3).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.97
+      },
+      {
+        "statement_text": "Kaplan\u2013Meier curves stratified by WWI quartiles demonstrated progressively lower survival rates with increasing WWI among patients with CKD (log-rank P < .001).",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI) quartiles",
+            "role": "exposure",
+            "value": "increasing quartiles",
+            "condition": "patients with CKD"
+          },
+          {
+            "name": "Survival rate",
+            "role": "outcome",
+            "value": "progressively lower with higher WWI quartile",
+            "condition": "Kaplan\u2013Meier analysis"
+          }
+        ],
+        "conditions": [
+          "Adults with CKD in NHANES 1999\u20132016",
+          "Kaplan\u2013Meier survival analysis by WWI quartiles"
+        ],
+        "expected_value_or_relationship": "Higher WWI quartiles are associated with lower survival",
+        "context": "Results section (WWI and risk of all-cause and CVD mortality; Figure 2)",
+        "evidence_span": "Kaplan\u2013Meier curves stratified by WWI quartiles demonstrated progressively lower survival rates with increasing WWI (log-rank P < .001) (Figs. 2A and 2B).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "The WWI-associated mortality risk was higher in men with CKD (aHR = 1.23, 95% CI: 1.08\u20131.41 for all-cause; aHR = 1.33, 95% CI: 1.11\u20131.59 for CVD).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI)",
+            "role": "exposure",
+            "value": "per unit increase (sex-stratified)",
+            "condition": "men with CKD"
+          },
+          {
+            "name": "All-cause mortality",
+            "role": "outcome",
+            "value": "aHR 1.23 (95% CI 1.08\u20131.41)",
+            "condition": "men"
+          },
+          {
+            "name": "Cardiovascular mortality",
+            "role": "outcome",
+            "value": "aHR 1.33 (95% CI 1.11\u20131.59)",
+            "condition": "men"
+          }
+        ],
+        "conditions": [
+          "Subgroup analysis by sex in adults with CKD",
+          "Fully adjusted Cox models"
+        ],
+        "expected_value_or_relationship": "Association between WWI and mortality is stronger in men",
+        "context": "Results section (subgroup analyses; Figure 3)",
+        "evidence_span": "The WWI-associated mortality risk was higher in men (aHR = 1.23, 95% CI: 1.08\u20131.41 for all-cause; aHR = 1.33, 95% CI: 1.11\u20131.59 for CVD) and more pronounced among younger patients.",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.86
+      },
+      {
+        "statement_text": "In subgroups of CKD patients without hypertension, diabetes, or cardiovascular disease, WWI remained a strong predictor of mortality.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI)",
+            "role": "exposure",
+            "value": "continuous or quartiles",
+            "condition": "CKD patients without hypertension, diabetes, or CVD"
+          },
+          {
+            "name": "Mortality (all-cause and CVD)",
+            "role": "outcome",
+            "value": "higher risk with higher WWI",
+            "condition": "\"low-risk\" subgroups"
+          }
+        ],
+        "conditions": [
+          "Subgroup analyses in CKD patients without hypertension",
+          "Subgroup analyses in CKD patients without diabetes",
+          "Subgroup analyses in CKD patients without CVD"
+        ],
+        "expected_value_or_relationship": "WWI predicts mortality even in low-risk comorbidity subgroups",
+        "context": "Results section (subgroup analyses; Figure 3)",
+        "evidence_span": "In \u201clow-risk\u201d subgroups without hypertension, diabetes, or CVD, WWI remained a strong predictor of mortality.",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.8
+      },
+      {
+        "statement_text": "Subgroup analyses stratified by baseline renal function (eGFR < 45, 45\u201360, and \u2265 60 mL/minute/1.73 m2) showed no significant interaction (all P for interaction > .05), indicating that the association between WWI and mortality remained consistent across different levels of kidney function.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI)",
+            "role": "exposure",
+            "value": "continuous",
+            "condition": "across eGFR strata"
+          },
+          {
+            "name": "Mortality (all-cause and CVD)",
+            "role": "outcome",
+            "value": "association with WWI",
+            "condition": "eGFR < 45, 45\u201360, and \u2265 60 mL/min/1.73 m2"
+          },
+          {
+            "name": "Estimated glomerular filtration rate (eGFR)",
+            "role": "effect_modifier",
+            "value": "< 45, 45\u201360, \u2265 60 mL/min/1.73 m2",
+            "condition": "baseline renal function"
+          }
+        ],
+        "conditions": [
+          "Adults with CKD, stratified by baseline eGFR",
+          "Fully adjusted Cox models"
+        ],
+        "expected_value_or_relationship": "No significant interaction between eGFR strata and WWI\u2013mortality association",
+        "context": "Results section (sensitivity and subgroup analyses; Figure 3)",
+        "evidence_span": "Furthermore, subgroup analyses stratified by baseline renal function (eGFR < 45, 45\u201360, and \u2265 60 mL/minute/1.73 m2) showed no significant interaction (all P for interaction > .05), indicating that the association between WWI and mortality remained consistent across different levels of kidney function (Figs. 3A and 3B).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004) in patients with CKD.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Weight-adjusted waist index (WWI)",
+            "role": "exposure",
+            "value": "continuous",
+            "condition": "patients with CKD"
+          },
+          {
+            "name": "Neutrophil-to-lymphocyte ratio (NLR)",
+            "role": "mediator",
+            "value": "\u03b2 = 0.10 (95% CI 0.03\u20130.17)",
+            "condition": "from mediation model"
+          }
+        ],
+        "conditions": [
+          "Bayesian mediation models in CKD population",
+          "Adjusted for covariates as in fully adjusted model"
+        ],
+        "expected_value_or_relationship": "Higher WWI is associated with higher NLR",
+        "context": "Results section (Mediation analysis for NLR)",
+        "evidence_span": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "Neutrophil-to-lymphocyte ratio (NLR) independently predicted all-cause mortality in CKD patients (aHR = 1.11, 95% CI: 1.08\u20131.15, P < .001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Neutrophil-to-lymphocyte ratio (NLR)",
+            "role": "exposure",
+            "value": "per unit increase (from mediation model)",
+            "condition": "patients with CKD"
+          },
+          {
+            "name": "All-cause mortality",
+            "role": "outcome",
+            "value": "aHR 1.11 (95% CI 1.08\u20131.15)",
+            "condition": "adjusted within mediation framework"
+          }
+        ],
+        "conditions": [
+          "Bayesian mediation models in CKD population",
+          "Adjusted as in fully adjusted Cox model"
+        ],
+        "expected_value_or_relationship": "Higher NLR is associated with higher all-cause mortality risk",
+        "context": "Results section (Mediation analysis for NLR)",
+        "evidence_span": "NLR independently predicted all-cause (aHR = 1.11, 95% CI: 1.08\u20131.15, P < .001)\u2026",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.93
+      },
+      {
+        "statement_text": "Neutrophil-to-lymphocyte ratio (NLR) independently predicted cardiovascular mortality in CKD patients (aHR = 1.09, 95% CI: 1.04\u20131.15, P < .001).",
+        "statement_type": "quantitative"
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio [aHR] = 1.17, 95% CI: 1.09\u20131.26, P < .001) among patients with CKD.",
+        "verdict": "supported",
+        "confidence": 0.93,
+        "explanation": "The evidence_span explicitly reports a 17% higher all-cause mortality risk per 1-unit increase in WWI with aHR 1.17 (95% CI 1.09\u20131.26, P < .001). The statement adds \"among patients with CKD,\" which is specified in the broader context but not repeated in this sentence; however, this does not conflict with the evidence.",
+        "corrected_wording": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk (adjusted hazard ratio [aHR] = 1.17, 95% CI: 1.09\u20131.26, P < .001).",
+        "evidence_span": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with 17% higher all-cause mortality risk adjusted hazard ratio (aHR) = 1.17, 95% CI: 1.09\u20131.26, P < .001)"
+      },
+      {
+        "statement_text": "Each 1-unit increase in WWI was associated with 24% higher cardiovascular (CVD) mortality risk (aHR = 1.24, 95% CI: 1.09\u20131.41, P = .001) among patients with CKD.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span gives exactly the 24% higher CVD mortality risk and the corresponding aHR, confidence interval, and P value for each 1-unit increase in WWI.",
+        "corrected_wording": "Each 1-unit increase in WWI was associated with 24% higher cardiovascular (CVD) mortality risk (aHR = 1.24, 95% CI: 1.09\u20131.41, P = .001).",
+        "evidence_span": "Multivariable Cox proportional hazards indicated that each 1-unit increase in WWI was associated with \u2026 24% higher CVD mortality risk (aHR = 1.24, 95% CI: 1.09\u20131.41, P = .001)."
+      },
+      {
+        "statement_text": "Compared with the lowest WWI quartile (Q1), patients with CKD in the highest quartile (Q4) had a significantly elevated risk of all-cause mortality (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005) after full adjustment.",
+        "verdict": "supported",
+        "confidence": 0.94,
+        "explanation": "The evidence_span clearly states that compared to Q1, Q4 had significantly elevated all-cause mortality risk with aHR 1.28 (95% CI 1.08\u20131.52, P = .005). The tabular values match this description.",
+        "corrected_wording": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had a significantly elevated risk of all-cause mortality (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005).",
+        "evidence_span": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had significantly elevated risks for both all-cause (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005)\u2026\n\nQ4 4.34 (3.27\u20135.76) < .001 1.50 (1.26\u20131.78) < .001 1.28 (1.08\u20131.52) .005"
+      },
+      {
+        "statement_text": "Compared with the lowest WWI quartile (Q1), patients with CKD in the highest quartile (Q4) had a significantly elevated risk of cardiovascular mortality (aHR = 1.39, 95% CI: 1.03\u20131.89, P = .033) after full adjustment.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span explicitly states that Q4 vs Q1 is associated with significantly elevated CVD mortality risk with aHR 1.39 (95% CI 1.03\u20131.89, P = .033).",
+        "corrected_wording": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had a significantly elevated risk of CVD mortality (aHR = 1.39, 95% CI: 1.03\u20131.89, P = .033).",
+        "evidence_span": "Compared with the lowest quartile (Q1), the highest quartile (Q4) had significantly elevated risks for both all-cause (aHR = 1.28, 95% CI: 1.08\u20131.52, P = .005) and CVD mortality (aHR = 1.39, 95% CI: 1.03\u20131.89, P = .033) (Table 2 and 3)."
+      },
+      {
+        "statement_text": "Kaplan\u2013Meier curves stratified by WWI quartiles demonstrated progressively lower survival rates with increasing WWI among patients with CKD (log-rank P < .001).",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span reports Kaplan\u2013Meier curves by WWI quartiles showing progressively lower survival rates with increasing WWI and log-rank P < .001, which matches the statement.",
+        "corrected_wording": "Kaplan\u2013Meier curves stratified by WWI quartiles demonstrated progressively lower survival rates with increasing WWI (log-rank P < .001) (Figs. 2A and 2B).",
+        "evidence_span": "Kaplan\u2013Meier curves stratified by WWI quartiles demonstrated progressively lower survival rates with increasing WWI (log-rank P < .001) (Figs. 2A and 2B)."
+      },
+      {
+        "statement_text": "The WWI-associated mortality risk was higher in men with CKD (aHR = 1.23, 95% CI: 1.08\u20131.41 for all-cause; aHR = 1.33, 95% CI: 1.11\u20131.59 for CVD).",
+        "verdict": "supported",
+        "confidence": 0.88,
+        "explanation": "The evidence_span states that WWI-associated mortality risk was higher in men and provides the same aHRs and confidence intervals for all-cause and CVD mortality as in the statement.",
+        "corrected_wording": "The WWI-associated mortality risk was higher in men (aHR = 1.23, 95% CI: 1.08\u20131.41 for all-cause; aHR = 1.33, 95% CI: 1.11\u20131.59 for CVD).",
+        "evidence_span": "The WWI-associated mortality risk was higher in men (aHR = 1.23, 95% CI: 1.08\u20131.41 for all-cause; aHR = 1.33, 95% CI: 1.11\u20131.59 for CVD) and more pronounced among younger patients."
+      },
+      {
+        "statement_text": "In subgroups of CKD patients without hypertension, diabetes, or cardiovascular disease, WWI remained a strong predictor of mortality.",
+        "verdict": "supported",
+        "confidence": 0.86,
+        "explanation": "The evidence_span directly states that in \"low-risk\" subgroups without hypertension, diabetes, or CVD, WWI remained a strong predictor of mortality. This matches the content of the statement.",
+        "corrected_wording": "In \u201clow-risk\u201d subgroups without hypertension, diabetes, or CVD, WWI remained a strong predictor of mortality.",
+        "evidence_span": "In \u201clow-risk\u201d subgroups without hypertension, diabetes, or CVD, WWI remained a strong predictor of mortality."
+      },
+      {
+        "statement_text": "Subgroup analyses stratified by baseline renal function (eGFR < 45, 45\u201360, and \u2265 60 mL/minute/1.73 m2) showed no significant interaction (all P for interaction > .05), indicating that the association between WWI and mortality remained consistent across different levels of kidney function.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span uses the same eGFR categories, states that no significant interaction was found (all P for interaction > .05), and concludes that the WWI\u2013mortality association remained consistent across kidney function levels.",
+        "corrected_wording": "Furthermore, subgroup analyses stratified by baseline renal function (eGFR < 45, 45\u201360, and \u2265 60 mL/minute/1.73 m2) showed no significant interaction (all P for interaction > .05), indicating that the association between WWI and mortality remained consistent across different levels of kidney function.",
+        "evidence_span": "Furthermore, subgroup analyses stratified by baseline renal function (eGFR < 45, 45\u201360, and \u2265 60 mL/minute/1.73 m2) showed no significant interaction (all P for interaction > .05), indicating that the association between WWI and mortality remained consistent across different levels of kidney function (Figs. 3A and 3B)."
+      },
+      {
+        "statement_text": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004) in patients with CKD.",
+        "verdict": "supported",
+        "confidence": 0.94,
+        "explanation": "The evidence_span states that mediation models showed a positive association between WWI and NLR with \u03b2 = 0.10, 95% CI 0.03\u20130.17, P = .004, which matches the statement. The mention of CKD patients is context, not contradicted by the span.",
+        "corrected_wording": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004).",
+        "evidence_span": "Mediation models showed that WWI was positively associated with NLR (\u03b2 = 0.10, 95% CI: 0.03\u20130.17, P = .004)."
+      },
+      {
+        "statement_text": "Neutrophil-to-lymphocyte ratio (NLR) independently predicted all-cause mortality in CKD patients (aHR = 1.11, 95% CI: 1.08\u20131.15, P < .001).",
+        "verdict": "supported",
+        "confidence": 0.92,
+        "explanation": "The evidence_span clearly reports that NLR independently predicted all-cause mortality with aHR 1.11 (95% CI 1.08\u20131.15, P < .001). The statement is consistent with this.",
+        "corrected_wording": "NLR independently predicted all-cause (aHR = 1.11, 95% CI: 1.08\u20131.15, P < .001)\u2026",
+        "evidence_span": "NLR independently predicted all-cause (aHR = 1.11, 95% CI: 1.08\u20131.15, P < .001)\u2026"
+      }
+    ],
+    "elapsed_seconds": 40.83
+  }
+}

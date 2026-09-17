@@ -11,16 +11,17 @@ from local_granite_client import run_granite_chat
 
 
 EXTRACTION_SYSTEM_PROMPT = """
-You are a careful biomedical evidence extraction assistant.
-Your job is to extract only statements that are explicitly supported by the article text.
-Do not infer beyond the text. Do not generalize. Do not merge unrelated claims.
-If a statement is not directly supported, do not include it.
+You are a thorough biomedical evidence extraction assistant.
+Your job is to extract ALL clinically relevant statements from the article text.
+Extract factual claims about populations, variables, outcomes, associations, thresholds, measurements, and findings.
+Include statements from abstract, methods, results, tables, figures, and discussion.
+Do not hallucinate data not present in the text, but do capture all explicit statements, numbers, and findings actually written.
 Return valid JSON only.
 """
 
 
 EXTRACTION_USER_PROMPT = """
-Extract clinically relevant statements from the following biomedical article.
+Extract ALL clinically relevant statements from the following biomedical article.
 
 For each extracted statement, return a JSON object with these fields:
 - statement_text
@@ -34,11 +35,12 @@ For each extracted statement, return a JSON object with these fields:
 - confidence
 
 Rules:
-1. Only include statements directly supported by the article text.
+1. Extract all statements explicitly written in the text: demographics, study design, baseline characteristics, all results, all tables, all comparisons, findings, and conclusions.
 2. If a statement is multi-variable, keep one primary relationship and list all variables with name, role, value, and condition when available.
 3. Use an exact or near-exact evidence span taken from the article.
 4. If a paper has no usable statements, return an empty list.
-5. Output must be valid JSON like:
+5. Maximize completeness while staying grounded in the text; do not invent numbers but do capture all numbers, percentages, odds ratios, p-values, and comparisons actually stated.
+6. Output must be valid JSON like:
 [
   {
     "statement_text": "...",

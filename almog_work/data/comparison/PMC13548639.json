@@ -1,0 +1,599 @@
+{
+  "pmcid": "PMC13548639",
+  "granite": {
+    "extracted": [
+      {
+        "statement_text": "The heritability of sarcopenia index (SI) was estimated to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "heritability",
+            "role": "outcome",
+            "value": "16.17%",
+            "condition": "combined-sex"
+          },
+          {
+            "name": "heritability",
+            "role": "outcome",
+            "value": "17.83%",
+            "condition": "males"
+          },
+          {
+            "name": "heritability",
+            "role": "outcome",
+            "value": "18.82%",
+            "condition": "females"
+          }
+        ],
+        "conditions": [
+          "combined-sex",
+          "males",
+          "females"
+        ],
+        "expected_value_or_relationship": "Heritability estimates indicate substantial genetic contribution to SI across sexes.",
+        "context": "Results section",
+        "evidence_span": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Genome-wide association analyses of sarcopenia index in the UK Biobank",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Eight loci overlapped with all three previously reported sarcopenia-related traits (ALM, handgrip strength, and walking pace).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "overlapping_loci",
+            "role": "outcome",
+            "value": "8",
+            "condition": "all three traits"
+          }
+        ],
+        "conditions": [
+          "ALM",
+          "handgrip strength",
+          "walking pace"
+        ],
+        "expected_value_or_relationship": "Overlap indicates shared genetic architecture among these sarcopenia-related traits.",
+        "context": "Annotation of previously unreported loci",
+        "evidence_span": "Among them, eight loci overlapped with all three traits (rs11060406, rs11666808, rs17207225, rs2763981, rs35325270, rs6120748, rs6142137, and rs71301804).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Genome-wide association analyses of sarcopenia index in the UK Biobank",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "The locus rs1145093 at chr15q21.1 near GATM showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "gene_sex_interaction_p_value",
+            "role": "outcome",
+            "value": "1.26 \u00d7 10\u221227",
+            "condition": "rs1145093 at chr15q21.1 near GATM"
+          }
+        ],
+        "conditions": [
+          "gene\u2013sex interaction analysis"
+        ],
+        "expected_value_or_relationship": "Significant p-value indicates a strong sex-dependent association at this locus.",
+        "context": "Sex-biased genetic association",
+        "evidence_span": "This analysis highlighted the locus rs1145093 at chr15q21.1 near GATM again (Fig. 3D), which showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Genome-wide association analyses of sarcopenia index in the UK Biobank",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The MAPK signaling pathway and cellular senescence pathway were consistently enriched across all analyses, indicating shared molecular mechanisms underlying sarcopenia.",
+        "statement_type": "qualitative",
+        "variables": [
+          {
+            "name": "enriched_pathways",
+            "role": "outcome",
+            "value": "MAPK signaling pathway, cellular senescence pathway",
+            "condition": "all analyses"
+          }
+        ],
+        "conditions": [
+          "combined analysis",
+          "sex-stratified analyses"
+        ],
+        "expected_value_or_relationship": "Consistent enrichment suggests these pathways are central to sarcopenia pathophysiology.",
+        "context": "Enrichment analysis",
+        "evidence_span": "Pathway enrichment analysis of credible gene sets across sex categories revealed core biological processes closely associated with the SI (Table S13). Across all analyses, the MAPK signaling pathway and cellular senescence pathway were consistently enriched, indicating that inflammation, cellular stress, and aging represent shared molecular mechanisms underlying sarcopenia.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Genome-wide association analyses of sarcopenia index in the UK Biobank",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "The heritability of sarcopenia index (SI) was estimated to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly states the heritability estimates for the combined-sex analysis and for males and females separately, matching the values in the statement.",
+        "corrected_wording": "The heritability of sarcopenia index (SI) was estimated to be 16.17% in the combined-sex analysis, and 17.83% in males and 18.82% in females.",
+        "evidence_span": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively."
+      },
+      {
+        "statement_text": "Eight loci overlapped with all three previously reported sarcopenia-related traits (ALM, handgrip strength, and walking pace).",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span explicitly lists eight specific loci that overlap across all three traits, confirming the statement.",
+        "corrected_wording": "Eight loci overlapped with all three previously reported sarcopenia-related traits (ALM, handgrip strength, and walking pace).",
+        "evidence_span": "Among them, eight loci overlapped with all three traits (rs11060406, rs11666808, rs17207225, rs2763981, rs35325270, rs6120748, rs6142137, and rs71301804)."
+      },
+      {
+        "statement_text": "The locus rs1145093 at chr15q21.1 near GATM showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u207b\u00b2\u00b2).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span provides the exact p-value for the gene\u2013sex interaction at rs1145093, matching the statement.",
+        "corrected_wording": "The locus rs1145093 at chr15q21.1 near GATM showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u207b\u00b2\u00b2).",
+        "evidence_span": "This analysis highlighted the locus rs1145093 at chr15q21.1 near GATM again (Fig. 3D), which showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u207b\u00b2\u00b2)."
+      },
+      {
+        "statement_text": "The MAPK signaling pathway and cellular senescence pathway were consistently enriched across all analyses, indicating shared molecular mechanisms underlying sarcopenia.",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span states that both the MAPK signaling pathway and cellular senescence pathway were consistently enriched across all analyses, directly supporting the statement.",
+        "corrected_wording": "The MAPK signaling pathway and cellular senescence pathway were consistently enriched across all analyses, indicating shared molecular mechanisms underlying sarcopenia.",
+        "evidence_span": "Pathway enrichment analysis of credible gene sets across sex categories revealed core biological processes closely associated with the SI (Table S13). Across all analyses, the MAPK signaling pathway and cellular senescence pathway were consistently enriched, indicating that inflammation, cellular stress, and aging represent shared molecular mechanisms underlying sarcopenia."
+      }
+    ],
+    "elapsed_seconds": 32.58
+  },
+  "gpt": {
+    "extracted": [
+      {
+        "statement_text": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Sarcopenia index (SI) heritability",
+            "role": "outcome",
+            "value": "16.17%",
+            "condition": "combined-sex analysis"
+          },
+          {
+            "name": "Sarcopenia index (SI) heritability",
+            "role": "outcome",
+            "value": "17.83%",
+            "condition": "male-stratified analysis"
+          },
+          {
+            "name": "Sarcopenia index (SI) heritability",
+            "role": "outcome",
+            "value": "18.82%",
+            "condition": "female-stratified analysis"
+          }
+        ],
+        "conditions": [
+          "UK Biobank participants",
+          "LDSC heritability estimation",
+          "stratified by sex (combined, male, female)"
+        ],
+        "expected_value_or_relationship": "Heritability of SI is approximately 16\u201319%, with slightly higher estimates in sex-stratified (male and female) analyses than in the combined-sex analysis.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI",
+        "evidence_span": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively (Figure S1B).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "We identified 774 unique independent SI-associated loci across all analyses, with 747 detected in the combined-sex GWAS, 283 in the male-stratified GWAS, and 311 in the female-stratified GWAS.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Independent SI-associated loci",
+            "role": "outcome",
+            "value": "774 total; 747 combined-sex; 283 male-stratified; 311 female-stratified",
+            "condition": "genome-wide significant loci after GWAS of SI"
+          }
+        ],
+        "conditions": [
+          "UK Biobank participants",
+          "GWAS of sarcopenia index (SI)",
+          "combined-sex and sex-stratified analyses"
+        ],
+        "expected_value_or_relationship": "Hundreds of independent loci are associated with SI, with slightly more loci identified in females than in males.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI",
+        "evidence_span": "We identified 774 unique independent SI-associated loci across all analyses, with 747 detected in the combined-sex GWAS, 283 in the male-stratified GWAS, and 311 in the female-stratified GWAS.",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "Among loci detected in the sex-stratified GWAS, 135 were female-only significant loci and 112 were male-only significant loci.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Female-only significant SI loci",
+            "role": "outcome",
+            "value": "135 loci",
+            "condition": "significant only in female-stratified GWAS"
+          },
+          {
+            "name": "Male-only significant SI loci",
+            "role": "outcome",
+            "value": "112 loci",
+            "condition": "significant only in male-stratified GWAS"
+          }
+        ],
+        "conditions": [
+          "sex-stratified SI GWAS",
+          "genome-wide significance threshold p < 5 \u00d7 10\u22128"
+        ],
+        "expected_value_or_relationship": "There are more female-only significant SI loci than male-only significant SI loci in sex-stratified GWAS.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI",
+        "evidence_span": "Among loci detected in the sex-stratified GWAS, 135 were female-only significant loci and 112 were male-only significant loci (Table S1).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Three loci (rs1145093-chr15q21.1-GATM, rs6036481-chr20p11.21-CST3, rs1047891-chr2q34-CPS1) showed significant SDE signals, while an additional 30 loci exhibited suggestive evidence of sex-differentiated effects.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "rs1145093 (chr15q21.1, GATM locus)",
+            "role": "genetic_variant",
+            "value": "SDE p < 5 \u00d7 10\u22128",
+            "condition": "sex-differentiated effect on SI"
+          },
+          {
+            "name": "rs6036481 (chr20p11.21, CST3 locus)",
+            "role": "genetic_variant",
+            "value": "SDE p < 5 \u00d7 10\u22128",
+            "condition": "sex-differentiated effect on SI"
+          },
+          {
+            "name": "rs1047891 (chr2q34, CPS1 locus)",
+            "role": "genetic_variant",
+            "value": "SDE p < 5 \u00d7 10\u22128",
+            "condition": "sex-differentiated effect on SI"
+          },
+          {
+            "name": "Additional 30 loci",
+            "role": "genetic_variant_set",
+            "value": "SDE p < 1 \u00d7 10\u22125 but \u2265 5 \u00d7 10\u22128",
+            "condition": "suggestive sex-differentiated effects on SI"
+          },
+          {
+            "name": "Sarcopenia index (SI)",
+            "role": "outcome",
+            "value": "sex-specific genetic effect sizes",
+            "condition": "sex-stratified GWAS"
+          }
+        ],
+        "conditions": [
+          "sex-difference effect (SDE) analysis comparing male and female SI GWAS",
+          "UK Biobank participants"
+        ],
+        "expected_value_or_relationship": "Specific loci, including GATM, CST3, and CPS1, have statistically significant sex-differentiated genetic effects on SI, with additional loci showing suggestive sex differences.",
+        "context": "Results section \u2013 Sex-biased genetic association",
+        "evidence_span": "Three loci (rs1145093-chr15q21.1-GATM, rs6036481-chr20p11.21-CST3, rs1047891-chr2q34-CPS1) showed significant SDE signals, while an additional 30 loci exhibited suggestive evidence of sex-differentiated effects.",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The locus rs1145093 at chr15q21.1 near GATM showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227).",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "rs1145093 (chr15q21.1, near GATM)",
+            "role": "genetic_variant",
+            "value": "gene\u2013sex interaction p = 1.26 \u00d7 10\u221227",
+            "condition": "association with SI"
+          },
+          {
+            "name": "Sex (male vs female)",
+            "role": "effect_modifier",
+            "value": "interaction term G \u00d7 sex",
+            "condition": "linear mixed model of SI"
+          },
+          {
+            "name": "Sarcopenia index (SI)",
+            "role": "outcome",
+            "value": "continuous trait",
+            "condition": "UK Biobank, unrelated individuals"
+          }
+        ],
+        "conditions": [
+          "Gene\u2013sex interaction analysis using GEM in 251,203 unrelated individuals",
+          "Model: SI \u223c G \u00d7 sex + G + sex + age + age2 + BMI + PC1\u201320 + genotyping array + smoking",
+          "Common variants MAF > 0.01"
+        ],
+        "expected_value_or_relationship": "The effect of rs1145093 on SI differs strongly between males and females, as evidenced by an extremely significant genotype\u2013sex interaction.",
+        "context": "Results section \u2013 Sex-biased genetic association",
+        "evidence_span": "Subsequently, we performed gene\u2013sex interaction analysis in an independent set of 251,203 unrelated individuals (Figure S5 and Table S5). This analysis highlighted the locus rs1145093 at chr15q21.1 near GATM again (Fig. 3D), which showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.97
+      },
+      {
+        "statement_text": "Among these single-sex significant loci, 59 of 247 loci (23.9%) showed stronger associations in sex-stratified GWAS than in the combined-sex analysis, including 23 of 112 male-only significant loci (20.5%) and 36 of 135 female-only significant loci (26.7%).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Single-sex significant loci with stronger sex-stratified associations",
+            "role": "outcome",
+            "value": "59 of 247 (23.9%)",
+            "condition": "comparison of sex-stratified vs combined-sex GWAS"
+          },
+          {
+            "name": "Male-only significant loci with stronger sex-stratified associations",
+            "role": "outcome",
+            "value": "23 of 112 (20.5%)",
+            "condition": "male-only significant loci"
+          },
+          {
+            "name": "Female-only significant loci with stronger sex-stratified associations",
+            "role": "outcome",
+            "value": "36 of 135 (26.7%)",
+            "condition": "female-only significant loci"
+          }
+        ],
+        "conditions": [
+          "Single-sex significant loci defined as loci reaching genome-wide significance in only one sex-stratified GWAS",
+          "Comparison of effect sizes and p-values between sex-stratified and combined-sex SI GWAS"
+        ],
+        "expected_value_or_relationship": "A substantial subset of single-sex significant loci shows stronger statistical evidence in sex-specific analyses than in the combined-sex analysis, more so for female-only loci.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI",
+        "evidence_span": "Among these single-sex significant loci, 59 of 247 loci (23.9%) showed stronger associations in sex-stratified GWAS than in the combined-sex analysis, including 23 of 112 male-only significant loci (20.5%) and 36 of 135 female-only significant loci (26.7%).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "Furthermore, 25 of 247 loci (10.1%) reached genome-wide significance only in sex-stratified analyses, comprising 8 of 112 male-only significant loci (7.1%) and 17 of 135 female-only significant loci (12.6%), but not in the combined-sex analysis.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Loci significant only in sex-stratified analyses",
+            "role": "outcome",
+            "value": "25 of 247 (10.1%)",
+            "condition": "genome-wide significance in sex-stratified but not combined-sex GWAS"
+          },
+          {
+            "name": "Male-only loci significant only in sex-stratified analyses",
+            "role": "outcome",
+            "value": "8 of 112 (7.1%)",
+            "condition": "male-only significant loci"
+          },
+          {
+            "name": "Female-only loci significant only in sex-stratified analyses",
+            "role": "outcome",
+            "value": "17 of 135 (12.6%)",
+            "condition": "female-only significant loci"
+          }
+        ],
+        "conditions": [
+          "Single-sex significant SI loci",
+          "Genome-wide significance threshold p < 5 \u00d7 10\u22128",
+          "Comparison between combined-sex and sex-stratified SI GWAS"
+        ],
+        "expected_value_or_relationship": "A subset of loci is detectable at genome-wide significance only when analyses are stratified by sex, particularly among female-only loci.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI",
+        "evidence_span": "Furthermore, 25 of 247 loci (10.1%) reached genome-wide significance only in sex-stratified analyses, comprising 8 of 112 male-only significant loci (7.1%) and 17 of 135 female-only significant loci (12.6%), but not in the combined-sex analysis.",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "The Pearson correlation coefficient between effect allele frequencies in females and males across significant loci was 0.99.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Effect allele frequencies across significant loci",
+            "role": "outcome",
+            "value": "Pearson correlation coefficient 0.99 between females and males",
+            "condition": "significant SI-associated loci in sex-stratified GWAS"
+          }
+        ],
+        "conditions": [
+          "Sex-stratified SI GWAS",
+          "Effect allele frequencies compared between male and female datasets"
+        ],
+        "expected_value_or_relationship": "Effect allele frequencies are almost identical between males and females across significant SI loci.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI",
+        "evidence_span": "The Pearson correlation coefficient between effect allele frequencies in females and males across significant loci was 0.99, indicating that sex-related heterogeneity was not driven by differences in allele frequencies.",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.93
+      },
+      {
+        "statement_text": "Combined-sex, male-stratified and female-stratified SI showed significant associations in seven functional regions such as super enhancer, H3K27ac and conserved, whereas the UTR 3 and repressed regions were merely significant in female and combined-sex.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "Functional annotations (super enhancer, H3K27ac, conserved regions)",
+            "role": "exposure",
+            "value": "specific genomic functional categories",
+            "condition": "S-LDSC partitioned heritability"
+          },
+          {
+            "name": "SI heritability enrichment",
+            "role": "outcome",
+            "value": "significant in all three sex categories",
+            "condition": "combined-sex, male, female"
+          },
+          {
+            "name": "UTR 3 and repressed regions",
+            "role": "exposure",
+            "value": "specific functional categories",
+            "condition": "S-LDSC partitioned heritability"
+          },
+          {
+            "name": "SI heritability enrichment",
+            "role": "outcome",
+            "value": "significant only in female and combined-sex analyses",
+            "condition": "not significant in males"
+          }
+        ],
+        "conditions": [
+          "Partitioned heritability using stratified LDSC with 53 functional annotations",
+          "UK Biobank SI GWAS",
+          "Bonferroni correction for multiple testing"
+        ],
+        "expected_value_or_relationship": "SI heritability is enriched in several functional genomic regions across sexes, with 3' UTR and repressed regions showing sex-specific (female and combined-sex) enrichment.",
+        "context": "Results section \u2013 Genome-wide association analyses of SI and S-LDSC",
+        "evidence_span": "Further S-LDSC analysis exhibited that SI of different sex types keep highly consistent in partitioned heritability. Combined-sex, male-stratified and female- stratified SI showed significant associations in seven functional regions such as super enhancer, H3K27ac and conserved. However, the UTR 3 and repressed regions were merely significant in female and combined-sex, indicating that these regions may play specific roles in female SI (Figure S2 and Table S2).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "Among SI-associated loci, 367 loci (47.4%) showed no overlap with previously reported ALM-, HGS-, or WP-associated loci and were therefore classified as novel.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Novel SI-associated loci",
+            "role": "outcome",
+            "value": "367 loci (47.4%)",
+            "condition": "no LD or proximity overlap with ALM, HGS, or walking pace loci"
+          },
+          {
+            "name": "Previously overlapping SI loci",
+            "role": "comparator",
+            "value": "remaining 407 loci",
+            "condition": "overlap with one or more of ALM, HGS, or WP"
+          }
+        ]
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span reports exactly these heritability estimates for combined-sex, males, and females.",
+        "corrected_wording": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively.",
+        "evidence_span": "LDSC estimated the heritability of SI to be 16.17% in the combined-sex analysis, and 17.83% and 18.82% in males and females, respectively (Figure S1B)."
+      },
+      {
+        "statement_text": "We identified 774 unique independent SI-associated loci across all analyses, with 747 detected in the combined-sex GWAS, 283 in the male-stratified GWAS, and 311 in the female-stratified GWAS.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The counts of total loci and those detected in each analysis match exactly what is stated in the evidence_span.",
+        "corrected_wording": "We identified 774 unique independent SI-associated loci across all analyses, with 747 detected in the combined-sex GWAS, 283 in the male-stratified GWAS, and 311 in the female-stratified GWAS.",
+        "evidence_span": "We identified 774 unique independent SI-associated loci across all analyses, with 747 detected in the combined-sex GWAS, 283 in the male-stratified GWAS, and 311 in the female-stratified GWAS."
+      },
+      {
+        "statement_text": "Among loci detected in the sex-stratified GWAS, 135 were female-only significant loci and 112 were male-only significant loci.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span explicitly states the same numbers of female-only and male-only significant loci.",
+        "corrected_wording": "Among loci detected in the sex-stratified GWAS, 135 were female-only significant loci and 112 were male-only significant loci.",
+        "evidence_span": "Among loci detected in the sex-stratified GWAS, 135 were female-only significant loci and 112 were male-only significant loci (Table S1)."
+      },
+      {
+        "statement_text": "Three loci (rs1145093-chr15q21.1-GATM, rs6036481-chr20p11.21-CST3, rs1047891-chr2q34-CPS1) showed significant SDE signals, while an additional 30 loci exhibited suggestive evidence of sex-differentiated effects.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span lists the same three loci as having significant SDE signals and notes that 30 additional loci had suggestive evidence of sex-differentiated effects.",
+        "corrected_wording": "Three loci (rs1145093-chr15q21.1-GATM, rs6036481-chr20p11.21-CST3, rs1047891-chr2q34-CPS1) showed significant SDE signals, while an additional 30 loci exhibited suggestive evidence of sex-differentiated effects.",
+        "evidence_span": "Three loci (rs1145093-chr15q21.1-GATM, rs6036481-chr20p11.21-CST3, rs1047891-chr2q34-CPS1) showed significant SDE signals, while an additional 30 loci exhibited suggestive evidence of sex-differentiated effects."
+      },
+      {
+        "statement_text": "The locus rs1145093 at chr15q21.1 near GATM showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227).",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span names rs1145093 at chr15q21.1 near GATM and gives the same p-value for a strong gene\u2013sex interaction signal.",
+        "corrected_wording": "The locus rs1145093 at chr15q21.1 near GATM showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227).",
+        "evidence_span": "Subsequently, we performed gene\u2013sex interaction analysis in an independent set of 251,203 unrelated individuals (Figure S5 and Table S5). This analysis highlighted the locus rs1145093 at chr15q21.1 near GATM again (Fig. 3D), which showed a strong gene\u2013sex interaction signal (p = 1.26 \u00d7 10\u221227)."
+      },
+      {
+        "statement_text": "Among these single-sex significant loci, 59 of 247 loci (23.9%) showed stronger associations in sex-stratified GWAS than in the combined-sex analysis, including 23 of 112 male-only significant loci (20.5%) and 36 of 135 female-only significant loci (26.7%).",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The proportions and counts for all single-sex, male-only, and female-only loci match exactly between the statement and the evidence_span.",
+        "corrected_wording": "Among these single-sex significant loci, 59 of 247 loci (23.9%) showed stronger associations in sex-stratified GWAS than in the combined-sex analysis, including 23 of 112 male-only significant loci (20.5%) and 36 of 135 female-only significant loci (26.7%).",
+        "evidence_span": "Among these single-sex significant loci, 59 of 247 loci (23.9%) showed stronger associations in sex-stratified GWAS than in the combined-sex analysis, including 23 of 112 male-only significant loci (20.5%) and 36 of 135 female-only significant loci (26.7%)."
+      },
+      {
+        "statement_text": "Furthermore, 25 of 247 loci (10.1%) reached genome-wide significance only in sex-stratified analyses, comprising 8 of 112 male-only significant loci (7.1%) and 17 of 135 female-only significant loci (12.6%), but not in the combined-sex analysis.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span provides the same counts and percentages and explicitly notes that these loci did not reach significance in the combined-sex analysis.",
+        "corrected_wording": "Furthermore, 25 of 247 loci (10.1%) reached genome-wide significance only in sex-stratified analyses, comprising 8 of 112 male-only significant loci (7.1%) and 17 of 135 female-only significant loci (12.6%), but not in the combined-sex analysis.",
+        "evidence_span": "Furthermore, 25 of 247 loci (10.1%) reached genome-wide significance only in sex-stratified analyses, comprising 8 of 112 male-only significant loci (7.1%) and 17 of 135 female-only significant loci (12.6%), but not in the combined-sex analysis."
+      },
+      {
+        "statement_text": "The Pearson correlation coefficient between effect allele frequencies in females and males across significant loci was 0.99.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span states exactly that the Pearson correlation coefficient between effect allele frequencies in females and males across significant loci was 0.99.",
+        "corrected_wording": "The Pearson correlation coefficient between effect allele frequencies in females and males across significant loci was 0.99.",
+        "evidence_span": "The Pearson correlation coefficient between effect allele frequencies in females and males across significant loci was 0.99, indicating that sex-related heterogeneity was not driven by differences in allele frequencies."
+      },
+      {
+        "statement_text": "Combined-sex, male-stratified and female-stratified SI showed significant associations in seven functional regions such as super enhancer, H3K27ac and conserved, whereas the UTR 3 and repressed regions were merely significant in female and combined-sex.",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span states that all three sex types showed significant associations in seven functional regions including super enhancer, H3K27ac and conserved, and that UTR 3 and repressed regions were significant only in female and combined-sex analyses.",
+        "corrected_wording": "Combined-sex, male-stratified and female-stratified SI showed significant associations in seven functional regions such as super enhancer, H3K27ac and conserved, whereas the UTR 3 and repressed regions were merely significant in female and combined-sex.",
+        "evidence_span": "Further S-LDSC analysis exhibited that SI of different sex types keep highly consistent in partitioned heritability. Combined-sex, male-stratified and female- stratified SI showed significant associations in seven functional regions such as super enhancer, H3K27ac and conserved. However, the UTR 3 and repressed regions were merely significant in female and combined-sex, indicating that these regions may play specific roles in female SI (Figure S2 and Table S2)."
+      },
+      {
+        "statement_text": "Among SI-associated loci, 367 loci (47.4%) showed no overlap with previously reported ALM-, HGS-, or WP-associated loci and were therefore classified as novel.",
+        "verdict": "unsupported",
+        "confidence": 0.1,
+        "explanation": "No evidence_span is provided for this statement, so the numbers and the classification as novel cannot be verified from the given text.",
+        "corrected_wording": "Among SI-associated loci, 367 loci (47.4%) showed no overlap with previously reported ALM-, HGS-, or WP-associated loci and were therefore classified as novel.",
+        "evidence_span": ""
+      }
+    ],
+    "elapsed_seconds": 38.54
+  }
+}

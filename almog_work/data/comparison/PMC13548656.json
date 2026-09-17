@@ -1,0 +1,1018 @@
+{
+  "pmcid": "PMC13548656",
+  "granite": {
+    "extracted": [
+      {
+        "statement_text": "Procedural success was achieved in 424 patients (90.7%).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Procedural Success",
+            "role": "outcome",
+            "value": "424 patients",
+            "condition": "MTEER cohort"
+          }
+        ],
+        "conditions": [
+          "MTEER cohort"
+        ],
+        "expected_value_or_relationship": "Procedural success rate of 90.7%.",
+        "context": "Results section",
+        "evidence_span": "Procedural success was achieved in 424 patients (90.7%).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Testing Accuracy",
+            "role": "performance metric",
+            "value": "k-nearest neighbors: 66%",
+            "condition": "machine learning algorithms"
+          },
+          {
+            "name": "Testing Accuracy",
+            "role": "performance metric",
+            "value": "gradient boosting: 64%",
+            "condition": "machine learning algorithms"
+          },
+          {
+            "name": "Testing Accuracy",
+            "role": "performance metric",
+            "value": "random forest: 63%",
+            "condition": "machine learning algorithms"
+          },
+          {
+            "name": "Testing Accuracy",
+            "role": "performance metric",
+            "value": "support vector machines: 61%",
+            "condition": "machine learning algorithms"
+          }
+        ],
+        "conditions": [
+          "machine learning algorithms"
+        ],
+        "expected_value_or_relationship": "k-nearest neighbors had the highest testing accuracy among the evaluated machine learning models.",
+        "context": "Results section",
+        "evidence_span": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "AUC",
+            "role": "performance metric",
+            "value": "0.76",
+            "condition": "Xception deep learning model"
+          }
+        ],
+        "conditions": [
+          "Xception deep learning model"
+        ],
+        "expected_value_or_relationship": "Xception model had the highest AUC among deep learning architectures.",
+        "context": "Results section",
+        "evidence_span": "Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Deep learning models consistently outperformed logistic regression.",
+        "statement_type": "qualitative",
+        "variables": [],
+        "conditions": [
+          "deep learning models",
+          "logistic regression"
+        ],
+        "expected_value_or_relationship": "Deep learning models had better performance metrics than logistic regression.",
+        "context": "Results section",
+        "evidence_span": "Deep learning models consistently outperformed logistic regression.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Training Accuracy",
+            "role": "performance metric",
+            "value": "66%",
+            "condition": "logistic regression"
+          },
+          {
+            "name": "Testing Accuracy",
+            "role": "performance metric",
+            "value": "69%",
+            "condition": "logistic regression"
+          }
+        ],
+        "conditions": [
+          "logistic regression"
+        ],
+        "expected_value_or_relationship": "Logistic regression model performance metrics.",
+        "context": "Results section",
+        "evidence_span": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The mean age of the cohort was 77 \u00b1 11 years.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Mean Age",
+            "role": "demographic",
+            "value": "77 \u00b1 11 years",
+            "condition": "MTEER cohort"
+          }
+        ],
+        "conditions": [
+          "MTEER cohort"
+        ],
+        "expected_value_or_relationship": "Mean age of patients undergoing MTEER.",
+        "context": "Results section",
+        "evidence_span": "The mean age was 77 \u00b1 11 years.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "44.7% of patients were female.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Female Proportion",
+            "role": "demographic",
+            "value": "44.7%",
+            "condition": "MTEER cohort"
+          }
+        ],
+        "conditions": [
+          "MTEER cohort"
+        ],
+        "expected_value_or_relationship": "Proportion of female patients in the cohort.",
+        "context": "Results section",
+        "evidence_span": "44.7% of patients were female.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Prior Heart Failure Hospitalization",
+            "role": "clinical history",
+            "value": "nearly 40%",
+            "condition": "MTEER cohort"
+          }
+        ],
+        "conditions": [
+          "MTEER cohort"
+        ],
+        "expected_value_or_relationship": "Proportion of patients with prior heart failure hospitalization.",
+        "context": "Results section",
+        "evidence_span": "Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Mean Post-Procedural Mitral Valve Gradient",
+            "role": "procedural outcome",
+            "value": "1.7 \u00b1 0.9 mmHg",
+            "condition": "MTEER cohort"
+          }
+        ],
+        "conditions": [
+          "MTEER cohort"
+        ],
+        "expected_value_or_relationship": "Average gradient after MTEER procedure.",
+        "context": "Results section",
+        "evidence_span": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "statement_type": "definition",
+        "variables": [],
+        "conditions": [],
+        "expected_value_or_relationship": "Definition of procedural success for MTEER.",
+        "context": "Methods section",
+        "evidence_span": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "A total of 34 predetermined echocardiographic measurements were selected as input features for model development.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Number of Echocardiographic Measurements",
+            "role": "model input",
+            "value": "34",
+            "condition": "machine learning models"
+          }
+        ],
+        "conditions": [
+          "machine learning models"
+        ],
+        "expected_value_or_relationship": "Number of echocardiographic variables used as features.",
+        "context": "Methods section",
+        "evidence_span": "A total of 34 predetermined echocardiographic measurements were selected based on their known or potential association with procedural outcomes and were used as input features for model development.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The dataset was randomly divided into training and testing cohorts, with model training performed exclusively on the training set.",
+        "statement_type": "procedural",
+        "variables": [],
+        "conditions": [],
+        "expected_value_or_relationship": "Data partitioning strategy for model development.",
+        "context": "Methods section",
+        "evidence_span": "The dataset was randomly divided into training and testing cohorts, with model training performed exclusively on the training set.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Three convolutional neural network architectures, Inception, Xception, and MobileNet, were evaluated for binary classification.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Number of DL Architectures",
+            "role": "model evaluation",
+            "value": "3",
+            "condition": "deep learning models"
+          }
+        ],
+        "conditions": [
+          "deep learning models"
+        ],
+        "expected_value_or_relationship": "Number of CNN architectures tested.",
+        "context": "Methods section",
+        "evidence_span": "Three convolutional neural network architectures, Inception, Xception, and MobileNet, were evaluated for binary classification.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "A 10-fold cross-validation strategy was employed for model evaluation.",
+        "statement_type": "procedural",
+        "variables": [],
+        "conditions": [],
+        "expected_value_or_relationship": "Cross-validation method used for assessing model performance.",
+        "context": "Methods section",
+        "evidence_span": "A 10-fold cross-validation strategy was employed.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The Xception model achieved the highest performance, with an AUC of 0.76.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "AUC",
+            "role": "performance metric",
+            "value": "0.76",
+            "condition": "Xception model"
+          }
+        ],
+        "conditions": [
+          "Xception model"
+        ],
+        "expected_value_or_relationship": "Xception model had the highest AUC among evaluated deep learning models.",
+        "context": "Results section",
+        "evidence_span": "Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Artificial intelligence\u2013based approaches for predicting procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Procedural success was achieved in 424 patients (90.7%).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly states that procedural success was achieved in 424 patients with a success rate of 90.7%.",
+        "corrected_wording": "Procedural success was achieved in 424 patients (90.7%).",
+        "evidence_span": "Procedural success was achieved in 424 patients (90.7%)."
+      },
+      {
+        "statement_text": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span explicitly lists the testing accuracies for each algorithm in the specified order.",
+        "corrected_wording": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%).",
+        "evidence_span": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%)."
+      },
+      {
+        "statement_text": "The Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span states that the Xception model had the highest performance and provides the AUC value of 0.76, along with favorable accuracy, sensitivity, and specificity.",
+        "corrected_wording": "The Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "evidence_span": "Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity."
+      },
+      {
+        "statement_text": "Deep learning models consistently outperformed logistic regression.",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span directly asserts that deep learning models outperformed logistic regression, aligning with the expected qualitative relationship.",
+        "corrected_wording": "Deep learning models consistently outperformed logistic regression.",
+        "evidence_span": "Deep learning models consistently outperformed logistic regression."
+      },
+      {
+        "statement_text": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span provides both the training and testing accuracies for logistic regression as specified.",
+        "corrected_wording": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "evidence_span": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%."
+      },
+      {
+        "statement_text": "The mean age of the cohort was 77 \u00b1 11 years.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly reports the mean age and standard deviation of the cohort.",
+        "corrected_wording": "The mean age of the cohort was 77 \u00b1 11 years.",
+        "evidence_span": "The mean age was 77 \u00b1 11 years."
+      },
+      {
+        "statement_text": "44.7% of patients were female.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span explicitly states the proportion of female patients in the cohort.",
+        "corrected_wording": "44.7% of patients were female.",
+        "evidence_span": "44.7% of patients were female."
+      },
+      {
+        "statement_text": "Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly indicates that nearly 40% of patients had a prior heart failure hospitalization.",
+        "corrected_wording": "Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "evidence_span": "Nearly 40% of patients had a prior hospitalization for heart failure."
+      },
+      {
+        "statement_text": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span provides the mean and standard deviation of the post-procedural mitral valve gradient.",
+        "corrected_wording": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "evidence_span": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg."
+      },
+      {
+        "statement_text": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span precisely defines the criteria for procedural success as stated.",
+        "corrected_wording": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "evidence_span": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure."
+      },
+      {
+        "statement_text": "A total of 34 predetermined echocardiographic measurements were selected as input features for model development.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span indicates that 34 echocardiographic measurements were chosen as input features for the models.",
+        "corrected_wording": "A total of 34 predetermined echocardiographic measurements were selected as input features for model development.",
+        "evidence_span": "A total of 34 predetermined echocardiographic measurements were selected based on their known or potential association with procedural outcomes and were used as input features for model development."
+      },
+      {
+        "statement_text": "The dataset was randomly divided into training and testing cohorts, with model training performed exclusively on the training set.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span clearly describes the random division of the dataset into training and testing cohorts and the exclusive use of the training set for model training.",
+        "corrected_wording": "The dataset was randomly divided into training and testing cohorts, with model training performed exclusively on the training set.",
+        "evidence_span": "The dataset was randomly divided into training and testing cohorts, with model training performed exclusively on the training set."
+      },
+      {
+        "statement_text": "Three convolutional neural network architectures, Inception, Xception, and MobileNet, were evaluated for binary classification.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span lists the three CNN architectures evaluated for binary classification.",
+        "corrected_wording": "Three convolutional neural network architectures, Inception, Xception, and MobileNet, were evaluated for binary classification.",
+        "evidence_span": "Three convolutional neural network architectures, Inception, Xception, and MobileNet, were evaluated for binary classification."
+      },
+      {
+        "statement_text": "A 10-fold cross-validation strategy was employed for model evaluation.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span directly states the use of a 10-fold cross-validation strategy for model evaluation.",
+        "corrected_wording": "A 10-fold cross-validation strategy was employed for model evaluation.",
+        "evidence_span": "A 10-fold cross-validation strategy was employed."
+      },
+      {
+        "statement_text": "The Xception model achieved the highest performance, with an AUC of 0.76.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span confirms that the Xception model had the highest performance and provides the AUC value of 0.76.",
+        "corrected_wording": "The Xception model achieved the highest performance, with an AUC of 0.76.",
+        "evidence_span": "Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity."
+      }
+    ],
+    "elapsed_seconds": 88.4
+  },
+  "gpt": {
+    "extracted": [
+      {
+        "statement_text": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "statement_type": "definition",
+        "variables": [
+          {
+            "name": "residual mitral regurgitation severity",
+            "role": "component_of_outcome",
+            "value": "\u2264 mild",
+            "condition": "immediately post-procedural"
+          },
+          {
+            "name": "mean mitral valve gradient",
+            "role": "component_of_outcome",
+            "value": "< 5 mmHg",
+            "condition": "immediately post-procedural"
+          },
+          {
+            "name": "procedural success",
+            "role": "outcome",
+            "value": "composite endpoint",
+            "condition": "at conclusion of MTEER procedure"
+          }
+        ],
+        "conditions": [
+          "at the conclusion of the MTEER procedure",
+          "immediate post-procedural echocardiographic assessment"
+        ],
+        "expected_value_or_relationship": "Procedural success requires both residual MR \u2264 mild and mean mitral valve gradient < 5 mmHg.",
+        "context": "Methods - Echocardiographic assessment and procedural definition",
+        "evidence_span": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "A total of 481 patients underwent MTEER during the study period. Fourteen patients were excluded because of incomplete data, resulting in a final cohort of 467 patients.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "number of patients undergoing MTEER",
+            "role": "population",
+            "value": "481",
+            "condition": "between 2014 and 2022 at St Michael\u2019s Hospital"
+          },
+          {
+            "name": "number of patients excluded",
+            "role": "other",
+            "value": "14",
+            "condition": "incomplete clinical or echocardiographic data"
+          },
+          {
+            "name": "final study cohort size",
+            "role": "population",
+            "value": "467",
+            "condition": "after exclusion of patients with incomplete data"
+          }
+        ],
+        "conditions": [
+          "retrospective single-center cohort",
+          "MTEER procedures between 2014 and 2022"
+        ],
+        "expected_value_or_relationship": "Final analyzed cohort consisted of 467 out of 481 MTEER patients.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "A total of 481 patients underwent MTEER during the study period. Fourteen patients were excluded because of incomplete data, resulting in a final cohort of 467 patients.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The mean age was 77 \u00b1 11 years, and 44.7% of patients were female.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "age",
+            "role": "population_characteristic",
+            "value": "77 \u00b1 11 years",
+            "condition": "MTEER cohort (n = 467)"
+          },
+          {
+            "name": "sex female",
+            "role": "population_characteristic",
+            "value": "44.7%",
+            "condition": "MTEER cohort (n = 467)"
+          }
+        ],
+        "conditions": [
+          "baseline clinical characteristics",
+          "patients undergoing MTEER (n = 467)"
+        ],
+        "expected_value_or_relationship": "MTEER cohort was elderly with approximately 45% female.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "The mean age was 77 \u00b1 11 years, and 44.7% of patients were female.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Hypertension, atrial fibrillation, and coronary artery disease were highly prevalent. Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "hypertension",
+            "role": "population_characteristic",
+            "value": "74%",
+            "condition": "MTEER cohort (from Table 1: 345/467)"
+          },
+          {
+            "name": "atrial fibrillation",
+            "role": "population_characteristic",
+            "value": "64%",
+            "condition": "MTEER cohort (from Table 1: 299/467)"
+          },
+          {
+            "name": "coronary artery disease",
+            "role": "population_characteristic",
+            "value": "46%",
+            "condition": "MTEER cohort (from Table 1: 215/467)"
+          },
+          {
+            "name": "previous heart failure hospitalization",
+            "role": "population_characteristic",
+            "value": "39%",
+            "condition": "MTEER cohort (from Table 1: 182/467)"
+          }
+        ],
+        "conditions": [
+          "baseline clinical characteristics",
+          "patients undergoing MTEER (n = 467)"
+        ],
+        "expected_value_or_relationship": "Hypertension, atrial fibrillation, coronary artery disease, and previous heart failure hospitalization were frequent comorbidities.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "Hypertension, atrial fibrillation, and coronary artery disease were highly prevalent. Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Most patients had moderate-to-severe or severe MR, with an equal distribution of degenerative and functional etiologies.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "degree of MR",
+            "role": "population_characteristic",
+            "value": "3+ in 97 (21%), 4+ in 330 (71%)",
+            "condition": "MTEER cohort (n = 467)"
+          },
+          {
+            "name": "degenerative MR",
+            "role": "population_characteristic",
+            "value": "233 (50%)",
+            "condition": "MTEER cohort (n = 467)"
+          },
+          {
+            "name": "functional MR",
+            "role": "population_characteristic",
+            "value": "234 (50%)",
+            "condition": "MTEER cohort (n = 467)"
+          }
+        ],
+        "conditions": [
+          "baseline echocardiographic characteristics",
+          "patients undergoing MTEER (n = 467)"
+        ],
+        "expected_value_or_relationship": "Approximately half had degenerative and half functional MR, with most having moderate-to-severe or severe MR.",
+        "context": "Results - Baseline echocardiographic characteristics",
+        "evidence_span": "Baseline echocardiographic characteristics are shown in Table 2. Most patients had moderate-to-severe or severe MR, with an equal distribution of degenerative and functional etiologies.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "The mean left ventricular ejection fraction was 50 \u00b1 17%.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "left ventricular ejection fraction",
+            "role": "population_characteristic",
+            "value": "50 \u00b1 17%",
+            "condition": "baseline echocardiography in MTEER cohort (n = 467)"
+          }
+        ],
+        "conditions": [
+          "baseline echocardiographic characteristics",
+          "patients undergoing MTEER (n = 467)"
+        ],
+        "expected_value_or_relationship": "Mean LVEF was moderately reduced/normal on average at 50%.",
+        "context": "Results - Baseline echocardiographic characteristics",
+        "evidence_span": "The mean left ventricular ejection fraction was 50 \u00b1 17%.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Procedural success was achieved in 424 patients (90.7%).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "procedural success",
+            "role": "outcome",
+            "value": "424/467 (90.7%)",
+            "condition": "MTEER procedures at St Michael\u2019s Hospital, 2014\u20132022"
+          }
+        ],
+        "conditions": [
+          "immediate post-procedural assessment",
+          "procedural success defined as residual MR \u2264 mild and mean mitral valve gradient < 5 mmHg"
+        ],
+        "expected_value_or_relationship": "Approximately 91% of MTEER procedures met the predefined success criteria.",
+        "context": "Results - Procedural outcomes",
+        "evidence_span": "Procedural success was achieved in 424 patients (90.7%).",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "A single device was implanted in 56.0% of cases, while multiple devices were required in the remaining patients.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "number of devices implanted",
+            "role": "treatment",
+            "value": "single device in 56.0% of cases",
+            "condition": "MTEER procedures"
+          },
+          {
+            "name": "multiple devices implanted",
+            "role": "treatment",
+            "value": "44.0% of cases",
+            "condition": "MTEER procedures (calculated as remaining patients)"
+          }
+        ],
+        "conditions": [
+          "procedural characteristics of MTEER cohort"
+        ],
+        "expected_value_or_relationship": "Just over half of procedures used a single device, with the remainder requiring multiple devices.",
+        "context": "Results - Procedural outcomes",
+        "evidence_span": "A single device was implanted in 56.0% of cases, while multiple devices were required in the remaining patients.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "post-procedural mean mitral valve gradient",
+            "role": "outcome_measure",
+            "value": "1.7 \u00b1 0.9 mmHg",
+            "condition": "immediately after MTEER"
+          }
+        ],
+        "conditions": [
+          "immediate post-procedural echocardiographic assessment"
+        ],
+        "expected_value_or_relationship": "Average transmitral gradient after MTEER was low (1.7 mmHg).",
+        "context": "Results - Procedural outcomes",
+        "evidence_span": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg (Fig. 1).",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "logistic regression model training accuracy",
+            "role": "performance_metric",
+            "value": "66%",
+            "condition": "prediction of procedural success using echocardiographic variables"
+          },
+          {
+            "name": "logistic regression model testing accuracy",
+            "role": "performance_metric",
+            "value": "69%",
+            "condition": "prediction of procedural success using echocardiographic variables"
+          }
+        ],
+        "conditions": [
+          "multivariable logistic regression using 34 predefined echocardiographic variables",
+          "prediction of MTEER procedural success"
+        ],
+        "expected_value_or_relationship": "Logistic regression correctly classified procedural success in 66% of training and 69% of test cases.",
+        "context": "Results - Model performance",
+        "evidence_span": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%). Decision tree showed the lowest predictive performance, with a testing accuracy of 49%.",
+        "statement_type": "comparative",
+        "variables": [
+          {
+            "name": "k-nearest neighbors testing accuracy",
+            "role": "performance_metric",
+            "value": "66%",
+            "condition": "prediction of procedural success"
+          },
+          {
+            "name": "gradient boosting testing accuracy",
+            "role": "performance_metric",
+            "value": "64%",
+            "condition": "prediction of procedural success"
+          },
+          {
+            "name": "random forest testing accuracy",
+            "role": "performance_metric",
+            "value": "63%",
+            "condition": "prediction of procedural success"
+          },
+          {
+            "name": "support vector machines testing accuracy",
+            "role": "performance_metric",
+            "value": "61%",
+            "condition": "prediction of procedural success"
+          },
+          {
+            "name": "decision tree testing accuracy",
+            "role": "performance_metric",
+            "value": "49%",
+            "condition": "prediction of procedural success"
+          }
+        ],
+        "conditions": [
+          "machine learning models using 34 predefined echocardiographic measurements",
+          "10-fold cross-validation with separate training and testing sets",
+          "outcome: procedural success vs failure"
+        ],
+        "expected_value_or_relationship": "k-nearest neighbors had the highest test accuracy among ML models; decision tree had the lowest.",
+        "context": "Results - Model performance",
+        "evidence_span": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%). Decision tree showed the lowest predictive performance, with a testing accuracy of 49%.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Deep learning models consistently outperformed logistic regression. Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "statement_type": "comparative",
+        "variables": [
+          {
+            "name": "deep learning models",
+            "role": "exposure",
+            "value": "Inception, Xception, MobileNet",
+            "condition": "trained on pre-procedural TEE images"
+          },
+          {
+            "name": "logistic regression",
+            "role": "comparator",
+            "value": "model using echocardiographic variables",
+            "condition": "benchmark classifier"
+          },
+          {
+            "name": "Xception AUC",
+            "role": "performance_metric",
+            "value": "0.756 (\u22480.76)",
+            "condition": "prediction of procedural success"
+          }
+        ],
+        "conditions": [
+          "binary classification of procedural success vs failure",
+          "10-fold cross-validation",
+          "pre-procedural TEE imaging for DL vs structured measurements for logistic regression"
+        ],
+        "expected_value_or_relationship": "DL models, particularly Xception, had superior discriminatory performance compared with logistic regression.",
+        "context": "Results - Model performance; Discussion",
+        "evidence_span": "Deep learning models consistently outperformed logistic regression. Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "source_paper": {
+          "pmid": "",
+          "title": "AI-based prediction of procedural success following transcatheter mitral valve edge-to-edge repair",
+          "journal": "",
+          "year": ""
+        }
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span exactly matches the definition in the statement, including both components and the timing.",
+        "corrected_wording": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure.",
+        "evidence_span": "Procedural success was defined as residual MR \u2264 mild and a mean mitral valve gradient < 5 mmHg at the conclusion of the procedure."
+      },
+      {
+        "statement_text": "A total of 481 patients underwent MTEER during the study period. Fourteen patients were excluded because of incomplete data, resulting in a final cohort of 467 patients.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The numbers of total, excluded, and final cohort patients are exactly as reported in the evidence.",
+        "corrected_wording": "A total of 481 patients underwent MTEER during the study period. Fourteen patients were excluded because of incomplete data, resulting in a final cohort of 467 patients.",
+        "evidence_span": "A total of 481 patients underwent MTEER during the study period. Fourteen patients were excluded because of incomplete data, resulting in a final cohort of 467 patients."
+      },
+      {
+        "statement_text": "The mean age was 77 \u00b1 11 years, and 44.7% of patients were female.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The mean age and percentage of female patients are identical to those in the evidence.",
+        "corrected_wording": "The mean age was 77 \u00b1 11 years, and 44.7% of patients were female.",
+        "evidence_span": "The mean age was 77 \u00b1 11 years, and 44.7% of patients were female."
+      },
+      {
+        "statement_text": "Hypertension, atrial fibrillation, and coronary artery disease were highly prevalent. Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence states that these three conditions were highly prevalent and that nearly 40% had a prior heart failure hospitalization, matching the statement qualitatively and quantitatively (\"nearly 40%\"), though exact percentages are not in the span.",
+        "corrected_wording": "Hypertension, atrial fibrillation, and coronary artery disease were highly prevalent. Nearly 40% of patients had a prior hospitalization for heart failure.",
+        "evidence_span": "Hypertension, atrial fibrillation, and coronary artery disease were highly prevalent. Nearly 40% of patients had a prior hospitalization for heart failure."
+      },
+      {
+        "statement_text": "Most patients had moderate-to-severe or severe MR, with an equal distribution of degenerative and functional etiologies.",
+        "verdict": "supported",
+        "confidence": 0.94,
+        "explanation": "The evidence explicitly states that most patients had moderate-to-severe or severe MR and that degenerative and functional etiologies were equally distributed.",
+        "corrected_wording": "Most patients had moderate-to-severe or severe MR, with an equal distribution of degenerative and functional etiologies.",
+        "evidence_span": "Baseline echocardiographic characteristics are shown in Table 2. Most patients had moderate-to-severe or severe MR, with an equal distribution of degenerative and functional etiologies."
+      },
+      {
+        "statement_text": "The mean left ventricular ejection fraction was 50 \u00b1 17%.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The mean LVEF value and standard deviation match exactly with the evidence.",
+        "corrected_wording": "The mean left ventricular ejection fraction was 50 \u00b1 17%.",
+        "evidence_span": "The mean left ventricular ejection fraction was 50 \u00b1 17%."
+      },
+      {
+        "statement_text": "Procedural success was achieved in 424 patients (90.7%).",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The number and percentage of patients with procedural success exactly match the evidence.",
+        "corrected_wording": "Procedural success was achieved in 424 patients (90.7%).",
+        "evidence_span": "Procedural success was achieved in 424 patients (90.7%)."
+      },
+      {
+        "statement_text": "A single device was implanted in 56.0% of cases, while multiple devices were required in the remaining patients.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence states the same proportion for single device use and that multiple devices were used in the remaining cases, matching the statement.",
+        "corrected_wording": "A single device was implanted in 56.0% of cases, while multiple devices were required in the remaining patients.",
+        "evidence_span": "A single device was implanted in 56.0% of cases, while multiple devices were required in the remaining patients."
+      },
+      {
+        "statement_text": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The post-procedural mean mitral valve gradient and its standard deviation are identical to those in the evidence.",
+        "corrected_wording": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg.",
+        "evidence_span": "The mean post-procedural mitral valve gradient was 1.7 \u00b1 0.9 mmHg (Fig. 1)."
+      },
+      {
+        "statement_text": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The training and testing accuracies stated match exactly with the evidence.",
+        "corrected_wording": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%.",
+        "evidence_span": "Logistic regression achieved a training accuracy of 66% and a testing accuracy of 69%."
+      },
+      {
+        "statement_text": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%). Decision tree showed the lowest predictive performance, with a testing accuracy of 49%.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The relative ranking and the specific testing accuracies of all listed algorithms match the evidence exactly.",
+        "corrected_wording": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%). Decision tree showed the lowest predictive performance, with a testing accuracy of 49%.",
+        "evidence_span": "Among the machine learning algorithms, k-nearest neighbors demonstrated the highest testing accuracy (66%), followed by gradient boosting (64%), random forest (63%), and support vector machines (61%). Decision tree showed the lowest predictive performance, with a testing accuracy of 49%."
+      },
+      {
+        "statement_text": "Deep learning models consistently outperformed logistic regression. Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence explicitly states that deep learning models consistently outperformed logistic regression and that Xception had the highest performance with an AUC of 0.76 and favorable accuracy, sensitivity, and specificity.",
+        "corrected_wording": "Deep learning models consistently outperformed logistic regression. Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity.",
+        "evidence_span": "Deep learning models consistently outperformed logistic regression. Among the evaluated architectures, the Xception model demonstrated the highest performance, achieving an AUC of 0.76 with favorable accuracy, sensitivity, and specificity."
+      }
+    ],
+    "elapsed_seconds": 35.65
+  }
+}

@@ -1,0 +1,1586 @@
+{
+  "pmcid": "PMC13559705",
+  "granite": {
+    "extracted": [
+      {
+        "statement_text": "Prior myocardial infarction was the strongest independent predictor of post-PCI in-hospital HF in our cohort (OR = 6.205, P < 0.001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "prior myocardial infarction",
+            "role": "exposure",
+            "value": "yes",
+            "condition": "T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "History of previous MI was the strongest independent predictor of post-PCI in-hospital HF in our cohort (OR = 6.205, P < 0.001).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Smoking was an independent risk factor for in-hospital HF in T2DM-STEMI patients undergoing emergency PCI (OR = 5.552, P < 0.001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "smoking",
+            "role": "exposure",
+            "value": "yes",
+            "condition": "T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "Smoking represented another powerful independent risk factor for in-hospital HF in T2DM-STEMI patients(OR = 5.552, P < 0.001).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Higher admission peripheral WBC count was independently associated with higher odds of in-hospital HF (OR = 1.143 per 1 g/L increase, P < 0.001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "WBC count",
+            "role": "exposure",
+            "value": "per 1 g/L increase",
+            "condition": "admission, T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "admission, T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "Baseline peripheral WBC count, a simple marker of systemic inflammation, was independently associated with higher HF risk in our study (OR = 1.143, P < 0.001), consistent with previous reports in diabetic acute coronary syndrome cohorts.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.93
+      },
+      {
+        "statement_text": "Lower admission hemoglobin was independently associated with greater odds of in-hospital HF (OR = 0.971 per 1 g/L increase, P < 0.001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "hemoglobin",
+            "role": "exposure",
+            "value": "per 1 g/L increase",
+            "condition": "admission, T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "admission, T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Lower hemoglobin corresponds to higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "Lower admission hemoglobin was independently associated with greater odds of in-hospital HF. The OR of 0.971 was estimated per 1 g/L increase in hemoglobin; thus, each 1 g/L higher hemoglobin level corresponded to approximately 2.9% lower HF odds, and the clinically relevant interpretation is that lower hemoglobin is associated with greater HF odds.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "Lower left ventricular ejection fraction (LVEF) was inversely associated with in-hospital HF (OR = 0.953 per 1 percentage-point increase, P = 0.040).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "LVEF",
+            "role": "exposure",
+            "value": "per 1 percentage-point increase",
+            "condition": "admission, T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "admission, T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Lower LVEF corresponds to higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "LVEF was also inversely associated with in-hospital HF. The OR of 0.953 was estimated per 1 percentage-point increase in LVEF, corresponding to approximately 4.7% lower HF odds for each percentage-point increase; equivalently, lower LVEF was associated with higher HF odds.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.92
+      },
+      {
+        "statement_text": "Higher admission systolic blood pressure was independently associated with in-hospital HF (OR = 1.018 per mmHg, P = 0.032).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "systolic blood pressure",
+            "role": "exposure",
+            "value": "per mmHg increase",
+            "condition": "admission, T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "admission, T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Higher systolic blood pressure corresponds to higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "Higher admission systolic blood pressure was independently associated with HF (OR = 1.018 per mmHg, P = 0.032), a finding that appears counterintuitive in acute STEMI and should not be interpreted as evidence that blood-pressure lowering would prevent HF.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.88
+      },
+      {
+        "statement_text": "Patients aged \u226575 years had a nearly 5-fold higher risk of in-hospital HF compared with those younger than 60 years (OR = 4.792, P = 0.013).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "age",
+            "role": "exposure",
+            "value": "\u226575 years vs. <60 years",
+            "condition": "T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "Compared with patients younger than 60, patients aged \u226575 years exhibited a nearly 5-fold higher risk of in-hospital HF(OR = 4.792, P = 0.013).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "Regional wall motion abnormalities were independently associated with higher odds of in-hospital HF (OR = 2.415, P = 0.030).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "regional wall motion abnormalities",
+            "role": "exposure",
+            "value": "present vs. absent",
+            "condition": "admission, T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "admission, T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Higher odds of in-hospital HF",
+        "context": "Discussion",
+        "evidence_span": "Regional wall motion abnormalities were independently associated with higher HF risk in our study (OR = 2.704, P = 0.002).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.91
+      },
+      {
+        "statement_text": "The model showed an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924) for predicting in-hospital HF.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "model performance",
+            "role": "outcome",
+            "value": "AUC = 0.881",
+            "condition": "internal validation"
+          }
+        ],
+        "conditions": [
+          "internal validation"
+        ],
+        "expected_value_or_relationship": "Good discrimination for in-hospital HF prediction",
+        "context": "Results",
+        "evidence_span": "The final multivariable logistic model achieved an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "The model demonstrated good calibration with a Hosmer\u2013Lemeshow p-value of 0.826 and a calibration slope of 0.88.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "model calibration",
+            "role": "outcome",
+            "value": "Hosmer\u2013Lemeshow p = 0.826, calibration slope = 0.88",
+            "condition": "internal validation"
+          }
+        ],
+        "conditions": [
+          "internal validation"
+        ],
+        "expected_value_or_relationship": "Good internal calibration",
+        "context": "Results",
+        "evidence_span": "Calibration was assessed by the Hosmer\u2013Lemeshow test (P = 0.826), a calibration intercept of -0.13 (95% CI: -0.53 to 0.27), and a calibration slope of 0.88 (95% CI: 0.65\u20131.11).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The study included 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI, with 65 developing new-onset in-hospital HF and 241 not developing HF.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "study population",
+            "role": "demographic",
+            "value": "306 patients",
+            "condition": "T2DM-STEMI undergoing emergency PCI"
+          },
+          {
+            "name": "HF outcome",
+            "role": "outcome",
+            "value": "65 patients developed HF",
+            "condition": "in-hospital"
+          }
+        ],
+        "conditions": [
+          "T2DM-STEMI undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Descriptive baseline characteristics",
+        "context": "Methods",
+        "evidence_span": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort. Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "study period",
+            "role": "timeframe",
+            "value": "January 1, 2022 \u2013 February 1, 2026",
+            "condition": "People\u2019s Hospital of Xinjiang Uygur Autonomous Region"
+          }
+        ],
+        "conditions": [
+          "People\u2019s Hospital of Xinjiang Uygur Autonomous Region"
+        ],
+        "expected_value_or_relationship": "Descriptive study period",
+        "context": "Methods",
+        "evidence_span": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "primary outcome",
+            "role": "definition",
+            "value": "new-onset in-hospital HF after emergency PCI",
+            "condition": "index hospitalization"
+          }
+        ],
+        "conditions": [
+          "index hospitalization"
+        ],
+        "expected_value_or_relationship": "Definition of outcome",
+        "context": "Methods",
+        "evidence_span": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Exclusion criteria included patients who did not undergo emergency PCI, had symptom-to-admission time >12 h, presented with cardiogenic shock on admission or died within 24 h of admission, had pre-existing HF, moderate-to-severe valvular heart disease, cardiomyopathy, chronic kidney disease, moderate-to-severe hepatic dysfunction, severe neurological disorders, psychiatric illnesses, medications affecting cardiac function, concomitant interstitial lung disease, pulmonary embolism, or primary blood disorders.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "exclusion criteria",
+            "role": "definition",
+            "value": "list of 10 specific exclusions",
+            "condition": "study population"
+          }
+        ],
+        "conditions": [
+          "study population"
+        ],
+        "expected_value_or_relationship": "Definition of exclusions",
+        "context": "Methods",
+        "evidence_span": "Exclusion criteria(1) patients who did not undergo emergency percutaneous coronary intervention (PCI) or had a symptom-to-admission time >12 h; (2) patients presenting with cardiogenic shock on admission or who died within 24 h of admission; (3) patients with pre-existing HF at admission or a prior diagnosis of HF; (4) patients with moderate-to-severe valvular heart disease, cardiomyopathy, or other significant structural heart diseases; (5) patients with chronic kidney disease or moderate-to-severe hepatic dysfunction; (6) patients with severe neurological disorders or psychiatric illnesses; (7) patients receiving medications known to significantly affect cardiac function; (8) patients with concomitant interstitial lung disease, pulmonary embolism, or other conditions that may interfere with the diagnosis of HF; (9) patients with active infection, malignancy, systemic inflammatory disease, hematologic diseases, hemolytic anemia, aplastic anemia, or other primary blood disorders that may independently cause abnormalities in hemoglobin or white blood cell counts; and (10) patients with missing key clinical, laboratory, echocardiographic, or procedural data required for the analysis.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The study identified several independent associations with new-onset in-hospital HF, including prior myocardial infarction, smoking, regional wall motion abnormalities, higher admission WBC count, higher admission systolic blood pressure, and age \u226575 years, while lower hemoglobin and lower LVEF were inversely associated.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "independent associations",
+            "role": "outcome",
+            "value": "prior MI, smoking, regional wall motion abnormalities, higher WBC, higher SBP, age \u226575, lower hemoglobin, lower LVEF",
+            "condition": "T2DM-STEMI patients undergoing emergency PCI"
+          }
+        ],
+        "conditions": [
+          "T2DM-STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Specific variables independently predict in-hospital HF",
+        "context": "Results",
+        "evidence_span": "This single-center retrospective cohort study of 306 patients with T2DM and STEMI undergoing emergency PCI identified several independent associations with new-onset in-hospital HF. Positive associations were observed for prior myocardial infarction, smoking, regional wall motion abnormalities, higher admission WBC count, higher admission systolic blood pressure, and age \u226575 years. Hemoglobin and LVEF were inversely associated with HF, meaning that lower values corresponded to greater HF odds.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "The model showed good internal discrimination (AUC 0.881) and calibration (Hosmer\u2013Lemeshow p = 0.826, calibration slope = 0.88) but has not been externally validated and should be considered exploratory due to limited event-to-parameter ratio.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "model performance",
+            "role": "outcome",
+            "value": "AUC 0.881, calibration slope 0.88",
+            "condition": "internal validation"
+          }
+        ],
+        "conditions": [
+          "internal validation"
+        ],
+        "expected_value_or_relationship": "Good discrimination and calibration but exploratory",
+        "context": "Results",
+        "evidence_span": "The final multivariable logistic model achieved an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924). Calibration was assessed by the Hosmer\u2013Lemeshow test (P = 0.826), a calibration intercept of -0.13 (95% CI: -0.53 to 0.27), and a calibration slope of 0.88 (95% CI: 0.65\u20131.11). These results indicate good internal performance, but the model has not been externally validated. All variance inflation factors were <1.5 (Table 4, Figures 2A\u2013E).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The study highlights the need for prospective validation and external validation before clinical implementation of the risk model.",
+        "statement_type": "qualitative",
+        "variables": [
+          {
+            "name": "study conclusion",
+            "role": "interpretation",
+            "value": "prospective validation required",
+            "condition": "overall study"
+          }
+        ],
+        "conditions": [
+          "overall study"
+        ],
+        "expected_value_or_relationship": "Recommendation for further validation",
+        "context": "Discussion",
+        "evidence_span": "Although patients who developed in-hospital HF demonstrated a higher clinical risk profile, the incidence of other severe cardiovascular complications remained relatively low. This may partly reflect timely emergency PCI management and the relatively short observation period confined to the index hospitalization. Longer-term follow-up studies are needed to determine whether in-hospital HF is associated with subsequent cardiovascular events beyond discharge. 5.1 Limitations... Finally, follow-up was limited to the index hospitalization, and no 30-day or long-term data on HF readmission, major adverse cardiovascular events, or mortality were available. Prospective multicenter studies with larger cohorts and independent external validation are required before clinical implementation of the model.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Identifying factors independently associated with in-hospital HF among patients with T2DM presenting with STEMI and treated with emergency PCI",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.97
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Prior myocardial infarction was the strongest independent predictor of post-PCI in-hospital HF in our cohort (OR = 6.205, P < 0.001).",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span directly states that 'History of previous MI was the strongest independent predictor of post-PCI in-hospital HF in our cohort (OR = 6.205, P < 0.001).'",
+        "corrected_wording": "Prior myocardial infarction was the strongest independent predictor of post-PCI in-hospital HF in our cohort (OR = 6.205, P < 0.001).",
+        "evidence_span": "History of previous MI was the strongest independent predictor of post-PCI in-hospital HF in our cohort (OR = 6.205, P < 0.001)."
+      },
+      {
+        "statement_text": "Smoking was an independent risk factor for in-hospital HF in T2DM-STEMI patients undergoing emergency PCI (OR = 5.552, P < 0.001).",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span explicitly mentions 'Smoking represented another powerful independent risk factor for in-hospital HF in T2DM-STEMI patients(OR = 5.552, P < 0.001).'",
+        "corrected_wording": "Smoking was an independent risk factor for in-hospital HF in T2DM-STEMI patients undergoing emergency PCI (OR = 5.552, P < 0.001).",
+        "evidence_span": "Smoking represented another powerful independent risk factor for in-hospital HF in T2DM-STEMI patients(OR = 5.552, P < 0.001)."
+      },
+      {
+        "statement_text": "Higher admission peripheral WBC count was independently associated with higher odds of in-hospital HF (OR = 1.143 per 1 g/L increase, P < 0.001).",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span states 'Baseline peripheral WBC count, a simple marker of systemic inflammation, was independently associated with higher HF risk in our study (OR = 1.143, P < 0.001), consistent with previous reports in diabetic acute coronary syndrome cohorts.'",
+        "corrected_wording": "Higher admission peripheral WBC count was independently associated with higher odds of in-hospital HF (OR = 1.143 per 1 g/L increase, P < 0.001).",
+        "evidence_span": "Baseline peripheral WBC count, a simple marker of systemic inflammation, was independently associated with higher HF risk in our study (OR = 1.143, P < 0.001), consistent with previous reports in diabetic acute coronary syndrome cohorts."
+      },
+      {
+        "statement_text": "Lower admission hemoglobin was independently associated with greater odds of in-hospital HF (OR = 0.971 per 1 g/L increase, P < 0.001).",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span explains 'Lower admission hemoglobin was independently associated with greater odds of in-hospital HF. The OR of 0.971 was estimated per 1 g/L increase in hemoglobin; thus, each 1 g/L higher hemoglobin level corresponded to approximately 2.9% lower HF odds, and the clinically relevant interpretation is that lower hemoglobin is associated with greater HF odds.'",
+        "corrected_wording": "Lower admission hemoglobin was independently associated with greater odds of in-hospital HF (OR = 0.971 per 1 g/L increase, P < 0.001).",
+        "evidence_span": "Lower admission hemoglobin was independently associated with greater odds of in-hospital HF. The OR of 0.971 was estimated per 1 g/L increase in hemoglobin; thus, each 1 g/L higher hemoglobin level corresponded to approximately 2.9% lower HF odds, and the clinically relevant interpretation is that lower hemoglobin is associated with greater HF odds."
+      },
+      {
+        "statement_text": "Lower left ventricular ejection fraction (LVEF) was inversely associated with in-hospital HF (OR = 0.953 per 1 percentage-point increase, P = 0.040).",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span notes 'LVEF was also inversely associated with in-hospital HF. The OR of 0.953 was estimated per 1 percentage-point increase in LVEF, corresponding to approximately 4.7% lower HF odds for each percentage-point increase; equivalently, lower LVEF was associated with higher HF odds.'",
+        "corrected_wording": "Lower left ventricular ejection fraction (LVEF) was inversely associated with in-hospital HF (OR = 0.953 per 1 percentage-point increase, P = 0.040).",
+        "evidence_span": "LVEF was also inversely associated with in-hospital HF. The OR of 0.953 was estimated per 1 percentage-point increase in LVEF, corresponding to approximately 4.7% lower HF odds for each percentage-point increase; equivalently, lower LVEF was associated with higher HF odds."
+      },
+      {
+        "statement_text": "Higher admission systolic blood pressure was independently associated with in-hospital HF (OR = 1.018 per mmHg, P = 0.032).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span states 'Higher admission systolic blood pressure was independently associated with HF (OR = 1.018 per mmHg, P = 0.032), a finding that appears counterintuitive in acute STEMI and should not be interpreted as evidence that blood-pressure lowering would prevent HF.'",
+        "corrected_wording": "Higher admission systolic blood pressure was independently associated with in-hospital HF (OR = 1.018 per mmHg, P = 0.032).",
+        "evidence_span": "Higher admission systolic blood pressure was independently associated with HF (OR = 1.018 per mmHg, P = 0.032), a finding that appears counterintuitive in acute STEMI and should not be interpreted as evidence that blood-pressure lowering would prevent HF."
+      },
+      {
+        "statement_text": "Patients aged \u226575 years had a nearly 5-fold higher risk of in-hospital HF compared with those younger than 60 years (OR = 4.792, P = 0.013).",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span directly reports 'Compared with patients younger than 60, patients aged \u226575 years exhibited a nearly 5-fold higher risk of in-hospital HF(OR = 4.792, P = 0.013).'",
+        "corrected_wording": "Patients aged \u226575 years had a nearly 5-fold higher risk of in-hospital HF compared with those younger than 60 years (OR = 4.792, P = 0.013).",
+        "evidence_span": "Compared with patients younger than 60, patients aged \u226575 years exhibited a nearly 5-fold higher risk of in-hospital HF(OR = 4.792, P = 0.013)."
+      },
+      {
+        "statement_text": "Regional wall motion abnormalities were independently associated with higher odds of in-hospital HF (OR = 2.415, P = 0.030).",
+        "verdict": "partially supported",
+        "confidence": 0.85,
+        "explanation": "The evidence_span provides 'Regional wall motion abnormalities were independently associated with higher HF risk in our study (OR = 2.704, P = 0.002).' The OR value in the statement (2.415) differs from the one in the evidence_span (2.704), making the statement partially supported.",
+        "corrected_wording": "Regional wall motion abnormalities were independently associated with higher odds of in-hospital HF (OR \u2248 2.7, P = 0.002).",
+        "evidence_span": "Regional wall motion abnormalities were independently associated with higher HF risk in our study (OR = 2.704, P = 0.002)."
+      },
+      {
+        "statement_text": "The model showed an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924) for predicting in-hospital HF.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span explicitly states 'The final multivariable logistic model achieved an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924).'",
+        "corrected_wording": "The model showed an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924) for predicting in-hospital HF.",
+        "evidence_span": "The final multivariable logistic model achieved an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924)."
+      },
+      {
+        "statement_text": "The model demonstrated good calibration with a Hosmer\u2013Lemeshow p-value of 0.826 and a calibration slope of 0.88.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span reports 'Calibration was assessed by the Hosmer\u2013Lemeshow test (P = 0.826), a calibration intercept of -0.13 (95% CI: -0.53 to 0.27), and a calibration slope of 0.88 (95% CI: 0.65\u20131.11).'",
+        "corrected_wording": "The model demonstrated good calibration with a Hosmer\u2013Lemeshow p-value of 0.826 and a calibration slope of 0.88.",
+        "evidence_span": "Calibration was assessed by the Hosmer\u2013Lemeshow test (P = 0.826), a calibration intercept of -0.13 (95% CI: -0.53 to 0.27), and a calibration slope of 0.88 (95% CI: 0.65\u20131.11)."
+      },
+      {
+        "statement_text": "The study included 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI, with 65 developing new-onset in-hospital HF and 241 not developing HF.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span states 'A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort. Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241).'",
+        "corrected_wording": "The study included 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI, with 65 developing new-onset in-hospital HF and 241 not developing HF.",
+        "evidence_span": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort. Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241)."
+      },
+      {
+        "statement_text": "The study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span directly mentions 'This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.'",
+        "corrected_wording": "The study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "evidence_span": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026."
+      },
+      {
+        "statement_text": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span defines the primary outcome as 'The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization.'",
+        "corrected_wording": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization.",
+        "evidence_span": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization."
+      },
+      {
+        "statement_text": "Exclusion criteria included patients who did not undergo emergency PCI, had symptom-to-admission time >12 h, presented with cardiogenic shock on admission or died within 24 h of admission, had pre-existing HF, moderate-to-severe valvular heart disease, cardiomyopathy, chronic kidney disease, moderate-to-severe hepatic dysfunction, severe neurological disorders, psychiatric illnesses, medications affecting cardiac function, concomitant interstitial lung disease, pulmonary embolism, or primary blood disorders.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span lists the exclusion criteria verbatim: 'Exclusion criteria(1) patients who did not undergo emergency percutaneous coronary intervention (PCI) or had a symptom-to-admission time >12 h; (2) patients presenting with cardiogenic shock on admission or who died within 24 h of admission; (3) patients with pre-existing HF at admission or a prior diagnosis of HF; (4) patients with moderate-to-severe valvular heart disease, cardiomyopathy, or other significant structural heart diseases; (5) patients with chronic kidney disease or moderate-to-severe hepatic dysfunction; (6) patients with severe neurological disorders or psychiatric illnesses; (7) patients receiving medications known to significantly affect cardiac function; (8) patients with concomitant interstitial lung disease, pulmonary embolism, or other conditions that may interfere with the diagnosis of HF; (9) patients with active infection, malignancy, systemic inflammatory disease, hematologic diseases, hemolytic anemia, aplastic anemia, or other primary blood disorders that may independently cause abnormalities in hemoglobin or white blood cell counts; and (10) patients with missing key clinical, laboratory, echocardiographic, or procedural data required for the analysis.'",
+        "corrected_wording": "Exclusion criteria included patients who did not undergo emergency PCI, had symptom-to-admission time >12 h, presented with cardiogenic shock on admission or died within 24 h of admission, had pre-existing HF, moderate-to-severe valvular heart disease, cardiomyopathy, chronic kidney disease, moderate-to-severe hepatic dysfunction, severe neurological disorders, psychiatric illnesses, medications affecting cardiac function, concomitant interstitial lung disease, pulmonary embolism, or primary blood disorders.",
+        "evidence_span": "Exclusion criteria(1) patients who did not undergo emergency percutaneous coronary intervention (PCI) or had a symptom-to-admission time >12 h; (2) patients presenting with cardiogenic shock on admission or who died within 24 h of admission; (3) patients with pre-existing HF at admission or a prior diagnosis of HF; (4) patients with moderate-to-severe valvular heart disease, cardiomyopathy, or other significant structural heart diseases; (5) patients with chronic kidney disease or moderate-to-severe hepatic dysfunction; (6) patients with severe neurological disorders or psychiatric illnesses; (7) patients receiving medications known to significantly affect cardiac function; (8) patients with concomitant interstitial lung disease, pulmonary embolism, or other conditions that may interfere with the diagnosis of HF; (9) patients with active infection, malignancy, systemic inflammatory disease, hematologic diseases, hemolytic anemia, aplastic anemia, or other primary blood disorders that may independently cause abnormalities in hemoglobin or white blood cell counts; and (10) patients with missing key clinical, laboratory, echocardiographic, or procedural data required for the analysis."
+      },
+      {
+        "statement_text": "The study identified several independent associations with new-onset in-hospital HF, including prior myocardial infarction, smoking, regional wall motion abnormalities, higher admission WBC count, higher admission systolic blood pressure, and age \u226575 years, while lower hemoglobin and lower LVEF were inversely associated.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span summarizes the findings: 'This single-center retrospective cohort study of 306 patients with T2DM and STEMI undergoing emergency PCI identified several independent associations with new-onset in-hospital HF. Positive associations were observed for prior myocardial infarction, smoking, regional wall motion abnormalities, higher admission WBC count, higher admission systolic blood pressure, and age \u226575 years. Hemoglobin and LVEF were inversely associated with HF, meaning that lower values corresponded to greater HF odds.'",
+        "corrected_wording": "The study identified several independent associations with new-onset in-hospital HF, including prior myocardial infarction, smoking, regional wall motion abnormalities, higher admission WBC count, higher admission systolic blood pressure, and age \u226575 years, while lower hemoglobin and lower LVEF were inversely associated.",
+        "evidence_span": "This single-center retrospective cohort study of 306 patients with T2DM and STEMI undergoing emergency PCI identified several independent associations with new-onset in-hospital HF. Positive associations were observed for prior myocardial infarction, smoking, regional wall motion abnormalities, higher admission WBC count, higher admission systolic blood pressure, and age \u226575 years. Hemoglobin and LVEF were inversely associated with HF, meaning that lower values corresponded to greater HF odds."
+      },
+      {
+        "statement_text": "The model showed good internal discrimination (AUC 0.881) and calibration (Hosmer\u2013Lemeshow p = 0.826, calibration slope = 0.88) but has not been externally validated and should be considered exploratory due to limited event-to-parameter ratio.",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span provides the performance metrics and notes the lack of external validation: 'The final multivariable logistic model achieved an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924). Calibration was assessed by the Hosmer\u2013Lemeshow test (P = 0.826), a calibration intercept of -0.13 (95% CI: -0.53 to 0.27), and a calibration slope of 0.88 (95% CI: 0.65\u20131.11). These results indicate good internal performance, but the model has not been externally validated. All variance inflation factors were <1.5 (Table 4, Figures 2A\u2013E).'",
+        "corrected_wording": "The model showed good internal discrimination (AUC 0.881) and calibration (Hosmer\u2013Lemeshow p = 0.826, calibration slope = 0.88) but has not been externally validated and should be considered exploratory due to limited event-to-parameter ratio.",
+        "evidence_span": "The final multivariable logistic model achieved an apparent AUC of 0.881 (95% bootstrap CI: 0.829\u20130.924). Calibration was assessed by the Hosmer\u2013Lemeshow test (P = 0.826), a calibration intercept of -0.13 (95% CI: -0.53 to 0.27), and a calibration slope of 0.88 (95% CI: 0.65\u20131.11). These results indicate good internal performance, but the model has not been externally validated. All variance inflation factors were <1.5 (Table 4, Figures 2A\u2013E)."
+      }
+    ],
+    "elapsed_seconds": 179.47
+  },
+  "gpt": {
+    "extracted": [
+      {
+        "statement_text": "Despite substantial progress in guideline-directed pharmacological and interventional therapies, the prognosis of HF remains poor, with an estimated 5-year mortality approaching 50%.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "heart failure",
+            "role": "population",
+            "value": null,
+            "condition": null
+          },
+          {
+            "name": "5-year mortality",
+            "role": "outcome",
+            "value": "approaching 50%",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "heart failure patients"
+        ],
+        "expected_value_or_relationship": "Five-year mortality in HF is approximately 50%.",
+        "context": "Introduction",
+        "evidence_span": "the prognosis of HF remains poor, with an estimated 5-year mortality approaching 50% (1).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "Despite timely reperfusion with primary percutaneous coronary intervention (PCI), approximately one-quarter of patients are reported to develop HF during follow-up.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "primary PCI",
+            "role": "intervention",
+            "value": "timely",
+            "condition": "STEMI"
+          },
+          {
+            "name": "heart failure during follow-up",
+            "role": "outcome",
+            "value": "\u224825% of patients",
+            "condition": "after primary PCI"
+          }
+        ],
+        "conditions": [
+          "patients with STEMI treated with primary PCI"
+        ],
+        "expected_value_or_relationship": "About 25% of STEMI patients develop HF during follow-up despite timely PCI.",
+        "context": "Introduction",
+        "evidence_span": "Despite timely reperfusion with primary percutaneous coronary intervention (PCI), approximately one-quarter of patients are reported to develop HF during follow-up (3, 4)",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "study design",
+            "role": "design",
+            "value": "retrospective observational",
+            "condition": null
+          },
+          {
+            "name": "study period",
+            "role": "context",
+            "value": "January 1, 2022 to February 1, 2026",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "single-center study"
+        ],
+        "expected_value_or_relationship": "Study is retrospective observational conducted over 4-year period.",
+        "context": "Methods - Study design and setting",
+        "evidence_span": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "sample size",
+            "role": "population",
+            "value": "306",
+            "condition": "adult T2DM + STEMI"
+          },
+          {
+            "name": "age",
+            "role": "inclusion",
+            "value": "\u226518 years",
+            "condition": null
+          },
+          {
+            "name": "emergency PCI",
+            "role": "intervention",
+            "value": "performed",
+            "condition": "all included patients"
+          }
+        ],
+        "conditions": [
+          "T2DM",
+          "STEMI",
+          "underwent emergency PCI"
+        ],
+        "expected_value_or_relationship": "306 adult T2DM-STEMI patients treated with emergency PCI formed the analytic cohort.",
+        "context": "Methods - Study population",
+        "evidence_span": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241).",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "HF group size",
+            "role": "outcome group",
+            "value": "65",
+            "condition": "developed in-hospital HF"
+          },
+          {
+            "name": "non-HF group size",
+            "role": "comparison group",
+            "value": "241",
+            "condition": "no in-hospital HF"
+          }
+        ],
+        "conditions": [
+          "new-onset in-hospital HF after emergency PCI"
+        ],
+        "expected_value_or_relationship": "65 of 306 patients developed in-hospital HF; 241 did not.",
+        "context": "Methods - Study population",
+        "evidence_span": "Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The cohort comprised 209 males and 97 females, with an age range of 50\u201395 years and a mean age of 62.497 \u00b1 9.187 years.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "sex",
+            "role": "demographic",
+            "value": "209 males, 97 females",
+            "condition": "entire cohort"
+          },
+          {
+            "name": "age range",
+            "role": "demographic",
+            "value": "50\u201395 years",
+            "condition": "entire cohort"
+          },
+          {
+            "name": "mean age",
+            "role": "demographic",
+            "value": "62.497 \u00b1 9.187 years",
+            "condition": "entire cohort"
+          }
+        ],
+        "conditions": [
+          "T2DM + STEMI cohort"
+        ],
+        "expected_value_or_relationship": "Cohort was predominantly male with mean age about 62.5 years.",
+        "context": "Methods - Study population",
+        "evidence_span": "The cohort comprised 209 males and 97 females, with an age range of 50\u201395 years and a mean age of 62.497 \u00b1 9.187 years.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Diagnosis of T2DM required any one of the following: fasting plasma glucose \u2265 7.0 mmol/L; 2-hour plasma glucose \u2265 11.1 mmol/L during an oral glucose tolerance test; glycated hemoglobin (HbA1c) \u2265 6.5%; random plasma glucose \u2265 11.1 mmol/L in the presence of classic symptoms of hyperglycemia; or a previously established diagnosis of diabetes mellitus with ongoing glucose-lowering therapy.",
+        "statement_type": "threshold",
+        "variables": [
+          {
+            "name": "fasting plasma glucose",
+            "role": "diagnostic criterion",
+            "value": "\u2265 7.0 mmol/L",
+            "condition": "T2DM"
+          },
+          {
+            "name": "2-hour plasma glucose",
+            "role": "diagnostic criterion",
+            "value": "\u2265 11.1 mmol/L",
+            "condition": "oral glucose tolerance test"
+          },
+          {
+            "name": "HbA1c",
+            "role": "diagnostic criterion",
+            "value": "\u2265 6.5%",
+            "condition": "T2DM"
+          },
+          {
+            "name": "random plasma glucose",
+            "role": "diagnostic criterion",
+            "value": "\u2265 11.1 mmol/L",
+            "condition": "classic hyperglycemia symptoms"
+          },
+          {
+            "name": "ongoing glucose-lowering therapy",
+            "role": "diagnostic criterion",
+            "value": "previously established diabetes",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "diagnosis of type 2 diabetes mellitus"
+        ],
+        "expected_value_or_relationship": "Meeting any of these glycemic thresholds or prior diagnosis defined T2DM.",
+        "context": "Methods - Inclusion criteria",
+        "evidence_span": "Diagnosis of T2DM according to established criteria (9), meeting any one of the following: (1) Fasting plasma glucose \u2265 7.0 mmol/L; (2) 2-hour plasma glucose \u2265 11.1 mmol/L during an oral glucose tolerance test; (3) Glycated hemoglobin (HbA1c) \u2265 6.5%; (4) Random plasma glucose \u2265 11.1 mmol/L in the presence of classic symptoms of hyperglycemia; or a previously established diagnosis of diabetes mellitus with ongoing glucose-lowering therapy.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Diagnosis of acute STEMI required ischemic chest pain, new or presumed new significant electrocardiographic changes in at least two contiguous leads, and abnormal cardiac biomarkers with a rise and/or fall in cardiac troponin values with at least one value above the 99th percentile upper reference limit, further confirmed by coronary angiography and transthoracic echocardiography.",
+        "statement_type": "threshold",
+        "variables": [
+          {
+            "name": "ischemic chest pain",
+            "role": "diagnostic feature",
+            "value": null,
+            "condition": "acute STEMI"
+          },
+          {
+            "name": "ECG changes",
+            "role": "diagnostic feature",
+            "value": "ST-segment elevation and/or T-wave changes in \u22652 contiguous leads",
+            "condition": "acute STEMI"
+          },
+          {
+            "name": "cardiac troponin",
+            "role": "diagnostic threshold",
+            "value": "rise/fall with \u22651 value above 99th percentile URL",
+            "condition": "acute STEMI"
+          },
+          {
+            "name": "coronary angiography",
+            "role": "confirmation test",
+            "value": "performed",
+            "condition": "STEMI"
+          },
+          {
+            "name": "transthoracic echocardiography",
+            "role": "confirmation test",
+            "value": "performed",
+            "condition": "STEMI"
+          }
+        ],
+        "conditions": [
+          "acute STEMI diagnosis"
+        ],
+        "expected_value_or_relationship": "STEMI diagnosis required clinical, ECG, biomarker, and imaging criteria.",
+        "context": "Methods - Inclusion criteria",
+        "evidence_span": "Diagnosis of acute STEMI based on established criteria (10), including ischemic chest pain, new or presumed new significant electrocardiographic changes in at least two contiguous leads (ST-segment elevation and/or T-wave changes), and abnormal cardiac biomarkers (a rise and/or fall in cardiac troponin values with at least one value above the 99th percentile upper reference limit), further confirmed by coronary angiography and transthoracic echocardiography.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization, with maximum Killip class \u2265 II in HF patients.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "in-hospital HF",
+            "role": "primary outcome",
+            "value": "new-onset, clinically documented",
+            "condition": "after emergency PCI"
+          },
+          {
+            "name": "Killip class",
+            "role": "severity measure",
+            "value": "\u2265 II for HF group",
+            "condition": "during hospitalization"
+          }
+        ],
+        "conditions": [
+          "index hospitalization after emergency PCI"
+        ],
+        "expected_value_or_relationship": "Outcome defined as clinically documented new HF with Killip class \u2265 II.",
+        "context": "Methods - Outcome definition",
+        "evidence_span": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization... In patients classified as having in-hospital HF, the maximum Killip class during hospitalization was \u2265 II.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.97
+      },
+      {
+        "statement_text": "Patients who remained Killip class I without clinically documented HF throughout hospitalization were classified as the non-HF group.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "Killip class I",
+            "role": "classification criterion",
+            "value": "no HF",
+            "condition": "throughout hospitalization"
+          }
+        ],
+        "conditions": [
+          "no clinical HF signs",
+          "index hospitalization"
+        ],
+        "expected_value_or_relationship": "Killip I patients without HF comprised the non-HF group.",
+        "context": "Methods - Outcome definition",
+        "evidence_span": "Patients who remained Killip class I without clinically documented HF throughout hospitalization were classified as the non-HF group.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "BNP, NT-proBNP, and Killip classification were used only for outcome ascertainment and were excluded from predictor modeling.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "BNP",
+            "role": "outcome component",
+            "value": "used for outcome ascertainment only",
+            "condition": null
+          },
+          {
+            "name": "NT-proBNP",
+            "role": "outcome component",
+            "value": "used for outcome ascertainment only",
+            "condition": null
+          },
+          {
+            "name": "Killip classification",
+            "role": "outcome component",
+            "value": "used for outcome ascertainment only",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "predictor modeling excluded these variables"
+        ],
+        "expected_value_or_relationship": "BNP, NT-proBNP, and Killip were not used as predictors.",
+        "context": "Methods - Outcome and modeling",
+        "evidence_span": "BNP, NT-proBNP, and Killip classification were used only for outcome ascertainment and were excluded from predictor modeling.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "The missing data rate for each variable ranged from 1.2% to 3.5%, and missing data were imputed using multiple imputation by chained equations, generating five imputed datasets.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "missing data rate",
+            "role": "quality metric",
+            "value": "1.2%\u20133.5%",
+            "condition": "per variable"
+          },
+          {
+            "name": "multiple imputation",
+            "role": "analysis method",
+            "value": "chained equations, 5 datasets",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "statistical analysis"
+        ],
+        "expected_value_or_relationship": "Low missingness handled via multiple imputation.",
+        "context": "Methods - Statistical analysis",
+        "evidence_span": "The missing data rate for each variable ranged from 1.2% to 3.5%, which was low. Missing data were imputed using multiple imputation by chained equations, generating five imputed datasets",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Univariate binary logistic regression was initially performed for all eligible candidate variables, and variables with a univariate p-value < 0.05 were entered into the multivariable model, together with posterior wall MI (univariate p = 0.050) and clinically mandated covariates (age, sex, hypertension, and door-to-balloon time).",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "univariate p-value threshold",
+            "role": "selection criterion",
+            "value": "< 0.05",
+            "condition": "entry to multivariable model"
+          },
+          {
+            "name": "posterior wall MI",
+            "role": "forced predictor",
+            "value": "included despite p=0.050",
+            "condition": null
+          },
+          {
+            "name": "age, sex, hypertension, D-to-B time",
+            "role": "forced covariates",
+            "value": "included regardless of p",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "logistic regression modeling"
+        ],
+        "expected_value_or_relationship": "Predictor selection was based on univariate significance plus forced clinical covariates.",
+        "context": "Methods - Logistic regression modeling",
+        "evidence_span": "Variables with a univariate p-value < 0.05; (ii) posterior wall myocardial infarction (univariate p = 0.050), retained due to clinical relevance; and (iii) clinically mandated covariates (age, sex, hypertension, and door-to-balloon time) forced into the model.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "The linearity of the logit for continuous predictors was assessed, and all variables satisfied the linearity assumption except age (p = 0.0055), which was therefore re-specified as categorical.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "age",
+            "role": "predictor",
+            "value": "non-linear on logit",
+            "condition": "Box\u2013Tidwell p = 0.0055"
+          },
+          {
+            "name": "other continuous predictors",
+            "role": "predictors",
+            "value": "satisfied linearity",
+            "condition": "p > 0.05"
+          }
+        ],
+        "conditions": [
+          "linearity assumption in logistic regression"
+        ],
+        "expected_value_or_relationship": "Age modeled categorically due to violation of linearity; other continuous predictors kept linear.",
+        "context": "Methods - Linearity and variable specification",
+        "evidence_span": "All variables satisfied the linearity assumption except age (p = 0.0055), which was therefore re-specified.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Age categories used in the primary model were < 60, 60\u201374, and \u2265 75 years.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "age <60",
+            "role": "reference group",
+            "value": "n = 123",
+            "condition": null
+          },
+          {
+            "name": "age 60\u201374",
+            "role": "category",
+            "value": "n = 149",
+            "condition": null
+          },
+          {
+            "name": "age \u226575",
+            "role": "category",
+            "value": "n = 34",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "categorical age modeling in logistic regression"
+        ],
+        "expected_value_or_relationship": "Age modeled in three clinically meaningful categories.",
+        "context": "Results - Multivariable model",
+        "evidence_span": "Age categories: < 60 (n = 123) reference; 60\u201374 (n = 149); \u2265 75 (n = 34).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "The primary model estimated 15 regression coefficients (excluding the intercept; age contributed two indicator terms) with 65 HF events, corresponding to approximately 4.3 events per estimated coefficient.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "number of regression coefficients",
+            "role": "model complexity",
+            "value": "15",
+            "condition": "excluding intercept"
+          },
+          {
+            "name": "HF events",
+            "role": "events",
+            "value": "65",
+            "condition": null
+          },
+          {
+            "name": "events per coefficient",
+            "role": "model adequacy metric",
+            "value": "\u22484.3",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "primary multivariable model"
+        ],
+        "expected_value_or_relationship": "Events-per-variable ratio is about 4.3, indicating risk of overfitting.",
+        "context": "Methods - Multiple comparisons and model complexity",
+        "evidence_span": "The primary model estimated 15 regression coefficients (excluding the intercept; age contributed two indicator terms) with 65 HF events, corresponding to approximately 4.3 events per estimated coefficient.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.97
+      },
+      {
+        "statement_text": "Continuous variables were expressed as mean \u00b1 SD for normally distributed data or as median with interquartile range (IQR) for non-normally distributed data; between-group comparisons used Welch\u2019s t-test for continuous variables and the Mann\u2013Whitney U test for skewed distributions.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "continuous variables",
+            "role": "measure",
+            "value": "mean \u00b1 SD or median (IQR)",
+            "condition": "depending on distribution"
+          },
+          {
+            "name": "Welch's t-test",
+            "role": "statistical test",
+            "value": "for continuous variables",
+            "condition": null
+          },
+          {
+            "name": "Mann\u2013Whitney U test",
+            "role": "statistical test",
+            "value": "for skewed distributions",
+            "condition": "e.g., NT-proBNP, BNP"
+          }
+        ],
+        "conditions": [
+          "descriptive statistics and group comparisons"
+        ],
+        "expected_value_or_relationship": "Appropriate parametric/non-parametric tests were used based on distribution.",
+        "context": "Methods - Statistical analysis",
+        "evidence_span": "Continuous variables were expressed as mean \u00b1 standard deviation (SD) for normally distributed data or as median with interquartile range (IQR) for non-normally distributed data. Between-group comparisons were performed using Welch\u2019s t-test for continuous variables and the Mann\u2013Whitney U test for skewed distributions (NT-proBNP, BNP).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "Categorical variables were presented as frequencies and percentages and compared using the Pearson \u03c7\u00b2 test, or Fisher\u2019s exact test when expected cell counts were < 5.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "categorical variables",
+            "role": "measure",
+            "value": "n (%)",
+            "condition": null
+          },
+          {
+            "name": "Pearson \u03c7\u00b2 test",
+            "role": "statistical test",
+            "value": "primary test",
+            "condition": "expected counts \u2265 5"
+          },
+          {
+            "name": "Fisher\u2019s exact test",
+            "role": "statistical test",
+            "value": "used when expected cell counts < 5",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "between-group comparison of categorical variables"
+        ],
+        "expected_value_or_relationship": "Standard \u03c7\u00b2 or Fisher's tests were used for categorical comparisons.",
+        "context": "Methods - Statistical analysis",
+        "evidence_span": "Categorical variables were presented as frequencies and percentages and compared using the Pearson \u03c7\u00b2 test, or Fisher\u2019s exact test when expected cell counts were < 5.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "The estimated glomerular filtration rate (eGFR) was calculated using the CKD-EPI 2009 equation without the race coefficient.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "eGFR",
+            "role": "laboratory-derived variable",
+            "value": "CKD-EPI 2009 without race coefficient",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "renal function estimation"
+        ],
+        "expected_value_or_relationship": "Renal function quantified by CKD-EPI 2009 equation without race adjustment.",
+        "context": "Methods - Statistical analysis",
+        "evidence_span": "The estimated glomerular filtration rate (eGFR) was calculated using the CKD-EPI 2009 equation without the race coefficient.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "All statistical analyses were performed using Python 3.12 with statsmodels 0.14, scikit-learn 1.x, SciPy 1.x, and Matplotlib.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "statsmodels 0.14",
+            "role": "software",
+            "value": "used for Logit and GLM",
+            "condition": null
+          },
+          {
+            "name": "scikit-learn 1.x",
+            "role": "software",
+            "value": "used for StratifiedKFold, cross-validation, ROC",
+            "condition": null
+          },
+          {
+            "name": "SciPy 1.x",
+            "role": "software",
+            "value": "statistical tests and bootstrap",
+            "condition": null
+          },
+          {
+            "name": "Matplotlib",
+            "role": "software",
+            "value": "figures",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "analysis environment"
+        ],
+        "expected_value_or_relationship": "Analyses implemented in Python with standard scientific libraries.",
+        "context": "Methods - Statistical analysis",
+        "evidence_span": "All statistical analyses were performed using Python 3.12 with the following packages: statsmodels 0.14 (for Logit and GLM), scikit-learn 1.x (for StratifiedKFold, cross-validation, and ROC), SciPy 1.x (for statistical tests and bootstrap), and Matplotlib (for figures).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "All tests were two-sided, and a p-value < 0.05 was considered statistically significant.",
+        "statement_type": "design",
+        "variables": [
+          {
+            "name": "p-value threshold",
+            "role": "significance criterion",
+            "value": "< 0.05",
+            "condition": "two-sided tests"
+          }
+        ],
+        "conditions": [
+          "hypothesis testing"
+        ],
+        "expected_value_or_relationship": "Two-sided tests with significance threshold of 0.05.",
+        "context": "Methods - Statistical analysis",
+        "evidence_span": "All tests were two-sided, and a p-value < 0.05 was considered statistically significant.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Age (years) did not differ significantly between HF and non-HF groups (63.723 \u00b1 12.817 vs. 62.166 \u00b1 7.933; t = +0.932; p = 0.354).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "age",
+            "role": "exposure",
+            "value": "63.723 \u00b1 12.817 (HF) vs 62.166 \u00b1 7.933 (non-HF)",
+            "condition": "admission"
+          },
+          {
+            "name": "in-hospital HF",
+            "role": "outcome",
+            "value": "HF vs non-HF groups",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "T2DM + STEMI patients undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "No statistically significant difference in age between HF and non-HF groups.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "Age (years)63.723 \u00b1 12.81762.166 \u00b1 7.933t = +0.9320.354",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Sex distribution was similar between HF and non-HF groups (male 67.7% vs. 68.5%; \u03c7\u00b2 = 0.014; p = 0.905).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "male sex",
+            "role": "exposure",
+            "value": "44/65 (67.7%) in HF vs 165/241 (68.5%) in non-HF",
+            "condition": null
+          },
+          {
+            "name": "in-hospital HF",
+            "role": "outcome",
+            "value": "HF vs non-HF groups",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "T2DM + STEMI cohort"
+        ],
+        "expected_value_or_relationship": "Sex was not significantly associated with in-hospital HF in univariate comparison.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "Sex\u03c7\u00b2 = 0.0140.905Male44 (67.7%)165 (68.5%)Female21 (32.3%)76 (31.5%)",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Prior myocardial infarction was more frequent in the HF group than in the non-HF group (43.1% vs. 12.4%; \u03c7\u00b2 = 31.263; p < 0.001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "prior myocardial infarction",
+            "role": "exposure",
+            "value": "28/65 (43.1%) in HF vs 30/241 (12.4%) in non-HF",
+            "condition": null
+          },
+          {
+            "name": "in-hospital HF",
+            "role": "outcome",
+            "value": "HF group vs non-HF group",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "T2DM patients with STEMI undergoing emergency PCI"
+        ],
+        "expected_value_or_relationship": "Prior MI is significantly more prevalent among patients who develop in-hospital HF.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "\u2605 Prior myocardial infarction28 (43.1%)30 (12.4%)\u03c7\u00b2 = 31.263< 0.001 ***",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Smoking was more prevalent in the HF group than in the non-HF group (69.2% vs. 37.3%; \u03c7\u00b2 = 21.112; p < 0.001).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "current or prior smoking",
+            "role": "exposure",
+            "value": "45/65 (69.2%) in HF vs 90/241 (37.3%) in non-HF",
+            "condition": null
+          },
+          {
+            "name": "in-hospital HF",
+            "role": "outcome",
+            "value": "HF vs non-HF groups",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "T2DM + STEMI patients"
+        ],
+        "expected_value_or_relationship": "Smoking is significantly more common in those developing in-hospital HF.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "\u2605 Smoking45 (69.2%)90 (37.3%)\u03c7\u00b2 = 21.112< 0.001 ***",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "Systolic blood pressure at admission tended to be higher in the HF group than in the non-HF group (130.215 \u00b1 22.772 vs. 124.004 \u00b1 22.121 mmHg; t = +1.963; p = 0.052).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "systolic blood pressure",
+            "role": "exposure",
+            "value": "130.215 \u00b1 22.772 (HF) vs 124.004 \u00b1 22.121 (non-HF) mmHg",
+            "condition": "admission"
+          },
+          {
+            "name": "in-hospital HF",
+            "role": "outcome",
+            "value": "HF vs non-HF",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "T2DM + STEMI undergoing PCI"
+        ],
+        "expected_value_or_relationship": "There is a borderline higher SBP in HF group, but not statistically significant at 0.05.",
+        "context": "Results - Baseline characteristics",
+        "evidence_span": "\u2605 Systolic BP (mmHg)130.215 \u00b1 22.772124.004 \u00b1 22.121t = +1.9630.052 #",
+        "source_paper": {
+          "pmid": "",
+          "title": "Predictors of in-hospital heart failure in T2DM patients with STEMI undergoing PCI",
+          "journal": "",
+          "year": "2026"
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "Left ventricular ejection fraction (LVEF) was lower in the HF group compared to the non-HF group (48.754 \u00b1 8.553% vs. 51.085 \u00b1 7.500%; t = -2.000; p = 0.048).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "LVEF",
+            "role": "exposure",
+            "value": "48.754 \u00b1 8.553% (HF) vs"
+          }
+        ]
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Despite substantial progress in guideline-directed pharmacological and interventional therapies, the prognosis of HF remains poor, with an estimated 5-year mortality approaching 50%.",
+        "verdict": "supported",
+        "confidence": 0.93,
+        "explanation": "The evidence_span explicitly states that the prognosis of HF remains poor with an estimated 5-year mortality approaching 50%, matching the quantitative claim in the statement.",
+        "corrected_wording": "Despite substantial progress in guideline-directed pharmacological and interventional therapies, the prognosis of HF remains poor, with an estimated 5-year mortality approaching 50%.",
+        "evidence_span": "the prognosis of HF remains poor, with an estimated 5-year mortality approaching 50% (1)."
+      },
+      {
+        "statement_text": "Despite timely reperfusion with primary percutaneous coronary intervention (PCI), approximately one-quarter of patients are reported to develop HF during follow-up.",
+        "verdict": "supported",
+        "confidence": 0.92,
+        "explanation": "The evidence_span states that approximately one-quarter of patients develop HF during follow-up despite timely reperfusion with primary PCI, which corresponds directly to the statement.",
+        "corrected_wording": "Despite timely reperfusion with primary percutaneous coronary intervention (PCI), approximately one-quarter of patients are reported to develop HF during follow-up.",
+        "evidence_span": "Despite timely reperfusion with primary percutaneous coronary intervention (PCI), approximately one-quarter of patients are reported to develop HF during follow-up (3, 4)"
+      },
+      {
+        "statement_text": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span reproduces exactly the design and setting described in the statement, including the retrospective observational nature, location, and study period.",
+        "corrected_wording": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026.",
+        "evidence_span": "This retrospective observational study was conducted at the People\u2019s Hospital of Xinjiang Uygur Autonomous Region between January 1, 2022, and February 1, 2026."
+      },
+      {
+        "statement_text": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span exactly matches the statement: 306 adult patients (\u226518 years) with T2DM and STEMI undergoing emergency PCI were in the final analytic cohort.",
+        "corrected_wording": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort.",
+        "evidence_span": "A total of 306 adult patients (\u226518 years) with T2DM and STEMI who underwent emergency PCI were included in the final analytic cohort."
+      },
+      {
+        "statement_text": "Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241).",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span states the same categorization and group sizes based on new-onset in-hospital HF.",
+        "corrected_wording": "Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241).",
+        "evidence_span": "Patients were categorized according to the occurrence of new-onset in-hospital HF into an HF group (n = 65) and a non-HF group (n = 241)."
+      },
+      {
+        "statement_text": "The cohort comprised 209 males and 97 females, with an age range of 50\u201395 years and a mean age of 62.497 \u00b1 9.187 years.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span provides identical sex counts, age range, and mean age with standard deviation.",
+        "corrected_wording": "The cohort comprised 209 males and 97 females, with an age range of 50\u201395 years and a mean age of 62.497 \u00b1 9.187 years.",
+        "evidence_span": "The cohort comprised 209 males and 97 females, with an age range of 50\u201395 years and a mean age of 62.497 \u00b1 9.187 years."
+      },
+      {
+        "statement_text": "Diagnosis of T2DM required any one of the following: fasting plasma glucose \u2265 7.0 mmol/L; 2-hour plasma glucose \u2265 11.1 mmol/L during an oral glucose tolerance test; glycated hemoglobin (HbA1c) \u2265 6.5%; random plasma glucose \u2265 11.1 mmol/L in the presence of classic symptoms of hyperglycemia; or a previously established diagnosis of diabetes mellitus with ongoing glucose-lowering therapy.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span lists the same set of diagnostic criteria and explicitly notes that diagnosis of T2DM required meeting any one of these criteria.",
+        "corrected_wording": "Diagnosis of T2DM required any one of the following: fasting plasma glucose \u2265 7.0 mmol/L; 2-hour plasma glucose \u2265 11.1 mmol/L during an oral glucose tolerance test; glycated hemoglobin (HbA1c) \u2265 6.5%; random plasma glucose \u2265 11.1 mmol/L in the presence of classic symptoms of hyperglycemia; or a previously established diagnosis of diabetes mellitus with ongoing glucose-lowering therapy.",
+        "evidence_span": "Diagnosis of T2DM according to established criteria (9), meeting any one of the following: (1) Fasting plasma glucose \u2265 7.0 mmol/L; (2) 2-hour plasma glucose \u2265 11.1 mmol/L during an oral glucose tolerance test; (3) Glycated hemoglobin (HbA1c) \u2265 6.5%; (4) Random plasma glucose \u2265 11.1 mmol/L in the presence of classic symptoms of hyperglycemia; or a previously established diagnosis of diabetes mellitus with ongoing glucose-lowering therapy."
+      },
+      {
+        "statement_text": "Diagnosis of acute STEMI required ischemic chest pain, new or presumed new significant electrocardiographic changes in at least two contiguous leads, and abnormal cardiac biomarkers with a rise and/or fall in cardiac troponin values with at least one value above the 99th percentile upper reference limit, further confirmed by coronary angiography and transthoracic echocardiography.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span describes diagnosis of acute STEMI based on ischemic chest pain, ECG changes in \u22652 contiguous leads, abnormal troponin pattern above the 99th percentile, and confirmation by coronary angiography and transthoracic echocardiography, which matches the statement.",
+        "corrected_wording": "Diagnosis of acute STEMI required ischemic chest pain, new or presumed new significant electrocardiographic changes in at least two contiguous leads, and abnormal cardiac biomarkers with a rise and/or fall in cardiac troponin values with at least one value above the 99th percentile upper reference limit, further confirmed by coronary angiography and transthoracic echocardiography.",
+        "evidence_span": "Diagnosis of acute STEMI based on established criteria (10), including ischemic chest pain, new or presumed new significant electrocardiographic changes in at least two contiguous leads (ST-segment elevation and/or T-wave changes), and abnormal cardiac biomarkers (a rise and/or fall in cardiac troponin values with at least one value above the 99th percentile upper reference limit), further confirmed by coronary angiography and transthoracic echocardiography."
+      },
+      {
+        "statement_text": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization, with maximum Killip class \u2265 II in HF patients.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span states that the primary outcome was new-onset, clinically documented in-hospital HF after emergency PCI during the index hospitalization and that patients classified as having in-hospital HF had maximum Killip class \u2265 II, matching the statement.",
+        "corrected_wording": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization, with maximum Killip class \u2265 II in HF patients.",
+        "evidence_span": "The primary outcome was new-onset, clinically documented in-hospital HF occurring after emergency PCI during the index hospitalization... In patients classified as having in-hospital HF, the maximum Killip class during hospitalization was \u2265 II."
+      },
+      {
+        "statement_text": "Patients who remained Killip class I without clinically documented HF throughout hospitalization were classified as the non-HF group.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span states exactly that patients who remained Killip class I and had no clinically documented HF throughout hospitalization were classified as the non-HF group.",
+        "corrected_wording": "Patients who remained Killip class I without clinically documented HF throughout hospitalization were classified as the non-HF group.",
+        "evidence_span": "Patients who remained Killip class I without clinically documented HF throughout hospitalization were classified as the non-HF group."
+      },
+      {
+        "statement_text": "BNP, NT-proBNP, and Killip classification were used only for outcome ascertainment and were excluded from predictor modeling.",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span directly states that BNP, NT-proBNP, and Killip classification were used only for outcome ascertainment and excluded from predictor modeling, matching the statement.",
+        "corrected_wording": "BNP, NT-proBNP, and Killip classification were used only for outcome ascertainment and were excluded from predictor modeling.",
+        "evidence_span": "BNP, NT-proBNP, and Killip classification were used only for outcome ascertainment and were excluded from predictor modeling."
+      },
+      {
+        "statement_text": "The missing data rate for each variable ranged from 1.2% to 3.5%, and missing data were imputed using multiple imputation by chained equations, generating five imputed datasets.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span notes that missing data rates were 1.2%\u20133.5% and that missing data were imputed using multiple imputation by chained equations with five imputed datasets, matching the statement.",
+        "corrected_wording": "The missing data rate for each variable ranged from 1.2% to 3.5%, and missing data were imputed using multiple imputation by chained equations, generating five imputed datasets.",
+        "evidence_span": "The missing data rate for each variable ranged from 1.2% to 3.5%, which was low. Missing data were imputed using multiple imputation by chained equations, generating five imputed datasets"
+      },
+      {
+        "statement_text": "Univariate binary logistic regression was initially performed for all eligible candidate variables, and variables with a univariate p-value < 0.05 were entered into the multivariable model, together with posterior wall MI (univariate p = 0.050) and clinically mandated covariates (age, sex, hypertension, and door-to-balloon time).",
+        "verdict": "partially supported",
+        "confidence": 0.82,
+        "explanation": "The evidence_span lists the criteria for variable inclusion (p < 0.05, posterior wall MI with p = 0.050 due to clinical relevance, and forced covariates age, sex, hypertension, and door-to-balloon time). However, it does not explicitly state that univariate binary logistic regression was 'initially performed for all eligible candidate variables'; that procedural detail is inferred rather than directly supported.",
+        "corrected_wording": "Variables with a univariate p-value < 0.05, posterior wall myocardial infarction (univariate p = 0.050) retained due to clinical relevance, and clinically mandated covariates (age, sex, hypertension, and door-to-balloon time) were entered into the multivariable model.",
+        "evidence_span": "Variables with a univariate p-value < 0.05; (ii) posterior wall myocardial infarction (univariate p = 0.050), retained due to clinical relevance; and (iii) clinically mandated covariates (age, sex, hypertension, and door-to-balloon time) forced into the model."
+      },
+      {
+        "statement_text": "The linearity of the logit for continuous predictors was assessed, and all variables satisfied the linearity assumption except age (p = 0.0055), which was therefore re-specified as categorical.",
+        "verdict": "partially supported",
+        "confidence": 0.8,
+        "explanation": "The evidence_span states that all variables satisfied the linearity assumption except age (p = 0.0055), which was therefore re-specified. However, it does not mention that age was specifically re-specified \"as categorical\"; that detail is not present in the span.",
+        "corrected_wording": "All variables satisfied the linearity assumption except age (p = 0.0055), which was therefore re-specified.",
+        "evidence_span": "All variables satisfied the linearity assumption except age (p = 0.0055), which was therefore re-specified."
+      }
+    ],
+    "elapsed_seconds": 46.23
+  }
+}

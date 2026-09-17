@@ -1,0 +1,740 @@
+{
+  "pmcid": "PMC13548724",
+  "granite": {
+    "extracted": [
+      {
+        "statement_text": "Moderate AS should be considered a continuous rather than a categorical spectrum of disease. A Vmax of 3.0 m/s is clinically and prognostically distinct from values approaching the severe range (3.8\u20133.9 m/s).",
+        "statement_type": "qualitative",
+        "variables": [
+          {
+            "name": "Vmax",
+            "role": "exposure",
+            "value": "3.0 m/s",
+            "condition": "moderate AS"
+          },
+          {
+            "name": "Vmax",
+            "role": "exposure",
+            "value": "3.8\u20133.9 m/s",
+            "condition": "severe AS"
+          }
+        ],
+        "conditions": [
+          "moderate AS"
+        ],
+        "expected_value_or_relationship": "Vmax of 3.0 m/s is clinically and prognostically distinct from values approaching the severe range (3.8\u20133.9 m/s).",
+        "context": "Introduction",
+        "evidence_span": "Moderate AS should be considered a continuous rather than a categorical spectrum of disease. A Vmax of 3.0 m/s is clinically and prognostically distinct from values approaching the severe range (3.8\u20133.9 m/s).",
+        "source_paper": {
+          "pmid": "",
+          "title": "Aortic Stenosis: Current Concepts and Emerging Challenges",
+          "journal": "European Heart Journal",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "CT-derived AVA and sex-specific AVC scoring provide flow-independent anatomical adjudication, while CMR adds robust assessment of SV, flow status, and ventricular remodeling.",
+        "statement_type": "qualitative",
+        "variables": [
+          {
+            "name": "CT-AVA",
+            "role": "measurement",
+            "value": "flow-independent",
+            "condition": "moderate AS"
+          },
+          {
+            "name": "AVC",
+            "role": "measurement",
+            "value": "sex-specific",
+            "condition": "moderate AS"
+          },
+          {
+            "name": "CMR",
+            "role": "measurement",
+            "value": "SV, flow status, ventricular remodeling",
+            "condition": "moderate AS"
+          }
+        ],
+        "conditions": [
+          "moderate AS"
+        ],
+        "expected_value_or_relationship": "CT-derived AVA and sex-specific AVC scoring provide flow-independent anatomical adjudication, while CMR adds robust assessment of SV, flow status, and ventricular remodeling.",
+        "context": "Role and limitations of computed tomography in aortic valve assessment",
+        "evidence_span": "CT-derived AVA and sex-specific AVC scoring provide flow-independent anatomical adjudication, while CMR adds robust assessment of SV, flow status, and ventricular remodeling.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Aortic Stenosis: Current Concepts and Emerging Challenges",
+          "journal": "European Heart Journal",
+          "year": ""
+        },
+        "confidence": 0.93
+      },
+      {
+        "statement_text": "In moderate AS, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "FR",
+            "role": "exposure",
+            "value": "< 218 mL/s",
+            "condition": "moderate AS"
+          }
+        ],
+        "conditions": [
+          "moderate AS"
+        ],
+        "expected_value_or_relationship": "FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi.",
+        "context": "Role and limitations of computed tomography in aortic valve assessment",
+        "evidence_span": "In a large multicenter cohort, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Aortic Stenosis: Current Concepts and Emerging Challenges",
+          "journal": "European Heart Journal",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "In moderate AS with LV dysfunction, 61% reached a composite endpoint of death, AVR, or HF hospitalization within 4 years.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Endpoint",
+            "role": "outcome",
+            "value": "death, AVR, HF hospitalization",
+            "condition": "moderate AS with LV dysfunction"
+          }
+        ],
+        "conditions": [
+          "moderate AS with LV dysfunction"
+        ],
+        "expected_value_or_relationship": "61% reached a composite endpoint of death, AVR, or HF hospitalization within 4 years.",
+        "context": "Clinical impact and reclassification of moderate aortic stenosis",
+        "evidence_span": "In moderate AS with LV dysfunction, 61% reached a composite endpoint of death, AVR, or HF hospitalization within 4 years.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Aortic Stenosis: Current Concepts and Emerging Challenges",
+          "journal": "European Heart Journal",
+          "year": ""
+        },
+        "confidence": 0.92
+      },
+      {
+        "statement_text": "Up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "Reclassification",
+            "role": "outcome",
+            "value": "one-quarter",
+            "condition": "initially labeled moderate by TTE"
+          }
+        ],
+        "conditions": [
+          "initially labeled moderate by TTE"
+        ],
+        "expected_value_or_relationship": "Up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing.",
+        "context": "Clinical impact and reclassification of moderate aortic stenosis",
+        "evidence_span": "Applying advanced criteria reclassifies a substantial proportion of cases as either severe or mild, with prospective studies confirming that up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Aortic Stenosis: Current Concepts and Emerging Challenges",
+          "journal": "European Heart Journal",
+          "year": ""
+        },
+        "confidence": 0.88
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Moderate AS should be considered a continuous rather than a categorical spectrum of disease. A Vmax of 3.0 m/s is clinically and prognostically distinct from values approaching the severe range (3.8\u20133.9 m/s).",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly states that moderate AS is a continuous spectrum and explicitly compares a Vmax of 3.0 m/s to the severe range of 3.8\u20133.9 m/s, noting clinical and prognostic distinction.",
+        "corrected_wording": "Moderate AS should be considered a continuous rather than a categorical spectrum of disease. A Vmax of 3.0 m/s is clinically and prognostically distinct from values approaching the severe range (3.8\u20133.9 m/s).",
+        "evidence_span": "Moderate AS should be considered a continuous rather than a categorical spectrum of disease. A Vmax of 3.0 m/s is clinically and prognostically distinct from values approaching the severe range (3.8\u20133.9 m/s)."
+      },
+      {
+        "statement_text": "CT-derived AVA and sex-specific AVC scoring provide flow-independent anatomical adjudication, while CMR adds robust assessment of SV, flow status, and ventricular remodeling.",
+        "verdict": "supported",
+        "confidence": 0.93,
+        "explanation": "The evidence_span explicitly describes CT-derived AVA and sex-specific AVC scoring as providing flow-independent anatomical adjudication and states that CMR offers a robust assessment of stroke volume (SV), flow status, and ventricular remodeling.",
+        "corrected_wording": "CT-derived AVA and sex-specific AVC scoring provide flow-independent anatomical adjudication, while CMR adds robust assessment of SV, flow status, and ventricular remodeling.",
+        "evidence_span": "CT-derived AVA and sex-specific AVC scoring provide flow-independent anatomical adjudication, while CMR adds robust assessment of SV, flow status, and ventricular remodeling."
+      },
+      {
+        "statement_text": "In moderate AS, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi.",
+        "verdict": "supported",
+        "confidence": 0.9,
+        "explanation": "The evidence_span reports that FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization and that it outperformed SVi in a large multicenter cohort, directly supporting the quantitative claim.",
+        "corrected_wording": "In moderate AS, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi.",
+        "evidence_span": "In a large multicenter cohort, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi."
+      },
+      {
+        "statement_text": "In moderate AS with LV dysfunction, 61% reached a composite endpoint of death, AVR, or HF hospitalization within 4 years.",
+        "verdict": "supported",
+        "confidence": 0.92,
+        "explanation": "The evidence_span directly states that in moderate AS with LV dysfunction, 61% reached the specified composite endpoint within 4 years, matching the quantitative claim.",
+        "corrected_wording": "In moderate AS with LV dysfunction, 61% reached a composite endpoint of death, AVR, or HF hospitalization within 4 years.",
+        "evidence_span": "In moderate AS with LV dysfunction, 61% reached a composite endpoint of death, AVR, or HF hospitalization within 4 years."
+      },
+      {
+        "statement_text": "Up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing.",
+        "verdict": "supported",
+        "confidence": 0.88,
+        "explanation": "The evidence_span explicitly mentions that up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing, directly supporting the quantitative statement.",
+        "corrected_wording": "Up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing.",
+        "evidence_span": "Applying advanced criteria reclassifies a substantial proportion of cases as either severe or mild, with prospective studies confirming that up to one-quarter of patients initially labeled moderate by TTE are re-stratified after multimodality testing."
+      }
+    ],
+    "elapsed_seconds": 41.02
+  },
+  "gpt": {
+    "extracted": [
+      {
+        "statement_text": "Current European guidelines define moderate aortic stenosis by an aortic valve area (AVA) of 1.0\u20131.5 cm\u00b2 (indexed AVA 0.60\u20130.85 cm\u00b2/m\u00b2), a peak jet velocity (Vmax) of 3.0\u20133.9 m/s, and/or a transvalvular mean gradient (MG) of 20\u201339 mmHg under normal-flow conditions.",
+        "statement_type": "definition",
+        "variables": [
+          {
+            "name": "aortic valve area (AVA)",
+            "role": "diagnostic criterion",
+            "value": "1.0\u20131.5 cm\u00b2",
+            "condition": "normal-flow conditions"
+          },
+          {
+            "name": "indexed AVA",
+            "role": "diagnostic criterion",
+            "value": "0.60\u20130.85 cm\u00b2/m\u00b2",
+            "condition": "normal-flow conditions"
+          },
+          {
+            "name": "peak jet velocity (Vmax)",
+            "role": "diagnostic criterion",
+            "value": "3.0\u20133.9 m/s",
+            "condition": "normal-flow conditions"
+          },
+          {
+            "name": "mean gradient (MG)",
+            "role": "diagnostic criterion",
+            "value": "20\u201339 mmHg",
+            "condition": "normal-flow conditions"
+          }
+        ],
+        "conditions": [
+          "normal-flow conditions",
+          "European guideline definition"
+        ],
+        "expected_value_or_relationship": "These ranges define moderate aortic stenosis",
+        "context": "Introduction",
+        "evidence_span": "Current European guidelines define moderate AS by an aortic valve area (AVA) of 1.0\u20131.5 cm\u00b2 (indexed AVA 0.60\u20130.85 cm\u00b2/m\u00b2), a peak jet velocity (Vmax) of 3.0\u20133.9 m/s, and/or a transvalvular mean gradient (MG) of 20\u201339 mmHg under normal-flow conditions [2].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "Registry data suggest that moderate aortic stenosis accounts for 30\u201345% of clinically relevant aortic stenosis in elderly cohorts.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "moderate aortic stenosis",
+            "role": "condition",
+            "value": "30\u201345% of clinically relevant AS",
+            "condition": "elderly cohorts"
+          }
+        ],
+        "conditions": [
+          "elderly cohorts",
+          "clinically relevant aortic stenosis"
+        ],
+        "expected_value_or_relationship": "Prevalence proportion of moderate aortic stenosis among clinically relevant aortic stenosis cases is 30\u201345%",
+        "context": "Introduction",
+        "evidence_span": "Registry data suggest that moderate AS accounts for 30\u201345% of clinically relevant AS in elderly cohorts [3\u20135].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "Longitudinal studies reveal that many patients with moderate aortic stenosis progress to severe aortic stenosis within a few years.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "moderate aortic stenosis",
+            "role": "baseline condition",
+            "value": null,
+            "condition": null
+          },
+          {
+            "name": "severe aortic stenosis",
+            "role": "outcome",
+            "value": "developed within a few years",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "patients with moderate aortic stenosis",
+          "longitudinal follow\u2011up (a few years)"
+        ],
+        "expected_value_or_relationship": "Many patients with moderate aortic stenosis progress to severe aortic stenosis over a few years",
+        "context": "Introduction",
+        "evidence_span": "Longitudinal studies reveal that many patients progress to severe AS within a few years.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.85
+      },
+      {
+        "statement_text": "Adverse outcomes such as heart failure hospitalization and mortality can occur in patients with moderate aortic stenosis without apparent echocardiographic progression.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "moderate aortic stenosis",
+            "role": "condition",
+            "value": null,
+            "condition": null
+          },
+          {
+            "name": "heart failure hospitalization",
+            "role": "outcome",
+            "value": null,
+            "condition": "without apparent echocardiographic progression"
+          },
+          {
+            "name": "mortality",
+            "role": "outcome",
+            "value": null,
+            "condition": "without apparent echocardiographic progression"
+          }
+        ],
+        "conditions": [
+          "moderate aortic stenosis",
+          "no apparent echocardiographic progression"
+        ],
+        "expected_value_or_relationship": "Heart failure hospitalization and mortality can occur despite lack of apparent echocardiographic progression",
+        "context": "Introduction",
+        "evidence_span": "Yet, adverse outcomes such as heart failure (HF) hospitalization and mortality can also occur without apparent echocardiographic progression [6, 7].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "In the clinical staging system by G\u00e9n\u00e9reux et al., some patients present with acute decompensation, bypassing mild symptoms, and experience markedly higher mortality and heart failure hospitalization rates following aortic valve replacement.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "acute decompensation presentation",
+            "role": "exposure",
+            "value": null,
+            "condition": "bypassing mild symptoms"
+          },
+          {
+            "name": "mortality rate",
+            "role": "outcome",
+            "value": "markedly higher",
+            "condition": "following aortic valve replacement"
+          },
+          {
+            "name": "heart failure hospitalization rate",
+            "role": "outcome",
+            "value": "markedly higher",
+            "condition": "following aortic valve replacement"
+          }
+        ],
+        "conditions": [
+          "patients classified in progressive/acute valve syndromes",
+          "following aortic valve replacement"
+        ],
+        "expected_value_or_relationship": "Patients with acute decompensation bypassing mild symptoms have higher mortality and HF hospitalization after AVR",
+        "context": "Introduction",
+        "evidence_span": "the clinical staging system proposed by G\u00e9n\u00e9reux et al., distinguishing stable, progressive, and acute valve syndromes, highlights that some patients present with acute decompensation, bypassing mild symptoms, and experience markedly higher mortality and HF hospitalization rates following aortic valve replacement (AVR) [7].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.86
+      },
+      {
+        "statement_text": "Comorbidities, particularly chronic kidney disease, contribute to myocardial remodeling and dysfunction in patients with moderate aortic stenosis.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "chronic kidney disease",
+            "role": "exposure",
+            "value": null,
+            "condition": "comorbidity"
+          },
+          {
+            "name": "myocardial remodeling",
+            "role": "outcome",
+            "value": null,
+            "condition": "in patients with moderate AS"
+          },
+          {
+            "name": "myocardial dysfunction",
+            "role": "outcome",
+            "value": null,
+            "condition": "in patients with moderate AS"
+          }
+        ],
+        "conditions": [
+          "patients with moderate aortic stenosis",
+          "presence of comorbidities such as chronic kidney disease"
+        ],
+        "expected_value_or_relationship": "Chronic kidney disease contributes to myocardial remodeling and dysfunction in this population",
+        "context": "Introduction",
+        "evidence_span": "Risk in moderate AS is not dictated solely by valvular hemodynamics. Comorbidities, particularly chronic kidney disease, contribute to myocardial remodeling and dysfunction [8].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.84
+      },
+      {
+        "statement_text": "A reduced transaortic flow rate (FR < 218 mL/s) has demonstrated prognostic value in aortic stenosis.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "transaortic flow rate",
+            "role": "exposure",
+            "value": "< 218 mL/s",
+            "condition": null
+          },
+          {
+            "name": "prognosis",
+            "role": "outcome",
+            "value": "worse",
+            "condition": "reduced FR"
+          }
+        ],
+        "conditions": [
+          "aortic stenosis",
+          "FR < 218 mL/s"
+        ],
+        "expected_value_or_relationship": "Reduced flow rate is associated with adverse prognosis",
+        "context": "Introduction",
+        "evidence_span": "Furthermore, emerging parameters, such as a reduced transaortic flow rate (FR < 218 mL/s), have demonstrated prognostic value [6].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "Observational studies consistently demonstrate a graded relationship between higher baseline peak velocity, mean gradient, and adverse outcomes, including faster progression to severe aortic stenosis, increased risk of heart failure hospitalization, and mortality.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "baseline peak jet velocity (Vmax)",
+            "role": "exposure",
+            "value": "higher",
+            "condition": null
+          },
+          {
+            "name": "mean gradient (MG)",
+            "role": "exposure",
+            "value": "higher",
+            "condition": null
+          },
+          {
+            "name": "progression to severe aortic stenosis",
+            "role": "outcome",
+            "value": "faster",
+            "condition": null
+          },
+          {
+            "name": "heart failure hospitalization",
+            "role": "outcome",
+            "value": "increased risk",
+            "condition": null
+          },
+          {
+            "name": "mortality",
+            "role": "outcome",
+            "value": "increased risk",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "aortic stenosis patients in observational studies"
+        ],
+        "expected_value_or_relationship": "Higher baseline Vmax and MG are associated with worse outcomes and faster progression",
+        "context": "Misdiagnosis and prevalence section",
+        "evidence_span": "Observational studies consistently demonstrate a graded relationship between higher baseline Vmax, MG, and adverse outcomes, including faster progression to severe AS, increased risk of HF hospitalization, and mortality [6, 9].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.92
+      },
+      {
+        "statement_text": "Patients with moderate aortic stenosis and high baseline aortic valve calcium scores tend to exhibit steeper annual increases in peak velocity and more rapid hemodynamic deterioration compared with those with lower calcific load.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "baseline aortic valve calcium (AVC) score",
+            "role": "exposure",
+            "value": "high",
+            "condition": "moderate AS"
+          },
+          {
+            "name": "annual increase in peak velocity (Vmax)",
+            "role": "outcome",
+            "value": "steeper",
+            "condition": null
+          },
+          {
+            "name": "hemodynamic deterioration",
+            "role": "outcome",
+            "value": "more rapid",
+            "condition": null
+          }
+        ],
+        "conditions": [
+          "patients with moderate aortic stenosis",
+          "comparison of high vs lower AVC burden"
+        ],
+        "expected_value_or_relationship": "High AVC burden is associated with faster hemodynamic progression",
+        "context": "Misdiagnosis and prevalence section",
+        "evidence_span": "patients with moderate AS and high baseline aortic valve calcium (AVC) scores tend to exhibit steeper annual increases in Vmax and more rapid hemodynamic deterioration compared with those with lower calcific load [10, 11].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "In a multicenter study by Mittal et al., up to 23% of patients labeled severe by echocardiography were reclassified as moderate when CT-derived aortic valve area exceeded 1.0 cm\u00b2.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "patients labeled severe by echocardiography",
+            "role": "population",
+            "value": null,
+            "condition": "multicenter study"
+          },
+          {
+            "name": "reclassification to moderate",
+            "role": "outcome",
+            "value": "up to 23%",
+            "condition": "CT-AVA > 1.0 cm\u00b2"
+          },
+          {
+            "name": "CT-derived aortic valve area",
+            "role": "diagnostic criterion",
+            "value": "> 1.0 cm\u00b2",
+            "condition": "used for reclassification"
+          }
+        ],
+        "conditions": [
+          "patients initially considered severe AS by echocardiography",
+          "CT-AVA > 1.0 cm\u00b2"
+        ],
+        "expected_value_or_relationship": "23% reclassified from severe to moderate when CT-AVA > 1.0 cm\u00b2",
+        "context": "Role of CT section",
+        "evidence_span": "In a multicenter study by Mittal et al. [20], up to 23% of patients labeled severe by echocardiography were reclassified as moderate when CT-AVA exceeded 1.0 cm\u00b2, underscoring its corrective capacity.",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.93
+      },
+      {
+        "statement_text": "Comparative studies show that CT-derived aortic valve area correlates with both catheter-derived and Doppler values, although CT yields slightly larger areas; thus, modality-specific cut-offs are recommended (< 1.2 cm\u00b2 for CT versus < 1.0 cm\u00b2 for transthoracic echocardiography) for severe aortic stenosis.",
+        "statement_type": "definition",
+        "variables": [
+          {
+            "name": "CT-AVA severe AS threshold",
+            "role": "diagnostic criterion",
+            "value": "< 1.2 cm\u00b2",
+            "condition": "CT"
+          },
+          {
+            "name": "TTE-AVA severe AS threshold",
+            "role": "diagnostic criterion",
+            "value": "< 1.0 cm\u00b2",
+            "condition": "transthoracic echocardiography"
+          }
+        ],
+        "conditions": [
+          "assessment for severe aortic stenosis"
+        ],
+        "expected_value_or_relationship": "Different AVA thresholds are recommended for CT vs TTE when defining severe AS",
+        "context": "Role of CT section",
+        "evidence_span": "Comparative studies show that CT-AVA correlates with both catheter-derived and Doppler values, although CT yields slightly larger areas; thus, modality-specific cut-offs are recommended (< 1.2 cm\u00b2 for CT versus < 1.0 cm\u00b2 for TTE) for severe AS [22, 23].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and clinical risk",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "In a large multicenter cohort, transaortic flow rate < 218 mL/s was independently associated with a twofold higher risk of mortality and heart failure hospitalization, outperforming stroke volume index.",
+        "statement_type": "associational",
+        "variables": [
+          {
+            "name": "transaortic flow rate",
+            "role": "exposure",
+            "value": "< 218 mL/s",
+            "condition": null
+          },
+          {
+            "name": "mortality",
+            "role": "outcome",
+            "value": "twofold higher risk",
+            "condition": "FR < 218 mL/s"
+          },
+          {
+            "name": "heart failure hospitalization",
+            "role": "outcome",
+            "value": "twofold higher risk",
+            "condition": "FR < 218 mL/s"
+          },
+          {
+            "name": "stroke volume index",
+            "role": "comparator",
+            "value": null,
+            "condition": "FR outperformed SVi prognostically"
+          }
+        ],
+        "conditions": [
+          "large multicenter cohort of aortic stenosis patients"
+        ],
+        "expected_value_or_relationship": "FR < 218 mL/s doubles risk of mortality and HF hospitalization and has better prognostic performance than SVi",
+        "context": "Physiological confounders section",
+        "evidence_span": "More recently, transaortic FR, calculated as stroke volume divided by LV ejection time, has emerged as a robust parameter, reflecting forward flow more accurately than SVi. In a large multicenter cohort, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi [6].",
+        "source_paper": {
+          "pmid": "",
+          "title": "Moderate aortic stenosis: multimodality imaging, misclassification, and"
+        }
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Current European guidelines define moderate aortic stenosis by an aortic valve area (AVA) of 1.0\u20131.5 cm\u00b2 (indexed AVA 0.60\u20130.85 cm\u00b2/m\u00b2), a peak jet velocity (Vmax) of 3.0\u20133.9 m/s, and/or a transvalvular mean gradient (MG) of 20\u201339 mmHg under normal-flow conditions.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence span explicitly states the same AVA, indexed AVA, Vmax, and MG ranges and that these define moderate AS in current European guidelines under normal-flow conditions.",
+        "corrected_wording": "Current European guidelines define moderate aortic stenosis by an aortic valve area (AVA) of 1.0\u20131.5 cm\u00b2 (indexed AVA 0.60\u20130.85 cm\u00b2/m\u00b2), a peak jet velocity (Vmax) of 3.0\u20133.9 m/s, and/or a transvalvular mean gradient (MG) of 20\u201339 mmHg under normal-flow conditions.",
+        "evidence_span": "Current European guidelines define moderate AS by an aortic valve area (AVA) of 1.0\u20131.5 cm\u00b2 (indexed AVA 0.60\u20130.85 cm\u00b2/m\u00b2), a peak jet velocity (Vmax) of 3.0\u20133.9 m/s, and/or a transvalvular mean gradient (MG) of 20\u201339 mmHg under normal-flow conditions [2]."
+      },
+      {
+        "statement_text": "Registry data suggest that moderate aortic stenosis accounts for 30\u201345% of clinically relevant aortic stenosis in elderly cohorts.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence states that registry data suggest moderate AS accounts for 30\u201345% of clinically relevant AS in elderly cohorts, matching the statement.",
+        "corrected_wording": "Registry data suggest that moderate aortic stenosis accounts for 30\u201345% of clinically relevant aortic stenosis in elderly cohorts.",
+        "evidence_span": "Registry data suggest that moderate AS accounts for 30\u201345% of clinically relevant AS in elderly cohorts [3\u20135]."
+      },
+      {
+        "statement_text": "Longitudinal studies reveal that many patients with moderate aortic stenosis progress to severe aortic stenosis within a few years.",
+        "verdict": "partially supported",
+        "confidence": 0.7,
+        "explanation": "The evidence mentions that many patients progress to severe AS within a few years, but it does not specify that these patients initially have moderate AS; that detail comes from outside the span.",
+        "corrected_wording": "Longitudinal studies reveal that many patients progress to severe aortic stenosis within a few years.",
+        "evidence_span": "Longitudinal studies reveal that many patients progress to severe AS within a few years."
+      },
+      {
+        "statement_text": "Adverse outcomes such as heart failure hospitalization and mortality can occur in patients with moderate aortic stenosis without apparent echocardiographic progression.",
+        "verdict": "partially supported",
+        "confidence": 0.72,
+        "explanation": "The evidence confirms that adverse outcomes like HF hospitalization and mortality can occur without apparent echocardiographic progression, but it does not explicitly limit this to patients with moderate AS.",
+        "corrected_wording": "Adverse outcomes such as heart failure hospitalization and mortality can also occur without apparent echocardiographic progression.",
+        "evidence_span": "Yet, adverse outcomes such as heart failure (HF) hospitalization and mortality can also occur without apparent echocardiographic progression [6, 7]."
+      },
+      {
+        "statement_text": "In the clinical staging system by G\u00e9n\u00e9reux et al., some patients present with acute decompensation, bypassing mild symptoms, and experience markedly higher mortality and heart failure hospitalization rates following aortic valve replacement.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence explicitly attributes to the G\u00e9n\u00e9reux et al. staging system the observation that some patients present with acute decompensation, bypass mild symptoms, and have markedly higher mortality and HF hospitalization after AVR.",
+        "corrected_wording": "In the clinical staging system by G\u00e9n\u00e9reux et al., some patients present with acute decompensation, bypassing mild symptoms, and experience markedly higher mortality and heart failure hospitalization rates following aortic valve replacement.",
+        "evidence_span": "the clinical staging system proposed by G\u00e9n\u00e9reux et al., distinguishing stable, progressive, and acute valve syndromes, highlights that some patients present with acute decompensation, bypassing mild symptoms, and experience markedly higher mortality and HF hospitalization rates following aortic valve replacement (AVR) [7]."
+      },
+      {
+        "statement_text": "Comorbidities, particularly chronic kidney disease, contribute to myocardial remodeling and dysfunction in patients with moderate aortic stenosis.",
+        "verdict": "partially supported",
+        "confidence": 0.72,
+        "explanation": "The evidence notes that comorbidities, especially chronic kidney disease, contribute to myocardial remodeling and dysfunction and that this is discussed in the context of moderate AS, but the span itself does not explicitly state \u201cin patients with moderate AS.\u201d",
+        "corrected_wording": "Risk in moderate aortic stenosis is not dictated solely by valvular hemodynamics, and comorbidities, particularly chronic kidney disease, contribute to myocardial remodeling and dysfunction.",
+        "evidence_span": "Risk in moderate AS is not dictated solely by valvular hemodynamics. Comorbidities, particularly chronic kidney disease, contribute to myocardial remodeling and dysfunction [8]."
+      },
+      {
+        "statement_text": "A reduced transaortic flow rate (FR < 218 mL/s) has demonstrated prognostic value in aortic stenosis.",
+        "verdict": "supported",
+        "confidence": 0.93,
+        "explanation": "The evidence explicitly states that a reduced transaortic flow rate (FR < 218 mL/s) has demonstrated prognostic value. The context is AS, consistent with the statement.",
+        "corrected_wording": "A reduced transaortic flow rate (FR < 218 mL/s) has demonstrated prognostic value.",
+        "evidence_span": "Furthermore, emerging parameters, such as a reduced transaortic flow rate (FR < 218 mL/s), have demonstrated prognostic value [6]."
+      },
+      {
+        "statement_text": "Observational studies consistently demonstrate a graded relationship between higher baseline peak velocity, mean gradient, and adverse outcomes, including faster progression to severe aortic stenosis, increased risk of heart failure hospitalization, and mortality.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence states that observational studies consistently show a graded relationship between higher baseline Vmax and MG and adverse outcomes including faster progression to severe AS, increased HF hospitalization, and mortality, matching the statement.",
+        "corrected_wording": "Observational studies consistently demonstrate a graded relationship between higher baseline Vmax, MG, and adverse outcomes, including faster progression to severe aortic stenosis, increased risk of heart failure hospitalization, and mortality.",
+        "evidence_span": "Observational studies consistently demonstrate a graded relationship between higher baseline Vmax, MG, and adverse outcomes, including faster progression to severe AS, increased risk of HF hospitalization, and mortality [6, 9]."
+      },
+      {
+        "statement_text": "Patients with moderate aortic stenosis and high baseline aortic valve calcium scores tend to exhibit steeper annual increases in peak velocity and more rapid hemodynamic deterioration compared with those with lower calcific load.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence explicitly refers to patients with moderate AS and high baseline AVC scores showing steeper annual increases in Vmax and more rapid hemodynamic deterioration than those with lower calcific load.",
+        "corrected_wording": "Patients with moderate aortic stenosis and high baseline aortic valve calcium (AVC) scores tend to exhibit steeper annual increases in peak velocity and more rapid hemodynamic deterioration compared with those with lower calcific load.",
+        "evidence_span": "patients with moderate AS and high baseline aortic valve calcium (AVC) scores tend to exhibit steeper annual increases in Vmax and more rapid hemodynamic deterioration compared with those with lower calcific load [10, 11]."
+      },
+      {
+        "statement_text": "In a multicenter study by Mittal et al., up to 23% of patients labeled severe by echocardiography were reclassified as moderate when CT-derived aortic valve area exceeded 1.0 cm\u00b2.",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence directly states that in a multicenter study by Mittal et al., up to 23% of patients labeled severe by echocardiography were reclassified as moderate when CT-AVA exceeded 1.0 cm\u00b2.",
+        "corrected_wording": "In a multicenter study by Mittal et al., up to 23% of patients labeled severe by echocardiography were reclassified as moderate when CT-AVA exceeded 1.0 cm\u00b2.",
+        "evidence_span": "In a multicenter study by Mittal et al. [20], up to 23% of patients labeled severe by echocardiography were reclassified as moderate when CT-AVA exceeded 1.0 cm\u00b2, underscoring its corrective capacity."
+      },
+      {
+        "statement_text": "Comparative studies show that CT-derived aortic valve area correlates with both catheter-derived and Doppler values, although CT yields slightly larger areas; thus, modality-specific cut-offs are recommended (< 1.2 cm\u00b2 for CT versus < 1.0 cm\u00b2 for transthoracic echocardiography) for severe aortic stenosis.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence specifies that CT-AVA correlates with catheter-derived and Doppler values, CT gives slightly larger areas, and modality-specific cut-offs (< 1.2 cm\u00b2 for CT, < 1.0 cm\u00b2 for TTE) are recommended for severe AS, matching the statement.",
+        "corrected_wording": "Comparative studies show that CT-derived aortic valve area correlates with both catheter-derived and Doppler values, although CT yields slightly larger areas; thus, modality-specific cut-offs are recommended (< 1.2 cm\u00b2 for CT versus < 1.0 cm\u00b2 for TTE) for severe aortic stenosis.",
+        "evidence_span": "Comparative studies show that CT-AVA correlates with both catheter-derived and Doppler values, although CT yields slightly larger areas; thus, modality-specific cut-offs are recommended (< 1.2 cm\u00b2 for CT versus < 1.0 cm\u00b2 for TTE) for severe AS [22, 23]."
+      },
+      {
+        "statement_text": "In a large multicenter cohort, transaortic flow rate < 218 mL/s was independently associated with a twofold higher risk of mortality and heart failure hospitalization, outperforming stroke volume index.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence explicitly states that in a large multicenter cohort, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization and that it outperformed SVi.",
+        "corrected_wording": "In a large multicenter cohort, transaortic flow rate < 218 mL/s was independently associated with a twofold higher risk of mortality and heart failure hospitalization, outperforming stroke volume index.",
+        "evidence_span": "More recently, transaortic FR, calculated as stroke volume divided by LV ejection time, has emerged as a robust parameter, reflecting forward flow more accurately than SVi. In a large multicenter cohort, FR < 218 mL/s was independently associated with a twofold higher risk of mortality and HF hospitalization, outperforming SVi [6]."
+      }
+    ],
+    "elapsed_seconds": 45.65
+  }
+}

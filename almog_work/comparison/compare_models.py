@@ -31,10 +31,10 @@ BACKENDS = {
 }
 
 
-def run_pipeline_for_backend(article_text, chat_fn):
+def run_pipeline_for_backend(article_text, chat_fn, max_new_tokens=8000):
     """Run extraction then validation for a single backend, returning both results."""
-    extracted = extract_clinical_statements(article_text, chat_fn=chat_fn)
-    validated = validate_clinical_statements(extracted, chat_fn=chat_fn)
+    extracted = extract_clinical_statements(article_text, chat_fn=chat_fn, max_new_tokens=max_new_tokens)
+    validated = validate_clinical_statements(extracted, chat_fn=chat_fn, max_new_tokens=max_new_tokens)
     return extracted, validated
 
 
@@ -65,7 +65,7 @@ def main():
 
     for pmcid in pmcids:
         print(f"\n--- {pmcid} ---")
-        article_text = fetch_pmc_text(pmc_url_from_id(pmcid))
+        article_text = fetch_pmc_text(pmc_url_from_id(pmcid), char_limit=500000)
         if not article_text:
             print(f"Skipping {pmcid}: could not fetch text.")
             continue
@@ -75,7 +75,7 @@ def main():
             print(f"Running {backend_name}...")
             start = time.perf_counter()
             try:
-                extracted, validated = run_pipeline_for_backend(article_text, chat_fn)
+                extracted, validated = run_pipeline_for_backend(article_text, chat_fn, max_new_tokens=8000)
                 elapsed = time.perf_counter() - start
                 result[backend_name] = {
                     "extracted": extracted,

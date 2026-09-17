@@ -1,0 +1,627 @@
+{
+  "pmcid": "PMC13549532",
+  "granite": {
+    "extracted": [
+      {
+        "statement_text": "Elevated serum anion gap (AG) is frequently associated with severe acid-base imbalances and poor outcomes in critically ill patients with metabolic acidosis, particularly in conditions such as sepsis.",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "AG",
+            "role": "exposure",
+            "value": "elevated",
+            "condition": "critically ill patients with metabolic acidosis"
+          }
+        ],
+        "conditions": [
+          "sepsis",
+          "metabolic acidosis"
+        ],
+        "expected_value_or_relationship": "associated with severe acid-base imbalances and poor outcomes",
+        "context": "Introduction",
+        "evidence_span": "Elevated serum AG is frequently associated with severe acid-base imbalances and poor outcomes in critically ill patients with metabolic acidosis, particularly in conditions such as sepsis.",
+        "source_paper": {
+          "pmid": "",
+          "title": "The Role of Anion Gap in Critically Ill Patients with Gastrointestinal Perforation",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "In the American MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "AG",
+            "role": "exposure",
+            "value": "\u2265 15 mmol/L",
+            "condition": "quartile 4"
+          },
+          {
+            "name": "AG",
+            "role": "reference",
+            "value": "< 7.0 mmol/L",
+            "condition": "quartile 1"
+          }
+        ],
+        "conditions": [
+          "in-hospital mortality",
+          "28-day mortality"
+        ],
+        "expected_value_or_relationship": "higher risk of mortality",
+        "context": "Results section",
+        "evidence_span": "patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "source_paper": {
+          "pmid": "",
+          "title": "The Role of Anion Gap in Critically Ill Patients with Gastrointestinal Perforation",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.98
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) and 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "AG",
+            "role": "exposure",
+            "value": "\u2265 14.3 mmol/L",
+            "condition": "quartile 4"
+          },
+          {
+            "name": "AG",
+            "role": "reference",
+            "value": "< 9 mmol/L",
+            "condition": "quartile 1"
+          }
+        ],
+        "conditions": [
+          "in-hospital mortality",
+          "28-day mortality"
+        ],
+        "expected_value_or_relationship": "increased risk of mortality",
+        "context": "Results section",
+        "evidence_span": "patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) and 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1.",
+        "source_paper": {
+          "pmid": "",
+          "title": "The Role of Anion Gap in Critically Ill Patients with Gastrointestinal Perforation",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.97
+      },
+      {
+        "statement_text": "Restricted cubic spline analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality).",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "AG",
+            "role": "exposure",
+            "value": "varied",
+            "condition": "critically ill GI perforation patients"
+          }
+        ],
+        "conditions": [
+          "in-hospital mortality",
+          "28-day mortality"
+        ],
+        "expected_value_or_relationship": "nonlinear association with mortality",
+        "context": "Results section",
+        "evidence_span": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality).",
+        "source_paper": {
+          "pmid": "",
+          "title": "The Role of Anion Gap in Critically Ill Patients with Gastrointestinal Perforation",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      },
+      {
+        "statement_text": "In subgroup analyses among nondiabetic patients, AG levels were significantly associated with 28-day mortality in both the US MIMIC-IV cohort (P for trend = .023) and the Chinese Central-III cohort (P for trend = .011), as well as with in-hospital mortality in the Chinese Central-III cohort (P for trend = .047).",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "AG",
+            "role": "exposure",
+            "value": "varied",
+            "condition": "nondiabetic patients"
+          }
+        ],
+        "conditions": [
+          "28-day mortality",
+          "in-hospital mortality"
+        ],
+        "expected_value_or_relationship": "association with mortality",
+        "context": "Results section",
+        "evidence_span": "Among nondiabetic patients, AG levels were significantly associated with 28-day mortality in both the US MIMIC-IV cohort (P for trend = .023) and the Chinese Central-III cohort (P for trend = .011), as well as with in-hospital mortality in the Chinese Central-III cohort (P for trend = .047).",
+        "source_paper": {
+          "pmid": "",
+          "title": "The Role of Anion Gap in Critically Ill Patients with Gastrointestinal Perforation",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.94
+      },
+      {
+        "statement_text": "ROC analysis in the Chinese Central-III cohort showed that the predictive performance of AG for both in-hospital and 28-day mortality in critically ill GI perforation patients was comparable to that of the SAPS II score, with AUC values of 0.833 (95% CI: 0.729\u20130.906) and 0.707 (95% CI: 0.615\u20130.774), respectively, outperforming lactate, albumin, and RDW.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "AG",
+            "role": "predictor",
+            "value": "varied",
+            "condition": "critically ill GI perforation patients"
+          },
+          {
+            "name": "SAPS II",
+            "role": "reference",
+            "value": "varied",
+            "condition": "critically ill GI perforation patients"
+          }
+        ],
+        "conditions": [
+          "in-hospital mortality",
+          "28-day mortality"
+        ],
+        "expected_value_or_relationship": "higher AUC values indicating better predictive performance",
+        "context": "Results section",
+        "evidence_span": "ROC analysis in the Chinese Central-III cohort showed that the predictive performance of AG for both in-hospital and 28-day mortality in critically ill GI perforation patients was comparable to that of the SAPS II score, with AUC values of 0.833 (95% CI: 0.729\u20130.906) and 0.707 (95% CI: 0.615\u20130.774), respectively, outperforming lactate, albumin, and RDW.",
+        "source_paper": {
+          "pmid": "",
+          "title": "The Role of Anion Gap in Critically Ill Patients with Gastrointestinal Perforation",
+          "journal": "",
+          "year": ""
+        },
+        "confidence": 0.96
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Elevated serum anion gap (AG) is frequently associated with severe acid-base imbalances and poor outcomes in critically ill patients with metabolic acidosis, particularly in conditions such as sepsis.",
+        "verdict": "supported",
+        "confidence": 0.95,
+        "explanation": "The evidence_span directly states that 'Elevated serum AG is frequently associated with severe acid-base imbalances and poor outcomes in critically ill patients with metabolic acidosis, particularly in conditions such as sepsis.' This matches the statement verbatim.",
+        "corrected_wording": "Elevated serum anion gap (AG) is frequently associated with severe acid-base imbalances and poor outcomes in critically ill patients with metabolic acidosis, particularly in conditions such as sepsis.",
+        "evidence_span": "Elevated serum AG is frequently associated with severe acid-base imbalances and poor outcomes in critically ill patients with metabolic acidosis, particularly in conditions such as sepsis."
+      },
+      {
+        "statement_text": "In the American MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span provides the exact hazard ratios, confidence intervals, and p-values for in-hospital and 28-day mortality, confirming the statement's quantitative claims.",
+        "corrected_wording": "In the American MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "evidence_span": "patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1)."
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) and 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1.",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span matches the statement exactly, providing the hazard ratios, confidence intervals, and p-values for both mortality outcomes relative to quartile 1.",
+        "corrected_wording": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) and 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1.",
+        "evidence_span": "patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) and 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1."
+      },
+      {
+        "statement_text": "Restricted cubic spline analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality).",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span explicitly states that a restricted cubic spline analysis showed a nonlinear association with a p-value of .0004 for both in-hospital and 28-day mortality, directly supporting the statement.",
+        "corrected_wording": "Restricted cubic spline analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality).",
+        "evidence_span": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality)."
+      },
+      {
+        "statement_text": "In subgroup analyses among nondiabetic patients, AG levels were significantly associated with 28-day mortality in both the US MIMIC-IV cohort (P for trend = .023) and the Chinese Central-III cohort (P for trend = .011), as well as with in-hospital mortality in the Chinese Central-III cohort (P for trend = .047).",
+        "verdict": "supported",
+        "confidence": 0.94,
+        "explanation": "The evidence_span provides the exact p-values for trend analyses in the specified subgroups, confirming the statement's claims about associations with mortality.",
+        "corrected_wording": "Among nondiabetic patients, AG levels were significantly associated with 28-day mortality in both the US MIMIC-IV cohort (P for trend = .023) and the Chinese Central-III cohort (P for trend = .011), as well as with in-hospital mortality in the Chinese Central-III cohort (P for trend = .047).",
+        "evidence_span": "Among nondiabetic patients, AG levels were significantly associated with 28-day mortality in both the US MIMIC-IV cohort (P for trend = .023) and the Chinese Central-III cohort (P for trend = .011), as well as with in-hospital mortality in the Chinese Central-III cohort (P for trend = .047)."
+      },
+      {
+        "statement_text": "ROC analysis in the Chinese Central-III cohort showed that the predictive performance of AG for both in-hospital and 28-day mortality in critically ill GI perforation patients was comparable to that of the SAPS II score, with AUC values of 0.833 (95% CI: 0.729\u20130.906) and 0.707 (95% CI: 0.615\u20130.774), respectively, outperforming lactate, albumin, and RDW.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span directly reports the AUC values for AG in predicting in-hospital and 28-day mortality, states that these values are comparable to SAPS II, and notes that AG outperforms lactate, albumin, and RDW, fully supporting the statement.",
+        "corrected_wording": "ROC analysis in the Chinese Central-III cohort showed that the predictive performance of AG for both in-hospital and 28-day mortality in critically ill GI perforation patients was comparable to that of the SAPS II score, with AUC values of 0.833 (95% CI: 0.729\u20130.906) and 0.707 (95% CI: 0.615\u20130.774), respectively, outperforming lactate, albumin, and RDW.",
+        "evidence_span": "ROC analysis in the Chinese Central-III cohort showed that the predictive performance of AG for both in-hospital and 28-day mortality in critically ill GI perforation patients was comparable to that of the SAPS II score, with AUC values of 0.833 (95% CI: 0.729\u20130.906) and 0.707 (95% CI: 0.615\u20130.774), respectively, outperforming lactate, albumin, and RDW."
+      }
+    ],
+    "elapsed_seconds": 70.95
+  },
+  "gpt": {
+    "extracted": [
+      {
+        "statement_text": "Despite modern advances in antibiotics, surgical techniques, imaging, and resuscitation, GI perforation in critically ill patients remains a major challenge, with mortality rates still ranging from 16.9% to 30%.",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "mortality rate in critically ill patients with GI perforation",
+            "role": "outcome",
+            "value": "16.9% to 30%",
+            "condition": "critically ill patients with gastrointestinal perforation"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation"
+        ],
+        "expected_value_or_relationship": "Mortality ranges from 16.9% to 30%",
+        "context": "Introduction",
+        "evidence_span": "GI perforation in critically ill patients remains a major challenge, with mortality rates still ranging from 16.9% to 30%.[7-10]",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.9
+      },
+      {
+        "statement_text": "In the American MIMIC-IV cohort, there were 65 (11.8%) in-hospital mortalities and 136 (24.6%) 28-day mortalities, with the highest rates in quartile 4 (35 in-hospital mortalities [53.8%] and 55 28-day mortalities [40.4%]).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "in-hospital mortality",
+            "role": "outcome",
+            "value": "65/552 (11.8%); 35/128 (53.8%) in AG quartile 4",
+            "condition": "MIMIC-IV critically ill GI perforation patients; AG quartile 4 for subgroup"
+          },
+          {
+            "name": "28-day mortality",
+            "role": "outcome",
+            "value": "136/552 (24.6%); 55/128 (40.4%) in AG quartile 4",
+            "condition": "MIMIC-IV critically ill GI perforation patients; AG quartile 4 for subgroup"
+          },
+          {
+            "name": "anion gap quartile 4",
+            "role": "exposure",
+            "value": "AG \u2265 15 mmol/L",
+            "condition": "MIMIC-IV cohort"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "MIMIC-IV cohort",
+          "anion gap quartile 4 defined as AG \u2265 15 mmol/L"
+        ],
+        "expected_value_or_relationship": "Highest in-hospital and 28-day mortality rates occurred in AG quartile 4",
+        "context": "Results, AG level and mortality",
+        "evidence_span": "In the American MIMIC-IV cohort, there were 65 (11.8%) in-hospital mortalities and 136 (24.6%) 28-day mortalities, with the highest rates in quartile 4 (35 in-hospital mortalities [53.8%] and 55 28-day mortalities [40.4%]).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "The Chinese Central-III cohort showed similar trends, with 100 (16.3%) in-hospital mortalities and 153 (24.8%) 28-day mortalities, also highest in quartile 4 (42 in-hospital mortalities [42.0%] and 66 28-day mortalities [43.1%]).",
+        "statement_type": "quantitative",
+        "variables": [
+          {
+            "name": "in-hospital mortality",
+            "role": "outcome",
+            "value": "100/615 (16.3%); 42/154 (42.0%) in AG quartile 4",
+            "condition": "Central-III critically ill GI perforation patients; AG quartile 4 for subgroup"
+          },
+          {
+            "name": "28-day mortality",
+            "role": "outcome",
+            "value": "153/615 (24.8%); 66/154 (43.1%) in AG quartile 4",
+            "condition": "Central-III critically ill GI perforation patients; AG quartile 4 for subgroup"
+          },
+          {
+            "name": "anion gap quartile 4",
+            "role": "exposure",
+            "value": "AG \u2265 14.3 mmol/L",
+            "condition": "Central-III cohort"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "Central-III cohort",
+          "anion gap quartile 4 defined as AG \u2265 14.3 mmol/L"
+        ],
+        "expected_value_or_relationship": "Highest in-hospital and 28-day mortality rates occurred in AG quartile 4",
+        "context": "Results, AG level and mortality",
+        "evidence_span": "The Chinese Central-III cohort showed similar trends, with 100 (16.3%) in-hospital mortalities and 153 (24.8%) 28-day mortalities, also highest in quartile 4 (42 in-hospital mortalities [42.0%] and 66 28-day mortalities [43.1%]).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of in-hospital all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "anion gap",
+            "role": "exposure",
+            "value": "\u2265 15 mmol/L (quartile 4) vs < 7.0 mmol/L (quartile 1)",
+            "condition": "measured within 24 hours of ICU admission; MIMIC-IV cohort"
+          },
+          {
+            "name": "in-hospital all-cause mortality",
+            "role": "outcome",
+            "value": "HR = 5.97, 95% CI: 1.59\u201327.9, P = .038",
+            "condition": "multivariable adjusted model 3"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "MIMIC-IV cohort",
+          "model 3 adjusted for age, gender, serum albumin, blood creatinine, sodium, potassium, vasoactive medication use, lactate, hemoglobin, white blood cell count, prothrombin time, SAPS II, diabetes mellitus, and hypertension"
+        ],
+        "expected_value_or_relationship": "Higher AG (\u2265 15 mmol/L) is associated with markedly increased in-hospital mortality risk compared to AG < 7 mmol/L",
+        "context": "Results, AG level and mortality",
+        "evidence_span": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) ... all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1; Table 2).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of 28-day all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "anion gap",
+            "role": "exposure",
+            "value": "\u2265 15 mmol/L (quartile 4) vs < 7.0 mmol/L (quartile 1)",
+            "condition": "measured within 24 hours of ICU admission; MIMIC-IV cohort"
+          },
+          {
+            "name": "28-day all-cause mortality",
+            "role": "outcome",
+            "value": "HR = 5.26, 95% CI: 1.75\u201317.3, P = .020",
+            "condition": "multivariable adjusted model 3"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "MIMIC-IV cohort",
+          "28-day follow-up from ICU admission",
+          "model 3 adjusted for age, gender, serum albumin, blood creatinine, sodium, potassium, vasoactive medication use, lactate, hemoglobin, white blood cell count, prothrombin time, SAPS II, diabetes mellitus, and hypertension"
+        ],
+        "expected_value_or_relationship": "Higher AG (\u2265 15 mmol/L) is associated with markedly increased 28-day mortality risk compared to AG < 7 mmol/L",
+        "context": "Results, AG level and mortality",
+        "evidence_span": "patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1; Table 2).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital all-cause mortality compared to quartile 1.",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "anion gap",
+            "role": "exposure",
+            "value": "\u2265 14.3 mmol/L (quartile 4) vs < 9 mmol/L (quartile 1)",
+            "condition": "measured within 24 hours of ICU admission; Central-III cohort"
+          },
+          {
+            "name": "in-hospital all-cause mortality",
+            "role": "outcome",
+            "value": "HR = 3.35, 95% CI: 1.62\u20137.29, P < .001",
+            "condition": "multivariable adjusted model 3"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "Central-III cohort",
+          "model 3 adjusted for age, gender, serum albumin, blood creatinine, sodium, potassium, vasoactive medication use, lactate, hemoglobin, white blood cell count, prothrombin time, SAPS II, diabetes mellitus, and hypertension"
+        ],
+        "expected_value_or_relationship": "Higher AG (\u2265 14.3 mmol/L) is associated with increased in-hospital mortality risk compared to AG < 9 mmol/L",
+        "context": "Results, AG level and mortality",
+        "evidence_span": "Similar findings were observed in the Chinese Central-III cohort, where patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) ... all-cause mortality compared to quartile 1 (Table 2).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of 28-day all-cause mortality compared to quartile 1.",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "anion gap",
+            "role": "exposure",
+            "value": "\u2265 14.3 mmol/L (quartile 4) vs < 9 mmol/L (quartile 1)",
+            "condition": "measured within 24 hours of ICU admission; Central-III cohort"
+          },
+          {
+            "name": "28-day all-cause mortality",
+            "role": "outcome",
+            "value": "HR = 4.18, 95% CI: 2.21\u20138.13, P < .001",
+            "condition": "multivariable adjusted model 3"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "Central-III cohort",
+          "28-day follow-up from ICU admission",
+          "model 3 adjusted for age, gender, serum albumin, blood creatinine, sodium, potassium, vasoactive medication use, lactate, hemoglobin, white blood cell count, prothrombin time, SAPS II, diabetes mellitus, and hypertension"
+        ],
+        "expected_value_or_relationship": "Higher AG (\u2265 14.3 mmol/L) is associated with increased 28-day mortality risk compared to AG < 9 mmol/L",
+        "context": "Results, AG level and mortality",
+        "evidence_span": "Similar findings were observed in the Chinese Central-III cohort, where patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of ... 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1 (Table 2).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.99
+      },
+      {
+        "statement_text": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort for both in-hospital and 28-day mortality.",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "anion gap level",
+            "role": "exposure",
+            "value": "continuous AG",
+            "condition": "MIMIC-IV cohort"
+          },
+          {
+            "name": "in-hospital all-cause mortality",
+            "role": "outcome",
+            "value": "nonlinear association, P = .0004",
+            "condition": "RCS analysis adjusted for same factors as multivariable model"
+          },
+          {
+            "name": "28-day all-cause mortality",
+            "role": "outcome",
+            "value": "nonlinear association, P = .0004",
+            "condition": "RCS analysis adjusted for same factors as multivariable model"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "MIMIC-IV cohort"
+        ],
+        "expected_value_or_relationship": "AG demonstrates a nonlinear relationship with in-hospital and 28-day mortality",
+        "context": "Results, Restricted cubic spline analysis",
+        "evidence_span": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, AG levels were nonlinearly associated with in-hospital and 28-day mortality, with nonlinear P-values of .0086 and .0095, respectively.",
+        "statement_type": "associative",
+        "variables": [
+          {
+            "name": "anion gap level",
+            "role": "exposure",
+            "value": "continuous AG",
+            "condition": "Central-III cohort"
+          },
+          {
+            "name": "in-hospital mortality",
+            "role": "outcome",
+            "value": "nonlinear association, P = .0086",
+            "condition": "RCS analysis"
+          },
+          {
+            "name": "28-day mortality",
+            "role": "outcome",
+            "value": "nonlinear association, P = .0095",
+            "condition": "RCS analysis"
+          }
+        ],
+        "conditions": [
+          "critically ill patients with gastrointestinal perforation",
+          "Central-III cohort"
+        ],
+        "expected_value_or_relationship": "AG demonstrates a nonlinear relationship with in-hospital and 28-day mortality",
+        "context": "Results, Restricted cubic spline analysis",
+        "evidence_span": "Similar results were observed in the Chinese Central-III cohort, where AG levels were nonlinearly associated with in-hospital and 28-day mortality, with nonlinear P-values of .0086 and .0095, respectively (Fig. 2A, B).",
+        "source_paper": {
+          "pmid": "",
+          "title": "",
+          "journal": "",
+          "year": "2024"
+        },
+        "confidence": 0.95
+      },
+      {
+        "statement_text": "In the Central-III cohort, the critical AG levels associated with the lowest risk of in-hospital and"
+      }
+    ],
+    "validated": [
+      {
+        "statement_text": "Despite modern advances in antibiotics, surgical techniques, imaging, and resuscitation, GI perforation in critically ill patients remains a major challenge, with mortality rates still ranging from 16.9% to 30%.",
+        "verdict": "supported",
+        "confidence": 0.96,
+        "explanation": "The evidence_span directly states that GI perforation in critically ill patients remains a major challenge and that mortality rates range from 16.9% to 30%. The introductory clause about modern advances is mirrored by the word \"still,\" implying persistence despite progress, which is consistent with the statement.",
+        "corrected_wording": "Despite modern advances in antibiotics, surgical techniques, imaging, and resuscitation, GI perforation in critically ill patients remains a major challenge, with mortality rates still ranging from 16.9% to 30%.",
+        "evidence_span": "GI perforation in critically ill patients remains a major challenge, with mortality rates still ranging from 16.9% to 30%.[7-10]"
+      },
+      {
+        "statement_text": "In the American MIMIC-IV cohort, there were 65 (11.8%) in-hospital mortalities and 136 (24.6%) 28-day mortalities, with the highest rates in quartile 4 (35 in-hospital mortalities [53.8%] and 55 28-day mortalities [40.4%]).",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span explicitly provides the same counts and percentages for in-hospital and 28-day mortalities, and states that the highest rates were in quartile 4 with the given numbers and percentages.",
+        "corrected_wording": "In the American MIMIC-IV cohort, there were 65 (11.8%) in-hospital mortalities and 136 (24.6%) 28-day mortalities, with the highest rates in quartile 4 (35 in-hospital mortalities [53.8%] and 55 28-day mortalities [40.4%]).",
+        "evidence_span": "In the American MIMIC-IV cohort, there were 65 (11.8%) in-hospital mortalities and 136 (24.6%) 28-day mortalities, with the highest rates in quartile 4 (35 in-hospital mortalities [53.8%] and 55 28-day mortalities [40.4%])."
+      },
+      {
+        "statement_text": "The Chinese Central-III cohort showed similar trends, with 100 (16.3%) in-hospital mortalities and 153 (24.8%) 28-day mortalities, also highest in quartile 4 (42 in-hospital mortalities [42.0%] and 66 28-day mortalities [43.1%]).",
+        "verdict": "supported",
+        "confidence": 0.99,
+        "explanation": "The evidence_span matches exactly the numbers and percentages for in-hospital and 28-day mortality and indicates these were highest in quartile 4 with the given values.",
+        "corrected_wording": "The Chinese Central-III cohort showed similar trends, with 100 (16.3%) in-hospital mortalities and 153 (24.8%) 28-day mortalities, also highest in quartile 4 (42 in-hospital mortalities [42.0%] and 66 28-day mortalities [43.1%]).",
+        "evidence_span": "The Chinese Central-III cohort showed similar trends, with 100 (16.3%) in-hospital mortalities and 153 (24.8%) 28-day mortalities, also highest in quartile 4 (42 in-hospital mortalities [42.0%] and 66 28-day mortalities [43.1%])."
+      },
+      {
+        "statement_text": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of in-hospital all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span explicitly states that after adjusting for confounders, patients with AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of in-hospital all-cause mortality compared to those with AG < 7.0 mmol/L (quartile 1), and provides the HR and CI.",
+        "corrected_wording": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of in-hospital all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "evidence_span": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) ... all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1; Table 2)."
+      },
+      {
+        "statement_text": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of 28-day all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span clearly notes that patients with AG \u2265 15 mmol/L had a significantly higher risk of 28-day all-cause mortality (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) compared to AG < 7.0 mmol/L (quartile 1).",
+        "corrected_wording": "After adjusting for confounders in the MIMIC-IV cohort, patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of 28-day all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1).",
+        "evidence_span": "patients with an AG \u2265 15 mmol/L (quartile 4) had a significantly higher risk of both in-hospital (HR = 5.97, 95% CI: 1.59\u201327.9, P = .038) and 28-day (HR = 5.26, 95% CI: 1.75\u201317.3, P = .020) all-cause mortality compared to those with an AG < 7.0 mmol/L (quartile 1; Table 2)."
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital all-cause mortality compared to quartile 1.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span states that in the Chinese Central-III cohort, patients with AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital all-cause mortality compared to quartile 1 and provides the HR and CI, matching the statement.",
+        "corrected_wording": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital all-cause mortality compared to quartile 1.",
+        "evidence_span": "Similar findings were observed in the Chinese Central-III cohort, where patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of in-hospital (HR = 3.35, 95% CI: 1.62\u20137.29, P < .001) ... all-cause mortality compared to quartile 1 (Table 2)."
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of 28-day all-cause mortality compared to quartile 1.",
+        "verdict": "supported",
+        "confidence": 0.98,
+        "explanation": "The evidence_span reports that patients with AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of 28-day all-cause mortality (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) compared to quartile 1, in agreement with the statement.",
+        "corrected_wording": "In the Chinese Central-III cohort, patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of 28-day all-cause mortality compared to quartile 1.",
+        "evidence_span": "Similar findings were observed in the Chinese Central-III cohort, where patients with an AG \u2265 14.3 mmol/L (quartile 4) had an increased risk of ... 28-day (HR = 4.18, 95% CI: 2.21\u20138.13, P < .001) all-cause mortality compared to quartile 1 (Table 2)."
+      },
+      {
+        "statement_text": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort for both in-hospital and 28-day mortality.",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span states that RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort, with nonlinear P = .0004 for both in-hospital and 28-day mortality. This matches the statement.",
+        "corrected_wording": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort for both in-hospital and 28-day mortality.",
+        "evidence_span": "RCS analysis revealed a nonlinear association between AG levels and all-cause mortality in the American MIMIC-IV cohort (nonlinear P = .0004 for both in-hospital and 28-day mortality)."
+      },
+      {
+        "statement_text": "In the Chinese Central-III cohort, AG levels were nonlinearly associated with in-hospital and 28-day mortality, with nonlinear P-values of .0086 and .0095, respectively.",
+        "verdict": "supported",
+        "confidence": 0.97,
+        "explanation": "The evidence_span explicitly states that in the Chinese Central-III cohort, AG levels were nonlinearly associated with in-hospital and 28-day mortality, with nonlinear P-values of .0086 and .0095, respectively.",
+        "corrected_wording": "In the Chinese Central-III cohort, AG levels were nonlinearly associated with in-hospital and 28-day mortality, with nonlinear P-values of .0086 and .0095, respectively.",
+        "evidence_span": "Similar results were observed in the Chinese Central-III cohort, where AG levels were nonlinearly associated with in-hospital and 28-day mortality, with nonlinear P-values of .0086 and .0095, respectively (Fig. 2A, B)."
+      }
+    ],
+    "elapsed_seconds": 36.11
+  }
+}

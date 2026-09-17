@@ -8,25 +8,26 @@
 
 **Overall health:** 🟢 On track
 
-**Last update:** 2026-09-05
+**Last update:** 2026-09-17
 
 **Since last update:**
 
-- Extraction and validation agent POCs completed.
-- The complete end-to-end tool POC (ingestion → extraction → validation, rerunnable) is complete.
-- Started the local IBM Granite model vs. GPT comparison on real PMC papers; a first batch run was interrupted partway through.
-- Enabled GPU acceleration for the local Granite model (was CPU-only, several minutes per paper; now seconds per paper).
-- Added `json_repair` as a fallback when the LLM's JSON output is truncated or malformed, to make extraction/validation less brittle.
-- Rule database work is in progress.
+- Fixed 3 real pipeline bugs discovered via testing: (1) article text truncated at 20k chars before reaching model (100k fix); (2) extraction/validation output capped at 1500 tokens (4000→8000 token budget fix); (3) PMC fetch defaulting to 30k char limit (500k fix).
+- Updated extraction prompt to maximize statement coverage (extract all facts from abstract/methods/results/tables/discussion, not just obvious ones).
+- Ran comparison tests on 1 paper with fixed pipeline: GPT now extracts 27 statements (vs. 14 before fixes), validated to 14. Granite extracts 17, validates to 16.
+- Created side-by-side CSV export tool (`export_sidebyside_csv.py`) for easier manual evaluation of model differences.
+- GPU acceleration working (Granite: ~3-8s per paper vs. minutes on CPU).
+- Added `json_repair` fallback for truncated/malformed LLM JSON output.
+- Rule database: **still untouched, zero code implementation despite being marked in progress**.
 
-**Current blocker:** Rule database is still in progress. The local-vs-GPT comparison needs to be rerun to completion now that GPU speed and JSON parsing are fixed.
+**Current blocker:** Full 10-paper comparison batch and prompt refinement need to complete first (2026-09-24); rule database implementation follows after, utilizing finalized extraction/validation agents.
 
 **Next two weeks:**
 
-- Finish the rule database.
-- Rerun and complete the local-model-vs-GPT comparison on 10–15 papers.
-- Refine prompts/agents based on comparison results and select a model/prompt version.
-- Run the small-paper evaluation (5 papers) using one of Irina's datasets to look for anomalies.
+- By 2026-09-22: Implement rule database (schema, storage, insert/query methods). This is overdue and blocking pipeline connection.
+- By 2026-09-22: Complete 10-paper comparison batch; manually review results using side-by-side CSV (run in parallel with DB implementation).
+- By 2026-09-24: Refine extraction/validation prompts based on comparison findings; select final model (Granite vs. GPT).
+- By 2026-09-24: Run small-paper evaluation on 5 papers from one of Irina's datasets; classify anomalies.
 
 ## Milestones
 
@@ -36,12 +37,12 @@
 | PubMed ingestion POC complete | Retrieve PubMed records for a selected date, save metadata, and optionally retrieve PMC full text. | Almog Alfamon | 2026-07-20 |  | 2026-07-20 | 🟢 Complete |
 | Extraction agent POC complete | A working LLM-based extraction agent. | Almog Alfamon | 2026-08-09 |  | 2026-08-09 | 🟢 Complete |
 | Validation agent POC complete | A working LLM-based validation agent. | Almog Alfamon | 2026-08-16 |  | 2026-08-16 | 🟢 Complete |
-| Rule database | Store papers, candidate statements, validation results, evidence, and accepted statements. | Almog Alfamon | 2026-08-16 |  |  | 🟡 In progress |
+| Rule database | Store papers, candidate statements, validation results, evidence, and accepted statements. | Almog Alfamon | 2026-08-16 | 2026-09-29 |  | ⚪ Not started (scheduled after prompt finalization) |
 | Complete tool POC | Connect ingestion, extraction, and validation into a rerunnable end-to-end tool. | Almog Alfamon | 2026-09-05 |  | 2026-09-05 | 🟢 Complete |
-| Local IBM model vs. GPT comparison | Run 10–15 papers through both the local Granite model and GPT with the same prompts, and compare statements, evidence, verdicts, and processing time. | Almog Alfamon | 2026-09-10 |  |  | 🟡 In progress |
-| Refine prompts and agents | Fix errors/disagreements found in the comparison and settle on a model and prompt version. | Almog Alfamon | 2026-09-17 |  |  | ⚪ Not started |
-| Small-paper evaluation | Run the pipeline on 5 papers using one of Irina's datasets and classify anomalies. | Almog Alfamon | 2026-09-17 |  |  | ⚪ Not started |
-| Connect tool to full MDPT pipeline | Connect validated statements to MDPT and confirm MDPT can run tests from them. | Almog Alfamon | 2026-09-24 |  |  | ⚪ Not started |
+| Local IBM model vs. GPT comparison | Run 10–15 papers through both the local Granite model and GPT with the same prompts, and compare statements, evidence, verdicts, and processing time. | Almog Alfamon | 2026-09-10 | 2026-09-22 |  | 🟡 In progress |
+| Refine prompts and agents | Fix errors/disagreements found in the comparison and settle on a model and prompt version. | Almog Alfamon | 2026-09-24 |  |  | ⚪ Not started |
+| Small-paper evaluation | Run the pipeline on 5 papers using one of Irina's datasets and classify anomalies. | Almog Alfamon | 2026-09-24 |  |  | ⚪ Not started |
+| Connect tool to full MDPT pipeline | Connect validated statements to MDPT and confirm MDPT can run tests from them. | Almog Alfamon | 2026-10-01 |  |  | ⚪ Not started |
 | Test connected pipeline on real data | Run the connected pipeline on the All of Us dataset and Irena's datasets, recording anomalies per paper/dataset. | Almog Alfamon | 2026-10-01 |  |  | ⚪ Not started |
 | Sample and classify data anomalies | Manually review a sample of anomalies and classify each as an extraction error, data-testing error, or real data problem. | Almog Alfamon | 2026-10-09 |  |  | ⚪ Not started |
 | First thesis draft | Write methods, model comparison, prompt/agent iterations, MDPT integration, real-data evaluation, and limitations. | Almog Alfamon | 2026-10-22 |  |  | ⚪ Not started |
