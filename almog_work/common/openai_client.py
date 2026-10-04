@@ -14,17 +14,54 @@ Credentials are read from almog_work/.env (git-ignored, never committed):
 import os
 from pathlib import Path
 
-from dotenv import load_dotenv
-from openai import AzureOpenAI
+try:
+    from openai import AzureOpenAI
+    OPENAI_AVAILABLE = True
+except ImportError:
+    OPENAI_AVAILABLE = False
+    AzureOpenAI = None
+
+
+def _load_env_file(env_path: Path):
+    """Load environment variables from a .env file (simple parser)."""
+    if not env_path.exists():
+        return
+    
+    try:
+        with open(env_path, "r") as f:
+            for line in f:
+                line = line.strip()
+                if not line or line.startswith("#"):
+                    continue
+                if "=" in line:
+                    key, value = line.split("=", 1)
+                    key = key.strip()
+                    value = value.strip().strip('"').strip("'")
+                    if key and not os.getenv(key):
+                        os.environ[key] = value
+    except Exception:
+        pass
+
 
 _ENV_PATH = Path(__file__).resolve().parent.parent / ".env"
-load_dotenv(dotenv_path=_ENV_PATH)
+_load_env_file(_ENV_PATH)
 
 _client = None
 
 
 def get_openai_client():
-    """Return a cached AzureOpenAI client built from AZURE_OPENAI_* env vars."""
+    """Return a cached AzureOpenAI client built from AZURE_OPENAI_* env vars.
+    
+    Raises:
+        ImportError: If openai package is not installed.
+        ValueError: If required environment variables are missing.
+    """
+    if not OPENAI_AVAILABLE:
+        raise ImportError(
+            "The 'openai' package is not installed. "
+            "Install it with: pip install openai"
+        )
+    
     global _client
 
     if _client is None:
@@ -66,9 +103,18 @@ GPT_MODEL = os.getenv("AZURE_OPENAI_DEPLOYMENT", "gpt-5.1")
 def run_gpt_chat(messages, max_new_tokens=1500):
     """Run a chat-style completion via Azure OpenAI and return only the generated text.
 
-    Same signature/return shape as local_granite_client.run_granite_chat, so the two
-    can be swapped interchangeably as the `chat_fn` passed to extraction/validation agents.
+    This is the `chat_fn` passed to the extraction and validation agents.
+
+    Raises:
+        ImportError: If openai package is not installed.
+        ValueError: If required Azure OpenAI credentials are not configured.
     """
+    if not OPENAI_AVAILABLE:
+        raise ImportError(
+            "The 'openai' package is required to use run_gpt_chat. "
+            "Install it with: pip install openai"
+        )
+    
     client = get_openai_client()
     response = client.chat.completions.create(
         model=GPT_MODEL,
