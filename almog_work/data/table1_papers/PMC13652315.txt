@@ -1,0 +1,736 @@
+Abbreviations
+A
+Mitral peak late flow velocities
+CNI
+Calcineurin inhibitor
+CsA
+Cyclosporine A
+E
+Mitral peak early flow velocities
+e'
+Mitral annular peak diastolic early velocity
+EdecT
+Early deceleration time
+EF
+Ejection fraction
+LVH
+Left ventricular hypertrophy
+LVM
+Left ventricular mass
+LVMI
+Left ventricular mass divided by surface area
+mTOR
+Mechanistic target of rapamycin
+NOCTET
+Nordic Certican Trial in Heart and Lung Transplantation
+s'
+Mitral annular peak systolic velocities
+SCHEDULE
+Scandinavian heart transplant everolimus de novo study with early calcineurin inhibitors avoidance
+1
+Introduction
+The leading causes of long‐term mortality after heart transplantation are cardiac allograft vasculopathy and unexplained graft failure, which together account for approximately 30 % of deaths [
+1
+]. The presence of allograft left ventricular hypertrophy (LVH) is associated with an increased risk for subsequent allograft vasculopathy [
+2
+,
+3
+] and mortality [
+3
+].
+Almost 40 years after the introduction of cyclosporine, calcineurin inhibitors (CNIs) remain a cornerstone in the immunosuppressive treatment after heart transplantation. However, treatment with CNIs is associated with acute and chronic nephrotoxicity [
+4
+], arteriosclerosis and hypertension [
+5
+] and malignancy [
+6
+]. Inhibitors of the mechanistic target of rapamycin (mTOR) (sirolimus and everolimus) have been introduced as part of immunosuppressive regimens over the last two decades to reduce CNI exposure in heart transplant recipients. In addition to their immunosuppressive properties, mTOR inhibitors play a central role in regulating mRNA translation and cell growth [
+7
+]. The mTOR pathway, among several other cellular signaling pathways, is important for the cardiac hypertrophic response [
+8
+]. Consequently, inhibition of the mTOR pathway could be expected to ameliorate the development of cardiac hypertrophy.
+In observational studies, the conversion from CNIs to sirolimus in maintenance heart transplant recipients has been associated with a decrease in left ventricular mass (LVM) and improvement in diastolic function [
+9
+,
+10
+]. This was recently supported by the results in a small‐randomized trial [
+11
+]. In contrast, the effect on LVM of early conversion from CNIs to everolimus has been explored in several randomized controlled trials in kidney transplant recipients soon after transplantation [
+12
+,
+13
+]. These trials have not shown any clinically relevant difference in LVM between patients allocated to CNI‐based immunosuppressive regimens, and patients assigned to everolimus‐based immunosuppressive regimens [
+12
+,
+13
+]. The effect on cardiac allograft hypertrophy of full conversion to everolimus and the long‐term effects of reduced CNI exposure have not been assessed in heart transplant recipients. In this report, we describe the development in LVM in two randomized controlled trials, the Scandinavian heart transplant everolimus de novo study with early calcineurin inhibitors avoidance (SCHEDULE) [
+14
+], and The Nordic Certican Trial in Heart and Lung Transplantation (NOCTET) [
+15
+] trials. Our primary objective was to investigate whether an early conversion from a CNI to everolimus, or reduced CNI exposure in combination with everolimus, would reduce LVM and LVH in
+de novo
+and maintenance heart transplant recipients.
+2
+Materials and Methods
+The SCHEDULE trial comprised 115 newly heart transplanted recipients and was an open‐label, randomized, parallel‐group trial conducted at five transplant centers in Sweden, Norway and Denmark (ClinicalTrials.gov Identifier:
+NCT01266148
+) [
+14
+]. The patients were enrolled between 2008 and 2011. First‐time heart transplant recipients between 18 and 70 years of age who had received induction therapy with antithymocyte globulin were eligible for inclusion. Exclusion criteria included multi‐organ transplantation, donor age > 70 years, cold ischemia time > 6 h, recipients of ABO incompatible transplants, severe systemic infection, severe hypercholesterolemia (serum cholesterol > 350 mg/dl), or severe hypertriglyceridemia (fasting serum triglycerides > 750 mg/dl). Eligible patients were assessed within 5 days after transplantation. Afterwards patients were randomized to conventional treatment with cyclosporine A (CsA), mycophenolate mofetil and corticosteroids, or low dose CsA and low dose everolimus, standard mycophenolate mofetil and corticosteroids. To remain in the study after week 7–11, participants could not receive ongoing treatment for acute cellular or humoral rejection, or have any experience of one grade 3R rejection or two or more grade 2R rejections during this period. Thereafter, CsA was discontinued and everolimus dosage increased in the everolimus arm while the standard CNI‐based immunosuppressive regimen was maintained in the CsA arm.
+The NOCTET trial was an open‐label, multicenter, randomized, parallel‐group controlled trial (ClinicalTrials.gov Identifier:
+NCT00377962
+) [
+15
+]. Maintenance heart (
+n
+= 190) and lung (
+n
+= 92) transplant recipients were recruited at transplant centers in Denmark, Norway and Sweden between 2005 and 2008. We only included heart transplant recipients enrolled in Oslo for this substudy. Eligible patients were adults (aged > 18 years), who had undergone heart or lung transplantation ≥ 1 year previously, and whose current immunosuppressant regimen contained CsA or tacrolimus. A further requirement was a measured or calculated glomerular filtration rate ≥ 20 mL/min/1.73 m
+2
+and < 90 mL/min/1.73 m
+2
+. Key exclusion criteria were multiorgan transplantation, acute rejection ≤ 3 months before study entry, current or previous treatment with an mTOR inhibitor, low platelet count (< 50 000/mm
+3
+), low white blood cell count (≤ 2500/mm
+3
+), hemoglobin less than 8 g/dL, severe hypercholesterolemia (≥ 8.0 mmol/L), or hypertriglyceridemia (≥ 6.0 mmol/L) despite conventional optimal treatment, planned coronary revascularization, or a major cardiac event ≤ 3 months before randomization. Eligible patients were randomized to continued, CNI‐based treatment, or to treatment with everolimus and reduced dose CNI. Everolimus was initiated on the morning of day 1 at a dose of 0.75 to 1.5 mg two times per day, adjusted from week 1 onward to target an everolimus trough concentration between 3 and 8 ng/mL. On the same day, the dose of CsA or tacrolimus was reduced by ≥ 20% with further reductions after the everolimus trough concentration was in the range 3 to 8 ng/mL to achieve a 30% to 70% reduction in CNI trough levels and aiming for a CsA trough level less than 75 ng/mL or a tacrolimus trough level less than 4 ng/mL.
+In the SCHEDULE trial, we obtained per‐protocol endomyocardial biopsies at weeks 1, 2, 4, 7, 8, 12, 26 and 52. In addition, we performed biopsies on suspicion of allograft rejection. Extra endomyocardial biopsies were performed weekly after a rejection episode until we had at least two consecutive negative biopsies. In the NOCTET trial, the protocol demanded a myocardial biopsy at week 6 as well as on clinical indication. Some centers performed additional routine myocardial biopsies. We did not systematically measure donor specific antibodies in the two trials.
+Written informed consent was obtained from all patients. The trials were approved by the ethics committee in all the participating countries. Both trials were carried out in compliance with the Declaration of Helsinki.
+2.1
+Study Design
+The primary outcomes of this prespecified substudy were changes in LVM and LVH as measured by echocardiography during 3 year's follow‐up in the SCHEDULE trial, and up to 4 years after randomization in the NOCTET trial. In addition, parameters of systolic and diastolic LV function were evaluated. In the SCHEDULE trial, echocardiograms were taken at baseline (7‐11 weeks post transplantation), at 1 and 3 years’ follow‐up. In the NOCTET trial, echocardiograms were obtained at baseline and for 4 consecutive years. In the SCHEDULE trial, echocardiograms were exclusively analyzed at the core lab at Oslo University Hospital. From the NOCTET trial, only heart transplant recipients enrolled in Oslo were included. Image analysis was performed off‐line by an experienced sonographer (RJM), who was blinded to treatment allocation.
+2.2
+Echocardiography
+The patients were examined in the left lateral decubitus position after a minimum 5 min rest, using parasternal and apical projections as recommended [
+16
+]. Ultrasound recordings were obtained using digital high‐end ultrasound scanners (Vivid 7 or e9, GE Vingmed Ultrasound, Horten, Norway) with standard settings with second harmonic imaging, optimal gain and contrast. Conventional grey scale cine loops, pulsed and continuous wave Doppler recordings of blood flow velocities, and tissue‐Doppler cine loops of the left ventricle were recorded and transferred to a workstation for subsequent analysis. Tissue‐Doppler recordings were obtained at a frame rate >90 frames per second, and 2D images were recorded at > 40 frames per second. At least three consecutive cine loops, (> 5 in arrhythmia), were obtained and stored for off‐line analysis using dedicated software (Echopac software version 112, GE). Left ventricular dimensions were obtained according to convention [
+17
+], and LVM was calculated according to the Devereux formula [
+18
+] and indexed for body surface area to yield indexed LVM (LVMI). LVH was defined as LVMI > 115 g/m
+2
+in men and > 95gr/m
+2
+in women. We used Simpson's modified biplane rule [
+17
+] to calculate ejection fraction (EF). Diastolic parameters were recorded using conventional Doppler techniques according to recommendations [
+19
+]. The mitral peak early (E) and late (A) flow velocities were recorded and the E to A ratio calculated. We also measured the early deceleration time (EdecT). Mitral annular diastolic peak early (e’) and peak systolic velocities (s’) are reported both form the septal and lateral annulus. The E/e’ ratio was calculated using septal e’.
+2.3
+Statistics
+Statistical analyses were performed in SPSS 21.0 (SPSS Inc. Chicago, IL, USA). Outcome analyses were performed according to the intention‐to‐treat principle. The between‐group differences in changes from baseline and during follow‐up were assessed by mixed models. All echocardiographical variables approximated a normal distribution. Paired and unpaired two‐tailed student t‐tests were used for within‐group comparisons of data from baseline and results at one year follow‐up. Fisher's exact test or the chi‐square test was used when appropriate to measure differences in prevalence of categorical variables. A p‐value of < 0.05 was considered statistically significant.
+3
+Results
+Among the 115 participants in the SCHEDULE trial, complete data for the calculation of LVM were available for 83 patients (72 %) at 7 weeks, 82 patients (71 %) at 1 year and 53 patients (46 %) after 3 years. In the NOCTET trial, 75 patients (39 % of all participating heart transplant recipients) were recruited in Oslo at a median of 5 years (range 2–9 years) after heart transplantation. Data were available for 72 patients (96%) at 1 year, for 67 patients (89%) at 2 years, for 66 patients (88 %) at 3 years, and for 61 patients (81%) after 4 years’ follow‐up (Figure
+S3
+). Table
+1
+shows baseline demographics. The characteristics were largely balanced, although donor age and the number of diabetics differed slightly between the treatment groups.
+Table 1. Baseline characteristics.
+SCHEDULE (n = 83) a
+NOCTET (n = 75)
+Everolimus (n = 38)
+Cyclosporine (n = 45)
+Combination (n = 37)
+Cyclosporine (n = 38)
+Demographics
+Age at transplant (yr)
+51 ± 13
+52 ± 12
+53 ± 12
+55 ± 10
+Male sex (%)
+73
+74
+92
+85
+Systolic blood pressure (mmHg)
+136 ± 16
+135 ± 14
+141 ± 15
+143 ± 16
+Diastolic blood pressure (mmHg)
+80 ± 12
+82 ± 9
+88 ± 12
+90 ± 9
+Heart rate (beats/min)
+89 ± 10
+84 ± 11
+83 ± 13
+84 ± 14
+Body mass index (kg/m2)
+24 ± 4
+25 ± 3
+27 ± 5
+25 ± 6
+Age of donor (yr)
+41 ± 14
+47 ± 13
+39 ± 14
+34 ± 14
+Cold ischemia time—min (IQR)
+211 (45–305)
+206 (35–343)
+180 (88–228)
+172 (61–203)
+Creatinine (µmol/L)
+111 ± 45
+103 ± 32
+128 ± 29
+123 ± 27
+Estimated glomerular filtration rate (ml/min)
+67 ± 30
+69 ± 24
+Hypertension (%)
+11
+14
+78
+71
+Diabetes Mellitus (%)
+9
+22
+18
+11
+Medication
+Platelet inhibitor (%)
+39
+41
+19
+16
+Anticoagulant (%)
+4
+0
+0
+0
+Diuretics (%)
+43
+39
+16
+18
+Any anti‐hypertensive (%)
+73
+76
+84
+76
+Beta blockers (%)
+21
+24
+8
+8
+ACEi /ARB (%)
+29
+31
+54
+39
+Calcium antagonist (%)
+32
+40
+32
+32
+Any anti‐hypertensive (n)
+1.3 ± 0.5
+1.4 ± 0.4
+1.2 ± 0.8
+1.0 ± 0.5
+Aldosterone antagonist (%)
+0
+2
+3
+3
+Echocardiography
+LV end‐diastolic diameter (mm)
+47.6 ± 4.7
+48.4 ± 4.7
+49.1 ± 5.2
+49.3 ± 5.0
+LV end‐diastolic Inter‐ventricular septum thickness (mm)
+11.3 ± 1.7
+11.0 ± 1.4
+10.5 ± 1.6
+10.2 ± 1.3
+LV posterior wall thickness in end‐diastole (mm)
+9.6 ± 1.4
+9.4 ± 1.2
+9.3 ±1.4
+9.3 ±1.3
+Ejection fraction (%)
+58 ± 5
+60 ± 5
+62 ± 5
+60 ± 7
+Fraction shortening (%)
+38 ± 6
+36 ± 6
+37 ± 8
+35 ± 8
+E/A ratio
+2.0 ± 0.8
+2.3 ± 0.9
+1.9 ± 0.5
+2.0 ± 0.7
+E‐wave deceleration time (ms)
+169 ± 36
+175 ± 42
+153 ± 30
+167 ± 39
+E’ septal (cm/s)
+6.6 ± 1.5
+6.5 ± 1.6
+7.7 ± 2.0
+8.7 ± 2.5
+E’ lateral (cm/s)
+10.6 ± 3.3
+10.7 ± 2.3
+10.7 ± 2.3
+12.3 ± 3.2
+E/e’ septal
+10.2 ± 3.3
+9.4 ± 2.3
+10.2 ± 4.1
+9.0 ± 3.0
+LV mass (g)
+180 ± 49
+179 ± 44
+157 ± 46
+154 ± 40
+LV mass index (g/m2)
+94 ± 21
+89 ± 18
+87 ± 22
+86 ± 17
+Abbreviations: ACEi, angiotensin‐converting enzyme inhibitor; ARB, angiotensin receptor blocker; E/A, E‐wave:A‐wave; E/e`, E‐wave:mean e`; IQR, interquartile range; LV, left ventriclular. a Baseline data for SCHEDULE participants were obtained 7 weeks after transplantation.
+3.1
+Survival, Loss to Follow‐Up, and Treatment Crossover
+In the SCHEDULE trial, 10 patients (9 %) died during 3 years’ follow‐up (3 in the everolimus arm and 7 in the CNI arm). Furthermore, 5 patients crossed over from everolimus to CNI in the SCHEDULE trial. Among the Norwegian participants in the NOCTET trial, 6 patients (8 %) died within the first 4 years, of whom 4 patients in the combination arm and 2 patients in the cyclosporine arm. There were 13 crossovers in the NOCTET trial. All crossovers were from the low‐dose CNI and everolimus arm to the full‐dose CNI arm.
+3.2
+Cardiovascular Drugs
+Antihypertensive drugs and diuretics were evenly distributed between the treatment arms of the SCHEDULE trial as well as the NOCTET trial at baseline (Table
+1
+). In both trials, there were no between‐group differences in the numbers of antihypertensive drugs at one year follow‐up (SCHEDULE; everolimus 1.7 ± 0.8 vs. CNI 1.7 ± 0.8; NOCTET; combination arm 1.2 ± 0.9 vs. CNI 1.3 ± 1.0).
+3.3
+Left Ventricular Mass
+Left ventricular size and function are shown in Table
+2
+and Table
+3
+. In the SCHEDULE trial, LVMI diminished with time, in particular during the first year of follow‐up (everolimus arm: ∆ ‐10 ± 18 g/m2, cyclosporine arm: ∆ ‐9 ± 13 g/m2 ‐ p across groups < 0.01), with a further nominal decrease at 3 years follow‐up (Table
+3
+and Figure
+1
+). However, there was no between‐group difference in this development (p for between‐group difference = 0.91). In the NOCTET trial there was a non‐significant reduction in LVM in both treatment groups over time, with no between‐group difference (
+p
+= 0.27, Table
+3
+and Figure
+2
+). Diabetes did not significantly influence the development in LVM. However, the number of patients with diabetes was too small to conclude that diabetes does not interact with the treatment regimen regarding the development in LVM. On the other hand, there was a marginally significant, negative interaction between the treatment effect and donor age when the two trials were assessed together (p for interaction term = 0.04). The treatment effect remained neutral after adjustment for donor age.
+Table 2. Left ventricular size and function in the SCHEDULE trial.
+Everolimus
+Cyclosporine
+Variable
+Baseline (n = 38)
+1 year (n = 38)
+3 years (n = 28)
+Baseline (n = 45)
+1 year (n = 44)
+3 years (n = 25)
+p‐value a
+Cardiac structure
+IVSd (mm)
+11.3 ± 1.7
+10.5 ± 1.8
+10.2 ± 1.5
+11.0 ± 1.4
+10.5 ± 1.8
+10.4 ± 1.6
+0.49
+LVPWd (mm)
+9.6 ± 1.4
+9.2 ± 1.5
+8.4 ± 1.0
+9.4 ± 1.2
+8.8 ± 1.1
+8.7 ± 0.9
+0.60
+LVIDd (mm)
+47.6 ± 4.7
+47.7 ± 4.2
+47.7 ± 4.3
+48.4 ± 4.7
+48.8 ± 5.2
+48.3 ± 5.7
+0.60
+LVM (g)
+180 ± 49
+168 ± 52
+153 ± 35
+179 ± 44
+167 ± 45
+164 ± 41
+0.85
+LVMI (g/m2)
+94 ± 21
+85 ± 22
+80 ± 18
+89 ± 18
+81 ± 17
+78 ± 15
+0.91
+Diastolic function
+EA‐ratio
+2.0 ± 0.8
+1.6 ± 0.4
+1.7 ± 0.6
+2.3 ± 0.9
+1.9 ± 0.7
+2.1 ± 0.9
+0.72
+MV E (cm/s)
+79 ± 16
+78 ± 18
+74 ± 19
+78 ± 15
+76 ± 13
+78 ± 18
+0.21
+MV A (cm/s)
+44 ± 15
+48 ± 12
+46 ± 14
+37 ± 11
+43 ± 13
+43 ± 14
+0.60
+EdecT (ms)
+169 ± 37
+176 ± 46
+178 ± 31
+175 ± 41
+168 ± 23
+166 ± 30
+0.04
+e'lateral (cm/s)
+10.6 ± 3.3
+11.9 ± 1.9
+10.8 ± 3.4
+10.7 ± 2.3
+11.2 ± 2.4
+10.7 ± 2.9
+0.58
+e'septal (cm/s)
+6.6 ± 1.5
+8.5 ± 2.3
+7.5 ± 2.3
+6.5 ± 1.6
+7.5 ± 2.3
+6.8 ± 2.2
+0.39
+E/e’ ratio
+10.2 ± 4.0
+7.9 ± 2.0
+9.3 ± 3.1
+9.5 ± 2.2
+8.7 ± 2.5
+9.5 ± 3.0
+0.13
+Systolic function
+EF Biplane (%)
+58 ± 5
+59 ± 5
+58 ± 5
+60 ± 5
+60 ± 7
+60 ± 6
+0.89
+FS (%)
+38 ± 6
+35 ± 8
+34 ± 7
+36 ± 6
+37 ± 6
+35 ± 7
+0.11
+Abbreviations: EA‐ratio, E‐wave:A‐wave; EdecT, E‐wave deceleration time; Ee’‐ratio, E‐wave:mean e’; FS, fractional shortening; IVSd, interventricular septum thickness in diastole; LVM, left ventricle mass; LVMI, left ventricle mass index; LVPWd, left ventricle posterior wall thickness in diastole; MV A, mitral A‐wave; MV E, mitral E‐wave. a p‐value for treatment effect between groups at 3 years (Mixed Model).
+Table 3. Left ventricular size and function in the NOCTET trial.
+Standard dose calcineurine inhibitor
+Combination therapy
+Variable
+Baseline (n = 37)
+1 year (n = 36)
+2 years (n = 32)
+3 years (n = 30)
+4 years (n = 27)
+Baseline (n = 38)
+1 year (n = 36)
+2 years (n = 36)
+3 years (n = 35)
+4 years (n = 34)
+p‐value a
+Cardiac structure
+IVSd (mm)
+10.5 ± 1.6
+10.9 ± 1.6
+10.3 ± 1.6
+10.5 ± 1.5
+10.5 ± 1.6
+10.2 ± 1.3
+10.7 ± 1.1
+10.7 ± 1.3
+10.2 ± 1.4
+10.4 ± 1.6
+0.33
+LVPWd (mm)
+9.3 ± 1.4
+9.4 ± 1.3
+9.2 ± 1.3
+9.1 ± 1.3
+8.7 ± 1.1
+9.3 ± 1.3
+9.4 ± 1.1
+9.3 ± 1.3
+8.7 ± 1.2
+8.7 ± 1.3
+0.72
+LVIDd (mm)
+49.1 ± 5.2
+49.9 ± 5.1
+49.7 ± 5.1
+49.3 ± 4.7
+49.9 ± 5.2
+49.3 ± 5.0
+49.0 ± 4.3
+49.7 ± 5.0
+49.5 ± 4.2
+48.9 ± 5.1
+0.33
+LVM (g)
+176 ± 50
+188 ± 51
+177 ± 47
+175 ± 44
+173 ± 44
+174 ± 44
+177 ± 35
+182 ± 46
+167 ± 39
+166 ± 43
+0.24
+LVMI (g/m2)
+87 ± 22
+92 ± 22
+86 ± 21
+83 ± 24
+86 ± 20
+86 ± 17
+88 ± 14
+90 ± 17
+84 ± 17
+83 ± 19
+0.27
+Diastolic function
+EA‐ratio
+1.9 ± 0.5
+2.1 ± 0.7
+2.0 ± 1.2
+2.3 ± 0.8
+2.0 ± 0.7
+2.0 ± 0.7
+2.0 ± 0.6
+2.5 ± 1.4
+2.2 ± 0.7
+2.4±1.0
+0.09
+MV E (cm/s)
+73 ± 19
+79 ± 24
+77 ± 21
+78 ± 18
+75 ± 19
+75 ± 21
+77 ± 21
+79 ± 21
+75 ± 18
+75 ± 18
+0.47
+MV A (cm/s)
+40 ± 12
+41 ± 16
+41 ± 12
+37 ± 13
+39 ± 14
+38 ± 11
+40 ± 13
+35 ± 13
+37 ± 10
+34 ± 10
+0.32
+EdecT (ms)
+153 ± 30
+157 ± 27
+152 ± 30
+154 ± 34
+150 ± 32
+166 ± 39
+163 ± 27
+157 ± 30
+158 ± 37
+156 ± 38
+0.93
+e'lateral(cm/s)
+10.7 ± 2.3
+11.0 ± 4.0
+10.7 ± 3.0
+10.1 ± 3.3
+10.0 ± 2.6
+12.3 ± 3.2
+12.0 ± 2.5
+11.6 ± 3.1
+11.7 ± 2.4
+11.1 ± 3.6
+0.76
+e'septal(cm/s)
+7.7 ± 2.0
+8.4 ± 2.4
+8.1 ± 2.4
+7.6 ± 2.1
+7.8 ± 2.1
+8.7 ± 2.5
+8.3 ± 1.8
+7.3 ± 2.5
+7.4 ± 1.6
+6.9 ± 2.0
+0.12
+E/e’ ratio
+10.2 ± 4.4
+9.8 ± 2.7
+10.3 ± 3.5
+10.8 ± 4.2
+9.7 ± 3.5
+9.1 ± 3.0
+9.3 ± 2.9
+11.5 ± 5.2
+11.4 ± 7.3
+11.3 ± 4.2
+0.43
+Systolic function
+EF Biplane (%)
+62 ± 5
+59 ± 6
+60 ± 6
+57 ± 7
+60 ± 5
+60 ± 7
+61 ± 6
+60 ± 7
+58 ± 6
+60 ± 6
+0.22
+FS (%)
+37 ± 8
+35 ± 8
+35 ± 8
+35 ± 7
+34 ± 8
+35 ± 8
+35 ± 6
+35 ± 8
+36 ± 8
+36 ± 6
+0.16
+Abbreviations: EA‐ratio, E‐wave:A‐wave; EdecT, E‐wave deceleration time; Ee’‐ratio, E‐wave:mean e’; FS, fractional shortening; IVSd, interventricular septum thickness in diastole; LVM, left ventricle mass; LVMI, left ventricle mass index; LVPWd, left ventricle posterior wall thickness in diastole; MV A, mitral A‐wave; MV E, mitral E‐wave. a p‐value for treatment effect between groups at 4 years (Mixed Model).
+FIGURE 1
+LVM index at baseline, 1 year and 3 years follow‐Up in the SCHEDULE trial. Box plots (median, 25 and 75 percentiles) illustrating no between‐group differences in the change in LVM index during 3 years follow‐up (
+p
+= 0.91 by mixed models). LVM, left ventricular mass.
+FIGURE 2
+Development in left ventricular size and function in the NOCTET trial. Development in left ventricular mass (A), left ventricular end‐diastolic inner dimension (B) and left ventricular ejection fraction (C) from randomisation and up to five years after randomisation. With time, there was a slight increase in left ventricular mass across treatment arms, but no between‐group difference. Box: 25th to 75th percentile, whiskers: 5th to 95th percentile. The
+p
+‐values pertain to the effect of treatment allocation as assessed with mixed models.
+3.4
+Left Ventricular Hypertrophy
+The proportion of patients with LVH fell significantly across treatment arms in the SCHEDULE trial, from 21% at baseline to only 3% at 3 years, however there was no between‐group difference (
+p
+= 0.36). In the NOCTET trial, 11% of the patients had LVH at inclusion. This proportion remained stable during follow‐up and ranged from 10% to 15% (14% at 1 year, 15% at 2 years, 11% at 3 years and 10% after 4 years). In the combination arm, the proportion of LVH decreased from 14% at baseline to 11% after 4 years, whereas the comparable numbers for the combination group were 8% and 9%, respectively (
+p
+= 0.71 for between‐group difference).
+4
+Discussion
+In this study, an early conversion from CNI to everolimus, or reduced CNI exposure in combination with everolimus, was not found to reduce LVM nor LVH in newly transplanted or maintenance heart transplant recipients. LVM and the prevalence of LVH diminished with time after transplantation and remained stable in the long term. The SCHEDULE trial is to our knowledge the first randomized trial to compare an everolimus‐based, CNI‐free immunosuppressive regiment with conventional CNI‐based treatment soon after heart transplantation.
+LVH is prevalent in heart transplant recipients and an independent predictor of increased mortality after heart transplantation [
+3
+]. Almost 40 years after calcineurin inhibitors were introduced for the prevention of transplant rejection, they still have a pivotal role in immunosuppressive treatment. However, CNIs are associated with nephrotoxicity, vasculopathy, arteriosclerosis, hypertension and malignancy [
+4
+,
+5
+,
+6
+]. Cyclosporine A has been implicated in causing myocardial fibrosis [
+20
+]. In contrast, inhibitors of mTOR have traditionally been thought to reduce LVH and fibrosis [
+21
+,
+22
+]. In mice, sirolimus reduces LVH and cardiac fibrosis by inhibiting the degradation of p27‐kip1, which prevents cell cycle progression [
+21
+].
+Raichlin et al. measured LVM in 70 heart transplant recipients with impaired renal function secondary to treatment with CNIs or coronary allograft vasculopathy or both, were converted to sirolimus 6 ± 4 years after transplantation [
+9
+]. In this study, they found that LVM increased in the 12 months leading up to the conversion and decreased over the first 12 months after the conversion, resulting in a significant difference in the change before and after the shift in immunosuppressive therapy [
+9
+]. In a retrospective study, Kushawa et al. found that conversion from a CNI to sirolimus 5 ± 4 years after transplantation was associated with a significant decrease in LVH [
+10
+]. Their results suggested that sirolimus acts directly on the myocardium due to an increase in p27kip1, which is induced by mTOR inhibition. In another retrospective analysis, Imamura et al. compared 42 patients in whom everolimus was added to their immunosuppressive treatment regimen at a median of 150 days after heart transplantation, and 18 patients who remained on a CNI‐based treatment regimen [
+23
+]. They found that treatment with everolimus was associated with reduced LVM over one year of follow‐up [
+23
+].
+The randomized clinical Everolimus for the Prevention of Calcineurin‐Inhibitor‐Induced Left Ventricular Hypertrophy After Heart Transplantation (RADTAC) trial comprised 40 patients who were randomized to low‐dose everolimus in combination with low‐dose tacrolimus, or standard dose tacrolimus 12 weeks after heart transplantation [
+11
+]. Their primary endpoint was LVM as assessed by magnetic resonance imaging. At one year, LVM was 11% lower in the low‐dose everolimus, low‐dose tacrolimus arm than in the patients allocated to standard dose tacrolimus [
+11
+]. This finding was in spite of the average difference between the groups being only 2.1 µg/l of tacrolimus [
+11
+].
+In contrast to these studies, we found no significant difference in LVM between patients allocated to CNI‐based immunosuppressive regimens and patients assigned to everolimus‐based immunosuppressive regimens. This is in line with studies in renal transplant recipients, which have not demonstrated any difference in LVM with reduced CNI exposure or full conversion to everolimus [
+12
+,
+13
+]. However, due to different stressors including microvascular reperfusion injuries in the cardiac transplant vasculature, a cardiac allograft cannot be directly compared with the heart of a kidney transplant recipient.
+Our study found that in heart transplant recipients, LVM fell during the first year after transplantation and then remained stable in patients treated with either a CNI or everolimus. The initial fall in LVM can be explained by resolution of the myocardial edema that occurs early after heart transplantation and can persist for several months [
+24
+,
+25
+]. However, it is difficult to obtain an accurate estimation of the true, edema‐free LVM after heart transplantation [
+26
+]. Other explanations for the observed reduction in LVM could be improved haemodynamics, the abatement of inflammation, and resolution of donor heart hypertrophy or atrophy of the donor heart after transplantation. In a secondary analysis of the SCHEDULE trial, we observed a modest but statistically significant fall in systolic blood pressure over the first year after heart transplantation. This occurred concurrently with an increase in the prescription of beta blockers and inhibitors of angiotensin converting enzyme; drugs that reduce left ventricular hypertrophy. The fall in systolic blood pressure was larger in patients allocated to everolimus [
+27
+]. Donor age and ischemia time may confound the effect of treatment on postoperative edema. Likewise, recipient diabetes and obesity may affect long‐term left ventricular hypertrophy. However, ischemia time and obesity did not differ between the treatment groups, and donor age and recipient diabetes did not confound the treatment effect, which remained neutral after adjustment for these factors.
+In the SCHEDULE trial, we performed routine biopsies throughout the first year. A primary finding was that biopsy‐proven rejections (185 vs. 128 episodes) as well as treated rejections (43 vs. 17) were more frequent in the everolimus arm. None of these rejections were associated with hemodynamic compromise [
+14
+]. However, as we have shown across several follow‐up studies; the increased number of rejection episodes while potentially having mitigated the positive effect of everolimus’ renoprotective properties, did not lead to worse graft function or survival in the everolimus arm [
+28
+,
+29
+,
+30
+]. Inflammation is an important driver of remodeling of the left ventricle and persistent inflammation has been associated with LVH in heart transplantation [
+31
+]. As shown in this study, the overall effect of everolimus on LVM was neutral. Tissue characterization might assist in differentiating which mechanisms were in play in the two arms of the SCHEDULE trial. Unfortunately, tissue is no longer available to help solve these questions. Our results do not suggest that major differences were present between the two treatment arms. On the other hand, lower blood pressure and better kidney function may have been offset by less mitigation of inflammation in the everolimus arm to produce the over‐all neutral effect of everolimus on LVM. Interestingly, overt LVH was not prevalent in our maintenance heart transplant recipients. Furthermore, there was no net effect on LVM of switching from a CNI‐based immunosuppressive regime to one based on everolimus. The clinical significance of LVH should be reassessed in contemporary cohorts of well‐managed heart transplant recipients.
+Hypertension is a major risk factor for the development of LVH, also in heart transplant recipients. As a result of this, appropriate control of blood pressure in heart transplant recipients can result in decreased LVM. However, in both the NOCTET and SCHEDULE trials, the baseline blood pressure and the proportion of patients with hypertension did not differ across the treatment arms. There were no between‐group differences in the use of antihypertensive drugs and diuretics during follow‐up. On the other hand, in the SCHEDULE trial 24 h ambulatory blood pressures were slightly lower in patients randomized to everolimus compared with patients randomized to CNI‐based immunosuppression [
+27
+]. Nevertheless, a smaller LVM was not observed among these patients. This may be because the difference in blood pressure between patients randomized to everolimus and patients randomized to cyclosporine was too small to manifest in lower LVM, or because some other, yet unknown effect of everolimus outweighed the effect of lower blood pressures.
+We present data from two randomized trials conducted at multiple centers in Scandinavia in which patients treated with two immunosuppressive regimens were observed over several years. Differences in antihypertensive treatment, GFR and comorbidities (hypertension, diabetes) could not explain the lack of difference between the treatment arms. Factors such as recipient age, cold ischemia time and weight gain after heart transplantation can influence LVM. The study design, balanced group characteristics and the absence of late‐onset LVH largely mitigate the role of these factors in this study. Risk of obesity after heart transplantation is exacerbated by a combination of therapies and deconditioning. Consequently, weight gain leads to compensatory increases in cardiac mass. The absence of late‐onset LVH in our analysis suggests that this weight gain does not significantly affect LVM in heart transplant recipients. However, some limitations merit consideration. While our study comprises the largest number of heart transplant recipients that have been assessed in a randomized setting regarding the effect on LVM of mTOR versus CNI, the number of patients was limited, and there was some loss to follow‐up.
+Open‐labeled trials are prone to patients’ and investigators’ bias. However, LVM is not likely to be significantly affected by patients’ prejudice. Importantly, the investigator who analyzed and interpreted the echocardiograms (RJM) was not aware of treatment allocation. It is a well‐established fact that a small number of patients increase the risk of not detecting true between‐group differences. Moreover, no sample size calculation was performed for the purpose of assessing LVM. However, there was no signal towards any difference in LVM between the treatment groups in either trial. When the trials are combined, our study comprises more than 150 patients. We are therefore confident that the use of everolimus compared to the calcineurin inhibitor cyclosporine is not associated with a clinically significant difference in LVM in heart transplant recipients.
+Due to the open‐label nature of the trials and the limited experience with everolimus at that time, there were a modest number of crossovers from everolimus to conventional treatment with a CNI. LVM was estimated by using high‐end echocardiographical scanners. However, echocardiography is less accurate than magnetic resonance imaging for the quantification of LV dimensions. We did not systematically investigate cardiac allograft vasculopathy, although there is no reason to suspect large between‐group differences in the prevalence of cardiac allograft vasculopathy in these randomized trials.
+This study did not obtain bioptic material for tissue characterization beyond evaluation for rejection. However, LVM and function ultimately reflect the make‐up of the cells and intracellular components of the myocardial tissue. Important clues to how different immunosuppressants affect the heart may therefore lie in biopsies, which can quantify fibrosis, cellular composition, low‐grade inflammation and myocyte ultrastructure. Loss of myocytes, myocyte atrophy or hypertrophy, and changes in interstitial volume might explain the development of LVM after heart transplantation. Future trials should be designed to assess the effect of immunosuppressants on fibrosis, myocyte loss and the remodelling process after transplantation.
+5
+Conclusion
+In these two randomized trials, we observed no treatment‐effect on the change in LVM or the proportion of patients with LVH between patients randomized to standard dose CNI or to early complete withdrawal of CNIs or a reduced dose of CNIs in maintenance heart transplant recipients. LVM fell over the first year after heart transplantation and remained stable thereafter.
+Funding
+The SCHEDULE and NOCTET studies were partially funded by Novartis. This substudy was investigator initiated, and neither influenced nor received funding from private industry.
+Conflicts of Interest
+The authors declare no conflicts of interest.
+Supporting information
+Supporting File 1:
+ctr70705‐sup‐0001‐FigureS3.docx

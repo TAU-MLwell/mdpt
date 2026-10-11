@@ -10,9 +10,11 @@ from openai_client import run_gpt_chat
 
 # Articles longer than CHUNK_SIZE chars are split into overlapping chunks to avoid
 # silent truncation; CHUNK_OVERLAP chars are repeated between chunks to preserve context.
-CHUNK_SIZE = 80000
+# Kept relatively small so each chunk's extracted statements fit comfortably within
+# a single model response (avoids truncated/unparseable JSON on dense tables).
+CHUNK_SIZE = 40000
 CHUNK_OVERLAP = 2000
-DEFAULT_MAX_NEW_TOKENS = 4000
+DEFAULT_MAX_NEW_TOKENS = 8000
 
 
 # Basic JSON repair fallback (if json_repair library is not available)

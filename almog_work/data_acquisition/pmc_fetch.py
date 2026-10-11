@@ -43,29 +43,97 @@ def clean_html_to_text(html: str) -> str:
     return text
 
 
+def _cell_text(cell: ET.Element) -> str:
+    return " ".join("".join(cell.itertext()).split())
+
+
+def _render_table_wrap(table_wrap: ET.Element) -> List[str]:
+    """Render a <table-wrap> as 'Table N. <caption>' followed by one cell per line.
+
+    This mirrors the jumbled, line-per-fragment style typical of PDF-to-text table
+    extraction, which is the format the table extraction agent expects (so that the
+    same '^Table N. ' caption regex and LLM reconstruction prompt work unchanged
+    regardless of whether the source paper came from PDF text or PMC XML).
+    """
+    label = (table_wrap.findtext("label") or "").strip()
+    caption_el = table_wrap.find("caption")
+    caption_text = _cell_text(caption_el) if caption_el is not None else ""
+
+    number_match = re.search(r"(\d+)", label)
+    if number_match:
+        heading = f"Table {number_match.group(1)}. {caption_text}".strip()
+    else:
+        heading = f"{label}. {caption_text}".strip()
+
+    lines = [heading] if heading else []
+
+    # Some table-wraps nest the real <table> inside <alternatives> alongside a
+    # <graphic> fallback image, so search recursively rather than only direct children.
+    table = table_wrap.find(".//table")
+    if table is not None:
+        for section_tag in ("thead", "tbody", "tfoot"):
+            section = table.find(section_tag)
+            if section is None:
+                continue
+            for row in section.findall("tr"):
+                for cell in list(row):
+                    cell_text = _cell_text(cell)
+                    if cell_text:
+                        lines.append(cell_text)
+
+    foot = table_wrap.find("table-wrap-foot")
+    if foot is not None:
+        foot_text = _cell_text(foot)
+        if foot_text:
+            lines.append(foot_text)
+
+    return lines
+
+
+def _iter_body_lines(elem: ET.Element) -> List[str]:
+    """Walk an XML element in document order, emitting one line per text fragment.
+
+    Table-wrap elements are rendered specially (see _render_table_wrap) so table
+    captions land at the start of a line and can be matched by the caption regex.
+    """
+    if elem.tag == "table-wrap":
+        return _render_table_wrap(elem)
+
+    lines: List[str] = []
+    if elem.text and elem.text.strip():
+        lines.append(elem.text.strip())
+    for child in elem:
+        lines.extend(_iter_body_lines(child))
+        if child.tail and child.tail.strip():
+            lines.append(child.tail.strip())
+    return lines
+
+
 def clean_xml_to_text(xml_text: str) -> str:
-    """Extract body/abstract text from PMC XML and collapse whitespace."""
+    """Extract body/abstract text from PMC XML, preserving line breaks.
+
+    Tables are flattened one-cell-per-line (see _render_table_wrap) and section
+    titles/paragraphs each get their own line, so downstream regexes that match
+    table captions ('^Table N. ...') or section boundaries ('^Discussion', etc.)
+    at the start of a line continue to work.
+    """
     try:
         root = ET.fromstring(xml_text)
     except ET.ParseError:
         return ""
 
-    text_parts = []
+    lines: List[str] = []
 
     # Prefer main article body.
     for node in root.findall(".//body"):
-        content = " ".join("".join(node.itertext()).split())
-        if content:
-            text_parts.append(content)
+        lines.extend(_iter_body_lines(node))
 
     # Include abstract if body is unavailable or very short.
-    if not text_parts:
+    if not lines:
         for node in root.findall(".//abstract"):
-            content = " ".join("".join(node.itertext()).split())
-            if content:
-                text_parts.append(content)
+            lines.extend(_iter_body_lines(node))
 
-    return "\n\n".join(text_parts).strip()
+    return "\n".join(lines).strip()
 
 
 def extract_pmcid_from_url(pmc_url: str) -> str:

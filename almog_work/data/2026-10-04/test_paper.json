@@ -1,0 +1,10 @@
+{
+  "paper_id": "test_paper",
+  "gpt": {
+    "extracted": [],
+    "validated": [],
+    "elapsed_seconds": 97.94,
+    "extract_time": 97.94,
+    "validate_time": 0.0
+  }
+}

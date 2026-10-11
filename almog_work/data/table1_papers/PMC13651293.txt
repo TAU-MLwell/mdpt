@@ -1,0 +1,1565 @@
+Introduction
+Circulating endothelial progenitor cells (EPCs), initially identified in human peripheral blood in 1997 as cluster of differentiation (CD)34
++
+mononuclear cells, were stem cells mainly derived from bone marrow [
+1
+]. EPCs acted as a critical reservoir for vascular repair and angiogenesis [
+2
+]. Current knowledge defined circulating EPCs as blood cells expressing both progenitor markers (e.g., CD34 and CD133) and endothelial markers (e.g., vascular endothelial growth factor receptor 2 (VEGFR2, also named kinase insert domain receptor (KDR)) [
+3
+]. The number and function of EPCs declined along the aging process [
+4
+].
+Aging is characterized by a progressive, systemic decline in physiological function, marked by reduced cellular turnover, accumulation of molecular damage, and diminished reserve capacity [
+5
+]. Population aging was a major driver of the cardiovascular disease (CVD) epidemic. With the rapid expansion of the aging population, the burden of CVD was expected to increase substantially and exacerbated in individuals with cardiovascular risk factors [
+6
+]. Advancing aging was associated with vascular endothelial dysfunction, as evidenced by reduced arterial endothelium-dependent dilation (EDD) in response to chemical or mechanical stimuli. Decreased nitric oxide (NO) bioavailability, largely due to oxidative stress, was a key mechanism underlying aging-related impairment of EDD [
+7
+]. In general, aging induced senescence in endothelial cell lineages, including EPCs, leading to impaired vascular repair capacity and contributing to the development of CVD [
+8
+]. With advancing age, these cells exhibited reduced viability, diminished proliferative capacity, impaired differentiation potential, and increased senescence [
+9
+]. In the literature, reduced amounts and increased senescence of EPCs correlated with high Framingham Risk Score (FRS), endothelial dysfunction, and accelerated vascular aging, making them independent predictors of adverse cardiovascular events [
+10
+,
+11
+]. Detection of cellular senescence was therefore important for identifying and mitigating cardiovascular risk, as the accumulation of senescent and dysfunctional EPCs drove vascular aging and atherosclerosis. Such detection may enable targeted interventions, including senolytic therapies that removed senescent cells, reduced inflammation, and enhanced vascular repair [
+8
+]. Methods for detecting senescent EPCs typically involved flow cytometry for surface markers, senescence-associated beta-galactosidase (SA-β-gal) assays, and analysis of DNA damage markers [
+8
+,
+12
+]. We recently reported that Pannexin 1 (Panx1) expression was upregulated in human circulating CD34
++
+mononuclear cells and the derived endothelial colony-forming cells (ECFCs) respectively during aging and replication-induced senescence [
+13
+]. Senescence-associated indicators, including SA-β-gal, p16
+INK4a
+, p21, acetyl-p53, and phospho-Histone H2A.X increased by replication-induced senescence in ECFCs could be reduced by Panx1 down-regulation. We also found that angiogenic potential of replication-induced senescent ECFCs was improved by Panx1 reduction through increased IGF-1 production via activation of FAK-ERK axis. Conversely, angiogenic activities of young ECFCs was impaired by Panx1 overexpression. In addition, overexpression of Panx1 in ECFCs reduced total endothelial nitric oxide synthase (eNOS). These findings provided new strategies to evaluate EPC activities in CVD patients [
+13
+].
+Panx1 was an ATP-permeable channel that was ubiquitously expressed and formed heptameric channels in the plasma membrane, mediating paracrine and autocrine signaling [
+14
+]. Panx1 played key roles in various physiological processes, including blood pressure regulation, apoptotic cell clearance, and human oocyte development [
+15
+]. Panx1 channels were canonically implicated in ATP release, particularly during inflammation, and their role in inflammasome activation and interleukin (IL)-1β secretion by macrophages were well documented [
+16
+]. However, whether Panx1 may serve as a reliable biomarker of senescence/aging remained unclear.
+In the present study, we hypothesized that Panx1 could serve as a senescence marker associated with cardiovascular risk and aimed to investigate the role of Panx1 expression in human circulating progenitor marker-positive cells during senescence/aging and to elucidate the underlying mechanisms of Panx1-associated senescence/aging in a real-world, non-diabetic population.
+Methods
+Approval of the study
+Detection of Panx1 mRNA expression in peripheral blood mononuclear cells (PBMCs) (reference number: 19MMHIS223e and 19MMHIS351e) and analysis of Panx1 expression on cell surface of PBMCs expressing EPC markers (reference number: 20MMHIS488e and 20MMHIS207e) from healthy donors by flow cytometry were approved by the Institutional Review Board of the MacKay Memorial Hospital, Taipei, Taiwan and conformed to the principles outlined in the Declaration of Helsinki. Informed written consent from all participants was obtained prior to the study.
+Study population
+For detection of Panx1 mRNA in PBMCs, 20 young participants (20 to 30 years) and 40 elderly participants (
+\documentclass[12pt]{minimal}
+                                                  \usepackage{amsmath}
+                                                  \usepackage{wasysym}
+                                                  \usepackage{amsfonts}
+                                                  \usepackage{amssymb}
+                                                  \usepackage{amsbsy}
+                                                  \usepackage{mathrsfs}
+                                                  \usepackage{upgreek}
+                                                  \setlength{\oddsidemargin}{-69pt}
+                                                  \begin{document}$$\:\ge\:\:$$\end{document}
+65 years) were enrolled in the study according to the following criteria: adults equal or older than 20 years and regardless of sex, free from infection disease, anemia, body weight < 50 Kg, systolic blood pressure < 90 mmHg, inpatient, and pregnancy. Diabetic participants were excluded according to the criteria of fasting plasma glucose ≥ 126 mg/dL, HbA1c ≥ 6.5%, or use of glucose-lowering medication. Biochemical characters of the 60 participates were listed in Table
+1
+. The participants were diagnosed as hyperlipidemia according to the criteria of fasting triglyceride levels ≥ 150 mg/dL LDL cholesterol > 130 mg/dL, or use of lipid-lowering medication; as hypertension according to the criteria of systolic blood pressure ≥ 140 mm Hg and/or diastolic blood pressure ≥ 90 mm Hg or individuals on medication for hypertension [
+17
+,
+18
+]. For flow cytometry analysis of Panx1, SA-β-gal and NO-related fluorescence in circulating progenitor marker-positive PBMCs and detection of the plasma concentration of tumor necrosis factor- α
+(
+TNF-α) and IL-6, additional 25 young participants (20–30 years) and 25 elderly participants (
+\documentclass[12pt]{minimal}
+                                                  \usepackage{amsmath}
+                                                  \usepackage{wasysym}
+                                                  \usepackage{amsfonts}
+                                                  \usepackage{amssymb}
+                                                  \usepackage{amsbsy}
+                                                  \usepackage{mathrsfs}
+                                                  \usepackage{upgreek}
+                                                  \setlength{\oddsidemargin}{-69pt}
+                                                  \begin{document}$$\:\ge\:\:$$\end{document}
+65 years) were enrolled according to the criteria above mentioned. One young donor was excluded from inflammatory-marker analyses because the sample was grossly hemolyzed and therefore unsuitable for ELISA quantification. Biochemical characters of the 50 participates were listed in Table
+2
+. The two cohorts were compared and showed no specific difference, except liver function and renal function data, which were all within normal limit and explainable by sex ratio difference, and cholesterol levels in elderly participants explainable by statin user percentage difference. (Supplementary Table
+S1
+and Supplementary Table
+S2
+).
+Isolation of PBMCs
+(see Supplementary Methods).
+Detection of Panx1 expression in PBMCs with real-time PCR
+(see Supplementary Methods).
+Evaluation of the expression of Panx1, SA-β-Gal, and NO in circulating progenitor marker-expressing cells using multicolor flow cytometry
+For detection of senescent status and Panx1 expression in circulating progenitor-marker positive cells, PBMCs were blocking with 10% FBS in MACS buffer (pH 7.2 of PBS containing 0.5% bovine serum albumin and 2 mM EDTA) at room temperature for 10 min. After MACS buffer wash, PBMCs were resuspended in 500 µL of MACS buffer and then incubated with SPiDER-β gal (1:1000, Dojindo, Ex/ Em: 493/ 560 nm) at 37 ℃ for 15 min. After another MACS buffer wash, cells were resuspended in 200 µL of MACS buffer and then labeled with anti-Panx1 conjugated allophycocyanin (APC, 1:100, Santa Cruz, clone D-12), anti-CD133 conjugated Phycoerythrin (PE, 1:100, Miltenyi Biotec), anti-CD34 conjugated electron coupled dye (ECD, 1:20, BECKMAN COULTER), anti-KDR conjugated Phycoerythrin-Cyanine 7 (PC7, 1:20, BECKMAN COULTER), and anti-CD45 conjugated Krome Orange (KrO, 1:40, BECKMAN COULTER) under 4℃ for 30 min, simultaneously. In addition, the isotype antibodies were also conducted according to above condition. Thereafter, cells were washed twice and resuspended in 500 µL of MACS buffer before analysis under flow cytometer.
+For detection of nitric oxide and Panx1 expression in circulating progenitor cell marker positive cells, PBMCs were incubated with 1 µM of nitric oxide staining dye (Abcam, Ex/ Em: 540/590 nm) modified from diaminofluorescein-FM diacetate (DAF-FM DA) at 37 ℃ for 30 min and then treated with 1 mM of NONOate (diazeniumdiolates, NO donor) at 37 ℃ for another 30 min as positive control. Unstained PBMCs were served as negative control. After MACS buffer wash, cells were labeled with anti-Panx1 conjugated FITC (1:100, Santa Cruz, clone D-12), anti-CD34 conjugated ECD (1:20, BECKMAN COULTER), anti-CD133 conjugated APC (1:100, Miltenyi Biotec), anti-KDR conjugated PC7 (1:20, BECKMAN COULTER), and anti-CD45 conjugated KrO (1:40, BECKMAN COULTER) under 4℃ for 30 min, simultaneously. In addition, the isotype antibodies were also conducted according to above condition. Thereafter, cells were washed twice and resuspended in 500 µL of MACS buffer before analysis under flow cytometer.
+For flow cytometry, a total of 50,000 events were collected under CytoFLEX LX flow cytometer possessing 16 detectors and 4 Lasers (model: N0-V5-B3-Y5-R3-I0, BECKMAN COULTER, USA). Compensation matrix were obtained from analysis of the gain value of unstained, SPiDER-β gal staining, NO staining dye, and antibody single staining cells under instrument settings. The number of SPiDER-β gal stain-positive, NO-related fluorescence positive (NO
++
+), and Panx1
++
+circulating progenitor marker expressing cells in 10
+5
+PBMCs or 10
+4
+circulating progenitor marker-expressing cells (CD34 or CD133 positive cells) were analyzed using Kaluza software (BECKMAN COULTER Life Sciences) [
+19
+]. The flow charts of analysis of SPiDER-β gal stain-positive and NO
++
+cells in circulating progenitor marker-positive cells are provided in Supplementary Information (Supplementary Fig.
+S1
+and Supplementary Fig.
+S2
+).
+Analysis of TNF-α and IL-6 concentration in human plasma
+For TNF-α and IL-6 measurement, 5 ml peripheral blood was collected from donors using BD Vacutainer™ EDTA blood collection tube. After centrifuge at 1000 g for 15 min, the plasma was collected and stored at -80 ℃ before experiments. TNF-α and IL-6 were detected by ELISA kits (R&D systems, Minneapolis, MN, USA) according to the manufacturer’s instruction. The absorbance was read at 450 nm and corrected with 540 nm.
+Framingham Risk Score (FRS)
+FRS was separately calculated in elderly participants of the two cohorts using the published 2008 general cardiovascular disease calculator (
+https://reference.medscape.com/calculator/252/framingham-risk-score-2008
+). Its inputs are sex, age, total cholesterol, HDL cholesterol, SBP, treatment for hypertension, smoking, diabetes, and known vascular disease. Moderate-to-high cardiovascular risk was defined as FRS ≥ 10%.
+Statistical analysis
+Continuous data were summarized as mean ± standard deviation (SD) or mean ± standard error of the mean (SEM), as appropriate. Baseline characteristics in Tables
+1
+and
+2
+are presented as mean ± SEM, whereas group comparisons displayed in the figures are presented as mean ± SD. Normality was assessed using the Shapiro–Wilk test (Supplementary Table
+S3
+, Panel A). Spearman rank correlation was the primary correlation method when either variable was non-normal; Pearson correlation was used as a sensitivity analysis when distributional assumptions were compatible. Partial correlations adjusted sequentially for age or age group and for age, sex, body mass index (BMI), and fasting plasma glucose (FPG). Because recruitment comprised two widely separated age strata, age-group adjustment and within-stratum analyses were emphasized for pooled correlations. Benjamini–Hochberg false-discovery-rate (FDR) correction was applied within prespecified analysis families and across the exploratory Framingham Risk Score (FRS) correlation matrix. Multivariable logistic regression for FRS ≥ 10% reported odds ratios per 1-standard-deviation increase in Panx1. Discrimination was assessed by receiver operating characteristic (ROC) area under the curve (AUC) with 2,000-iteration bootstrap confidence intervals and Harrell optimism correction. Incremental value was assessed by change in AUC (ΔAUC), continuous net reclassification improvement (NRI), and integrated discrimination improvement (IDI). Models with low events per variable (EPV) were treated as sensitivity analyses. Effect sizes for continuous between-group comparisons were expressed as Hedges’ g with 95% confidence intervals; categorical variables used Cramér’s V and Cohen’s h. For the systolic blood pressure (SBP) comparison in Table
+2
+, post hoc power was estimated with a two-sided independent-samples t test at α = 0.05 (Supplementary Table
+S4
+, Panel A). Analyses were performed on all participants with non-missing data for the variables concerned (available-case analysis); no imputation was undertaken. Accordingly, the denominator was 50 for analyses restricted to Panx1, SA-β-gal and NO-related fluorescence, and 49 for any analysis incorporating TNF-α or IL-6, including the corresponding correlation, partial-correlation and multivariable models. All tests were two-sided, with
+p
+< 0.05 considered nominally significant.
+Between-group analyses were performed in GraphPad Prism 9.5, and correlation, regression and biomarker-performance analyses were conducted using Python 3.10.5. Normally distributed two-group comparisons used unpaired t tests, and comparisons of more than two groups used one-way analysis of variance (ANOVA) with Tukey post-hoc testing; non-normal data used Mann–Whitney U or Kruskal-Wallis tests with the two-stage Benjamini-Krieger-Yekutieli procedure, as appropriate. All reported correlation analyses followed the normality-guided and adjusted framework described above.
+Because FRS is a deterministic function of the inputs, they were not entered as covariates in models with FRS as the outcome; adjustment focused on variables not used to construct the score, including BMI, fasting plasma glucose, eGFR, statin use, antihypertensive drug classes, TNF-α and IL-6, as available. The number of antihypertensive drug classes was derived as the count of distinct pharmacological classes prescribed per participant (angiotensin-converting enzyme inhibitor, angiotensin II receptor blocker, calcium-channel blocker, β-blocker, α-blocker and diuretic, each scored 0 or 1), so that multiple agents within the same class contributed only once; statin use was coded as a binary variable.
+Results
+Panx1 mRNA expression in PBMCs and cardiovascular risk
+To investigate the associations of Panx1 expression in PBMCs with cardiovascular risk factors and FRS, 60 non-diabetic donors were enrolled in the discovery cohort, including young (20–30 years,
+n
+= 20) and elderly (≥ 65 years,
+n
+= 40) participants. Baseline differences and standardized effect sizes are shown in Table
+1
+. Real-time RT-PCR analysis showed that Panx1 mRNA expression was significantly higher in PBMCs from the elderly group compared to the young control (Fig.
+1
+A). Analysis among the elderly participants showed that Panx1 expression was significantly higher in participants with a high fasting glucose level (> 100 mg/dL;
+n
+= 18) compared to those with a low glucose level (
+\documentclass[12pt]{minimal}
+                                                  \usepackage{amsmath}
+                                                  \usepackage{wasysym}
+                                                  \usepackage{amsfonts}
+                                                  \usepackage{amssymb}
+                                                  \usepackage{amsbsy}
+                                                  \usepackage{mathrsfs}
+                                                  \usepackage{upgreek}
+                                                  \setlength{\oddsidemargin}{-69pt}
+                                                  \begin{document}$$\:\le\:$$\end{document}
+100 mg/dL;
+n
+= 22) (Fig.
+1
+B). In contrast, the mRNA expression did not differ significantly between participants with and without hyperlipidemia (Fig.
+1
+C) or hypertension (Fig.
+1
+D). When the elderly participants were stratified by FRS, Panx1 mRNA expression was significantly higher in the moderate-risk (FRS 10–19,
+n
+= 14) and high-risk (FRS ≥ 20,
+n
+= 10) groups, compared to the low-risk group (FRS<10,
+n
+= 16) (Fig.
+1
+E). Additionally, the expression in the elderly participants did not differ significantly according to renal function (Supplementary Fig.
+S3
+A), body mass index (Supplementary Fig.
+S3
+B), or sex (Supplementary Fig.
+S3
+C). These results revealed that Panx1 mRNA expression in PBMCs was linked to aging and, in the elderly individuals, associated with glycemic status and cardiovascular risk.
+Table 1. Baseline characteristics of study population for detecting Panx1 mRNA levels in PBMCs
+20–30 years(n = 20)
+≥ 65 years(n = 40)
+p value
+Effect size (95% CI)
+Magnitude
+Male / Female, n
+11 / 9
+13 / 27
+0.105
+V = 0.22; h = − 0.46
+Small
+Age (years)
+25.0 ± 0.6
+70.0 ± 0.5
+< 0.001
+g = 14.74 (12.05 to 17.43)
+Large
+Body mass index (kg/m2)
+22.5 ± 0.7
+23.6 ± 0.4
+0.203
+g = 0.40 (− 0.14 to 0.93)
+Small
+SBP (mmHg)
+116.4 ± 4.6
+128.5 ± 2.4
+0.013
+g = 0.70 (0.15 to 1.24)
+Medium
+DBP (mmHg)
+70.8 ± 2.3
+72.1 ± 1.4
+0.619
+g = 0.14 (− 0.39 to 0.67)
+Negligible
+Biochemical characteristics
+Fasting plasma glucose (mg/dL)
+86.4 ± 2.0
+101.7 ± 1.6
+< 0.001
+g = 1.55 (0.95 to 2.15)
+Large
+Total cholesterol (mg/dL)
+189.3 ± 6.9
+208.7 ± 6.1
+0.055
+g = 0.53 (− 0.01 to 1.07)
+Medium
+HDL-C (mg/dL)
+60.1 ± 3.4
+58.3 ± 2.0
+0.638
+g = − 0.13 (− 0.66 to 0.40)
+Negligible
+LDL-C (mg/dL)
+114.1 ± 7.1
+119.8 ± 4.4
+0.479
+g = 0.19 (− 0.34 to 0.72)
+Negligible
+Triglycerides (mg/dL)
+85.6 ± 10.8
+102.4 ± 6.8
+0.186
+g = 0.37 (− 0.16 to 0.90)
+Small
+GPT (U/L)
+20.7 ± 2.5
+23.0 ± 1.3
+0.081
+r = 0.23; g = 0.24 (− 0.29 to 0.78)
+Small
+GOT (U/L)
+21.3 ± 1.1
+25.5 ± 1.1
+0.010
+r = 0.33; g = 0.65 (0.11 to 1.19)
+Medium
+BUN (mg/dL)
+11.5 ± 0.8
+14.3 ± 0.6
+0.012
+g = 0.75 (0.20 to 1.29)
+Medium
+Creatinine (mg/dL)
+0.8 ± 0.05
+0.8 ± 0.03
+0.183
+g = 0.00 (− 0.53 to 0.53)
+Negligible
+eGFR (mL/min/1.73 m2)
+109.8 ± 4.5
+92.7 ± 3.4
+< 0.001
+r = 0.43; g = − 0.80 (− 1.35 to − 0.25)
+Large
+Health history, n (%)
+Alcohol drinker
+0 (0%)
+0 (0%)
+N/A
+N/A
+N/A
+Current smoker
+0 (0%)
+1 (2.5%)
+> 0.999
+V = 0.09; h = 0.32
+Negligible
+Hypertension
+0 (0%)
+14 (35%)
+0.002
+V = 0.39; h = 1.27
+Medium
+Diabetes mellitus
+0 (0%)
+0 (0%)
+N/A
+N/A
+N/A
+Hyperlipidemia
+1 (5%)
+22 (55%)
+< 0.001
+V = 0.49; h = 1.22
+Medium
+Drug therapy, n (%)
+Anti-hypertensive drugs
+0 (0%)
+14 (35%)
+0.002
+V = 0.39; h = 1.27
+Medium
+ACEI / ARB
+0
+9
+β-blocker
+0
+7
+CCB
+0
+5
+Diuretics
+0
+1
+α-blocker
+0
+3
+Glucose-lowering drugs
+0 (0%)
+0 (0%)
+N/A
+N/A
+N/A
+Lipid-lowering drugs (statins)
+0 (0%)
+10 (25%)
+0.023
+V = 0.32; h = 1.05
+Medium
+Anti-platelet drugs
+0 (0%)
+3 (7.5%)
+0.544
+V = 0.16; h = 0.56
+Small
+Data are presented as mean ± SEM or n (%). Effect sizes are Hedges’ g with 95% CI for continuous variables and Cramér’s V/Cohen’s h for categorical variables; rank-based r is additionally shown for selected non-parametric comparisons. Health history and medication use are included. No participant received glucose-lowering therapy. Sub-category rows listed under anti-hypertensive drugs are counts of prescribed agents rather than counts of patients; because a patient may receive more than one agent, including fixed-dose combination products, the sum of the sub-category counts may exceed the number of treated patients. Abbreviations: ACEI, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker; BUN, blood urea nitrogen; CCB, calcium-channel blocker; CI, confidence interval; DBP, diastolic blood pressure; eGFR, estimated glomerular filtration rate; FPG, fasting plasma glucose; GPT, glutamate pyruvate transaminase; GOT, glutamate oxaloacetate transaminase; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; N/A, not applicable; SBP, systolic blood pressure; SEM, standard error of the mean.
+Fig. 1
+Pannexin 1 (Panx1) mRNA expression in peripheral blood mononuclear cells (PBMCs). Between PBMCs from young (20–30 years,
+n
+= 20) and elderly (≥ 65 years,
+n
+= 40) donors,
+(A)
+Panx1 mRNA expression by real-time RT-PCR was compared. In PBMCs only from elderly donors, Panx1 mRNA expression was compared
+(B)
+between donors with fasting plasma glucose (FPG) > 100 mg/dL (
+n
+= 18) and with FPG
+\documentclass[12pt]{minimal}
+                                                  \usepackage{amsmath}
+                                                  \usepackage{wasysym}
+                                                  \usepackage{amsfonts}
+                                                  \usepackage{amssymb}
+                                                  \usepackage{amsbsy}
+                                                  \usepackage{mathrsfs}
+                                                  \usepackage{upgreek}
+                                                  \setlength{\oddsidemargin}{-69pt}
+                                                  \begin{document}$$\:\le\:$$\end{document}
+100 mg/dL (
+n
+= 22),
+(C)
+between donors with (
+n
+= 22) and without hyperlipidemia (HL) (
+n
+= 18), and
+(D)
+between donors with (
+n
+= 14) and without hypertension (HT) (
+n
+= 26). Similarly, in PBMCs from elderly group
+(E)
+categorized by Framingham risk score (FRS) including low (<10,
+n
+= 16), moderate (10–19,
+n
+= 14) and high (≥ 20,
+n
+= 10) risk groups, Panx1 expression was assessed. Data are shown as mean ± SD. Statistical significance was assessed by Mann-Whitney U test in A-D, and one-way ANOVA with Tukey’s post-hoc test in E. *
+P
+< 0.05, ***
+P
+< 0.001
+Distribution of CD cell surface markers in PBMCs
+To characterize the distribution of cell surface markers in PBMCs, flow cytometry analysis was performed on samples from another 50 donors in the phenotyping cohort, including young (20–30 years,
+n
+= 25) and elderly (≥ 65 years,
+n
+= 25) participants. Table
+2
+shows the baseline differences and standardized effect sizes. CD surface markers per 1 × 10
+5
+PBMCs were categorized and analyzed, including CD34
++
+CD45
+−
+, CD133
++
+CD45
+−
+, CD34
++
+KDR
++
+CD45
+−
+, CD133
++
+KDR
++
+CD45
+−
+, and CD34
++
+CD133
++
+KDR
++
+CD45
+−
+populations. Flow cytometry analysis revealed that, in the elderly group compared to the young control, the number of CD34
++
+CD45
+−
+cells was significantly lower, whereas the number of CD133
++
+CD45
+−
+cells was significantly higher (Fig.
+2
+A). Similarly, in the elderly group compared to the young control, CD34
++
+KDR
++
+CD45
+−
+cells were significantly less, while CD133
++
+KDR
++
+CD45
+−
+cells were significantly more (Fig.
+2
+B). No significant age-specific difference was observed between groups in CD34
++
+CD133
++
+KDR
++
+CD45
+−
+cells (Fig.
+2
+B). These findings defined the distribution of CD surface markers in PBMCs from young and elderly groups. Overall, in the elderly group compared to the young control, CD34
++
+cell populations were reduced, whereas CD133
++
+populations were increased. Owing to a low number of CD34
++
+CD133
++
+KDR
++
+CD45
+−
+cells, only CD34
++
+CD45
+−
+, CD133
++
+CD45
+−
+, CD34
++
+KDR
++
+CD45
+−
+, and CD133
++
+KDR
++
+CD45
+−
+populations were analyzed in the subsequent experiments.
+Table 2. Baseline characteristics of study population for flow cytometry
+Male / Female, n
+20–30 years(n = 25)
+≥ 65 years(n = 25)
+p value
+Effect size (95% CI)
+Magnitude
+11 / 14
+7 / 18
+0.377
+V = 0.17; h = − 0.34
+Small
+Age (years)
+25.0 ± 0.4
+70.8 ± 0.6
+< 0.001
+g = 17.68 (14.17 to 21.19)
+Large
+Body mass index (kg/m2)
+22.9 ± 0.8
+23.6 ± 0.7
+0.207
+r = 0.18; g = 0.18 (− 0.36 to 0.73)
+Negligible
+SBP (mmHg)
+115.9 ± 3.3
+128.0 ± 2.8
+0.008
+g = 0.78 (0.21 to 1.34)
+Medium
+DBP (mmHg)
+68.2 ± 2.0
+73.9 ± 2.0
+0.051
+g = 0.56 (0.00 to 1.12)
+Medium
+Biochemical characteristics
+Fasting plasma glucose (mg/dL)
+84.9 ± 1.2
+99.4 ± 2.2
+< 0.001
+g = 1.61 (0.98 to 2.24)
+Large
+HbA1c (%)
+5.3 ± 0.05
+5.8 ± 0.08
+< 0.001
+r = 0.55; g = 1.48 (0.86 to 2.09)
+Large
+Total cholesterol (mg/dL)
+177.7 ± 5.7
+166.4 ± 7.9
+0.246
+g = − 0.32 (− 0.87 to 0.23)
+Small
+HDL-C (mg/dL)
+61.8 ± 2.3
+62.8 ± 3.2
+0.788
+g = 0.07 (− 0.48 to 0.62)
+Negligible
+LDL-C (mg/dL)
+106.4 ± 6.4
+88.2 ± 5.5
+0.036
+g = − 0.60 (− 1.16 to − 0.04)
+Medium
+Triglycerides (mg/dL)
+68.2 ± 5.5
+95.5 ± 6.8
+0.003
+g = 0.87 (0.30 to 1.44)
+Large
+GPT (U/L)
+16.8 ± 2.4
+22.9 ± 3.1
+0.004
+r = 0.40; g = 0.43 (− 0.12 to 0.99)
+Small
+GOT (U/L)
+18.2 ± 1.3
+23.6 ± 1.2
+< 0.001
+r = 0.49; g = 0.85 (0.28 to 1.42)
+Large
+BUN (mg/dL)
+11.6 ± 0.4
+15.2 ± 0.7
+< 0.001
+g = 1.24 (0.65 to 1.84)
+Large
+Creatinine (mg/dL)
+0.7 ± 0.03
+0.7 ± 0.04
+0.601
+r = 0.07; g = 0.00 (− 0.55 to 0.55)
+Negligible
+eGFR (mL/min/1.73 m2)
+135.9 ± 5.7
+106.3 ± 5.1
+< 0.001
+g = − 1.08 (− 1.66 to − 0.49)
+Large
+Health history, n (%)
+Alcohol drinker
+0 (0%)
+0 (0%)
+N/A
+N/A
+N/A
+Current smoker
+0 (0%)
+3 (12%)
+0.235
+V = 0.25; h = 0.71
+Small
+Hypertension
+0 (0%)
+13 (52%)
+< 0.001
+V = 0.59; h = 1.61
+Large
+Diabetes mellitus
+0 (0%)
+0 (0%)
+N/A
+N/A
+N/A
+Hyperlipidemia
+0 (0%)
+12 (48%)
+< 0.001
+V = 0.56; h = 1.53
+Large
+Drug therapy, n (%)
+Anti-hypertensive drugs
+0 (0%)
+13 (52%)
+< 0.001
+V = 0.59; h = 1.61
+Large
+ACEI / ARB
+0
+15
+β-blocker
+0
+11
+CCB
+0
+6
+Diuretics
+0
+2
+α-blocker
+0
+1
+Glucose-lowering drugs
+0 (0%)
+0 (0%)
+N/A
+N/A
+N/A
+Lipid-lowering drugs (statins)
+0 (0%)
+10 (40%)
+< 0.001
+V = 0.50; h = 1.37
+Large
+Anti-platelet drugs
+0 (0%)
+4 (16%)
+0.110
+V = 0.29; h = 0.82
+Small
+Data are presented as mean ± SEM or n (%). Effect sizes are Hedges’ g with 95% CI for continuous variables and Cramér’s V/Cohen’s h for categorical variables; rank-based r is additionally shown for selected non-parametric comparisons. Health history and medication use are included. No participant received glucose-lowering therapy. Sub-category rows listed under anti-hypertensive drugs are counts of prescribed agents rather than counts of patients; because a patient may receive more than one agent, including fixed-dose combination products, the sum of the sub-category counts may exceed the number of treated patients. Abbreviations: ACEI, angiotensin-converting enzyme inhibitor; ARB, angiotensin II receptor blocker; BUN, blood urea nitrogen; CCB, calcium-channel blocker; CI, confidence interval; DBP, diastolic blood pressure; eGFR, estimated glomerular filtration rate; FPG, fasting plasma glucose; GPT, glutamate pyruvate transaminase; GOT, glutamate oxaloacetate transaminase; HbA1c, glycated hemoglobin; HDL-C, high-density lipoprotein cholesterol; LDL-C, low-density lipoprotein cholesterol; N/A, not applicable; SBP, systolic blood pressure; SEM, standard error of the mean.
+Fig. 2
+Expression analysis of cluster of differentiation (CD) cell surface markers in PBMCs. By flow cytometry analysis after antibodies labeling of PBMCs (per 1 × 10
+5
+cells) from young (
+n
+= 25, 10 males) and elderly (
+n
+= 25, 9 males) donors,
+(A)
+CD34
++
+CD45
+−
+and CD133
++
+CD45
+−
+cells were evaluated.
+(B)
+CD34
++
+KDR
++
+CD45
+−
+, CD133
++
+KDR
++
+CD45
+−
+, and CD34
++
+CD133
++
+KDR
++
+CD45
+−
+cells were analyzed between 2 groups. Statistical significance in CD34
++
+, CD34
++
+KDR
++
+, and CD34
++
+CD133
++
+KDR
++
+cells was assessed by Student’s t-test; CD133
++
+and CD133
++
+KDR
++
+cells was assessed by Mann-Whitney U test. *
+P
+< 0.05, ****
+P
+< 0.0001
+Evaluation of Panx1 as a marker for senescence in circulating progenitor marker-expressing cells
+To examine whether Panx1 has a potential to serve as a senescence marker in circulating progenitor marker expressing cells, the relationship between a widely recognized senescence marker SA-β-gal and Panx1 was analyzed in above mentioned PBMC subsets using flow cytometry. In CD34
++
+CD45
+−
+cells (Fig.
+3
+A and Supplementary Fig.
+S4
+A) and CD133
++
+CD45
+−
+cells (Fig.
+3
+B and Supplementary Fig.
+S4
+B), the number of SA-β-gal
++
+, Panx1
++
+, and Panx1
++
+SA-β-gal
++
+cells were significantly higher in the elderly group compared to the young control. A similar trend was found in CD34
++
+KDR
++
+CD45
+−
+cells (Fig.
+3
+C and Supplementary Fig.
+S4
+C) and CD133
++
+KDR
++
+CD45
+−
+cells (Fig.
+3
+D and Supplementary Fig.
+S4
+D), though the difference was significant only in the Panx1
++
+SA-β-gal
++
+cells of CD34
++
+KDR
++
+CD45
+−
+cells (Fig.
+3
+C). These findings illustrated that expression of Panx1 likely reflected senescence in selected populations of circulating progenitor marker-expressing cells.
+Fig. 3
+Analysis of senescent status in circulating progenitor marker-positive cells in PBMCs. Flow cytometry analysis after staining and antibodies labeling was performed between PBMCs expressing senescence marker (senescence-associated β-galactosidase (SA-β-gal)), Panx1 and CD cell surface markers from young (
+n
+= 25, 10 males) and elderly donors (
+n
+= 25, 9 males).
+(A-E)
+The numbers of SA-β-gal
++
+, Panx1
++
+and SA-β-gal
++
+Panx1
++
+cells were compared between young and elderly groups in
+(A)
+1 × 10
+4
+CD34
++
+CD45
+−
+cells,
+(B)
+1 × 10
+4
+CD133
++
+CD45
+−
+cells,
+(C)
+CD34
++
+KDR
++
+CD45
+−
+cells per 1 × 10
+4
+CD34
++
+CD45
+−
+cells,
+(D)
+CD133
++
+KDR
++
+CD45
+−
+cells per 1 × 10
+4
+CD133
++
+CD45
+−
+cells. Data are shown as mean ± SD. Statistical significance was assessed by Mann-Whitney U test. *
+P
+< 0.05, ***
+P
+< 0.001, ****
+P
+< 0.0001
+Adjusted association between Panx1 and cellular senescence
+Flow cytometry data were further analyzed to evaluate the correlation between Panx1 and SA-β-gal (Fig.
+4
+). No association was detected in CD34
++
+CD45
+−
+cells (Fig.
+4
+A). The unadjusted association in CD133
++
+CD45
+−
+cells (Fig.
+4
+B, r
+s
+= 0.324,
+p
+= 0.022) was abolished after age adjustment (r
+s
+= − 0.011,
+p
+= 0.943), In contrast, Panx1 expression correlated with SA-β-gal in both KDR
++
+progenitor populations (Fig.
+4
+C, CD34
++
+KDR
++
+CD45
+−
+: r
+s
+= 0.684; Fig.
+4
+D, CD133
++
+KDR
++
+CD45
+−
+: r
+s
+= 0.574; both
+p
+< 0.001), and these associations persisted after adjustment for age, sex, BMI and fasting glucose (partial r
+s
+= 0.697 and 0.545, respectively; both
+p
+< 0.001). Multivariable and single-covariate sensitivity analyses were concordant, particularly for CD133
++
+KDR
++
+CD45
+−
+cells (Table
+3
+; Supplementary Table
+S3
+, Panel D; Supplementary Table
+S4
+, Panels E and H). These findings support a compartment-specific association between Patablenx1 and senescence rather than a general surrogate relationship across all progenitor-marker populations.
+Fig. 4
+Correlation between senescence marker SA-β-gal and Panx1 expression in circulating progenitor marker-positive cells in PBMCs. In PBMCs from young and elderly donors (Table
+2
+), Panx1 (Panx1
++
+) and SA-β-gal
++
+senescent cell numbers show no correlation in
+(A)
+CD34
++
+CD45
+−
+cells, but positive correlation in
+(B)
+CD133
++
+CD45
+−
+cells,
+(C)
+CD34
++
+KDR
++
+CD45
+−
+cells, and
+(D)
+CD133
++
+KDR
++
+CD45
+−
+cells. Green lines show the correlation in young group, red lines for elderly group, and black lines for pooled both groups. The analysis was examined by Spearman’s rank correlation coefficient.
+P
+< 0.05 was considered statistically significant. Age-adjusted, multivariable and sensitivity analyses are reported in Table
+3
+and Supplementary Table
+S4
+; robust adjusted associations were confined to the KDR
++
+populations
+Table 3. Adjusted Panx1 associations with senescence, NO, and inflammation
+Panel / population
+Pooled rs (p)
+Adjusted rs (p)
+Stratified / FDR
+Interpretation
+Figure 4A CD34+CD45−
+0.198 (0.168)
+−0.061 (0.687)
+FDR 0.168
+No adjusted association
+Figure 4B CD133+CD45−
+0.324 (0.022)
+−0.022 (0.885)
+FDR 0.029
+Attenuated by age
+Figure 4C CD34+KDR+CD45−
+0.684 (< 0.001)
+0.697 (< 0.001)
+FDR < 0.001
+Robust KDR+ association
+Figure 4D CD133+KDR+CD45−
+0.574 (< 0.001)
+0.545 (< 0.001)
+FDR < 0.001
+Robust KDR+ association
+Figure 6A CD34+CD45−
+−0.080 (0.581)
+0.105 (0.488)
+FDR 0.597
+No robust NO association
+Figure 6B CD133+CD45−
+−0.179 (0.213)
+0.091 (0.548)
+FDR 0.597
+No robust NO association
+Figure 6C CD34+KDR+CD45−
+0.088 (0.543)
+0.113 (0.456)
+FDR 0.597
+No robust NO association
+Figure 6D CD133+KDR+CD45−
+−0.077 (0.597)
+−0.065 (0.670)
+FDR 0.597
+No robust NO association
+Figure 7C TNF-α vs CD34+CD45−
+0.258 (0.073)
+−0.117 (0.428)
+young −0.216; elderly −0.019
+Age-group confounded
+Figure 7D TNF-α vs CD133+CD45−
+0.335 (0.019)
+−0.113 (0.444)
+young −0.475; elderly 0.229
+Interaction p = 0.016
+Figure 7E IL-6 vs CD34+CD45−
+0.452 (0.001)
+0.126 (0.392)
+young 0.082; elderly 0.177
+Age-group confounded
+Figure 7F IL-6 vs CD133+CD45−
+0.464 (< 0.001)
+0.043 (0.770)
+young 0.092; elderly 0.093
+Age-group confounded
+Adjusted rs for Figs. 4 and 6 controls age, sex, BMI and fasting plasma glucose; Fig. 7 uses age-group adjustment because recruitment was bimodal by design. Spearman correlation was the primary method for non-normal variables. FDR-adjusted p values in this table refer to the unadjusted (pooled) correlations; the corresponding FDR-adjusted p values for the covariate-adjusted correlations are given in Supplementary Table S2, Panels F and G. Detailed sensitivity, regression and interaction analyses are provided in Supplementary Table S2. Abbreviations: BMI, body mass index; FDR, false discovery rate; FPG, fasting plasma glucose; IL-6, interleukin-6; KDR, kinase insert domain receptor; NO, nitric oxide-related fluorescence; Panx1, pannexin 1; rs, Spearman rank correlation coefficient; SA-β-gal, senescence-associated β-galactosidase; TNF-α, tumor necrosis factor-α
+Evaluation of the interaction between NO and Panx1 expression in ECFCs
+We had reported existence of interaction between Panx1 and eNOS in ECFCs) [
+13
+]. In this study, NO expression was examined in Panx1 down-regulated and overexpressed ECFCs by flow cytometry. The results showed that the ratio of NO
++
+cells presented no significant change in Panx1 down-regulated ECFCs (Supplementary Fig.
+S5
+A and S5B) compared to siRNA untransfected group (control) or nonsense siRNA transfected group, but decreased in Panx1 overexpressed ECFCs, compared to GFP-bearing lentivirus transfected group (Supplementary Fig.
+S5
+C and S5D). These results indicated that NO could be affected by Panx1 production. Our clinical study also demonstrated that the ratio of NO
++
+cells in Panx1
++
+circulating progenitor marker-positive cells presented less compared to the Panx1
+−
+cells (Supplementary Fig.
+S6
+). We further examined the effect of NO on Panx1 expression in ECFCs using L-NAME (NO inhibitor) and NONOate (NO donor) treatment. The results of flow cytometry showed that the ratio of NO
++
+cells was decreased by 1 mM of L-NAME and increased by 1 mM of NONOate (Supplementary Fig.
+S7
+A and S7B). Panx1 expression were increased by L-NAME but reduced by NONOate (Supplementary Fig.
+S7
+C and S7D). Total eNOS was not significant changed by L-NAME but decreased by NONOate treatment (Supplementary Fig.
+S7
+C and S7E). These results indicated that Panx1 and NO could influence each other.
+Evaluation of Panx1 and NO in circulating progenitor marker-positive cells
+To elucidate the relationship between NO and Panx1-defined PBMCs, flow cytometry data were analyzed in the phenotyping cohort (Table
+2
+). The results showed that the numbers of NO
++
+and NO
++
+Panx1
++
+cells were significantly lower in the elderly group than in the young control within CD34
++
+CD45
+−
+cells (Fig.
+5
+A) and within CD133⁺CD45⁻ cells (Fig.
+5
+B). In CD34
++
+KDR
++
+CD45
+−
+cells, a significant decrease in the elderly group was observed in NO
++
+cells, but not in NO
++
+Panx1
++
+cells (Fig.
+5
+C). In CD133
++
+KDR
++
+CD45
+−
+cells, no significant difference was observed between the groups (Fig.
+5
+D). Representative flow cytometry plots and analysis of NO-related fluorescence are shown in Supplementary fig.
+S8
+.
+Fig. 5
+Analysis of nitric oxide -related fluorescence, and Panx1 expressing cells in circulating progenitor marker-positive cells in PBMCs. The numbers of NO
++
+, Panx1 and double positive cells were analyzed in (A) CD34
++
+CD45
+−
+, (B) CD133
++
+CD45
+−
+, (C) CD34
++
+KDR
++
+CD45
+−
+, and (D) CD133
++
+KDR
++
+CD45
+−
+from young and elderly donors (Table
+2
+) by flow cytometry. Data are shown as mean ± SD. Statistical significance was assessed by Mann-Whitney U test. *
+P
+< 0.05, ***
+P
+< 0.001. Adjusted within-person Panx1 associations are reported in Table
+3
+and Supplementary Table
+S4
+Adjusted association between Panx1 and NO
+The between-group differences of lower NO
++
+cells in selected populations from elderly donors (Fig.
+5
+) did not translate into a robust within-person association with Panx1. Panx1 expression was not significantly correlated with NO-related fluorescence in any of the four progenitor-marker populations in the primary Spearman analysis (Fig.
+6
+, A-D; r
+s
+= − 0.179 to 0.088; all
+p
+> 0.2), and all associations remained non-significant after adjustment for age, sex, BMI and fasting glucose (partial r
+s
+= − 0.065 to 0.113; all
+p
+> 0.4). A positive correlation within elderly CD133
++
+CD45
+−
+cells (Fig.
+6
+B; r
+s
+= 0.547,
+p
+= 0.005; FDR
+p
+= 0.019) was directionally discordant with the pooled estimate and was not supported by the age-adjusted analysis; it was therefore considered exploratory (Table
+3
+; Supplementary Table
+S3
+, Panel D; Supplementary Table
+S4
+, Panels F and H).
+Fig. 6
+Correlation of nitric oxide related fluorescence and Panx1-expressing cells in circulating progenitor marker-positive cells in PBMCs. In PBMCs from young and elderly donors (Table
+2
+), the association between Panx1
++
+and NO
++
+cell number was analyzed in
+(A)
+CD34
++
+CD45
+−
+cells,
+(B)
+CD133
++
+CD45
+−
+cells,
+(C)
+CD34
++
+KDR
++
+CD45
+−
+cells, and
+(D)
+CD133
++
+KDR
++
+CD45
+−
+cells. Green lines show the correlation in young group, red lines for elderly group, and black lines for pooled both groups. The analysis was examined by Spearman’s rank correlation coefficient.
+P
+< 0.05 was considered statistically significant. Full adjusted and sensitivity analyses are reported in Table
+3
+and Supplementary Table
+S4
+Relationship among Panx1, inflammation and cardiovascular risk in circulating progenitor marker-positive cells
+Since aging is associated with elevated inflammation and Panx1 channels participate in inflammation, we suspected inflammation played a key role in Panx1-related progenitor cell senescence. We therefore checked plasma inflammatory molecules in the phenotyping cohort (Table
+2
+) and correlation analysis for inflammatory molecules with Panx1 expression in the progenitor marker-positive cell populations was performed (Fig.
+7
+A-H). The results showed that both TNF-α and IL-6 levels were significantly higher in the elderly group (Fig.
+7
+A and B). In the pooled phenotyping cohort, except TNF-α versus CD34
++
+CD45
+−
+cells (Fig.
+7
+C), Panx1
++
+cell number correlated with TNF-α in CD133
++
+CD45
+−
+cells (Fig.
+7
+D) and with IL-6 in CD34
++
+CD45
+−
+(Fig.
+7
+E) and CD133
++
+CD45
+−
+cells (Fig.
+7
+F); however, these associations were not retained after adjustment for age group and were not reproduced within either age stratum (Table
+3
+; Supplementary Table
+S4
+, Panel G). For TNF-α versus CD133
++
+CD45
+−
+cells (Fig.
+7
+D), the direction differed between age groups (interaction β = 0.433,
+p
+= 0.016), with a nominally negative correlation in young participants and a non-significant positive correlation in elderly participants (Supplementary Table
+S4
+, Panel H). Thus, the pooled cytokine associations were interpreted as primarily reflecting the age separation of the recruitment design.
+In elderly participants with FRS data in the phenotyping cohort (
+n
+= 25), Panx1
++
+cell number in CD34
++
+CD45
+−
+cells correlated with continuous FRS (Fig.
+7
+G; r
+s
+= 0.455, nominal
+p
+= 0.022; FDR
+p
+= 0.334), whereas other Panx1 compartments did not (Supplementary Table
+S3
+, Panels D and E). The full biomarker correlation matrix for elderly participants and the correlations of each Panx1 compartment with clinical covariates are provided in Supplementary Table
+S3
+, Panels B and C. Panx1
++
+cell number in CD34
++
+CD45
+−
+cells discriminated FRS ≥ 10% with AUC 0.767 (95% CI 0.560–0.937; optimism-corrected AUC 0.765). Other correlation analysis regarding Panx1
++
+, SA-β-gal
++
+and Panx1
++
+SA-β-gal
++
+cell number versus FRS in the PBMC subsets are shown in Supplementary Fig.
+S9
+to S 11, Two additional flow-cytometric markers showed nominal discrimination of FRS ≥ 10%: Panx1
++
+SA-β-gal
++
+cell number in CD34
++
+CD45
+−
+cells (AUC 0.753, 95% CI 0.533–0.940; optimism-corrected AUC 0.753) and SA-β-gal
++
+cell number in CD133
++
+CD45
+−
+cells (AUC 0.720, 95% CI 0.508–0.905; optimism-corrected AUC 0.707), whereas neither TNF-α nor IL-6 discriminated (AUC 0.500 and 0.460, respectively; Supplementary Table
+S4
+, Panel B). Because Panx1
++
+cell number and Panx1
++
+SA-β-gal
++
+cell number in CD34
++
+CD45
+−
+cells were strongly collinear (r
+s
+= 0.90), these were not independent findings, and no formal between-marker comparison was undertaken; Panx1
++
+cell number in CD34
++
+CD45
+−
+cells was retained as the primary marker for all subsequent modeling. The unadjusted OR per 1-SD increase was 4.59 (95% CI 1.08–19.57;
+p
+= 0.040) and remained similar after adjustment for BMI, fasting glucose, eGFR and statin use; models incorporating antihypertensive drug classes were borderline and were interpreted cautiously because treatment for hypertension contributed to the FRS algorithm. Panx1 improved discrimination over TNF-α and IL-6 alone, whereas incremental value over conventional clinical models was inconsistent across ΔAUC, NRI and IDI (Table
+4
+; Supplementary Table
+S4
+, Panels B-D).
+Fig. 7
+Association among Panx1 expression, inflammation molecules and cardiovascular risk in circulating progenitor marker-positive cells. In plasma from young (
+n
+= 24, 11 males) and elderly donors (
+n
+= 25, 7 males), concentrations of
+(A)
+TNF-α and
+(B)
+IL-6 were measured. Correlation between inflammation molecules
+(C
+,
+D)
+TNF-α and
+(E
+,
+F)
+IL-6, and Panx1 expression is shown in
+(C
+,
+E)
+CD34
++
+CD45
+−
+cell groups, and in
+(D
+,
+F)
+CD133
++
+CD45
+−
+cell groups. Correlation between FRS and Panx1 expression in elderly group (
+n
+= 25, 9 males) is shown in
+(G)
+CD34
++
+CD45
+−
+group and
+(H)
+CD133
++
+CD45
+−
+group. Statistical significance in A and B was assessed by Mann-Whitney U test. ****
+P
+< 0.0001. The correlation was examined by Spearman’s rank correlation coefficient. Green lines show the correlation in young group, red lines for elderly group, and black lines for pooled both groups.
+P
+< 0.05 was considered statistically significant. Adjusted cytokine results and Panx1-FRS biomarker analyses are summarized in Tables
+3
+and
+4
+and Supplementary Tables S3-S4
+Table 4. Panx1 discrimination and adjusted association with Framingham risk
+Analysis
+Estimate
+95% CI
+p value
+Interpretation
+Panx1 in CD34+ cells, ROC
+AUC 0.767
+0.560 to 0.937
+0.022
+Optimism-corrected AUC 0.765
+Panx1 in CD34+ cells, unadjusted
+OR/SD 4.59
+1.08 to 19.57
+0.040
+FRS ≥ 10%
++ BMI, FPG, eGFR
+OR/SD 5.63
+1.03 to 30.79
+0.046
+Sensitivity model; low EPV
++ statin use
+OR/SD 5.11
+1.06 to 24.70
+0.042
+Association retained
++ antihypertensive classes
+OR/SD 4.38
+0.93 to 20.63
+0.062
+Partly circular with FRS treatment input
+Clinical model + Panx1
+ΔAUC 0.107;IDI 0.228
+ΔAUC − 0.007 to 0.254; IDI 0.013 to 0.509
+0.117; 0.014
+NRI not significant
+TNF-α + IL-6 + Panx1
+ΔAUC 0.313;NRI 1.067;IDI 0.350
+ΔAUC 0.034 to 0.462;NRI 0.055 to 1.733;IDI 0.069 to 0.694
+0.027; 0.046; 0.002
+Improvement over cytokines alone
+Framingham risk analyses in cohort 2 were restricted to the 25 elderly participants. ORs are reported per 1-SD increase for flow-cytometric Panx1. FRS inputs were not included as adjustment covariates because the outcome is calculated from those variables. Bootstrap procedures used 2,000 iterations. Results from sparse multivariable models are exploratory. Abbreviations: AUC, area under the receiver operating characteristic curve; BMI, body mass index; CI, confidence interval; ΔAUC, change in AUC; eGFR, estimated glomerular filtration rate; EPV, events per variable; FPG, fasting plasma glucose; FRS, Framingham Risk Score; IDI, integrated discrimination improvement; IL-6, interleukin-6; NRI, net reclassification improvement; OR, odds ratio; Panx1, pannexin 1; PBMC, peripheral blood mononuclear cell; ROC, receiver operating characteristic; SD, standard deviation; TNF-α, tumor necrosis factor-α.
+Discussion
+The present study addresses three distinct questions in a real-world, non-diabetic population: (1) whether Panx1 tracks cellular senescence independently of chronological age; (2) whether Panx1 is independently associated with NO-related or inflammatory signals; and (3) whether Panx1 provides information on cardiovascular risk beyond conventional clinical factors. The findings were based on two independent discovery and phenotyping cohorts of non-diabetic participants respectively for mRNA and flow cytometry examination. The phenotyping cohort was not for validation of the discovery cohort. Because the study is cross-sectional, these analyses assess associations and discrimination rather than prediction or causality.
+Panx1 functioned as a gateway for ATP release, linking signals from damaged cells to activation of the innate immune system. Its activity often established a positive feedback loop that amplified inflammation, making it a potential therapeutic target for inflammatory disorders [
+19
+]. In addition, flow cytometry, a powerful high-throughput technology used to analyze a wide range of physical and chemical characteristics of individual cells [
+20
+], was performed in the present study to further evaluate the PBMCs defined by CD surface markers. CD markers were surface proteins used to classify and isolate specific cell types, primarily within the immune system [
+21
+]. CD45, a tyrosine phosphatase expressed on all nucleated leukocytes across both lymphoid and myeloid lineages [
+22
+], was a pan-leukocyte marker expressed on nearly all white blood cells. By defining EPCs as CD45⁻, researchers distinguished these progenitor cells from hematopoietic cells, focusing on those with endothelial potential [
+23
+,
+24
+]. While CD45⁻ served as a baseline for defining progenitor cells associated with angiogenesis and cardiovascular health, these cells were typically co-identified by other surface markers, most commonly CD34⁺, CD133⁺, and KDR⁺ [
+3
+,
+25
+]. To date, there has been no universally accepted “CD classification”; identification has relied on combinations of hematopoietic markers (CD34, CD133) and endothelial markers (KDR). Circulating EPCs derived from PBMCs were typically classified by CD surface markers, including CD34, CD133, and KDR. Common EPC phenotypes include CD34⁺KDR⁺ (more differentiated and canonical) and CD34⁺CD133⁺KDR⁺ (more primitive) [
+24
+,
+26
+].
+In the literature, few studies investigated the relationship between aging and circulating CD34⁺ and/or CD133⁺ cells. Higher levels of CD34
++
+circulating progenitor cells had been shown to predict longer survival in the oldest old, highlighting their potential prognostic value in individuals aged 80 years and above [
+27
+]. Additionally, one study reported a differential increase in CD34
++
+, KDR
++
+CD34
++
+, CD133
++
+CD34
++
+, and CD117
++
+CD34
++
+populations on days 3 and 4 after acute myocardial infarction [
+28
+]. Investigating cellular senescence was fundamental to aging research. Spider β-gal, a highly sensitive and cell-permeable fluorescent probe, enabled detection of SA-β-gal, a principal biomarker of senescent cells [
+29
+]. Apart from our previous study showing association of Panx1 with cellular senescence and aging [
+13
+], a recent study reported that Panx1, via its noncanonical function, contributed to cellular senescence and renal fibrosis after acute kidney injury [
+30
+]. However, the role of Panx1 in cellular senescence and aging, relative to SA-β-gal, has not been previously investigated.
+Aging, together with cardiovascular risk factors, such as hypertension, hyperglycemia, and dyslipidemia, is well known to promote microvascular dysfunction, arterial inflammation, and plaque formation, leading to end organ damage [
+31
+–
+33
+]. In the context of aging, inflammaging is a well-recognized phenomenon in which many older individuals develop a persistent, low-grade systemic pro-inflammatory state [
+34
+,
+35
+]. This condition is characterized by elevated circulating levels of pro-inflammatory markers, such as IL-6, TNF-α, and C-reactive protein, which are considered indicators of biological aging. It is also a major risk factor for, and contributor to, numerous age-related diseases, including ASCVD, type 2 diabetes, dementia, and frailty [
+35
+,
+36
+]. Regarding endothelial function, NO was a protective, anti-inflammatory molecule and its reduced bioavailability was a key driving force on vascular inflammation and endothelial dysfunction [
+37
+,
+38
+]. NO has been shown to prevent hypoxia-induced mitochondrial oxidative damage and to enhance mitochondrial biogenesis in EPCs [
+39
+,
+40
+]. In addition, our previous finding that, in circulating CD34
++
+PBMCs, higher Panx1 protein expression was higher in aged people, compared to young people was based on a small number of people [
+13
+]. Since Western blotting of circulating CD34
++
+PBMCs used in that study was time-consuming and expensive when applied to a larger number of participants, in the first part of the present study, we tested whether Panx1 mRNA analysis of PBMCs, more applicable (less time-consuming and cheaper, compared to Western blotting) in the real world, could be used to detect senescence/aging and even related to cardiovascular risk in the aged donors, and the findings were positive. Thereafter, we explored the expression of Panx1 in various populations of progenitor marker-expressing cells and the clinical implications. In this study, NO activity assessed in non-diabetic individuals reflects intracellular NO-related fluorescence measured at the individual cell level rather than systemic endothelial NO bioavailability.
+The most robust finding regarding senescence of the present study was compartment-specific. Associations between Panx1 and SA-β-gal persisted after age and clinical adjustment in CD34
++
+KDR
++
+CD45
+−
+and CD133
++
+KDR
++
+CD45
+−
+populations, whereas non-KDR associations were attenuated by age. This pattern argues against treating Panx1 as a universal substitute for SA-β-gal. Rather, Panx1 may capture a senescence-related phenotype in selected endothelial-lineage progenitor populations. The significant age-group interaction is hypothesis-generating and requires replication.
+The adjusted analyses did not support an independent link between Panx1 and reduced NO-related fluorescence or circulating TNF-α and IL-6. Although the present study showed that, in cell culture experiments of ECFCs, Panx1 and NO influence each other, in the real-world assessment of PBMCs, the primary and adjusted analyses for NO-related fluorescence were null across all four populations; the isolated elderly CD133
++
+CD45
+−
+result was exploratory and directionally inconsistent with the pooled estimate. Likewise, pooled Panx1-cytokine correlations were largely abolished by age-group adjustment and stratification, indicating that the wide separation between young and elderly recruitment strata can generate pooled correlations when both variables differ by age. In contrast, the Panx1-SA-β-gal associations in CD34
++
+KDR
++
+CD45
+−
+populations survived the same analytic scrutiny. For cardiovascular risk, Panx1
++
+cell number in CD34
++
+CD45
+−
+cells was associated with FRS and showed an AUC of 0.767, but the FDR-adjusted correlation was not significant and incremental value over conventional clinical models was not consistently demonstrated. Accordingly, these findings supported a candidate cellular senescence-associated biomarker linked to cardiovascular risk rather than a validated predictor.
+This study has several limitations. The cohorts were small, single-center samples of non-diabetic Taiwanese volunteers, which may introduce selection bias and limit generalizability. The cross-sectional design, together with the lack of external validation and functional testing, precludes conclusions regarding causality or predictive performance. Recruitment into two widely separated age strata may inflate pooled correlations; therefore, age-group-adjusted and within-stratum analyses were performed, although residual confounding by age cannot be completely excluded. The sample size precluded comprehensive covariate adjustment, and medication use was collinear with its indications; thus, analyses with low EPV and multiplicity-adjusted results should be considered exploratory. The systolic blood pressure comparison achieved 78.2% power at the observed effect size (d = 0.79), marginally below the conventional 80% threshold (Supplementary Table
+S4
+, Panel A), and no formal power analysis was performed for the multivariable models. Independent prospective validation in larger cohorts is warranted to confirm these findings.
+Conclusions
+Panx1 expression increases with aging and is associated with SA-β-gal expression in selected circulating CD34⁺KDR⁺CD45⁻ progenitor populations after adjustment for age and relevant clinical covariates. Among elderly participants, the number of Panx1⁺ cells within the CD34⁺CD45⁻ population is associated with Framingham cardiovascular risk and show moderate discrimination for FRS ≥ 10%; however, whether it provides incremental value beyond conventional clinical factors remains uncertain. Adjusted analyses do not support an independent association with NO-related fluorescence or systemic inflammatory markers. Panx1 may therefore represent a candidate cellular senescence-associated marker associated with cardiovascular risk, warranting further prospective validation.
+Supplementary Information
+Below is the link to the electronic supplementary material.
+Supplementary Material 1
+Supplementary Material 2
+Supplementary Material 3
+Supplementary Material 4
+Supplementary Material 5
+Supplementary Material 6
+Supplementary Material 7
+Supplementary Material 8
+Supplementary Material 9
+Supplementary Material 10
+Supplementary Material 11
+Supplementary Material 12

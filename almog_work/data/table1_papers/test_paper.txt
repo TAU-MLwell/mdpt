@@ -1,0 +1,1826 @@
+
+
+International Archives of Allergy and Immunology
+
+Search...
+
+
+
+CONTENT 
+
+
+Volume 187, Issue 7
+July 2026
+
+Advanced
+Search
+
+ABOUT 
+
+
+
+
+SUBMISSION GUIDE 
+
+
+Register
+
+SUBMIT NOW
+
+RESEARCH ARTICLES | AUGUST 26 2025
+
+Understanding Food Allergy Risk Factors:
+Current Knowledge and Recent Advances
+Using a Large Retrospective Cohort Analysis
+
+Subject Area:  Immunology and Allergy
+Special Collection: Karger e-Journal Backfile Collection 2026
+
+Article Contents
+
+Abstract
+Introduction
+Methods
+Results
+
+Idit Lachover-Roth  ; Daniel Sarusi; Neta Biran; Noreen Abd-Elkader; Anat Cohen-Engler;
+Yossi Rosman; Saray Sity-Harel; Ronit Confino-Cohen; Ran Gilad-Bachrach  ;
+Tzipi Hornik-Lurie
+
+https://doi.org/10.1159/000548032
+
+ 4
+
+ 0
+
+Email Alerts
+ Views 
+
+ Download 
+
+ Share 
+
+ Tools 
+
+Discussion
+Conclusions
+
+ 0
+
+ Article history
+
+PubMed:40875718
+
+ Split-Screen
+
+View Metrics
+
+ 1
+
+Int Arch Allergy Immunol (2026) 187 (7): 692–705.
+
+〉 Online First Alert
+〉 Latest Issue Alert
+
+ Get Permissions
+
+Statement of Ethics
+Conflict of Interest
+Statement
+Funding Sources
+Author Contributions
+Data Availability
+Statement
+
+Abstract
+
+Citing Articles Via
+
+Introduction: Immunoglobulin E-mediated food allergies (FAs) is a growing concern in the
+
+〉 Web Of Science (1)
+
+Western world. Established risk factors include a personal or familial history of other atopic
+
+〉 Google Scholar
+
+comorbidities, genetic predisposition, male sex, and hygienic environment. However, these
+
+〉 CrossRef (1)
+
+factors fail to explain most FA cases. The study aimed to discover additional risk factors for FA
+by analyzing a large database. Methods: This retrospective study utilized data from Clalit Health
+Services, Israel’s largest healthcare provider. Employing explainable artificial intelligence
+methods, the investigation sought to identify variables in the first 6 months of life and parental
+factors correlated with FA diagnosis, among children born from January 1, 2006, to August 31,
+2021. Results: The analysis encompassed 370,298 children, with FA diagnosed in 6,911 infants
+(1.87%). Key findings revealed that high socioeconomic score (SES) (relative risk [RR] = 9.92),
+Jewish origin (RR = 3.83), and personal history of atopic dermatitis (RR = 5.3) were the most
+significant variables associated with FA development. Other variables with lesser correlation
+strength included parental atopic comorbidities, blood type, and antibiotics and anti-acid drugs
+use. Surprisingly, prematurity and birthweight <2,500 g were correlated with a lower risk of FA
+development. Conclusions: The correlations found between those variables and FA do not
+explain most FA cases. Moreover, the impact of SESs and ethnicity might be explained by
+differences in cultural behaviors that influence the development of FA. This could not be
+determined as data such as the age of allergenic foods introduction were unavailable in the
+database. Further investigation is warranted to establish causal links and the clinical significance
+of these suggested risk factors.
+
+LATEST
+
+MOST READ
+
+MOST CITED
+
+〉 Characteristics and Factors
+Associated with Reaction Severity
+Among Children Experiencing
+Reactions During Oral Food
+Challenges
+〉 Challenge-verified shrimp allergy
+in a Danish patient cohort
+throughout 23 years
+〉 Comparative Safety and
+Treatment Persistence of
+Aeroallergen and Venom
+Immunotherapy: A Real-World
+Patient- and Injection-Level
+Analysis
+
+Keywords: Atopic comorbidities, Explainable AI, Food allergy, Infants, Risk factors
+
+〉 PENFAST-A: A Modified Clinical
+Decision Rule for ß-Lactam
+Allergy Risk Stratification in a
+Tertiary Allergy Center
+
+Introduction
+
+〉 Safety of Low-Dose Wheat Oral
+Food Challenges in Cases with
+Low ω-5 Gliadin-Specific
+Immunoglobulin E Levels
+
+Journal Section: Clinical AllergyEditor's choice
+
+Immunoglobulin E-mediated food allergy (FA) is a growing problem in the Western world [1‒3].
+The prevalence of FA in Israel is 2.2–2.8% [4, 5]. Major efforts are invested in preventing the
+development of FA [6‒12]. It is accepted that patients with one atopic disease have an increased
+risk of developing another atopic comorbidity [13]. Other risk factors for developing FA include
+genetic predisposition, family history of atopic comorbidities, male sex, and hygienic
+environment [2, 13‒16]. However, these factors do not explain the multitude of patients with FA
+without these risk factors. On the other hand, early introduction to food allergens has a
+protective effect and helps decrease the chance of developing FA [6‒10] but does not explain
+infants who were introduced to allergenic foods later than recommended and did not develop
+FA. Most studies conducted to find risk factors involved small cohorts [14, 17, 18] or limited
+datasets [19]. Focusing on a broader picture, the present study searched for correlations
+between FA and nonspecific medical data during fetal life and the first 6 months of life with the
+purpose of identifying additional factors that may act as risk factors or protective factors.
+
+Methods
+Study Population
+Children born from January 1, 2006, to August 31, 2021, who were insured by Clalit heath
+service (CHS), the largest health maintenance organization in Israel, insuring 54% of the
+population were included. Criteria used for FA diagnosis: diagnosis of FA by an allergist (see
+International Classification of Diseases 9th revision (ICD-9) codes used for diagnosis of FA in
+online suppl. Material 1; for all online suppl. material, see https://doi.org/10.1159/000548032);
+diagnosis of FA made by a pediatrician, or family doctor and a prescription for adrenaline
+autoinjector; specific IgE blood test result of ≥3.5 kU/L, defined as likely risk of symptoms after
+exposure [3, 20], to at least one food allergen and prescription of an adrenaline autoinjector. All
+infants who did not match any of the above conditions were included in the nonallergic group.
+
+Data Extracted
+The study focused on the first 6 months of life because most FAs manifest in the second half of
+the first year of life or even later [5]. To avoid label leakage problems associated with the
+diagnostic process, we used information from the period before most FA cases manifest. As the
+age at which allergenic food is introduced to an infant’s diet is not registered in the medical
+record, we relied on the reports that most parents follow the World Health Organization
+recommendations and introduce complementary foods after 6 months of age [21‒23]. For each
+infant, the following parameters were extracted from the CHS database:
+1. Demographics – sex, ethnicity, socioeconomic score (SES), and number of siblings.
+2. Parental diagnosis – comorbidities related to infants’ risk for FA, and other common
+comorbidities in young, generally healthy adults.
+3. Common maternal diagnoses and laboratory tests during the current pregnancy
+(calculated 9 months before infant’s birth).
+4. Birth information – gestational age (GA), weight, and mode of delivery.
+5. Infants’ medical status during the first 6 months of life:
+- Diagnoses
+- Medications – all medications purchased by caregivers under the infants’
+identification number.
+
+Information regarding data retrieved is detailed in online supplementary Material 2. The ICD-9
+and Anatomical Therapeutic Chemical-5 (ATC-5) codes used are listed in online supplementary
+eTables 1–3. Data were extracted from CHS using the Clalit Research data-sharing platform
+powered by MDClone (https://www.mdclone.com).
+This study was approved by the Meir Medical Center Ethics Committee (0148-22-MMC).
+Informed consent was not required as the data were anonymized. This study follows the
+STROBE guidelines for observational research.
+
+Models and Statistical Analyses
+XGBoost Model
+The Extreme Gradient Boosting (XGBoost) is a machine learning algorithm based on regression
+trees that solve numerous data science problems efficiently and accurately [24]. In the present
+study, an XGBoost model was constructed to predict the binary field indicating FA diagnosis
+using the variables mentioned in the Section: Data Extracted. Model performance was evaluated
+using the area under the receiver operating characteristic (AUC) curve metric, which
+interpolates the sensitivity and specificity of the model.
+
+Feature Importance
+Two methods were used to obtain the importance of the features from the model’s results. The
+SHapley Additive exPlanations (SHAP) score is a technique to evaluate the importance of input
+features of a given machine learning model [25]. The details of this method are described in
+online supplementary Material 3. The change to the AUC (Δ-AUC) when the feature is replaced
+with a random value obtained by permuting the values of the feature between subjects. The
+details of this method are described in online supplementary Material 3.
+
+Randomized Features
+The study groups’ characteristics were compared using the Chi-squared test for binary and
+categorical variables. p values were reported without correction for multiplicities, as study
+aimed to explore a broad range of potential factors associated with the development of FA [26].
+Additionally, the standardized mean difference (SMD) was calculated for each variable, with an
+SMD ≥0.2 considered clinically significant.
+
+Results
+During January 1, 2006 to August 8, 2021, 1,359,480 children were born and insured by CHS. Of
+which, 370,298 (27.23%) were born in hospitals owned by CHS with data regarding the delivery
+and perinatal period during hospitalization (Fig. 1). The differences between the cohorts are
+either small (SMD <0.2) or statistically insignificant (online suppl. eTable 4), further analyses
+were done only on infants born in a CHS hospital. FA according to the inclusion criteria was
+diagnosed in 6,911 children (1.87%). Statistically significant differences were found between the
+allergic and the nonallergic infants in all parameters except for mode of delivery, but the SMD
+was ≤0.2 for all parameters except for ethnicity, SES, use of antihistamines and systemic
+steroids, diagnosis of atopic dermatitis (AD), number of siblings, maternal smoking, and
+maternal anemia (Tables 1, 2).
+Fig. 1.
+
+VIEW LARGE
+
+DOWNLOAD SLIDE
+
+GET PERMISSIONS
+
+A consort diagram of the study population.
+
+Table 1. Comparison of demographic and general parameters between the groups
+Variable
+
+Sex (female), n (%)
+
+Total (n =
+
+Nonallergic infants
+
+Allergic infants
+
+p
+
+370,298)
+
+(n = 363,387)
+
+(n = 6,911)
+
+value
+
+180,469
+
+177,466 (48.8)
+
+3,003 (43.5)
+
+<0.001
+
+293,450 (80.76)
+
+6,389 (92.44)
+
+<0.001
+
+SMD
+
+Relative
+risk
+
+0.108
+
+0.81
+
+(48.7)
+Ethnicitya, n (%)
+Jewish
+
+299,839
+
+3.83
+
+(80.97)
+Arab
+
+60,701 (16.4)
+
+60,363 (16.61)
+
+338 (4.9)
+
+0.391
+
+Unknown
+
+9,758 (2.63)
+
+9,574 (2.63)
+
+184 (2.66)
+
+1
+
+50,151 (13.5)
+
+50,019 (13.76)
+
+132 (1.9)
+
+2
+
+81,708
+
+80,584 (22.17)
+
+1,124 (16.2)
+
+0.73
+
+84,479 (23.24)
+
+2,169 (31.38)
+
+1.35
+
+84,051 (23.12)
+
+2,464 (35.65)
+
+1.54
+
+Socioeconomic scorea, n (%)
+<0.001
+
+0.57
+
+0.14
+
+(22.06)
+3
+
+86,648
+(23.39)
+
+4
+
+86,515
+(23.36)
+
+5
+
+26,157 (7.06)
+
+25,474 (7.01)
+
+683 (9.88)
+
+1.41
+
+Unknown
+
+39,119
+
+38,780(10.67)
+
+399 (4.9)
+
+0.46
+
+157,619 (43.4)
+
+3,624 (52.4)
+
+107,515 (29.6)
+
+1,987 (28.8)
+
+0.97
+
+98,253 (27.03)
+
+1,300 (18.78)
+
+0.32
+
+3,172.7±534.0
+
+3,171.6±534.1
+
+3,234.1±522.3
+
+<0.001
+
+0.118
+
+38.73±1.9
+
+38.73±1.9
+
+38.88±1.84
+
+<0.001
+
+0.08
+
+<0.001
+
+0.129
+
+(10.56)
+Number of older siblingsa, n (%)
+0
+
+161,243
+
+<0.001
+
+0.218
+
+1.21
+
+(43.5)
+1
+
+109,502
+(29.6)
+
+2≤
+
+99,553
+(26.83)
+
+Birthweighta, mean±SD,
+g
+Gestational age,
+mean±SD, weeks
+
+Gestational agea, weeks, n (%)
+24–29
+
+1,253 (0.4)
+
+1,225 (0.4)
+
+28 (0.5)
+
+1.25
+
+30–32
+
+2,173 (0.9)
+
+2,139 (0.9)
+
+34 (0.7)
+
+0.78
+
+33–37
+
+37,675 (15.9)
+
+37,047 (15.9)
+
+629 (12.8)
+
+0.81
+
+38–42
+
+195,129
+
+190,907 (82.5)
+
+4,223 (85)
+
+1.03
+
+30.12±5.51
+
+30.1±5.52
+
+30.92±4.86
+
+<0.001
+
+0.156
+
+295,538
+
+290,035 (79.8)
+
+5,503 (79.6)
+
+0.711
+
+0.005
+
+1.01
+
+(82.5)
+Mothers’ age, mean±SD,
+years
+Mode of deliverya, n (%)
+Vaginal
+
+(79.8)
+Cesarean
+
+74,706 (20.2)
+
+73,299 (20.2)
+
+1,407 (20.4)
+
+Epidural anesthesia
+during labora, n (%)
+
+124,754
+
+121,817 (33.5)
+
+2,937 (42.5)
+
+<0.001
+
+0.186
+
+1.02
+
+<0.001
+
+0.11
+
+2.06
+
+(33.7)
+
+Maternal atopic comorbidities, n (%)
+Food allergy
+
+5,951 (1.6)
+
+5,726 (1.6)
+
+225 (3.3)
+
+Asthmaa
+
+87,536 (23.6)
+
+85,536 (23.5)
+
+2,000 (28.9)
+
+0.123
+
+1.32
+
+Atopic dermatitisa
+
+36,827 (9.9)
+
+35,919 (9.9)
+
+908 (13.1)
+
+0.102
+
+1.37
+
+Allergic rhinitisa
+
+67,621 (18.3)
+
+65,806 (18.1)
+
+1,815 (26.3)
+
+0.197
+
+1.59
+
+Paternal atopic comorbidities, n (%)
+Food allergy
+
+1,779 (0.5)
+
+1,717 (0.5)
+
+62 (0.9)
+
+<0.001
+
+0.052
+
+1.87
+
+Asthmaa
+
+58,064 (15.7)
+
+56,891 (15.7)
+
+1,173 (17.0)
+
+0.003
+
+0.036
+
+1.1
+
+Atopic dermatitis
+
+17,430 (4.7)
+
+17,029 (4.7)
+
+401 (5.8)
+
+<0.001
+
+0.05
+
+1.25
+
+Allergic rhinitisa
+
+44,824 (12.1)
+
+43,752 (12.0)
+
+1,072 (15.5)
+
+0.101
+
+1.288
+
+SD, standard deviation; SMD, standardized mean difference.
+a
+
+Variables correlated with the development of FA. SMD ≥0.2 refers to low significance differences, ≥0.5 medium, and
+
+≥0.8 is considered large significant difference.
+
+Table 2. Variables correlated with the development of FA
+Variable
+
+Total (n =
+
+Nonallergic infants
+
+Allergic infants
+
+p
+
+370,298)
+
+(n = 363,387)
+
+(n = 6,911)
+
+value
+
+Atopic dermatitis, n (%)
+
+21,639 (5.8)
+
+19,927 (5.5)
+
+1,712 (24.8)
+
+<0.001
+
+Gastro-intestinal tract
+
+123,152
+
+120,236 (33.1)
+
+diagnoses, n (%)
+
+(33.3)
+
+Infectious diagnoses, n (%)
+
+249,340
+
+SMD
+
+Relative
+risk
+
+Infants’ diagnoses
+0.559
+
+5.31
+
+2,916 (42.2)
+
+0.189
+
+1.46
+
+244,368 (67.2)
+
+4,972 (71.9)
+
+0.102
+
+1.03
+
+76,127 (20.9)
+
+1,861 (26.9)
+
+0.14
+
+1.38
+
+190,870 (52.5)
+
+3,779 (54.7)
+
+0.043
+
+1.09
+
+119,735 (32.9)
+
+2,497 (36.1)
+
+0.067
+
+1.15
+
+7,102 (1.9)
+
+6,831 (1.9)
+
+271 (3.9)
+
+0.122
+
+2.09
+
+Asthma, n (%)
+
+16,697 (4.5)
+
+16,201 (4.5)
+
+496 (7.2)
+
+0.116
+
+1.64
+
+Delivery acute situations, n
+
+34,555 (9.3)
+
+33,810 (9.3)
+
+745 (10.8)
+
+0.049
+
+1.17
+
+86,487
+
+84,695 (23.3)
+
+1,792 (25.9)
+
+0.061
+
+1.15
+
+(67.3)
+Other acute diagnoses of
+
+77,988
+
+newborns, n (%)
+
+(21.1)
+
+Pulmonary diagnoses, n
+
+194,649
+
+(%)
+
+(52.6)
+
+Bacterial infections, n (%)
+
+122,232
+(33.0)
+
+Developmental delay, n
+(%)
+
+(%)
+Neonatal jaundice, n (%)
+
+(23.4)
+Medication prescribed for the infant
+Antihistamine use, n (%)
+
+22,136 (6.0)
+
+20,683 (5.7)
+
+1,453 (21.0)
+
+<0.001
+
+0.463
+
+4.19
+
+Systemic steroids use, n
+
+46,797
+
+45,382 (12.5)
+
+1,415 (20.5)
+
+<0.001
+
+0.217
+
+1.78
+
+(%)
+
+(12.6)
+
+Antibiotics, n (%)
+
+133,358
+
+130,498 (35.9)
+
+2,860 (41.4)
+
+<0.001
+
+0.113
+
+1.25
+
+57,543 (15.8)
+
+1,133 (16.4)
+
+0.206
+
+0.041
+
+1.04
+
+6,337 (1.7)
+
+6,024 (1.7)
+
+313 (4.5)
+
+<0.001
+
+0.166
+
+2.72
+
+15,210
+
+14,895 (28.5)
+
+315 (33.1)
+
+0.002
+
+0.13
+
+1.24
+
+10,228 (19.5)
+
+188 (19.7)
+
+0.902
+
+1.011
+
+25,053 (47.9)
+
+401 (42.1)
+
+<0.001
+
+0.794
+
+2,192 (4.1)
+
+2,143 (4.1)
+
+49 (5.1)
+
+0.117
+
+1.263
+
+88,435
+
+86,616 (38.38)
+
+1,819 (41.76)
+
+<0.001
+
+51,894 (22.99)
+
+988 (22.68)
+
+0.637
+
+0.98
+
+69,594 (30.83)
+
+1,185 (27.2)
+
+<0.001
+
+0.84
+
+1.08
+
+(36.0)
+Inhalations, n (%)
+
+58,676
+(15.8)
+
+Anti-acids medication use,
+n (%)
+Infants’ laboratory tests
+Blood type, n (%)
+A
+
+(28.6)
+B
+
+10,416
+(19.6)
+
+O
+
+25,454
+(47.8)
+
+AB
+Maternal laboratory tests
+Blood type, n (%)
+A
+
+0.089
+
+1.15
+
+(38.44)
+B
+
+52,882
+(22.99)
+
+O
+
+70,779
+(30.77)
+
+AB
+
+17,951 (7.8)
+
+17,587 (7.8)
+
+364 (8.35)
+
+0.171
+
+Rh positive, n (%)
+
+213,822
+
+209,705 (89.5)
+
+4,117 (90.6)
+
+0.018
+
+0.037
+
+1.23
+
+71,619 (19.7)
+
+1,744 (25.2)
+
+<0.001
+
+0.317
+
+1.37
+
+191,425 (52.7)
+
+3,085 (44.6)
+
+<0.001
+
+0.324
+
+0.73
+
+(89.5)
+Maternal diagnoses
+Smoking, n (%)
+
+73,363
+(19.8)
+
+Anemia, n (%)
+
+194,510
+(52.5)
+
+Hypothyroidism, n (%)
+
+33,027 (8.9)
+
+32,290 (8.9)
+
+737 (10.7)
+
+<0.001
+
+0.06
+
+1.22
+
+Vitamin deficiency, n (%)
+
+60,347
+
+59,224 (16.3)
+
+1,123 (16.2)
+
+0.927
+
+0.004
+
+0.997
+
+76,189 (21.0)
+
+1,440 (20.8)
+
+0.804
+
+0.008
+
+0.992
+
+132,650 (36.5)
+
+2,146 (31.1)
+
+<0.001
+
+0.115
+
+0.79
+
+(16.3)
+Anemia during pregnancy,
+
+77,629
+
+n (%)
+
+(21.0)
+
+Paternal diagnoses
+Smoking, n (%)
+
+134,796
+(36.4)
+
+Significant variables that were present in Table 1 do not appear in this table. SMD ≥0.2 refers to low significance
+differences, ≥0.5 medium, and ≥0.8 is considered large significant difference.
+SMD, standardized mean difference.
+
+The XGBoost model differentiates between clinical parameters that are associated with FA (Fig.
+2). This model shows only whether there is an association between the variable and FA but does
+not show the direction of correlation (increased or decreased chance to develop FA). The use of
+antihistamine drugs, systemic corticosteroids, and inhalations with corticosteroids or β-agonists
+are considered supporting risk factors because they provide a clue that the infant had an atopic
+comorbidity. The calculations of the average Δ-AUC for all statistically significant variables are
+presented in online supplementary eTable 5. Online supplementary Figure 2b shows the
+clinically significant variables.
+Fig. 2.
+
+VIEW LARGE
+
+DOWNLOAD SLIDE
+
+GET PERMISSIONS
+
+Scaling of the important variables. a The importance of all variables inserted into the model. b
+An enlargement of the top part of graph a and includes all variables that were above the
+average area under the curve of 0.001 (represents the cutoff for the significant variables).
+
+Direction of Association
+The direction of association for increased or decreased risk of FA for the significant variables is
+shown in Figure 3 and online supplementary eTable 5, using SHAP score. The prevalence of
+each variable is shown in Tables 1, 2. The variables most strongly associated with FA were
+birthweight, SES, ethnicity, and diagnosis of AD.
+Fig. 3.
+
+VIEW LARGE
+
+DOWNLOAD SLIDE
+
+GET PERMISSIONS
+
+SHAP feature importance for the largest contributing variables. Red points represent large
+values, blue points represent low values. Points on the right are associated with increased risk
+of FAs, points on the left reduced risk. High socioeconomic score (red) is associated with
+increased risk (right). Atopic dermatitis, antihistamine drugs, gastrointestinal diagnoses, allergic
+rhinitis, and asthma – blue dots represent “no diagnosis.” Gestational age and birth weight –
+many blue points, which are associated with low gestational age and weight, are on the left
+reduced risk. Ethnicity – blue points represent Jewish and the red points represent Arab
+population.
+
+Demographic Variables
+Higher SES increased the risk of FA (Fig. 4a). The relative risk (RR) of infants with SES = 5 to
+develop FA was 9.921 compared to infants with SES = 1 (683/26,157 [2.6%] vs. 132/50,151
+[0.26%], 95% CI: 8.207–12.001, p < 0.001, SMD = 0.57). The mean RR for increasing SES
+compared to SES = 1 was 4.33.
+Fig. 4.
+
+VIEW LARGE
+
+DOWNLOAD SLIDE
+
+GET PERMISSIONS
+
+Generalized additive model (GAM) associated risk for selected variables. GAM model was used
+to predict risk for FA. The plots present risks associated with: socioeconomic score (a), number
+of older siblings (b), gestational age (c), and birthweight (d). The y-axis is the predicted log odds
+ratio for FA; hence, higher values are associated with higher risk. The colored background
+indicates the proportion of subjects in each bucket – darker shades correspond to larger
+portions of the population.
+
+In terms of ethnicity, Jewish infants had a higher risk for FA than Arab infants (RR: 3.83, 95% CI:
+3.43–4.28, p < 0.001, SMD = 0.391). The prevalence of FA among Jewish infants was 2.13% vs.
+0.56% in the Arab population. Male infants were significantly more likely to develop FA than
+females (3,908/6,911 [56.5%] vs. 185,921/363,387 [51.2%], respectively; RR: 1.237, 95% CI: 1.18–
+1.297, p < 0.001).
+Firstborn infants constituted 52.4% of the FA infants vs. 43.4% of the nonallergic infants (RR:
+1.43, 95% CI: 1.36–1.5, p < 0.001, SMD = 0.218). Having two or more siblings was associated with
+a protective effect against developing FA, comprising 18.78% of the FA infants vs. 27.03% of the
+nonallergic infants (RR: 0.696, 95% CI: 0.662–0.731, p < 0.001). Although with a minor influence,
+one sibling also had a protective effect against FA (Table 1; Fig. 4b).
+
+Parental Variables
+Parental atopic comorbidities were correlated with higher prevalence of FA in their offspring.
+The most significant variable of these diagnoses was maternal allergic rhinitis (AR) (1,815/6,911
+[26.3%] vs. 65,806/363,387 [18.1%], respectively; RR: 1.45, 95% CI: 1.392–1.51, p < 0.001). Other
+maternal atopic comorbidities that correlated with the development of FA were asthma and AD
+(Table 1; Fig. 2, 3). Among paternal atopic diagnoses, asthma, and AR correlated with the
+development of FA (Table 1; Fig. 2, 3). At least one atopic comorbidity of either maternal or
+paternal was found in 64.5% of the FA infants and 55.8% of the nonallergic infants (p < 0.0001),
+but the SMD was 0.17. Other parental chronic diagnoses or maternal diagnoses during
+pregnancy that were found in correlation to the development of FA were smoking of either
+parent, maternal anemia, hypothyroidism, or vitamin deficiency (including iron).
+
+Blood Type
+Blood type A for both the mother and the infant were more prevalent in allergic infants
+compared to nonallergic infants (1,819/4,356 [41.76%] vs. 86,616/225,691 [38.38%], 95% CI:
+1.081–1.219, and 315/953 [33.1%] vs. 14,895/52,319 [28.5%], 95% CI: 1.078–1.415, respectively, p
+< 0.001). In contrast, blood type O for both was more prevalent in the nonallergic group
+(69,594/225,691 [30.83%] vs. 1,185/4,356 [27.2%], 95% CI: 1.002–1.004, and 25,053/52,319
+[47.9%] vs. 401/953 [42.1%], 95% CI: 1.002–1.006, respectively, p < 0.001). It is important to
+mention that blood typing is only performed for infants with a clinical indication; therefore, few
+infants have a blood type recorded.
+
+Infants’ Variables
+Several factors related to labor and the neonatal period were correlated with the development
+of FA. As shown in Figure 4c, in the transition to term infants there was a significant increase in
+the association with FA. The same pattern was found with birthweight (Fig. 4d). In the transition
+to 2,500 g (a normal birthweight for term newborns), there was a significant increase in the
+prevalence of FA. The birth month also influences the risk of FA. Infants born in July–December
+were at higher risk of developing FA compared to infants born in January–June (3,715/6,911
+[53.7%] vs. 187,276/363,387 [51.5%], RR: 1.043, 95% CI: 1.02–1.066, p < 0.001). Other acute
+delivery situations (codes included are detailed in online suppl. eTable 3) and epidural
+anesthesia during labor were also correlated with FA (Table 2; online suppl. eTable 4).
+
+LOGIN 
+
+Infants with AD had 5.3-fold chance of developing FA (1,712/21,639 [7.91%] vs. 5,199/348,659
+[1.49%], 95% CI: 5.03–5.595, p < 0.001, SMD = 0.559, average AUC 0.0238). Although asthma was
+also associated with the development of FA, its effect was milder (RR: 1.64, 95% CI: 1.495–1.793,
+p < 0.001, average AUC 0.0013) (see Table 2 and online suppl. eTable 4).
+In addition to AD and asthma, several infant diagnoses correlated with FA (Table 2), including
+gastrointestinal tract (GIT) illnesses (2,916/6,911 [42.2%] vs. 120,236/363,387 [33.1%],
+respectively; RR: 1.46, 95% CI: 1.397–1.536, p < 0.001) and infectious diseases, especially
+bacterial diagnoses. The other diagnoses correlated with FA are detailed in Table 2 and Figures
+2, 3.
+The use of antihistamines, systemic corticosteroids, and inhalations with β-agonists or inhaled
+corticosteroids were correlated with the development of FA; however, these were considered as
+supporting variables. Another two groups of drugs that were prescribed more often during the
+first 6 months of life to the allergic infants were antibiotics and anti-acids (Table 2). Among
+infants with FA, 313/6,911 (4.5%) were prescribed anti-acid drugs compared to 6,024/363,387
+(1.7%) of the nonallergic infants (RR: 2.72, 95% CI: 2.434–3.047, p < 0.001).
+
+Number of Risk Factors
+Looking only at the binary risk factors and excluding the supporting risk factors mentioned
+above, the allergic group had an average of 7.69 ± 2.85 risk factors compared to 6.67 ± 2.68 in
+the nonallergic group (p < 0.001, SMD = 0.37). The incidence of ≤5 risk factors in infants with FA
+was 230:1,000 compared to 347:1,000 in the nonallergic group. Among the allergic infants, 925
+(13.4%) did not have any of the risk factors we have found, and 1,806 infants (26.1%) had only
+one risk factor.
+
+Discussion
+Family and personal history of atopic comorbidities are well-known risk factors contributing to
+the development of FA, but they do not explain most FA cases. Other risk factors mentioned in
+the literature include firstborn child, Cesarean delivery, and vitamin D deficiency. Information
+regarding the contribution of these factors and others is scarce. To our knowledge, the current
+study is the largest conducted in the field in a general pediatric population.
+The goal of this study was to find new variables that may influence the risk of infants developing
+FA. We chose to focus on the prenatal period (represented by parental diagnoses) and the first 6
+months of life because we wanted to search for events that happened prior to FA development.
+We identified 40 variables that might correlate with the development of FA, including the wellestablished risk factors, such as family and personal history of atopic comorbidities and sex, but
+also other less familiar factors. One of the disadvantages of using a large database is that every
+minor difference between groups can be statistically significant without clinical importance. For
+this reason, we also calculated the SMD for each variable. The only clinically significant
+parameters that we found were SES, ethnicity, diagnosis of AD, maternal smoking, maternal
+anemia, and number of siblings with borderline SMD. Therefore, the clinical meaning of the
+other risk factors needs further investigation.
+
+Demographic and Familial Characteristics
+SES and Ethnicity
+High SES and Jewish origin were two of the major variables we have found that significantly
+correlated with greater chance for developing FA. Although the correlation between SES and FA
+is familiar [27], the literature is contradictory. Most studies have found that low SES correlates
+with a higher incidence of allergic diseases. However, most of them compared different
+populations with many other confounders that could contribute to the correlation, such as
+ethnicity [28]. On the other hand, Mullins et al. [29] showed the same direction of correlation we
+found. They speculated that differences in health-seeking behaviors support this finding.
+Another speculation is based on the hygiene theory, which states that the more hygienic we are,
+the more allergic we become [30]. Lower SES is usually correlated with a less hygienic
+environment and a higher prevalence of smoking [31]. This may also explain why parental and
+specifically maternal smoking was found to be protective against the development of FA. A third
+explanation could be differences in the age of exposure to allergenic foods between different
+SES groups. The Arab population in Israel has a significantly lower SES [32]. Previous studies
+have shown that fewer Arab compared to Jewish women tend to exclusively breastfeed,
+resulting in a lower incidence of cow’s milk allergy [7, 33]. This is further supported by a survey
+conducted by the Israeli Ministry of Health showing that Arab infants are exposed to
+complementary foods at an earlier age [32]. The current study also found that the incidence of
+FA was significantly lower in the Arab compared to the Jewish population. Therefore, we
+conjecture that the lower prevalence of FA in lower SES groups is related to factors
+characterizing this group, including environmental hygiene, differences in feeding practices and
+breastfeeding, and not only lower SES.
+
+Number of Siblings
+Firstborn in our study is correlated with a higher chance of developing FA. This is supported by
+the literature [18, 34], and the explanation is that firstborn children are raised in a more
+hygienic environment, which might affect the incidence of allergic comorbidities. To complete
+the picture, ≥2 siblings have a protective effect against the development of FA.
+
+Family Atopic Comorbidities
+Supporting other studies, we found that family atopic comorbidities correlate with FA [2, 15]. As
+shown before [15], the most influential variable was AR of the mother. We found that the
+mother’s atopic background has more influence than the father’s on the development of FA in
+their offspring. We speculate that when the mother has an atopic comorbidity, the fetus grows
+in an “allergic environment” with differences in cytokines that cross the placenta [35]. Looking at
+the low SMD of these variables separately and even when combining all the atopic
+comorbidities of the two parents together makes this correlation questionable. Moreover, even
+in the nonatopic infants 55% of them had a family history of at least one atopic comorbidity.
+Additional prospective studies are needed to investigate this difference between maternal and
+paternal factors.
+
+Other Maternal Variables
+We found that blood type A of the mothers or infants correlates with FA. In contrast, blood type
+O (either infant or mother) was found to be protective against FA. To our knowledge, this is the
+first time this correlation has been reported. Several studies have been conducted on the
+relationship between AR, asthma, and AD, but the results are inconclusive [36]. The hypothesis
+behind the relationship between FA and blood groups arose in a study conducted in the 1960s
+that found interaction between a variety of pollens with blood group antigens [36].
+
+Child Personal Parameters
+Personal History of Atopic Comorbidities
+It is well established that infants with AD and asthma are at increased risk of developing FA
+[2, 18, 37]. The correlation between AD and FA was also clinically significant in our study. The
+relatively low correlation between asthma and FA in our cohort might be explained by our focus
+on the first 6 months of life. Asthma is rarely diagnosed at this early age, but it correlates with
+the use of systemic steroids and inhalations because wheezing episodes at this age are often
+treated with these drugs.
+
+Gestational Age and Birthweight
+Term infants had an increased risk for developing FA compared to preterm. This result
+correlates with birthweight. This observation supports studies that showed that the hazard ratio
+for developing FA favors preterm infants, especially those who were born before 32 GA [19, 38].
+Other studies did not find GA a relevant factor for FA development [17]. It is unknown whether
+differences in gut and immune maturation between preterm and term infants play a role in
+these differences. A study on pigs showed that maturation of the gut and immune system is
+delayed in preterm pigs, including the transition from T helper cell (Th)2 to Th1 immune
+responses. Regarding gut maturation, they found that many functional activities in the preterm
+gut differ from term guts, including enzyme activity and permeability [39]. Additionally, preterm
+infants are breastfed for a shorter duration compared to term infants [40‒43]. This correlates
+with previous studies showing that breastfed infants have an increased risk for developing FA
+[5, 44, 45]. In our opinion, the lower incidence of FA in preterm and low birthweight infants is
+due to an immature gut and immune system combined with different feeding practices
+between term and preterm infants.
+
+Use of Anti-Acids
+This correlates with the development of FA. Moreover, the positive correlation between
+diagnosis of GIT illnesses and FA support this relation, as the primary GIT diagnosis in young
+infants is gastro-esophageal reflux, which is treated with anti-acid drugs. Infants and adults
+treated with anti-acid drugs are prone to develop FA [46]. The suggested mechanism includes
+changes in protein degradation and consequently exposure to larger peptides and proteins that
+cause sensitization rather than tolerance [47].
+
+Infections during the First 6 Months of Life
+Bacterial infections and antibiotic treatments were positively correlated with FA. However, the
+direction of correlation of general infectious diagnoses was unclear, and the main difference
+between the allergic and nonallergic group was caused by the bacterial infections. Previous
+studies have established the connection and theory behind the influence of antibiotic treatment
+at early ages and FA [48, 49]. Antibiotic treatments affect the GIT flora and reduce the diversity
+of gut microbiome, which is important for developing a healthy immune system with Th1
+dominance. Moreover, mild viral infections early in life push the immune system toward Th1
+responses [50]. Therefore, the logical conclusion based on our results and the literature is that
+mild viral infections protect from developing FA, but bacterial infections and antibiotic
+treatments increase the risk.
+
+Neonatal Jaundice
+We found an unclear mild correlation between neonatal jaundice and FA. Lee-Sarwar et al. [51]
+showed that bilirubin metabolites in stool samples of infants ages 3–6 months negatively
+correlate with the development of FA. Our findings support this result. However, this needs
+further investigation and understanding of the underlying mechanism.
+We found a correlation between FA and other suspected risk factors, and the correlation and
+direction of these variables needs to be investigated prospectively. It is important to note that
+even within this large cohort with a broad perspective on the first 6 months of life, the most
+significant risk factors were birthweight, SES, ethnicity, and AD. Moreover, when excluding these
+risk factors, 23% of the infants had fewer than 5 risk factors and none were dominant. As
+described, three out of the four risk factors mentioned above are influenced by environmental
+differences and feeding practices (birthweight, SES, and ethnicity). We assume that all risk
+factors described in this study have some effect on the development of FA, but the major
+players are environmental and allergen exposures. This strengthens the assumption that
+development of FA is not predestined, and we can influence its development through acquired
+factors such as the age of introduction of allergenic foods.
+This study had several limitations: first, it was based on a retrospective database, relying on
+diagnoses performed by hundreds of physicians which may create some noise due, for
+example, to differences in reporting. In addition, the retrospective nature of the study did not
+allow for controlling for potential risk factors that are not present in the electronic health
+records including diet. Second, the diagnosis of FA relied on very rigid criteria, and
+consequently, the prevalence of FA was lower than expected. The allergic group was
+significantly smaller than the nonallergic group. Therefore, including unconfirmed FA cases in
+the allergic group would have a stronger influence on the results. Third, there is a time gap that
+differs between cases in the time elapsed from the first suspected allergic reaction and until the
+formal diagnosis is made, therefore relying on medical diagnosis cannot assess the impact of
+age at first reaction. Fourth, due to absence of dietary data in the electronic health records, we
+do not have information regarding the timing of allergenic food introduction or the specific FA.
+The fact that we could not find solid variables that influence the risk of developing FA might
+suggest that the introduction timing, as suggested in previous studies [6‒9, 33], can be a
+significant factor influencing the development of FA.
+
+Conclusions
+Birthweight, SES, ethnicity, and AD are the main risk factors for the development of FA but do
+not explain all cases. This study aimed to widen the search for risk factors to unobvious clinical
+parameters that could explain other cases of FA. Although we find additional novel factors that
+correlate with the development of FA, the clinical significance of those variables is questionable.
+This may strengthen the underlying assumption that supports age and the root of exposure to
+food allergens as major factors influencing the development of FA. Additional studies are
+needed to establish either the influence of the correlations we found or the effect of the timing
+of food allergen exposure on the development of FA.
+
+Statement of Ethics
+This study was performed in accordance with the Declaration of Helsinki. This study was
+approved by the Meir Medical Center Ethics Committee – approval: 0148-22-MMC, which
+granted a waiver of informed consent due to the retrospective nature of the data analysis.
+
+Conflict of Interest Statement
+The authors have no conflicts of interest to declare.
+
+Funding Sources
+This study was supported by Tel-Aviv University Center for AI and Data Science (TAD) and
+Edmond J. Safra Center for Bioinformatics. The funders had no role in the design, data
+collection, data analysis, and reporting of this study.
+
+Author Contributions
+I.L.R.: substantial contributions to conception and design, interpretation of the results, drafting
+the article, and final approval of the version to be published. D.S., N.B., and N.A.E.: acquisition of
+data, analysis, interpretation of data, and final approval of the version to be published. A.C.E.,
+Y.R., S.S.H., and R.C.C.: revised the manuscript critically for important intellectual content and
+final approval of the version to be published. R.G.B. and T.H.L.: contribution to study design,
+acquisition of data, revised the manuscript critically for important intellectual content, and final
+approval of the version to be published. All authors approved the final manuscript as submitted
+and agreed to be accountable for all aspects of the work.
+
+Additional Information
+Edited by: H.-U. Simon, Bern.Ran Gilad-Bachrach and Tzipi Hornik-Lurie contributed equally to
+this work.
+
+Data Availability Statement
+The data that support the findings of this study are not publicly available since they contain
+information that could compromise the privacy of research participants. Request to access the
+data should be directed to the corresponding author (I.L.R.).
+Supplementary Material for: Understanding Food Allergy
+Risk Factors: Current Knowledge and Recent Advances Using
+a Large Retrospective Cohort Analysis
+
+268
+
+0
+
+187
+
+views
+
+shares
+
+downloads
+
+Showing 1/2: Supplementary material-STROBE_checklist.docx
+
+figshare 
+
+1/2
+
+
+
+
+
+
+
+
+
+ Share
+
+ Download
+
+References
+1. Lopes JP, Sicherer S. Food allergy: epidemiology, pathogenesis, diagnosis, prevention, and
+treatment. Curr Opin Immunol. 2020;66:57–64.
+Google Scholar Crossref
+PubMed
+2. Sicherer SH, Sampson HA. Food allergy: a review and update on epidemiology,
+pathogenesis, diagnosis, prevention, and management. J Allergy Clin Immunol.
+2018;141(1):41–58.
+Google Scholar Crossref
+PubMed
+3. Sicherer SH, Warren CM, Dant C, Gupta RS, Nadeau KC. Food allergy from infancy through
+adulthood. J Allergy Clin Immunol Pract. 2020;8(6):1854–64.
+Google Scholar Crossref
+PubMed
+4. Garkaby J, Epov L, Musallam N, Almog M, Bamberger E, Mandelberg A, et al. The sesamepeanut conundrum in Israel: reevaluation of food allergy prevalence in young children. J
+Allergy Clin Immunol Pract. 2021;9(1):200–5.
+Google Scholar Crossref
+PubMed
+5. Lachover-Roth I, Cohen-Engler A, Furman Y, Rosman Y, Meir-Shafrir K, Mozer-Mandel M,
+et al. Food allergy and infant feeding practices - are they related. Ann Allergy Asthma Immunol.
+2023;131(3):369–75.e3.
+Google Scholar Crossref
+PubMed
+6. Du Toit G, Roberts G, Sayre PH, Bahnson HT, Radulovic S, Santos AF, et al. Randomized
+trial of peanut consumption in infants at risk for peanut allergy. N Engl J Med.
+2015;372(9):803–13.
+Google Scholar Crossref
+PubMed
+7. Lachover-Roth I, Cohen-Engler A, Furman Y, Shachar I, Rosman Y, Meir-Shafrir K, et al.
+Early, continuing exposure to cow’s milk formula and cow’s milk allergy: the COMEET study, a
+single center, prospective interventional study. Ann Allergy Asthma Immunol. 2023;130(2):233–
+9.e4.
+Google Scholar Crossref
+PubMed
+8. Natsume O, Kabashima S, Nakazato J, Yamamoto-Hanada K, Narita M, Kondo M, et al.
+Two-step egg introduction for prevention of egg allergy in high-risk infants with eczema
+(PETIT): a randomised, double-blind, placebo-controlled trial. Lancet. 2017;389(10066):276–
+86.
+Google Scholar Crossref
+PubMed
+9. Sakihara T, Otsuji K, Arakaki Y, Hamada K, Sugiura S, Ito K. Randomized trial of early
+infant formula introduction to prevent cow’s milk allergy. J Allergy Clin Immunol.
+2021;147(1):224–32.e8.
+Google Scholar Crossref
+PubMed
+10. Trogen B, Jacobs S, Nowak-Wegrzyn A. Early introduction of allergenic foods and the
+prevention of food allergy. Nutrients. 2022;14(13):2565.
+Google Scholar Crossref
+PubMed
+11. Peters RL, Neeland MR, Allen KJ. Primary prevention of food allergy. Curr Allergy Asthma
+Rep. 2017;17(8):52.
+Google Scholar Crossref
+PubMed
+12. du Toit G, Tsakok T, Lack S, Lack G. Prevention of food allergy. J Allergy Clin Immunol.
+2016;137(4):998–1010.
+Google Scholar Crossref
+PubMed
+13. Cochrane S, Beyer K, Clausen M, Wjst M, Hiller R, Nicoletti C, et al. Factors influencing the
+incidence and prevalence of food allergy. Allergy. 2009;64(9):1246–55.
+Google Scholar Crossref
+PubMed
+14. Ching-Wei L, Yi-Fen T, Yu-Tsun S, Hong-Ren Y, Hsing-Jung L, Chih-Hsing H, et al. Prenatal
+and perinatal risk factors of food allergy in Taiwanese young children. World Allergy Organ J.
+2022;15(7):100663.
+Google Scholar Crossref
+PubMed
+15. Saito-Abe M, Yamamoto-Hanada K, Pak K, Iwamoto S, Sato M, Miyaji Y, et al. How a
+family history of allergic diseases influences food allergy in children: the Japan environment
+and children’s study. Nutrients. 2022;14(20):4323.
+Google Scholar Crossref
+PubMed
+16. Lack G. Update on risk factors for food allergy. J Allergy Clin Immunol. 2012;129(5):1187–
+97.
+Google Scholar Crossref
+PubMed
+17. Liem JJ, Kozyrskyj AL, Huq SI, Becker AB. The risk of developing food allergy in premature
+or low-birth-weight children. J Allergy Clin Immunol. 2007;119(5):1203–9.
+Google Scholar Crossref
+PubMed
+18. Landau T, Gamrasni K, Barlev Y, Elizur A, Benor S, Mimouni F, et al. A machine learning
+approach for stratifying risk for food allergies utilizing electronic medical record data. Allergy.
+2024;79(2):499–502.
+Google Scholar Crossref
+PubMed
+19. Mitselou N, Hallberg J, Stephansson O, Almqvist C, Melén E, Ludvigsson JF. Cesarean
+delivery, preterm birth, and risk of food allergy: nationwide Swedish cohort study of more
+than 1 million children. J Allergy Clin Immunol. 2018;142(5):1510–4.e2.
+Google Scholar Crossref
+PubMed
+20. Williams P, Sewell WA, Bunn C, Pumphrey R, Read G, Jolles S. Clinical immunology review
+series: an approach to the use of the immunology laboratory in the diagnosis of clinical
+allergy. Clin Exp Immunol. 2008;153(1):10–8.
+Google Scholar Crossref
+PubMed
+21. Soriano VX, Ciciulla D, Gell G, Wang Y, Peters RL, McWilliam V, et al. Complementary and
+allergenic food introduction in infants: an umbrella review. Pediatrics.
+2023;151(2):e2022058380.
+Google Scholar Crossref
+PubMed
+22. Lutter CK, Grummer-Strawn L, Rogers L. Complementary feeding of infants and young
+children 6 to 23 months of age. Nutr Rev. 2021;79(8):825–46.
+Google Scholar Crossref
+PubMed
+23. Breastfeeding. Available from: https://www.who.int/health-topics/breastfeeding#tab=ta
+b_2
+24. Chen T, Guestrin C. Xgboost: a scalable tree boosting system. In: Proceedings of the 22nd
+acm sigkdd international conference on knowledge discovery and data mining. 2016; p. 785–94.
+Google Scholar
+25. Lundberg SM, Lee S-I. A unified approach to interpreting model predictions. Adv Neural
+Inf Process Syst. 2017;30.
+Google Scholar
+26. Rubin M. When to adjust alpha during multiple testing: a consideration of disjunction,
+conjunction, and individual testing. Synthese. 2021;199(3–4):10969–1000.
+Google Scholar
+27. Sheikh A, Alves B. Age, sex, geographical and socio-economic variations in admissions
+for anaphylaxis: analysis of four years of English hospital data. Clin Exp Allergy.
+2001;31(10):1571–6.
+Google Scholar Crossref
+PubMed
+28. Warren C, Bartell T, Nimmagadda SR, Bilaver LA, Koplin J, Gupta RS. Socioeconomic
+determinants of food allergy burden: a clinical introduction. Ann Allergy Asthma Immunol.
+2022;129(4):407–16.
+Google Scholar Crossref
+PubMed
+29. Mullins RJ, Clark S, CamargoCAJr. Socio-economic status, geographic remoteness and
+childhood food allergy and anaphylaxis in Australia. Clin Exp Allergy. 2010;40(10):1523–32.
+Google Scholar Crossref
+PubMed
+30. Strachan DP. Hay fever, hygiene, and household size. BMJ. 1989;299(6710):1259–60.
+Google Scholar Crossref
+PubMed
+31. Mahdaviazad H, Foroutan R, Masoompour SM. Prevalence of tobacco smoking and its
+socioeconomic determinants: tobacco smoking and its determinants. Clin Respir J.
+2022;16(3):208–15.
+Google Scholar Crossref
+PubMed
+32. ICDC.Message from the Director of the. Israel Center for Disease Control. 2022. Available
+from: https://www.gov.il/BlobFolder/reports/mabat-infant2/he/files_publications_units_ICDC_
+mabat-infant2-2019-2020e.pdf
+Google Scholar
+33. Katz Y, Rajuan N, Goldberg MR, Eisenberg E, Heyman E, Cohen A, et al. Early exposure to
+cow's milk protein is protective against IgE-mediated cow's milk protein allergy. J Allergy Clin
+Immunol. 2010;126(1):77–82 e1.
+Google Scholar Crossref
+PubMed
+34. Lack G. Epidemiologic risks for food allergy. J Allergy Clin Immunol. 2008;121(6):1331–6.
+Google Scholar Crossref
+PubMed
+35. Nissen SP, Kjaer HF, Høst A, Nielsen J, Halken S. Can family history and cord blood IgE
+predict sensitization and allergic diseases up to adulthood. Pediatr Allergy Immunol.
+2015;26(1):42–8.
+Google Scholar Crossref
+PubMed
+36. Dahalan NH, Tuan Din SA, Mohamad SMB. Association of ABO blood groups with allergic
+diseases: a scoping review. BMJ Open. 2020;10(2):e029559.
+Google Scholar Crossref
+PubMed
+37. Davis EC, Jackson CM, Ting T, Harizaj A, Järvinen KM. Predictors and biomarkers of food
+allergy and sensitization in early childhood. Ann Allergy Asthma Immunol. 2022;129(3):292–
+300.
+Google Scholar Crossref
+PubMed
+38. Siltanen M, Kajosaari M, Savilahti EM, Pohjavuori M, Savilahti E. IgG and IgA antibody
+levels to cow's milk are low at age 10 years in children born preterm. J Allergy Clin Immunol.
+2002;110(4):658–63.
+Google Scholar Crossref
+PubMed
+39. Ren S, Hui Y, Obelitz-Ryom K, Brandt AB, Kot W, Nielsen DS, et al. Neonatal gut and
+immune maturation is determined more by postnatal age than by postconceptional age in
+moderately preterm pigs. Am J Physiol Gastrointest Liver Physiol. 2018;315(5):G855–67.
+Google Scholar Crossref
+PubMed
+40. Ericson J, Flacking R, Hellström-Westas L, Eriksson M. Changes in the prevalence of
+breast feeding in preterm infants discharged from neonatal units: a register study over 10
+years. BMJ Open. 2016;6(12):e012900.
+Google Scholar Crossref
+PubMed
+41. Merewood A, Brooks D, Bauchner H, MacAuley L, Mehta SD. Maternal birthplace and
+breastfeeding initiation among term and preterm infants: a statewide assessment for
+Massachusetts. Pediatrics. 2006;118(4):e1048–54.
+Google Scholar Crossref
+PubMed
+42. Wang Y, Briere CE, Xu W, Cong X. Factors affecting breastfeeding outcomes at six
+months in preterm infants. J Hum Lact. 2019;35(1):80–9.
+Google Scholar Crossref
+PubMed
+43. Lee SY, Jang GJ, Lee SY, Jang GJ. Prevalence and predictors of exclusive breastfeeding in
+late preterm infants at 12 weeks. Child Health Nurs Res. 2016;22(2):79–86.
+Google Scholar Crossref
+44. Matsumoto N, Yorifuji T, Nakamura K, Ikeda M, Tsukahara H, Doi H. Breastfeeding and
+risk of food allergy: a nationwide birth cohort in Japan. Allergol Int. 2020;69(1):91–7.
+Google Scholar Crossref
+PubMed
+45. Pesonen M, Kallio MJ, Ranki A, Siimes MA. Prolonged exclusive breastfeeding is
+associated with increased atopic dermatitis: a prospective follow-up study of unselected
+healthy newborns from birth to age 20 years. Clin Exp Allergy. 2006;36(8):1011–8.
+Google Scholar Crossref
+PubMed
+46. Mitre E, Susi A, Kropp LE, Schwartz DJ, Gorman GH, Nylund CM. Association between use
+of acid-suppressive medications and antibiotics during infancy and allergic diseases in early
+childhood. JAMA Pediatr. 2018;172(6):e180315.
+Google Scholar Crossref
+PubMed
+47. Pali-Schöll I, Jensen-Jarolim E. Anti-acid medication as a risk factor for food allergy.
+Allergy. 2011;66(4):469–77.
+Google Scholar Crossref
+PubMed
+48. Li M, Lu ZK, Amrol DJ, Mann JR, Hardin JW, Yuan J, et al. Antibiotic exposure and the risk
+of food allergy: evidence in the US medicaid pediatric population. J Allergy Clin Immunol Pract.
+2019;7(2):492–9.
+Google Scholar Crossref
+PubMed
+49. Peters RL, Mavoa S, Koplin JJ. An overview of environmental risk factors for food allergy.
+Int J Environ Res Public Health. 2022;19(2):722.
+Google Scholar Crossref
+PubMed
+50. Xepapadaki P, Papadopoulos NG. Viral infections and allergies. Immunobiology.
+2007;212(6):453–9.
+Google Scholar Crossref
+PubMed
+51. Lee-Sarwar KA, Chen YC, Lasky-Su J, Kelly RS, Zeiger RS, O’Connor GT, et al. Early-life fecal
+metabolomics of food allergy. Allergy. 2023;78(2):512–21.
+Google Scholar Crossref
+PubMed
+© 2025 The Author(s). Published by S. Karger AG, Basel
+Open Access License / Drug Dosage / Disclaimer
+This article is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC). Usage and
+distribution for commercial purposes requires written permission.
+Drug Dosage: The authors and the publisher have exerted every effort to ensure that drug selection and dosage set forth in this
+text are in accord with current recommendations and practice at the time of publication. However, in view of ongoing research,
+changes in government regulations, and the constant flow of information relating to drug therapy and drug reactions, the
+reader is urged to check the package insert for each drug for any changes in indications and dosage and for added warnings
+and precautions. This is particularly important when the recommended agent is a new and/or infrequently employed drug.
+Disclaimer: The statements, opinions and data contained in this publication are solely those of the individual authors and
+contributors and not of the publishers and the editor(s). The appearance of advertisements or/and product references in the
+publication is not a warranty, endorsement, or approval of the products or services advertised or of their effectiveness, quality
+or safety. The publisher and the editor(s) disclaim responsibility for any injury to persons or property resulting from any ideas,
+methods, instructions or products referred to in the content or advertisements.
+
+This work is licensed under a Creative Commons Attribution-NonCommercial 4.0
+International License .
+
+Online ISSN 1423-0097
+
+Print ISSN 1018-2438
+
+INFORMATION
+
+ABOUT US
+
+SERVICES FOR
+
+KARGER INTERNATIONAL
+
+〉 Contact & Support
+
+〉 Company
+
+〉 Researchers
+
+S. Karger AG
+
+〉 Information & Downloads
+
+〉 People & Organization
+
+〉 Authors
+
+P.O Box, CH-4009 Basel (Switzerland)
+
+〉 Rights & Permissions
+
+〉 Newsroom
+
+〉 Reviewers
+
+Allschwilerstrasse 10, CH-4055 Basel
+
+〉 Terms & Conditions
+
+〉 Stay Up-to-Date
+
+〉 Healthcare Professionals
+
+〉 Catalogue & Pricing
+
+〉 Regional Offices
+
+〉 Patients & Supporters
+
+Tel: +41 61 306 11 11
+Fax: +41 61 306 12 34
+
+〉 Policies & Information
+
+〉 Community Voice
+
+〉 Librarians
+
+〉 Planned Maintenance
+
+〉 Health Sciences Industry
+
+〉 Accessibility
+
+〉 Medical Societies
+
+Contact: Front Office
+
+〉 Agents & Booksellers
+
+
+
+〉 Privacy Policy
+
+〉 Terms of Use
+
+〉 Imprint
+
+〉 Cookies
+
+
+
+
+
+
+
+
+
+
+
+© 2026 S. Karger AG, Basel
+
+

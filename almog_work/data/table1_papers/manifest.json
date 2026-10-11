@@ -1,0 +1,56 @@
+[
+  {
+    "pmcid": "PMC13651293",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13651293/",
+    "file": "table1_papers/PMC13651293.txt",
+    "table1_char_count": 6437
+  },
+  {
+    "pmcid": "PMC13652246",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13652246/",
+    "file": "table1_papers/PMC13652246.txt",
+    "table1_char_count": 1789
+  },
+  {
+    "pmcid": "PMC13652250",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13652250/",
+    "file": "table1_papers/PMC13652250.txt",
+    "table1_char_count": 1551
+  },
+  {
+    "pmcid": "PMC13652315",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13652315/",
+    "file": "table1_papers/PMC13652315.txt",
+    "table1_char_count": 4297
+  },
+  {
+    "pmcid": "PMC13652390",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13652390/",
+    "file": "table1_papers/PMC13652390.txt",
+    "table1_char_count": 2688
+  },
+  {
+    "pmcid": "PMC13650419",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13650419/",
+    "file": "table1_papers/PMC13650419.txt",
+    "table1_char_count": 6069
+  },
+  {
+    "pmcid": "PMC13649870",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13649870/",
+    "file": "table1_papers/PMC13649870.txt",
+    "table1_char_count": 3698
+  },
+  {
+    "pmcid": "PMC13651901",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13651901/",
+    "file": "table1_papers/PMC13651901.txt",
+    "table1_char_count": 1999
+  },
+  {
+    "pmcid": "PMC13649618",
+    "pmc_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC13649618/",
+    "file": "table1_papers/PMC13649618.txt",
+    "table1_char_count": 5067
+  }
+]
