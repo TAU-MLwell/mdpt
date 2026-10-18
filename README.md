@@ -226,15 +226,18 @@ Example test suites and result files for four cohorts are provided in `example_r
 If you find this work useful, please consider citing:
 
 ```bibtex
-@article{girshovitz2025mdpt,
-  title={A Generative Approach for Semantic Auditing of Electronic Health Records},
-  author={Irena Girshovitz and Atai Ambus and Moni Shahar and Ran Gilad-Bachrach},
-  year={2025},
-  eprint={2507.02628},
-  archivePrefix={arXiv},
-  primaryClass={cs.LG},
-  url={https://arxiv.org/abs/2507.02628},
-}
+@article{Girshovitz_2026,
+   title={A generative approach for semantic auditing of electronic health records},
+   volume={9},
+   ISSN={2398-6352},
+   url={http://dx.doi.org/10.1038/s41746-026-02809-w},
+   DOI={10.1038/s41746-026-02809-w},
+   number={1},
+   journal={npj Digital Medicine},
+   publisher={Springer Science and Business Media LLC},
+   author={Girshovitz, Irena and Ambus, Atai and Shahar, Moni and Gilad-Bachrach, Ran},
+   year={2026},
+   month=May }
 ```
 
 ---
