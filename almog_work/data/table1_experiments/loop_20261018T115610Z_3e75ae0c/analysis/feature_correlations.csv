@@ -1,0 +1,13 @@
+feature,spearman_with_mean_f1
+raw_text_chars,-0.66
+pct_row_group_set,-0.66
+pct_columns_nested,-0.65
+gold_columns,-0.53
+pct_columns_with_n,-0.5
+gold_rows,-0.43
+gold_cells,-0.35
+pct_values_plusminus,-0.32
+pct_values_with_paren,0.26
+avg_value_chars,-0.14
+pct_values_numeric_only,0.09
+pct_values_with_bracket,

@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 220,
+      "fp_exact": 277,
+      "fn_exact": 294,
+      "precision": 0.442656,
+      "recall": 0.428016,
+      "f1": 0.435213
+    },
+    "keys_only": {
+      "tp": 254,
+      "fp": 243,
+      "fn": 260,
+      "precision": 0.511066,
+      "recall": 0.494163,
+      "f1": 0.502473,
+      "value_accuracy_on_matched_keys": 0.866142
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 136,
+      "missing_prediction_file": false,
+      "cell_precision": 0.580882,
+      "cell_recall": 0.526667,
+      "cell_f1": 0.552448,
+      "key_precision": 0.757353,
+      "key_recall": 0.686667,
+      "value_accuracy_on_matched_keys": 0.76699
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 29,
+      "missing_prediction_file": false,
+      "cell_precision": 0.275862,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.271186,
+      "key_precision": 0.275862,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Age (years)",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Birthweighta, mean±SD, g",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Echocardiography",
+      "row_label": "E' lateral (cm/s)",
+      "column_label": "NOCTET: Cyclosporine (n = 38)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Creatinine (µmol/L)",
+      "column_label": "NOCTET: Combination (n = 37)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Health history, n (%)",
+      "row_label": "Hypertension",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "0 (0%)"
+    }
+  ],
+  "feedback_remaining": 15,
+  "evaluations_remaining": 18
+}

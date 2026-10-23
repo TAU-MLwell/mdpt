@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 329,
+      "fp_exact": 171,
+      "fn_exact": 185,
+      "precision": 0.658,
+      "recall": 0.640078,
+      "f1": 0.648915
+    },
+    "keys_only": {
+      "tp": 361,
+      "fp": 139,
+      "fn": 153,
+      "precision": 0.722,
+      "recall": 0.702335,
+      "f1": 0.712032,
+      "value_accuracy_on_matched_keys": 0.911357
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 138,
+      "missing_prediction_file": false,
+      "cell_precision": 0.521739,
+      "cell_recall": 0.48,
+      "cell_f1": 0.5,
+      "key_precision": 0.666667,
+      "key_recall": 0.613333,
+      "value_accuracy_on_matched_keys": 0.782609
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.892308,
+      "cell_recall": 0.892308,
+      "cell_f1": 0.892308,
+      "key_precision": 0.907692,
+      "key_recall": 0.907692,
+      "value_accuracy_on_matched_keys": 0.983051
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "SMD",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "wrong_value",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "Total (n = 370,298)",
+      "predicted_value": "81,708"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Male / Female, n",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "wrong_value",
+      "row_group": "",
+      "row_label": "DBP (mmHg)",
+      "column_label": "Effect size (95% CI)",
+      "predicted_value": "g = 0.14 (- 0.39 to 0.67)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Sex (female), n (%)",
+      "row_label": "",
+      "column_label": "SMD",
+      "predicted_value": "0.108"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "1",
+      "column_label": "Total (n = 370,298)",
+      "predicted_value": null
+    }
+  ],
+  "feedback_remaining": 54,
+  "evaluations_remaining": 18
+}

@@ -1,0 +1,900 @@
+{
+  "paper_id": "test_paper",
+  "table_number": 1,
+  "found": true,
+  "table_title": "Table 1. Comparison of demographic and general parameters between the groups",
+  "columns": [
+    "Variable",
+    "Total (n = 370,298)",
+    "Nonallergic infants (n = 363,387)",
+    "Allergic infants (n = 6,911)",
+    "p value",
+    "SMD",
+    "Relative risk"
+  ],
+  "cells": [
+    {
+      "row_group": "Sex (female), n (%)",
+      "row_label": null,
+      "column_label": "Total (n = 370,298)",
+      "value": "180,469"
+    },
+    {
+      "row_group": "Sex (female), n (%)",
+      "row_label": null,
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "177,466 (48.8)"
+    },
+    {
+      "row_group": "Sex (female), n (%)",
+      "row_label": null,
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "3,003 (43.5)"
+    },
+    {
+      "row_group": "Sex (female), n (%)",
+      "row_label": null,
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Sex (female), n (%)",
+      "row_label": null,
+      "column_label": "SMD",
+      "value": "0.108"
+    },
+    {
+      "row_group": "Sex (female), n (%)",
+      "row_label": null,
+      "column_label": "Relative risk",
+      "value": "0.81"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Jewish",
+      "column_label": "Total (n = 370,298)",
+      "value": "299,839"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Jewish",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "293,450 (80.76)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Jewish",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "6,389 (92.44)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Jewish",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Jewish",
+      "column_label": "SMD",
+      "value": "3.83"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Arab",
+      "column_label": "Total (n = 370,298)",
+      "value": "60,701 (16.4)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Arab",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "60,363 (16.61)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Arab",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "338 (4.9)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Arab",
+      "column_label": "p value",
+      "value": "0.391"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Total (n = 370,298)",
+      "value": "9,758 (2.63)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "9,574 (2.63)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "184 (2.66)"
+    },
+    {
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Unknown",
+      "column_label": "p value",
+      "value": "1"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "1",
+      "column_label": "Total (n = 370,298)",
+      "value": "50,151 (13.5)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "1",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "50,019 (13.76)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "1",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "132 (1.9)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "1",
+      "column_label": "p value",
+      "value": "2"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "Total (n = 370,298)",
+      "value": "81,708"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "80,584 (22.17)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,124 (16.2)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "p value",
+      "value": "0.73"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "SMD",
+      "value": "0.57"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "3",
+      "column_label": "Total (n = 370,298)",
+      "value": "84,479 (23.24)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "3",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "84,051 (23.12)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "3",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "2,169 (31.38)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "3",
+      "column_label": "p value",
+      "value": "1.35"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "3",
+      "column_label": "SMD",
+      "value": "0.14"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "4",
+      "column_label": "Total (n = 370,298)",
+      "value": "86,648 (23.39)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "4",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "86,515 (23.36)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "4",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "2,464 (35.65)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "4",
+      "column_label": "p value",
+      "value": "1.54"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "5",
+      "column_label": "Total (n = 370,298)",
+      "value": "26,157 (7.06)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "5",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "25,474 (7.01)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "5",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "683 (9.88)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "5",
+      "column_label": "p value",
+      "value": "1.41"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Total (n = 370,298)",
+      "value": "39,119"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "38,780(10.67)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "399 (4.9)"
+    },
+    {
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "Unknown",
+      "column_label": "p value",
+      "value": "0.46"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "0",
+      "column_label": "Total (n = 370,298)",
+      "value": "157,619 (43.4)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "0",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "153,995 (42.4)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "0",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "3,624 (52.4)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "0",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "0",
+      "column_label": "SMD",
+      "value": "0.218"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "0",
+      "column_label": "Relative risk",
+      "value": "1.21"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "1",
+      "column_label": "Total (n = 370,298)",
+      "value": "109,502 (29.6)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "1",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "107,515 (29.6)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "1",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,987 (28.8)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "1",
+      "column_label": "p value",
+      "value": "0.97"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "1",
+      "column_label": "SMD",
+      "value": "0.108"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "2≤",
+      "column_label": "Total (n = 370,298)",
+      "value": "99,553 (26.83)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "2≤",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "98,253 (27.03)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "2≤",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,300 (18.78)"
+    },
+    {
+      "row_group": "Number of older siblingsa, n (%)",
+      "row_label": "2≤",
+      "column_label": "p value",
+      "value": "0.32"
+    },
+    {
+      "row_group": "Birthweighta, mean±SD, g",
+      "row_label": null,
+      "column_label": "Total (n = 370,298)",
+      "value": "3,172.7±534.0"
+    },
+    {
+      "row_group": "Birthweighta, mean±SD, g",
+      "row_label": null,
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "3,171.6±534.1"
+    },
+    {
+      "row_group": "Birthweighta, mean±SD, g",
+      "row_label": null,
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "3,234.1±522.3"
+    },
+    {
+      "row_group": "Birthweighta, mean±SD, g",
+      "row_label": null,
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Birthweighta, mean±SD, g",
+      "row_label": null,
+      "column_label": "SMD",
+      "value": "0.118"
+    },
+    {
+      "row_group": "Gestational age, mean±SD, weeks",
+      "row_label": null,
+      "column_label": "Total (n = 370,298)",
+      "value": "38.73±1.9"
+    },
+    {
+      "row_group": "Gestational age, mean±SD, weeks",
+      "row_label": null,
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "38.73±1.9"
+    },
+    {
+      "row_group": "Gestational age, mean±SD, weeks",
+      "row_label": null,
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "38.88±1.84"
+    },
+    {
+      "row_group": "Gestational age, mean±SD, weeks",
+      "row_label": null,
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Gestational age, mean±SD, weeks",
+      "row_label": null,
+      "column_label": "SMD",
+      "value": "0.08"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "24–29",
+      "column_label": "Total (n = 370,298)",
+      "value": "1,253 (0.4)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "24–29",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "1,225 (0.4)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "24–29",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "28 (0.5)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "24–29",
+      "column_label": "Relative risk",
+      "value": "1.25"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "30–32",
+      "column_label": "Total (n = 370,298)",
+      "value": "2,173 (0.9)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "30–32",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "2,139 (0.9)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "30–32",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "34 (0.7)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "30–32",
+      "column_label": "Relative risk",
+      "value": "0.78"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "33–37",
+      "column_label": "Total (n = 370,298)",
+      "value": "37,675 (15.9)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "33–37",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "37,047 (15.9)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "33–37",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "629 (12.8)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "33–37",
+      "column_label": "Relative risk",
+      "value": "0.81"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "38–42",
+      "column_label": "Total (n = 370,298)",
+      "value": "195,129"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "38–42",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "190,907 (82.5)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "38–42",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "4,223 (85)"
+    },
+    {
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "38–42",
+      "column_label": "Relative risk",
+      "value": "1.03"
+    },
+    {
+      "row_group": "Mothers’ age, mean±SD, years",
+      "row_label": null,
+      "column_label": "Total (n = 370,298)",
+      "value": "30.12±5.51"
+    },
+    {
+      "row_group": "Mothers’ age, mean±SD, years",
+      "row_label": null,
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "30.1±5.52"
+    },
+    {
+      "row_group": "Mothers’ age, mean±SD, years",
+      "row_label": null,
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "30.92±4.86"
+    },
+    {
+      "row_group": "Mothers’ age, mean±SD, years",
+      "row_label": null,
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Mothers’ age, mean±SD, years",
+      "row_label": null,
+      "column_label": "SMD",
+      "value": "0.156"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Vaginal",
+      "column_label": "Total (n = 370,298)",
+      "value": "295,538"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Vaginal",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "290,035 (79.8)"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Vaginal",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "5,503 (79.6)"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Vaginal",
+      "column_label": "p value",
+      "value": "0.711"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Vaginal",
+      "column_label": "SMD",
+      "value": "0.005"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Vaginal",
+      "column_label": "Relative risk",
+      "value": "1.01"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Cesarean",
+      "column_label": "Total (n = 370,298)",
+      "value": "74,706 (20.2)"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Cesarean",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "73,299 (20.2)"
+    },
+    {
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Cesarean",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,407 (20.4)"
+    },
+    {
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": null,
+      "column_label": "Total (n = 370,298)",
+      "value": "124,754"
+    },
+    {
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": null,
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "121,817 (33.5)"
+    },
+    {
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": null,
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "2,937 (42.5)"
+    },
+    {
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": null,
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": null,
+      "column_label": "SMD",
+      "value": "0.186"
+    },
+    {
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": null,
+      "column_label": "Relative risk",
+      "value": "2.06"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Total (n = 370,298)",
+      "value": "5,951 (1.6)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "5,726 (1.6)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "225 (3.3)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Total (n = 370,298)",
+      "value": "87,536 (23.6)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "85,536 (23.5)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "2,000 (28.9)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "p value",
+      "value": "0.123"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Relative risk",
+      "value": "1.32"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitisa",
+      "column_label": "Total (n = 370,298)",
+      "value": "36,827 (9.9)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitisa",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "35,919 (9.9)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitisa",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "908 (13.1)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitisa",
+      "column_label": "p value",
+      "value": "0.102"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitisa",
+      "column_label": "Relative risk",
+      "value": "1.37"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Total (n = 370,298)",
+      "value": "67,621 (18.3)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "65,806 (18.1)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,815 (26.3)"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "p value",
+      "value": "0.197"
+    },
+    {
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Relative risk",
+      "value": "1.59"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Total (n = 370,298)",
+      "value": "1,779 (0.5)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "1,717 (0.5)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "62 (0.9)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "SMD",
+      "value": "0.052"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Food allergy",
+      "column_label": "Relative risk",
+      "value": "1.87"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Total (n = 370,298)",
+      "value": "58,064 (15.7)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "56,891 (15.7)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,173 (17.0)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "p value",
+      "value": "0.003"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "SMD",
+      "value": "0.036"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Relative risk",
+      "value": "1.1"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "Total (n = 370,298)",
+      "value": "17,430 (4.7)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "17,029 (4.7)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "401 (5.8)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "SMD",
+      "value": "0.05"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "Relative risk",
+      "value": "1.25"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Total (n = 370,298)",
+      "value": "44,824 (12.1)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "value": "43,752 (12.0)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Allergic infants (n = 6,911)",
+      "value": "1,072 (15.5)"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "p value",
+      "value": "0.101"
+    },
+    {
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Allergic rhinitisa",
+      "column_label": "Relative risk",
+      "value": "1.288"
+    }
+  ],
+  "raw_table_text": "Table 1. Comparison of demographic and general parameters between the groups\nVariable\n\nSex (female), n (%)\n\nTotal (n =\n\nNonallergic infants\n\nAllergic infants\n\np\n\n370,298)\n\n(n = 363,387)\n\n(n = 6,911)\n\nvalue\n\n180,469\n\n177,466 (48.8)\n\n3,003 (43.5)\n\n<0.001\n\n293,450 (80.76)\n\n6,389 (92.44)\n\n<0.001\n\nSMD\n\nRelative\nrisk\n\n0.108\n\n0.81\n\n(48.7)\nEthnicitya, n (%)\nJewish\n\n299,839\n\n3.83\n\n(80.97)\nArab\n\n60,701 (16.4)\n\n60,363 (16.61)\n\n338 (4.9)\n\n0.391\n\nUnknown\n\n9,758 (2.63)\n\n9,574 (2.63)\n\n184 (2.66)\n\n1\n\n50,151 (13.5)\n\n50,019 (13.76)\n\n132 (1.9)\n\n2\n\n81,708\n\n80,584 (22.17)\n\n1,124 (16.2)\n\n0.73\n\n84,479 (23.24)\n\n2,169 (31.38)\n\n1.35\n\n84,051 (23.12)\n\n2,464 (35.65)\n\n1.54\n\nSocioeconomic scorea, n (%)\n<0.001\n\n0.57\n\n0.14\n\n(22.06)\n3\n\n86,648\n(23.39)\n\n4\n\n86,515\n(23.36)\n\n5\n\n26,157 (7.06)\n\n25,474 (7.01)\n\n683 (9.88)\n\n1.41\n\nUnknown\n\n39,119\n\n38,780(10.67)\n\n399 (4.9)\n\n0.46\n\n157,619 (43.4)\n\n3,624 (52.4)\n\n107,515 (29.6)\n\n1,987 (28.8)\n\n0.97\n\n98,253 (27.03)\n\n1,300 (18.78)\n\n0.32\n\n3,172.7±534.0\n\n3,171.6±534.1\n\n3,234.1±522.3\n\n<0.001\n\n0.118\n\n38.73±1.9\n\n38.73±1.9\n\n38.88±1.84\n\n<0.001\n\n0.08\n\n<0.001\n\n0.129\n\n(10.56)\nNumber of older siblingsa, n (%)\n0\n\n161,243\n\n<0.001\n\n0.218\n\n1.21\n\n(43.5)\n1\n\n109,502\n(29.6)\n\n2≤\n\n99,553\n(26.83)\n\nBirthweighta, mean±SD,\ng\nGestational age,\nmean±SD, weeks\n\nGestational agea, weeks, n (%)\n24–29\n\n1,253 (0.4)\n\n1,225 (0.4)\n\n28 (0.5)\n\n1.25\n\n30–32\n\n2,173 (0.9)\n\n2,139 (0.9)\n\n34 (0.7)\n\n0.78\n\n33–37\n\n37,675 (15.9)\n\n37,047 (15.9)\n\n629 (12.8)\n\n0.81\n\n38–42\n\n195,129\n\n190,907 (82.5)\n\n4,223 (85)\n\n1.03\n\n30.12±5.51\n\n30.1±5.52\n\n30.92±4.86\n\n<0.001\n\n0.156\n\n295,538\n\n290,035 (79.8)\n\n5,503 (79.6)\n\n0.711\n\n0.005\n\n1.01\n\n(82.5)\nMothers’ age, mean±SD,\nyears\nMode of deliverya, n (%)\nVaginal\n\n(79.8)\nCesarean\n\n74,706 (20.2)\n\n73,299 (20.2)\n\n1,407 (20.4)\n\nEpidural anesthesia\nduring labora, n (%)\n\n124,754\n\n121,817 (33.5)\n\n2,937 (42.5)\n\n<0.001\n\n0.186\n\n1.02\n\n<0.001\n\n0.11\n\n2.06\n\n(33.7)\n\nMaternal atopic comorbidities, n (%)\nFood allergy\n\n5,951 (1.6)\n\n5,726 (1.6)\n\n225 (3.3)\n\nAsthmaa\n\n87,536 (23.6)\n\n85,536 (23.5)\n\n2,000 (28.9)\n\n0.123\n\n1.32\n\nAtopic dermatitisa\n\n36,827 (9.9)\n\n35,919 (9.9)\n\n908 (13.1)\n\n0.102\n\n1.37\n\nAllergic rhinitisa\n\n67,621 (18.3)\n\n65,806 (18.1)\n\n1,815 (26.3)\n\n0.197\n\n1.59\n\nPaternal atopic comorbidities, n (%)\nFood allergy\n\n1,779 (0.5)\n\n1,717 (0.5)\n\n62 (0.9)\n\n<0.001\n\n0.052\n\n1.87\n\nAsthmaa\n\n58,064 (15.7)\n\n56,891 (15.7)\n\n1,173 (17.0)\n\n0.003\n\n0.036\n\n1.1\n\nAtopic dermatitis\n\n17,430 (4.7)\n\n17,029 (4.7)\n\n401 (5.8)\n\n<0.001\n\n0.05\n\n1.25\n\nAllergic rhinitisa\n\n44,824 (12.1)\n\n43,752 (12.0)\n\n1,072 (15.5)\n\n0.101\n\n1.288\n\nSD, standard deviation; SMD, standardized mean difference.\na\n\nVariables correlated with the development of FA. SMD ≥0.2 refers to low significance differences, ≥0.5 medium, and\n\n≥0.8 is considered large significant difference.\n\n"
+}

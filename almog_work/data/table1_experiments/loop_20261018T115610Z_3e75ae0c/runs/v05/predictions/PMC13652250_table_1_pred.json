@@ -1,0 +1,267 @@
+{
+  "paper_id": "PMC13652250",
+  "table_number": 1,
+  "found": true,
+  "table_title": "Baseline characteristics of study participants by area of residence (n = 300).",
+  "columns": [
+    "Characteristic",
+    "High-Traffic Area (n = 150)",
+    "Residential Area (n = 150)",
+    "p-value"
+  ],
+  "cells": [
+    {
+      "row_group": null,
+      "row_label": "Age, years — mean ± SD",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "34.6 ± 9.2"
+    },
+    {
+      "row_group": null,
+      "row_label": "Age, years — mean ± SD",
+      "column_label": "Residential Area (n = 150)",
+      "value": "33.9 ± 8.7"
+    },
+    {
+      "row_group": null,
+      "row_label": "Age, years — mean ± SD",
+      "column_label": "p-value",
+      "value": "0.48"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Male",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "72 (48.0%)"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Male",
+      "column_label": "Residential Area (n = 150)",
+      "value": "73 (48.7%)"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Male",
+      "column_label": "p-value",
+      "value": "0.90"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Female",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "78 (52.0%)"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Female",
+      "column_label": "Residential Area (n = 150)",
+      "value": "77 (51.3%)"
+    },
+    {
+      "row_group": "Education Level",
+      "row_label": "Primary/secondary",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "61 (40.7%)"
+    },
+    {
+      "row_group": "Education Level",
+      "row_label": "Primary/secondary",
+      "column_label": "Residential Area (n = 150)",
+      "value": "58 (38.7%)"
+    },
+    {
+      "row_group": "Education Level",
+      "row_label": "Primary/secondary",
+      "column_label": "p-value",
+      "value": "0.71"
+    },
+    {
+      "row_group": "Education Level",
+      "row_label": "Tertiary",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "89 (59.3%)"
+    },
+    {
+      "row_group": "Education Level",
+      "row_label": "Tertiary",
+      "column_label": "Residential Area (n = 150)",
+      "value": "92 (61.3%)"
+    },
+    {
+      "row_group": "Employment status",
+      "row_label": "Employed",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "118 (78.7%)"
+    },
+    {
+      "row_group": "Employment status",
+      "row_label": "Employed",
+      "column_label": "Residential Area (n = 150)",
+      "value": "114 (76.0%)"
+    },
+    {
+      "row_group": "Employment status",
+      "row_label": "Employed",
+      "column_label": "p-value",
+      "value": "0.57"
+    },
+    {
+      "row_group": "Employment status",
+      "row_label": "Unemployed/student",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "32 (21.3%)"
+    },
+    {
+      "row_group": "Employment status",
+      "row_label": "Unemployed/student",
+      "column_label": "Residential Area (n = 150)",
+      "value": "36 (24.0%)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Years of residence-mean ± SD",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "7.4 ± 4.1"
+    },
+    {
+      "row_group": null,
+      "row_label": "Years of residence-mean ± SD",
+      "column_label": "Residential Area (n = 150)",
+      "value": "6.9 ± 3.8"
+    },
+    {
+      "row_group": null,
+      "row_label": "Years of residence-mean ± SD",
+      "column_label": "p-value",
+      "value": "0.27"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "Mean LAeq,24h (dBA) ± SD",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "74.6 ± 6.8"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "Mean LAeq,24h (dBA) ± SD",
+      "column_label": "Residential Area (n = 150)",
+      "value": "52.3 ± 5.1"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "Mean LAeq,24h (dBA) ± SD",
+      "column_label": "p-value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "Mean difference (95% CI)",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "22.3 (20.9–23.7)"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "Mean difference (95% CI)",
+      "column_label": "Residential Area (n = 150)",
+      "value": "–"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "Mean difference (95% CI)",
+      "column_label": "p-value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "High exposure >65 dBA, n (%)",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "117 (78.0%)"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "High exposure >65 dBA, n (%)",
+      "column_label": "Residential Area (n = 150)",
+      "value": "33 (22.0%)"
+    },
+    {
+      "row_group": "Noise exposure",
+      "row_label": "High exposure >65 dBA, n (%)",
+      "column_label": "p-value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "PSS-10 Mean ± SD",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "22.4 ± 5.3"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "PSS-10 Mean ± SD",
+      "column_label": "Residential Area (n = 150)",
+      "value": "14.8 ± 4.7"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "PSS-10 Mean ± SD",
+      "column_label": "p-value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "High stress (PSS-10 ≥ 20), n (%)",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "98 (65.3%)"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "High stress (PSS-10 ≥ 20), n (%)",
+      "column_label": "Residential Area (n = 150)",
+      "value": "41 (27.3%)"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "High stress (PSS-10 ≥ 20), n (%)",
+      "column_label": "p-value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "PSQI mean ± SD",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "8.1 ± 3.2"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "PSQI mean ± SD",
+      "column_label": "Residential Area (n = 150)",
+      "value": "4.6 ± 2.8"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "PSQI mean ± SD",
+      "column_label": "p-value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "Poor sleep (PSQI >5), n (%)",
+      "column_label": "High-Traffic Area (n = 150)",
+      "value": "104 (69.3%)"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "Poor sleep (PSQI >5), n (%)",
+      "column_label": "Residential Area (n = 150)",
+      "value": "52 (34.7%)"
+    },
+    {
+      "row_group": "Psychosocial measures",
+      "row_label": "Poor sleep (PSQI >5), n (%)",
+      "column_label": "p-value",
+      "value": "<0.001"
+    }
+  ],
+  "raw_table_text": "Table 1. Baseline characteristics of study participants by area of residence (n = 300).\nCharacteristic\nHigh-Traffic Area (n = 150)\nResidential Area (n = 150)\np-value\nAge, years — mean ± SD\n34.6 ± 9.2\n33.9 ± 8.7\n0.48\nSex\nMale\n72 (48.0%)\n73 (48.7%)\n0.90\nFemale\n78 (52.0%)\n77 (51.3%)\nEducation Level\nPrimary/secondary\n61 (40.7%)\n58 (38.7%)\n0.71\nTertiary\n89 (59.3%)\n92 (61.3%)\nEmployment status\nEmployed\n118 (78.7%)\n114 (76.0%)\n0.57\nUnemployed/student\n32 (21.3%)\n36 (24.0%)\nYears of residence-mean ± SD\n7.4 ± 4.1\n6.9 ± 3.8\n0.27\nNoise exposure\nMean LAeq,24h (dBA) ± SD\n74.6 ± 6.8\n52.3 ± 5.1\n<0.001\nMean difference (95% CI)\n22.3 (20.9–23.7)\n–\n<0.001\nHigh exposure >65 dBA, n (%)\n117 (78.0%)\n33 (22.0%)\n<0.001\nPsychosocial measures\nPSS-10 Mean ± SD\n22.4 ± 5.3\n14.8 ± 4.7\n<0.001\nHigh stress (PSS-10 ≥ 20), n (%)\n98 (65.3%)\n41 (27.3%)\n<0.001\nPSQI mean ± SD\n8.1 ± 3.2\n4.6 ± 2.8\n<0.001\nPoor sleep (PSQI >5), n (%)\n104 (69.3%)\n52 (34.7%)\n<0.001\n"
+}

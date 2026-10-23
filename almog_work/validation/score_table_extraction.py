@@ -4,6 +4,9 @@
 This script is deterministic and does not call any model.
 It is designed to be used as an evaluation tool in an optimization loop, while
 only returning aggregate metrics and a limited sample of error examples.
+
+This CLI is operator-side, not a sandbox or an agent-facing filesystem tool.
+Use scoring_service.py as the restricted interface for an isolated agent runner.
 """
 
 from __future__ import annotations
@@ -12,6 +15,7 @@ import argparse
 import json
 import random
 import re
+from collections import Counter, defaultdict
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Sequence, Tuple
@@ -121,9 +125,23 @@ def f1(p: float, r: float) -> float:
 
 def load_cells(path: Path) -> List[dict]:
     data = json.loads(path.read_text(encoding="utf-8"))
-    cells = data.get("cells", [])
+    if not isinstance(data, dict) or "cells" not in data:
+        raise ValueError("Table JSON must be an object with a cells list")
+    cells = data["cells"]
     if not isinstance(cells, list):
-        raise ValueError(f"Invalid cells format in {path}")
+        raise ValueError("Table cells must be a list")
+    for index, cell in enumerate(cells):
+        if not isinstance(cell, dict):
+            raise ValueError(f"Cell {index} must be an object")
+        for field in ("row_label", "row_group", "column_label", "value"):
+            if field not in cell:
+                raise ValueError(f"Cell {index} is missing field {field}")
+            if not isinstance(cell[field], str) and not (
+                field in ("row_group", "row_label") and cell[field] is None
+            ):
+                raise ValueError(f"Cell {index} has invalid type for {field}")
+        if not normalize_text(cell["column_label"]):
+            raise ValueError(f"Cell {index} requires a nonempty column label")
     return cells
 
 
@@ -138,6 +156,10 @@ def expected_pred_for_gold(gold_path: Path, pred_dir: Path) -> Path:
 def compare_paper(gold_path: Path, pred_path: Optional[Path]) -> Tuple[PaperScore, List[ErrorExample]]:
     paper = gold_path.name.replace("_table_1_gold.json", "")
     gold_cells = load_cells(gold_path)
+    gold_key_map: Dict[CellKey, str] = {cell_key(c): safe_get(c, "value") for c in gold_cells}
+    if len(gold_key_map) != len(gold_cells):
+        # Do not include reference cell content in validation errors.
+        raise ValueError("Gold table contains duplicate normalized cell keys")
 
     if pred_path is None or not pred_path.exists():
         gold_count = len(gold_cells)
@@ -169,34 +191,35 @@ def compare_paper(gold_path: Path, pred_path: Optional[Path]) -> Tuple[PaperScor
 
     pred_cells = load_cells(pred_path)
 
-    gold_tuple_set = {cell_tuple(c) for c in gold_cells}
-    pred_tuple_set = {cell_tuple(c) for c in pred_cells}
+    # Multiset matching: each gold cell can match at most one prediction.
+    gold_tuples = Counter(cell_tuple(c) for c in gold_cells)
+    pred_tuples = Counter(cell_tuple(c) for c in pred_cells)
+    tp_exact = sum((gold_tuples & pred_tuples).values())
+    fp_exact = len(pred_cells) - tp_exact
+    fn_exact = len(gold_cells) - tp_exact
 
-    tp_exact_set = gold_tuple_set & pred_tuple_set
-    fp_exact_set = pred_tuple_set - gold_tuple_set
-    fn_exact_set = gold_tuple_set - pred_tuple_set
-
-    gold_key_map: Dict[CellKey, str] = {cell_key(c): safe_get(c, "value") for c in gold_cells}
-    pred_key_map: Dict[CellKey, str] = {cell_key(c): safe_get(c, "value") for c in pred_cells}
+    pred_values = defaultdict(list)
+    for c in pred_cells:
+        pred_values[cell_key(c)].append(safe_get(c, "value"))
 
     gold_key_set = set(gold_key_map.keys())
-    pred_key_set = set(pred_key_map.keys())
+    pred_key_set = set(pred_values)
 
     key_tp_set = gold_key_set & pred_key_set
     key_fp_set = pred_key_set - gold_key_set
     key_fn_set = gold_key_set - pred_key_set
 
-    value_match_on_key_tp = sum(1 for k in key_tp_set if gold_key_map[k] == pred_key_map[k])
+    value_match_on_key_tp = sum(1 for k in key_tp_set if gold_key_map[k] in pred_values[k])
 
     paper_score = PaperScore(
         paper=paper,
         gold_cells=len(gold_cells),
         pred_cells=len(pred_cells),
-        tp_exact=len(tp_exact_set),
-        fp_exact=len(fp_exact_set),
-        fn_exact=len(fn_exact_set),
+        tp_exact=tp_exact,
+        fp_exact=fp_exact,
+        fn_exact=fn_exact,
         key_tp=len(key_tp_set),
-        key_fp=len(key_fp_set),
+        key_fp=len(pred_cells) - len(key_tp_set),
         key_fn=len(key_fn_set),
         value_match_on_key_tp=value_match_on_key_tp,
         missing_prediction_file=False,
@@ -207,8 +230,9 @@ def compare_paper(gold_path: Path, pred_path: Optional[Path]) -> Tuple[PaperScor
     # Wrong value examples: key exists in both but value differs.
     for k in sorted(key_tp_set, key=lambda x: (x.row_group, x.row_label, x.column_label)):
         gv = gold_key_map[k]
-        pv = pred_key_map[k]
-        if gv != pv:
+        for pv in sorted(set(pred_values[k])):
+            if gv == pv:
+                continue
             examples.append(
                 ErrorExample(
                     paper=paper,
@@ -245,14 +269,25 @@ def compare_paper(gold_path: Path, pred_path: Optional[Path]) -> Tuple[PaperScor
                 row_label=k.row_label,
                 column_label=k.column_label,
                 gold_value=None,
-                pred_value=pred_key_map[k],
+                pred_value=sorted(pred_values[k])[0],
             )
         )
+
+    for k in sorted(pred_key_set, key=lambda x: (x.row_group, x.row_label, x.column_label)):
+        if len(pred_values[k]) > 1:
+            examples.append(ErrorExample(
+                paper=paper, error_type="duplicate_cell",
+                row_group=k.row_group, row_label=k.row_label,
+                column_label=k.column_label, gold_value=None,
+                pred_value=sorted(pred_values[k])[0],
+            ))
 
     return paper_score, examples
 
 
 def sample_errors(errors: Sequence[ErrorExample], max_examples: int, seed: int) -> List[ErrorExample]:
+    if max_examples < 0:
+        raise ValueError("max_examples must be nonnegative")
     if len(errors) <= max_examples:
         return list(errors)
     rnd = random.Random(seed)
@@ -335,14 +370,15 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--pred-dir",
         type=Path,
-        default=Path("almog_work/data/gold_tables"),
-        help="Directory containing *_table_1_pred.json files",
+        required=True,
+        help="Separate directory containing *_table_1_pred.json files",
     )
     parser.add_argument(
         "--max-error-examples",
         type=int,
-        default=40,
-        help="Maximum number of sampled error examples to include in output",
+        default=5,
+        choices=range(0, 11),
+        help="Number of sampled errors (0-10); reference values are never printed",
     )
     parser.add_argument(
         "--seed",
@@ -364,6 +400,15 @@ def main() -> int:
 
     gold_dir = args.gold_dir
     pred_dir = args.pred_dir
+
+    gold_root, pred_root = gold_dir.resolve(), pred_dir.resolve()
+    if (gold_root == pred_root or gold_root in pred_root.parents
+            or pred_root in gold_root.parents):
+        raise ValueError("Gold and prediction directories must be separate and non-overlapping")
+    if args.output:
+        output = args.output.resolve()
+        if output == gold_root or gold_root in output.parents:
+            raise ValueError("Reports must not be written into the gold directory")
 
     if not gold_dir.exists():
         raise FileNotFoundError(f"gold dir not found: {gold_dir}")
@@ -395,7 +440,6 @@ def main() -> int:
                 "row_group": e.row_group,
                 "row_label": e.row_label,
                 "column_label": e.column_label,
-                "gold_value": e.gold_value,
                 "pred_value": e.pred_value,
             }
             for e in sampled

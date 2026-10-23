@@ -1,0 +1,17 @@
+{
+  "loop_id": "loop_20261018T093513Z_59566af0",
+  "started_at": "2026-10-18T09:35:13.730102+00:00",
+  "status": "completed",
+  "max_iterations": 4,
+  "min_improvement": 0.005,
+  "patience": 2,
+  "baseline_version": "baseline",
+  "baseline_reused": false,
+  "completed_at": "2026-10-18T09:42:47.879540+00:00",
+  "stop_reason": "no_improvement",
+  "iterations_run": 2,
+  "best_version": "baseline",
+  "best_prompt_sha256": "5e7cce8cb1b8be59fb6d8431b990c01ea82750ae4be7f7e5823c1f4f9bf03d8a",
+  "baseline_cell_f1": 0.572727,
+  "best_cell_f1": 0.572727
+}

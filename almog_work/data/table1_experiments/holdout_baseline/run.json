@@ -1,0 +1,68 @@
+{
+  "run_id": "holdout_baseline",
+  "started_at": "2026-10-18T12:32:33.949407+00:00",
+  "status": "completed",
+  "prompt_version": "baseline",
+  "prompt_sha256": "5e7cce8cb1b8be59fb6d8431b990c01ea82750ae4be7f7e5823c1f4f9bf03d8a",
+  "model": {
+    "provider": "azure_openai",
+    "deployment": "almog-gpt-5.1",
+    "max_new_tokens": 16000
+  },
+  "table_number": 1,
+  "max_table_section_chars": 20000,
+  "scoring": {
+    "transport": "http",
+    "timeout_seconds": 120.0,
+    "scope": "full scorer-configured benchmark",
+    "request_attempted": true,
+    "automatic_retries": 0,
+    "budget_scope": "scorer process",
+    "feedback_remaining": 0,
+    "evaluations_remaining": 0
+  },
+  "papers": [
+    {
+      "key": "PMC13650419",
+      "source_file": "PMC13650419.txt",
+      "source_sha256": "465cfdb023a0c5e87bae3294ccf09ac5dd14aa5d0a657369be6a08b378ac1529",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13650419_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 54,
+      "duplicates_dropped": 0
+    },
+    {
+      "key": "PMC13652246",
+      "source_file": "PMC13652246.txt",
+      "source_sha256": "51e3d194e5f155acb5c4a890d09d8f594378eee22e76eb45132c70e0aed4e2b6",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13652246_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 92,
+      "duplicates_dropped": 0
+    },
+    {
+      "key": "PMC13649618",
+      "source_file": "PMC13649618.txt",
+      "source_sha256": "2ceab8ba632e971406cedc3985c9317516ee360e2971e69801377d443d765688",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13649618_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 114,
+      "duplicates_dropped": 90
+    },
+    {
+      "key": "PMC13649870",
+      "source_file": "PMC13649870.txt",
+      "source_sha256": "f61ca336c30df799f05f17d271253c725c5d877d59aa81a6cf85a5c9d844c990",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13649870_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 74,
+      "duplicates_dropped": 0
+    }
+  ],
+  "completed_at": "2026-10-18T12:33:47.078801+00:00",
+  "score_file": "scores.json"
+}

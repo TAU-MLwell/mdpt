@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 227,
+      "fp_exact": 287,
+      "fn_exact": 287,
+      "precision": 0.441634,
+      "recall": 0.441634,
+      "f1": 0.441634
+    },
+    "keys_only": {
+      "tp": 281,
+      "fp": 233,
+      "fn": 233,
+      "precision": 0.546693,
+      "recall": 0.546693,
+      "f1": 0.546693,
+      "value_accuracy_on_matched_keys": 0.807829
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 147,
+      "missing_prediction_file": false,
+      "cell_precision": 0.557823,
+      "cell_recall": 0.546667,
+      "cell_f1": 0.552189,
+      "key_precision": 0.687075,
+      "key_recall": 0.673333,
+      "value_accuracy_on_matched_keys": 0.811881
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.030769,
+      "cell_recall": 0.030769,
+      "cell_f1": 0.030769,
+      "key_precision": 0.223077,
+      "key_recall": 0.223077,
+      "value_accuracy_on_matched_keys": 0.137931
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 35,
+      "missing_prediction_file": false,
+      "cell_precision": 0.228571,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.246154,
+      "key_precision": 0.228571,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "PMC13651293",
+      "error_type": "wrong_value",
+      "row_group": "",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": "Effect size (95% CI)",
+      "predicted_value": "g = 0.40 (- 0.14 to 0.93)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Epidural anesthesia during labora, n (%)",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Creatinine (µmol/L)",
+      "column_label": "NOCTET: Cyclosporine (n = 38)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "wrong_value",
+      "row_group": "Demographics",
+      "row_label": "Diastolic blood pressure (mmHg)",
+      "column_label": "NOCTET: Combination (n = 37)",
+      "predicted_value": "90 ± 9"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "β-blocker",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "0"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "GPT (U/L)",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    }
+  ],
+  "feedback_remaining": 24,
+  "evaluations_remaining": 13
+}

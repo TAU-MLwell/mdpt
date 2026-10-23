@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 352,
+      "fp_exact": 143,
+      "fn_exact": 162,
+      "precision": 0.711111,
+      "recall": 0.684825,
+      "f1": 0.697721
+    },
+    "keys_only": {
+      "tp": 389,
+      "fp": 106,
+      "fn": 125,
+      "precision": 0.785859,
+      "recall": 0.756809,
+      "f1": 0.77106,
+      "value_accuracy_on_matched_keys": 0.904884
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 131,
+      "missing_prediction_file": false,
+      "cell_precision": 0.725191,
+      "cell_recall": 0.633333,
+      "cell_f1": 0.676157,
+      "key_precision": 0.89313,
+      "key_recall": 0.78,
+      "value_accuracy_on_matched_keys": 0.811966
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 45,
+      "missing_prediction_file": false,
+      "cell_precision": 0.911111,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.921348,
+      "key_precision": 0.977778,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 0.931818
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.892308,
+      "cell_recall": 0.892308,
+      "cell_f1": 0.892308,
+      "key_precision": 0.907692,
+      "key_recall": 0.907692,
+      "value_accuracy_on_matched_keys": 0.983051
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 29,
+      "missing_prediction_file": false,
+      "cell_precision": 0.275862,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.271186,
+      "key_precision": 0.275862,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Epidural anesthesia during labora, n (%)",
+      "row_label": "",
+      "column_label": "Relative risk",
+      "predicted_value": "2.06"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "wrong_value",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "3",
+      "column_label": "Allergic infants (n = 6,911)",
+      "predicted_value": "1,124 (16.2)"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": ">=65 years(n = 40)",
+      "predicted_value": "23.6 ± 0.4"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "β-blocker",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "Anti-platelet drugs",
+      "column_label": ">=65 years (n = 40)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "wrong_value",
+      "row_group": "",
+      "row_label": "Male / Female, n",
+      "column_label": "Effect size (95% CI)",
+      "predicted_value": "V = 0.22; h = - 0.46"
+    }
+  ],
+  "feedback_remaining": 48,
+  "evaluations_remaining": 17
+}

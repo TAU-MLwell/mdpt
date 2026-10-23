@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 213,
+      "fp_exact": 276,
+      "fn_exact": 301,
+      "precision": 0.435583,
+      "recall": 0.414397,
+      "f1": 0.424726
+    },
+    "keys_only": {
+      "tp": 244,
+      "fp": 245,
+      "fn": 270,
+      "precision": 0.498978,
+      "recall": 0.474708,
+      "f1": 0.48654,
+      "value_accuracy_on_matched_keys": 0.872951
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 137,
+      "missing_prediction_file": false,
+      "cell_precision": 0.525547,
+      "cell_recall": 0.48,
+      "cell_f1": 0.501742,
+      "key_precision": 0.678832,
+      "key_recall": 0.62,
+      "value_accuracy_on_matched_keys": 0.774194
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 120,
+      "missing_prediction_file": false,
+      "cell_precision": 0.516667,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.496,
+      "key_precision": 0.6,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "",
+      "column_label": "Allergic infants (n = 6,911)",
+      "predicted_value": "3,624 (52.4)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Birthweighta, mean±SD, g",
+      "column_label": "p value",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Male sex (%)",
+      "column_label": "NOCTET: Cyclosporine (n = 38)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": "NOCTET: Combination (n = 37)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Health history, n (%)",
+      "row_label": "Alcohol drinker",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "0 (0%)"
+    }
+  ],
+  "feedback_remaining": 10,
+  "evaluations_remaining": 17
+}

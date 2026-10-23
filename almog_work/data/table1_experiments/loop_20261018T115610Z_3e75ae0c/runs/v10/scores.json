@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 204,
+      "fp_exact": 309,
+      "fn_exact": 310,
+      "precision": 0.397661,
+      "recall": 0.396887,
+      "f1": 0.397274
+    },
+    "keys_only": {
+      "tp": 235,
+      "fp": 278,
+      "fn": 279,
+      "precision": 0.45809,
+      "recall": 0.457198,
+      "f1": 0.457644,
+      "value_accuracy_on_matched_keys": 0.868085
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 151,
+      "missing_prediction_file": false,
+      "cell_precision": 0.417219,
+      "cell_recall": 0.42,
+      "cell_f1": 0.418605,
+      "key_precision": 0.556291,
+      "key_recall": 0.56,
+      "value_accuracy_on_matched_keys": 0.75
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Mode of deliverya, n (%)",
+      "row_label": "Mode of deliverya, n (%)",
+      "column_label": "Allergic infants (n = 6,911)",
+      "predicted_value": "5,503 (79.6)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Birthweighta, mean±SD, g",
+      "column_label": "p value",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652250",
+      "error_type": "missing_cell",
+      "row_group": "Employment status",
+      "row_label": "Unemployed/student",
+      "column_label": "p-value",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "eGFR (mL/min/1.73 m2)",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "109.8 ± 4.5"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "",
+      "row_label": "Male / Female, n",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "11 / 9"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "<0.001",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "predicted_value": "3,624 (52.4)"
+    }
+  ],
+  "feedback_remaining": 0,
+  "evaluations_remaining": 9
+}

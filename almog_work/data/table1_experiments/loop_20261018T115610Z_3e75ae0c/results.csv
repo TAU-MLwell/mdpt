@@ -1,0 +1,402 @@
+iteration,version,status,cell_f1,cell_precision,cell_recall,key_f1,value_accuracy,f1_test_paper,f1_PMC13651293,f1_PMC13652250,f1_PMC13652315,f1_PMC13651901,f1_PMC13652390,feedback_remaining,evaluations_remaining,is_best,run_dir,guidance
+0,baseline,completed,0.309717,0.322785,0.297665,0.382591,0.809524,0.083969,0.476923,0.883721,0.030769,1.0,0.266667,60,19,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v00,"Extract the whole table faithfully, including every row and every reported value, exactly as written."
+1,v01,completed,0.648915,0.658,0.640078,0.712032,0.911357,0.5,0.476923,0.953488,0.892308,1.0,0.266667,54,18,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v01,"Read only Table 1. Ignore all other tables, figures, footnotes, and text.
+
+1) Columns and headers
+- Identify the full header structure at the top of Table 1.
+- Include every explicit header that represents a data column (e.g., each group of participants or condition) in the `columns` list.
+- If there are stacked or nested headers (a top-level group above several subcolumns), do NOT treat the group row as a separate column. Instead, join the group and the leaf header into one unique label like ""<group>: <leaf>"" and use that as `column_label`.
+- The leftmost column that lists the row names may have a heading (e.g., ""Characteristic"" or similar). If it has a heading, include that heading in `columns`, but do not create any cells for it; its entries are captured in `row_label`.
+- Every `column_label` you use in cells must appear exactly once in `columns`.
+
+2) Row labels and row groups
+- Read the table from top to bottom and distinguish:
+  • Section or category headings (usually bold, centered, or spanning multiple columns).
+  • Actual data rows (usually aligned with column entries).
+- A section or category heading that groups several subsequent rows becomes `row_group`. Use the heading text verbatim.
+- For each data row within a section, use the text in the leftmost label column as `row_label`, and the section heading as `row_group`.
+- If a data row is not clearly under any section heading, set `row_group` to null.
+- If the table reports a summary statistic directly on a section heading (i.e., the heading itself has values in data columns on the same row), represent it with `row_group` equal to the section heading text and `row_label` = null.
+- Do not invert row_group and row_label. The category heading is row_group; the individual items under it are row_label.
+
+3) Cells and values
+- Create one cell object for every non-empty intersection of a data row and a data column.
+- Each cell must have exactly: `row_label`, `row_group`, `column_label`, and `value`.
+- Copy each value exactly as shown, including punctuation, signs, units, parentheses, ranges, thousands separators, and textual symbols (e.g., percentages, N/A, dashes used as values).
+- Do not create a cell for an empty source cell. Never invent values. Do not use null, empty strings, or whitespace-only strings as values.
+- A printed zero is a real value and must be captured.
+
+4) Avoiding missing and extra cells
+- Check systematically that every visible numeric or textual entry in the body of Table 1 is represented once as a cell with matching row_group, row_label, and column_label.
+- Do not create cells for heading rows that contain no data values.
+- Do not introduce additional totals or combined columns beyond what appears in the header. Only use columns that are explicitly defined by the table.
+- Do not move data between categories: ensure that values appearing in a given section heading and row name remain associated with that same `row_group` and `row_label`.
+- For each row, verify that you have cells for all columns that show a value on that row, and no cells for columns that are blank on that row.
+
+5) Uniqueness and consistency
+- Do not emit duplicate cells. A particular combination of (`row_group`, `row_label`, `column_label`) must appear at most once.
+- Keep spelling, capitalization, and symbols in `row_group`, `row_label`, and `column_label` consistent with the table text.
+- If the same section heading appears multiple times, use exactly the same `row_group` string for those rows.
+
+Apply these rules uniformly to all Table 1 layouts, even if the formatting is complex or irregular."
+2,v02,completed,0.697721,0.711111,0.684825,0.77106,0.904884,0.676157,0.476923,0.921348,0.892308,1.0,0.271186,48,17,True,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v02,"Work strictly within Table 1. Ignore other tables, figures, narrative text, and footnotes as data sources (but you may use them to understand structure).
+
+1) Columns and headers
+- First, reconstruct the full header from left to right.
+- Collect every explicit data column header into `columns`. This typically includes each group, arm, timepoint, or summary column, and any dedicated column such as an effect size.
+- If headers are multi-level (a top header spanning several subheaders), do not add the top header alone as a column. Instead, form a unique label for each leaf by combining them (e.g., ""Group: Subheader""). Use that combined label as `column_label` and include it once in `columns`.
+- The leftmost label column sometimes has a heading. If it does, include that heading in `columns`, but never create cells for it; its entries are represented in `row_label`.
+- Every `column_label` used in any cell must appear exactly once in `columns`; do not invent extra columns or totals.
+
+2) Distinguishing row_group and row_label
+- Read the table down the leftmost column and visually separate:
+  • Section/category headings (often spanning multiple columns or styled differently).
+  • Data rows (aligned with actual values in the data columns).
+- A section heading that precedes a block of rows is `row_group`. The text within the section is `row_label` for each row.
+- For rows inside a section, set `row_group` to the section heading string and `row_label` to the item name on that row.
+- Rows that are not clearly under any heading use `row_group` = null.
+- If a section heading itself has data values on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is the broader category; `row_label` is the specific item.
+
+3) Creating cells
+- A cell corresponds to a single non-empty intersection of one data row and one data column.
+- For every visible numeric or textual entry in the body of Table 1, emit exactly one cell object with four fields: `row_group`, `row_label`, `column_label`, `value`.
+- Copy `value` exactly as printed, including spaces, punctuation, parentheses, ranges, units, percent signs, plus/minus signs, and text such as ""N/A"" or dashes used as values.
+- A printed zero is a real value and must be included.
+- Do not emit cells for blank table entries. Never invent or infer values.
+
+4) Avoiding missing and extra cells
+- For each row, scan across all data columns and ensure that every non-empty cell is represented once in the output.
+- Do not create cells for rows that hold only headers and no data values.
+- Do not add aggregate columns that are not explicitly part of the header (e.g., a total derived from visible columns) and do not reassign values to different groups or categories.
+- Check that each (`row_group`, `row_label`, `column_label`) combination appears at most once; if the table layout causes apparent repetition, confirm whether it is truly a second distinct data entry before adding another cell.
+
+5) Consistency of strings
+- Use the table text verbatim for `row_group`, `row_label`, and `column_label`, preserving spelling, symbols, and capitalization.
+- If the same section or column appears more than once, reuse the exact same string so that rows are correctly grouped.
+
+Apply these steps to every Table 1, including complex layouts, to capture all data faithfully without adding or omitting cells."
+3,v03,completed,0.554241,0.562,0.546693,0.587771,0.942953,0.166667,0.476923,0.953488,0.892308,1.0,0.266667,42,16,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v03,"Use only the content of Table 1 to build the structure. Do not pull data values from text outside the table, and do not add your own totals or statistics.
+
+1) Identify columns
+- Read the header from left to right and list every explicit data column header in `columns`.
+- If there is a multi-level header (a top label spanning several subcolumns), treat only the lowest-level headers as data columns. Form each `column_label` by combining the group and leaf text with a separator (e.g., ""Group: Leaf"").
+- If the leftmost label column has its own heading, include that heading in `columns`, but never make data cells for that column. Its entries are captured as `row_label`.
+- Every `column_label` used in any cell must appear exactly once in `columns`. Do not invent extra column names such as overall totals or combined groups unless they are explicitly printed as headers.
+
+2) Distinguish row_group from row_label
+- Scan down the first column and separate:
+  • Section or category headings, which visually group several subsequent rows (often spanning columns or styled differently).
+  • Regular data rows, which align with values in data columns.
+- Use the text of each section heading as `row_group` for all data rows it groups. The specific item name on each row becomes `row_label`.
+- If a data row does not clearly belong to any section, set `row_group` = null.
+- When a section heading itself has data in the same row, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap these roles: `row_group` is the broader category; `row_label` is the individual item inside that category.
+
+3) Creating cells
+- A cell corresponds to a single non-empty intersection of one data row and one data column.
+- For every visible entry in the body of the table (numbers, text, percentages, symbols), create exactly one cell object with `row_group`, `row_label`, `column_label`, and `value`.
+- Copy the value exactly as printed, including punctuation, spacing, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers such as ""N/A"" or dashes when they appear as values.
+- Treat printed zeros as real values and include them.
+- Do not create cells for blank entries, and never infer or calculate values that are not shown.
+
+4) Avoid missing and extra cells
+- Work row by row. For each data row, scan across all data columns and ensure that every non-empty table entry is represented once in `cells`.
+- Do not create cells on rows that are purely header or category lines and contain no data values.
+- Do not move values between categories: a value appearing under a specific section heading and row name must remain associated with that same `row_group` and `row_label`.
+- Do not add overall or combined cells (for example, totals or summary statistics) unless they are explicitly present as table entries with their own row and column positions.
+
+5) Uniqueness and consistency
+- Each combination of (`row_group`, `row_label`, `column_label`) must appear at most once in `cells`; do not duplicate a value for the same position.
+- Use the table wording exactly for `row_group`, `row_label`, and `column_label`, preserving spelling, capitalization, and symbols so that repeated sections and columns match perfectly.
+
+Apply these principles consistently to any Table 1 layout, focusing on faithfully capturing the structure (headers, sections, rows) and every non-empty value without adding, dropping, or rearranging data."
+4,v04,completed,0.42957,0.441478,0.418288,0.473526,0.907173,0.538182,0.476923,0.953488,0.0,1.0,0.266667,36,15,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v04,"Work only with the content of Table 1. Use other text only to understand layout, not as a source of values.
+
+1) Columns and headers
+- Read the full header row (or rows) from left to right before creating any cells.
+- Add every explicit data column header to `columns` (e.g., each group, arm, timepoint, or statistic column). Do not invent combined or ""total"" columns unless they are printed as headers.
+- For multi-level headers (a top header spanning several subheaders), treat only the lowest-level headers as data columns. Build each `column_label` by combining the higher-level group and the leaf header into a single string (e.g., ""Group: Leaf"").
+- The leftmost label column may have its own heading. If present, include that heading in `columns` but never create data cells for it; the contents of that column are represented via `row_label` and `row_group`.
+- Every `column_label` that appears in any cell must appear exactly once in `columns`. Do not create extra or duplicate column names.
+
+2) Row groups vs. row labels
+- Use the leftmost column to identify structure:
+  • Section/category headings: often styled differently, spanning columns, or followed by several related rows.
+  • Data rows: aligned with values in data columns.
+- Treat each section/category heading as a `row_group`. All subsequent data rows belonging to that section use that heading verbatim as `row_group` and their own label text as `row_label`.
+- Rows that clearly start a new section without a separate heading (e.g., the table begins with data rows) should have `row_group` = null.
+- If a section heading itself has values in the data columns on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is the broader category or section; `row_label` is the specific item within that section. Do not treat item names as groups or groups as labels.
+- When the same section or row label appears more than once, reuse the text exactly so that grouping remains consistent.
+
+3) Building cells
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible numeric or textual entry in the body of Table 1, create exactly one cell object with fields: `row_group`, `row_label`, `column_label`, `value`.
+- Copy `value` exactly as printed, including spaces, punctuation, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers such as ""N/A"" or dashes when they appear as values.
+- A printed zero is a real value and must be included.
+- Do not create cells for blank entries. Never infer, calculate, or move values between rows or columns.
+
+4) Avoid missing, extra, and duplicate cells
+- Work row by row: for each data row, scan across all data columns and ensure that every non-empty entry is represented once in `cells`.
+- Do not create cells for rows that are purely headers or section titles and have no data values.
+- Do not add derived totals, summary statistics, or extra subgroup columns that are not explicitly part of the table header.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique. If the layout looks repetitive (e.g., similar text appears twice), check carefully whether it is a different position in the table or the same position; only emit a cell when there is a distinct data entry.
+
+5) Consistency of strings
+- Use the table text verbatim for `table_title`, `columns`, `row_group`, `row_label`, and `column_label`, preserving spelling, capitalization, and symbols.
+- Ensure that every `column_label` used in `cells` matches exactly one entry in `columns`, and that section headings used as `row_group` are consistent across all related rows.
+
+Apply these rules systematically to capture the full structure and all non-empty values of Table 1 without adding, omitting, or rearranging data."
+5,v05,completed,0.437059,0.453027,0.422179,0.475327,0.919492,0.569288,0.476923,0.953488,0.0,1.0,0.266667,30,14,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v05,"Use only the content of Table 1 to define structure and values. Do not invent columns, rows, or numbers, and do not treat narrative text as data.
+
+1) Table title and scope
+- Take `table_title` directly from the caption of Table 1.
+- Ignore all other tables and figures. If text or footnotes help you understand layout, use them only for interpretation, not as a source of values.
+
+2) Columns and headers
+- Reconstruct the header from left to right before creating any cells.
+- Add every explicit data column header to `columns` (groups, arms, timepoints, statistics such as effect size, etc.).
+- When headers are stacked or multi-level, treat only the lowest-level headers as data columns. Form each `column_label` by combining higher-level and leaf text (e.g., ""Group: Statistic"").
+- The leftmost label column may have its own heading. If it exists, include that heading in `columns`, but never create data cells for that column; its entries become `row_label` and sometimes `row_group`.
+- Do not invent aggregate or ""Total"" columns unless they are explicitly printed as headers.
+- Every `column_label` used in cells must appear exactly once in `columns`; do not create duplicate or slightly varied names for the same column.
+
+3) Row_group vs. row_label
+- Read down the first column and separate structure from data:
+  • Section / category headings: visually distinct, spanning columns or followed by several related rows.
+  • Data rows: aligned with values in data columns.
+- Use the text of each section heading as `row_group` for all subsequent data rows it clearly governs.
+- For each data row under a section, set `row_group` to that section heading and `row_label` to the specific item name on that row.
+- Rows that are not under any clear heading use `row_group` = null.
+- If a section heading itself has values on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is the broader category; `row_label` is the individual row item. Never place a category name in `row_label` while using an item name as `row_group`.
+- When the same section or item appears in multiple places, reuse its text exactly so grouping remains consistent.
+
+4) Creating cells and capturing values
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible value (numbers, percentages, text, symbols) in the body of Table 1, create exactly one cell object with fields: `row_group`, `row_label`, `column_label`, `value`.
+- Copy `value` verbatim, preserving punctuation, spaces, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers such as ""N/A"" or dashes when they appear as values.
+- A printed zero is a real value and must be included.
+- Do not create cells for blank entries. Do not infer, calculate, or move values between rows or columns.
+
+5) Avoid missing, extra, and duplicate cells
+- Work row by row: for each data row, scan across all data columns and ensure every non-empty table entry produces exactly one cell.
+- Do not create cells for pure header or section lines that have no data values.
+- Do not add values that appear only in notes or narrative unless they are clearly placed in a specific row/column cell in the table.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique; never emit more than one cell for the same position.
+
+6) String consistency
+- Use table wording verbatim for `row_group`, `row_label`, and `column_label`, preserving spelling, capitalization, spacing, and symbols.
+- Check that every `column_label` used in `cells` matches exactly one entry in `columns` and that category headings used as `row_group` are identical across their rows.
+
+Apply these rules to any Table 1 layout, focusing on correctly identifying sections, rows, and headers so every non-empty table value is captured once in the right position."
+6,v06,completed,0.441634,0.441634,0.441634,0.546693,0.807829,0.552189,0.476923,0.953488,0.030769,1.0,0.246154,24,13,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v06,"Use only Table 1 to define structure and values. Do not take data from narrative text or footnotes; you may read them only to understand layout.
+
+1) Table title and scope
+- Set `table_title` to the caption of Table 1, copied verbatim.
+- Work only within the boundaries of Table 1; ignore other tables and figures.
+
+2) Columns and headers
+- Reconstruct the entire header region before creating any cells.
+- Add every explicit data column header to `columns`. This includes each group, arm, timepoint, and any separate statistics columns (such as effect size or risk measures) that have their own header cell.
+- For multi-level headers (a top header spanning several subheaders), treat only the lowest-level headers as data columns. Build each `column_label` by combining higher-level and leaf text into a single unique string (e.g., ""Top: Leaf""). Do not add the top-level header alone as a separate column.
+- If the leftmost label column has its own heading, include that heading in `columns`, but never create cells for it; its body entries are represented by `row_label` (and sometimes `row_group`).
+- Every `column_label` used in `cells` must appear exactly once in `columns`. Do not invent total or combined columns unless they are printed as headers, and do not create slightly varied names for the same column.
+
+3) Row_group vs. row_label (table body structure)
+- Read down the first column and distinguish:
+  • Section/category headings: visually distinct, often spanning multiple columns or followed by a block of related rows.
+  • Data rows: aligned with numeric or textual values in data columns.
+- Use each section or category heading as `row_group` for all immediately following data rows it governs. The specific descriptor on each data row becomes `row_label`.
+- Rows that are not clearly under any heading use `row_group` = null.
+- If a section heading itself has values in data columns on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is always the broader section; `row_label` is the individual item within that section. Do not treat an item name as a group or a group name as a row label.
+- When the same heading or item text appears multiple times, reuse the exact string for consistency.
+
+4) Creating cells and capturing values
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible value in the body of Table 1 (numbers, text, percentages, symbols), create exactly one cell object with fields: `row_group`, `row_label`, `column_label`, `value`.
+- Copy each `value` exactly as printed, preserving punctuation, spaces, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers such as ""N/A"" or dashes when they appear as values.
+- Treat printed zeros as real values and include them.
+- Do not create cells for blank entries. Never infer, calculate, or move values between rows or columns.
+
+5) Avoid missing, extra, and duplicate cells
+- Work systematically row by row. For each data row, scan across all data columns and:
+  • Add a cell for every non-empty entry.
+  • Do not add cells where the table cell is blank.
+- Do not create cells for pure header or section rows that show no data values.
+- Do not add derived totals, summary statistics, or subgroup values that are not explicitly present as table entries.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique; never emit more than one cell for the same position.
+
+6) String consistency
+- Use the table wording verbatim for `row_group`, `row_label`, `column_label`, and `table_title`, preserving spelling, capitalization, spacing, and symbols.
+- Ensure that every `column_label` appearing in `cells` matches exactly one entry in `columns`, and that identical section headings are written the same way across all related rows.
+
+Apply these rules to any Table 1 layout to capture the full structure and all non-empty values without adding, omitting, or rearranging data."
+7,v07,completed,0.342971,0.351738,0.33463,0.364905,0.939891,0.223827,0.476923,0.953488,0.0,1.0,0.266667,18,12,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v07,"Work only with Table 1. Use its caption and header rows to understand structure, but take data values exclusively from the table body.
+
+1) Table title and scope
+- Set `table_title` to the exact caption of Table 1.
+- Ignore other tables and figures as data sources.
+
+2) Columns and headers
+- Reconstruct the full header region from left to right before creating any cells.
+- Add every explicit data column header to `columns`. This includes each group/arm, timepoint, and any separate statistics columns (e.g., effect size, relative risk) that have their own header cell.
+- For multi-level headers (a top label spanning several subheaders), treat only the lowest-level headers as data columns. Build each `column_label` by combining higher-level and leaf text into a single unique string, such as ""Top: Leaf"".
+- Do not turn the top-level header alone into a column if it only groups subcolumns.
+- The leftmost label column may have a heading. If it exists, include that heading in `columns`, but never create data cells for it; its content is represented via `row_group` and `row_label`.
+- Every `column_label` used in any cell must appear exactly once in `columns`. Do not invent extra columns (e.g., totals) or slightly varied names for the same column.
+
+3) Row_group vs. row_label (table body)
+- Read down the first column and separate structural lines from data lines:
+  • Section/category headings: usually visually distinct, often spanning multiple columns, and followed by a block of related rows.
+  • Data rows: aligned with entries in one or more data columns.
+- Use each section or category heading as `row_group` for all clearly subsequent data rows it governs. For those rows, the specific descriptor on the leftmost column becomes `row_label`.
+- Rows that are not under any clear heading use `row_group` = null.
+- If a section heading itself has values on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is the broader category; `row_label` is the specific item within that category.
+- When the same section or item text appears multiple times, reuse the exact wording so grouping stays consistent.
+
+4) Creating cells and capturing values
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible numeric or textual entry in the body of Table 1, create exactly one cell object with fields: `row_group`, `row_label`, `column_label`, `value`.
+- Copy `value` verbatim, preserving punctuation, spaces, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers (including N/A-like text or dashes when they appear as values).
+- Treat printed zeros as real values and include them.
+- Do not create cells for blank entries and do not infer or calculate values that are not shown.
+
+5) Avoid missing, extra, and duplicate cells
+- Work row by row: for each data row, scan across all data columns and ensure that every non-empty table entry produces exactly one cell.
+- Do not create cells for rows that are purely headers or section titles and have no data values.
+- Do not add derived totals, combined columns, or extra subgroup values unless they are explicitly printed in the header and body as distinct cells.
+- Do not move values between categories or columns; keep each value attached to the `row_group`, `row_label`, and `column_label` where it is printed.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique. Never emit more than one cell for the same position.
+
+6) String consistency
+- Use the table text verbatim for `table_title`, `columns`, `row_group`, `row_label`, and `column_label`, preserving spelling, capitalization, spacing, and symbols.
+- Confirm that every `column_label` used in `cells` matches exactly one entry in `columns`, and that identical section headings are written the same way wherever they appear.
+
+Apply these principles to any Table 1 layout, including complex multi-level headers and multiple section blocks, so that every non-empty value is captured once in the correct structured position."
+8,v08,completed,0.439409,0.44511,0.433852,0.48867,0.899194,0.552448,0.476923,0.988764,0.0,1.0,0.266667,12,11,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v08,"Use only Table 1 to define structure and values. Do not take data from narrative text or footnotes; use them only to understand layout.
+
+1) Table title and scope
+- Set `table_title` to the exact caption of Table 1.
+- Work strictly within the visual boundaries of Table 1. Ignore other tables and figures.
+
+2) Columns and headers
+- Reconstruct the header area from left to right before creating any cells.
+- Add every explicit data column header to `columns`. This includes each group, arm, timepoint, and any separate statistics columns (e.g., standardized difference, risk measure) that have their own header cell.
+- For stacked or multi-level headers (a top label spanning several subheaders), treat only the lowest-level headers as data columns. Build each data column label by combining the higher-level and leaf text into a single unique string, such as ""Top: Leaf"".
+- Do not turn a purely grouping header into its own data column.
+- If the leftmost label column has a header, include that header string in `columns`, but never create data cells for it; its contents become `row_group` and `row_label`.
+- Every `column_label` used in `cells` must appear exactly once in `columns`. Do not invent totals, combined columns, or alternate spellings.
+
+3) Row structure: row_group vs. row_label
+- Use the first column to distinguish structure from data.
+  • Section/category headings: typically span multiple columns or appear in a distinct style and are followed by several related data rows.
+  • Data rows: aligned with values in one or more data columns.
+- Treat each section/category heading as a `row_group`. All subsequent data rows that clearly belong to that section use that heading (verbatim) as `row_group` and their own leftmost text as `row_label`.
+- Rows not obviously under any section heading use `row_group` = null.
+- If a section heading itself has values on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is always the broader section or category; `row_label` is the specific item within that section. Never place an item name in `row_group` or a section heading in `row_label` for the same data row.
+- When the same section heading or item text recurs, reuse the exact string so grouping remains consistent.
+
+4) Cells and values
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible numeric or textual entry in the body of Table 1, create exactly one cell object with fields: `row_group`, `row_label`, `column_label`, `value`.
+- Copy `value` verbatim, preserving digits, punctuation, spaces, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers (including N/A-like text or dashes when they are printed as values).
+- A printed zero is a real value and must be included.
+- Do not create cells for blank table entries and do not infer, calculate, or move values between columns or rows.
+
+5) Avoid missing, extra, and duplicate cells
+- Work systematically row by row.
+  • For each data row, scan across all data columns and add a cell for every non-empty table entry.
+  • Do not emit cells for pure header or section lines that show no data values.
+- Do not add derived totals, combined values, or subgroup cells unless they are explicitly present in the header and body of Table 1.
+- Keep values attached to the exact `row_group`, `row_label`, and `column_label` where they are printed; do not reorder or reassign values.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique. Never emit more than one cell for the same position.
+
+6) String consistency
+- Use table wording verbatim for `table_title`, `columns`, `row_group`, `row_label`, and `column_label`, including spelling, capitalization, spacing, and symbols.
+- Ensure every `column_label` in `cells` matches exactly one entry in `columns`, and that identical headings used as `row_group` are written identically across all related rows."
+9,v09,completed,0.447703,0.449902,0.445525,0.496579,0.901575,0.592593,0.476923,0.953488,0.0,1.0,0.266667,6,10,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v09,"Use only Table 1 to define structure and values. Ignore narrative text and footnotes as data sources.
+
+1) Table scope and title
+- Set `table_title` to the caption of Table 1, copied verbatim.
+- Work strictly within the visual bounds of Table 1; do not mix in material from other tables or figures.
+
+2) Columns and headers
+- Rebuild the header region from left to right before creating any cells.
+- Include every explicit data column header in `columns` (groups/arms, timepoints, statistics such as effect size, p value, etc.).
+- For multi-row or nested headers, treat only the lowest-level headers as data columns. Create each `column_label` by combining the higher-level and leaf text into a single string (e.g., ""Top: Leaf""). Do not add the grouping header alone as a column.
+- The leftmost label column may have its own heading. If it has a name, include that heading string in `columns`, but never create data cells for it; its contents are represented via `row_group` and `row_label`.
+- Every `column_label` used in any cell must appear exactly once in `columns`. Do not invent additional columns (such as totals or combined groups) unless they appear as distinct header cells.
+
+3) Row structure: row_group and row_label
+- Read down the first column and distinguish:
+  • Section/category headings: visually distinct, often spanning multiple columns or followed by a block of related rows.
+  • Data rows: aligned with values in one or more data columns.
+- Use each section/category heading as `row_group` for the data rows it clearly governs. For those rows, the text in the leftmost column is `row_label`.
+- Rows that are not under any clear heading use `row_group` = null.
+- If a section heading itself has data values on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is the broader category or section; `row_label` is the specific item within that category. Do not place item text in `row_group` or section text in `row_label` for the same data.
+- If the same heading or item appears more than once, reuse the exact wording so grouping stays consistent.
+
+4) Cells and values
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible entry in the body (numbers, text, symbols), create exactly one object with `row_group`, `row_label`, `column_label`, and `value`.
+- Copy each `value` verbatim, including spaces, punctuation, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers such as N/A-like text or dashes when they appear as values.
+- A printed zero is a real value and must be captured.
+- Do not create cells for blank table positions and do not infer or calculate values.
+
+5) Avoid missing, extra, and duplicate cells
+- Work row by row. For each data row, scan across all data columns in the header and add one cell for every non-empty entry; do not add cells where the table cell is blank.
+- Do not create cells for pure header or section lines that have no data values in the body.
+- Do not move values between categories or columns, and do not add derived totals or combined values that are not explicitly printed in the table.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique. Never emit more than one cell for the same position.
+
+6) String consistency
+- Use table wording verbatim for `table_title`, `columns`, `row_group`, `row_label`, and `column_label`, preserving spelling, capitalization, spacing, and symbols.
+- Confirm that every `column_label` appearing in `cells` matches exactly one entry in `columns`, and that identical headings used as `row_group` are written identically wherever they occur."
+10,v10,completed,0.397274,0.397661,0.396887,0.457644,0.868085,0.418605,0.476923,0.953488,0.0,1.0,0.266667,0,9,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T115610Z_3e75ae0c/runs/v10,"Use only Table 1 to define structure and values. Do not import data from narrative text or footnotes; use them only to clarify layout.
+
+1) Overall scope
+- Set `table_title` from the caption of Table 1.
+- Work strictly inside the visible bounds of Table 1.
+
+2) Columns and headers
+- Reconstruct the entire header region (all header rows) from left to right before creating any cells.
+- Add every explicit data column header to `columns`: each group/arm, timepoint, and any separate statistics column (such as risk measures, p values, standardized differences, etc.).
+- For multi-row or nested headers where a top header spans subheaders, treat only the lowest-level headers as data columns. Form each `column_label` by concatenating the higher-level text and the leaf header (e.g., ""Top: Leaf""), and include that combined text once in `columns`.
+- Do not treat a purely grouping header as a separate column.
+- If the leftmost label column has its own heading, include that heading string in `columns`, but never create data cells for that column; its contents become `row_group` and `row_label`.
+- Every `column_label` used in any cell must appear exactly once in `columns`. Do not invent additional columns (totals, combined groups) unless they are printed as header cells.
+
+3) Row structure: separating groups from labels
+- Use the first column to distinguish structure from data:
+  • Section or category headings: visually distinct, often spanning multiple columns or followed by several related rows.
+  • Data rows: aligned with entries in one or more data columns.
+- Treat each section or category heading as a `row_group`. All subsequent data rows clearly under that heading use that text verbatim as `row_group`, and their own leftmost cell text as `row_label`.
+- Rows that are not obviously under any heading use `row_group` = null.
+- If a section heading itself has data values on the same line, represent that line with `row_group` equal to the heading text and `row_label` = null.
+- Do not swap roles: `row_group` is always the broader section; `row_label` is the specific item. Do not move section text into `row_label` or item text into `row_group`.
+- When the same heading or item appears multiple times, reuse the exact wording so that grouping remains consistent.
+
+4) Cells and values
+- A cell corresponds to one non-empty intersection of a data row and a data column.
+- For every visible numeric or textual entry in the body of Table 1, create exactly one cell object with `row_group`, `row_label`, `column_label`, and `value`.
+- Copy `value` verbatim, including digits, punctuation, spaces, parentheses, ranges, units, percent signs, plus/minus signs, and textual markers such as N/A-like terms or dashes when they appear as values.
+- Printed zeros are real values and must be included.
+- Do not emit cells for blank table entries. Never infer, calculate, or move values between rows or columns.
+
+5) Avoid missing, extra, and duplicate cells
+- Work row by row. For each data row, scan across all data columns and add one cell for every non-empty entry; do not add cells where the table cell is blank.
+- Do not create cells for rows that are purely headers or section titles with no data values.
+- Do not add derived totals, combined values, or subgroup cells unless they appear explicitly as table entries.
+- Each combination of (`row_group`, `row_label`, `column_label`) must be unique; never emit more than one cell for the same position.
+
+6) String consistency
+- Use table wording verbatim for `table_title`, `columns`, `row_group`, `row_label`, and `column_label`, preserving spelling, capitalization, spacing, and symbols.
+- Ensure that every `column_label` in `cells` exactly matches one entry in `columns`, and that repeated section headings used as `row_group` are written identically wherever they occur.
+
+Apply these rules consistently to capture the full structure of Table 1 and every non-empty value in its correct row and column without adding, omitting, or rearranging data."

@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 133,
+      "fp_exact": 229,
+      "fn_exact": 381,
+      "precision": 0.367403,
+      "recall": 0.258755,
+      "f1": 0.303653
+    },
+    "keys_only": {
+      "tp": 143,
+      "fp": 219,
+      "fn": 371,
+      "precision": 0.395028,
+      "recall": 0.27821,
+      "f1": 0.326484,
+      "value_accuracy_on_matched_keys": 0.93007
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 0,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Paternal atopic comorbidities, n (%)",
+      "row_label": "Atopic dermatitis",
+      "column_label": "Relative risk",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Sex (female), n (%)",
+      "column_label": "Total (n = 370,298)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Age at transplant (yr)",
+      "column_label": "NOCTET: Cyclosporine (n = 38)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "Anti-hypertensive drugs",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "0 (0%)"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "BUN (mg/dL)",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "11.5 ± 0.8"
+    }
+  ],
+  "feedback_remaining": 10,
+  "evaluations_remaining": 17
+}

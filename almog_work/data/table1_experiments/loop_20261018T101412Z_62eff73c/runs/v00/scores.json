@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 348,
+      "fp_exact": 173,
+      "fn_exact": 166,
+      "precision": 0.667946,
+      "recall": 0.677043,
+      "f1": 0.672464
+    },
+    "keys_only": {
+      "tp": 380,
+      "fp": 141,
+      "fn": 134,
+      "precision": 0.729367,
+      "recall": 0.7393,
+      "f1": 0.7343,
+      "value_accuracy_on_matched_keys": 0.915789
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 144,
+      "missing_prediction_file": false,
+      "cell_precision": 0.631944,
+      "cell_recall": 0.606667,
+      "cell_f1": 0.619048,
+      "key_precision": 0.770833,
+      "key_recall": 0.74,
+      "value_accuracy_on_matched_keys": 0.81982
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 57,
+      "missing_prediction_file": false,
+      "cell_precision": 0.719298,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.811881,
+      "key_precision": 0.719298,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.892308,
+      "cell_recall": 0.892308,
+      "cell_f1": 0.892308,
+      "key_precision": 0.907692,
+      "key_recall": 0.907692,
+      "value_accuracy_on_matched_keys": 0.983051
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "4",
+      "column_label": "Relative risk",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "wrong_value",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "2",
+      "column_label": "Relative risk",
+      "predicted_value": "1.35"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "Diuretics",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "LDL-C (mg/dL)",
+      "column_label": ">=65 years (n = 40)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "Creatinine (mg/dL)",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    }
+  ],
+  "feedback_remaining": 20,
+  "evaluations_remaining": 19
+}

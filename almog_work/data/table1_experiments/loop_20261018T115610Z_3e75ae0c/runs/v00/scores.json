@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 153,
+      "fp_exact": 321,
+      "fn_exact": 361,
+      "precision": 0.322785,
+      "recall": 0.297665,
+      "f1": 0.309717
+    },
+    "keys_only": {
+      "tp": 189,
+      "fp": 285,
+      "fn": 325,
+      "precision": 0.398734,
+      "recall": 0.367704,
+      "f1": 0.382591,
+      "value_accuracy_on_matched_keys": 0.809524
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 112,
+      "missing_prediction_file": false,
+      "cell_precision": 0.098214,
+      "cell_recall": 0.073333,
+      "cell_f1": 0.083969,
+      "key_precision": 0.107143,
+      "key_recall": 0.08,
+      "value_accuracy_on_matched_keys": 0.916667
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.904762,
+      "cell_recall": 0.863636,
+      "cell_f1": 0.883721,
+      "key_precision": 0.904762,
+      "key_recall": 0.863636,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.030769,
+      "cell_recall": 0.030769,
+      "cell_f1": 0.030769,
+      "key_precision": 0.223077,
+      "key_recall": 0.223077,
+      "value_accuracy_on_matched_keys": 0.137931
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "1",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Ethnicitya, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Allergic infants (n = 6,911)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "Anti-hypertensive drugs",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Age (years)",
+      "column_label": ">=65 years (n = 40)",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Unknown",
+      "row_label": "Ethnicitya, n (%)",
+      "column_label": "Total: Allergic infants (n = 6,911)",
+      "predicted_value": "184 (2.66)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "",
+      "row_label": "Epidural anesthesia during labora, n (%)",
+      "column_label": "Total: Nonallergic infants (n = 363,387)",
+      "predicted_value": "121,817 (33.5)"
+    }
+  ],
+  "feedback_remaining": 60,
+  "evaluations_remaining": 19
+}

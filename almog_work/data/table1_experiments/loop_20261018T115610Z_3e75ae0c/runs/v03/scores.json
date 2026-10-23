@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 281,
+      "fp_exact": 219,
+      "fn_exact": 233,
+      "precision": 0.562,
+      "recall": 0.546693,
+      "f1": 0.554241
+    },
+    "keys_only": {
+      "tp": 298,
+      "fp": 202,
+      "fn": 216,
+      "precision": 0.596,
+      "recall": 0.579767,
+      "f1": 0.587771,
+      "value_accuracy_on_matched_keys": 0.942953
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 138,
+      "missing_prediction_file": false,
+      "cell_precision": 0.173913,
+      "cell_recall": 0.16,
+      "cell_f1": 0.166667,
+      "key_precision": 0.210145,
+      "key_recall": 0.193333,
+      "value_accuracy_on_matched_keys": 0.827586
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.892308,
+      "cell_recall": 0.892308,
+      "cell_f1": 0.892308,
+      "key_precision": 0.907692,
+      "key_recall": 0.907692,
+      "value_accuracy_on_matched_keys": 0.983051
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "Total cholesterol (mg/dL)",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "189.3 ± 6.9"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Maternal atopic comorbidities, n (%)",
+      "row_label": "Asthmaa",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Epidural anesthesia during labora, n (%)",
+      "column_label": "SMD",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "extra_cell",
+      "row_group": "Echocardiography",
+      "row_label": "E/e’ septal",
+      "column_label": "NOCTET: Combination (n = 37)",
+      "predicted_value": "10.2 ± 4.1"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "",
+      "row_label": "Sex (female), n (%)",
+      "column_label": "Total: Total (n = 370,298)",
+      "predicted_value": "180,469 (48.7)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "Unknown",
+      "column_label": "Total (n = 370,298)",
+      "predicted_value": null
+    }
+  ],
+  "feedback_remaining": 42,
+  "evaluations_remaining": 16
+}

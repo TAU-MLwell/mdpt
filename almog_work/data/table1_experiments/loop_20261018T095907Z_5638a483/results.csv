@@ -1,0 +1,127 @@
+iteration,version,status,cell_f1,cell_precision,cell_recall,key_f1,value_accuracy,f1_test_paper,f1_PMC13651293,f1_PMC13652250,f1_PMC13652315,f1_PMC13651901,f1_PMC13652390,feedback_remaining,evaluations_remaining,is_best,run_dir,guidance
+0,baseline,completed,0.3343,0.332054,0.336576,0.419324,0.797235,0.201342,0.476923,0.847826,0.030189,1.0,0.266667,20,19,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T095907Z_5638a483/runs/v00,"Extract the whole table faithfully, including every row and every reported value, exactly as written."
+1,v01,completed,0.458661,0.464143,0.453307,0.488189,0.939516,0.682927,0.476923,0.786517,0.0,1.0,0.266667,15,18,True,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T095907Z_5638a483/runs/v01,"General approach
+-----------------
+Work only from the visible content of Table 1. Capture the table’s headers, section titles, row labels, and data values exactly as printed, without inferring missing entries or altering text.
+
+Columns and headers
+-------------------
+1. Identify all headers at the top of Table 1.
+   - If the leftmost column (the label/characteristics column) has a header name, include that name in `columns`, but **do not** create cells for it. Its entries go into `row_label`.
+   - For data columns, include every explicit leaf header in `columns`.
+
+2. Nested headers / grouped columns:
+   - When a spanning header sits above multiple leaf headers, the spanning header itself is **not** a data column.
+   - For each leaf column under a group header, construct a combined label: `""<group>: <leaf>""`.
+   - Use this combined text as the `column_label` for cells in that leaf column and include it in `columns`.
+   - If a leaf header has no group above it, use its own text as the `column_label`.
+
+3. Consistency:
+   - Every `column_label` used in any cell must appear exactly once in `columns`.
+   - Do not create column labels from footnotes or row labels.
+   - Copy header text exactly as printed, preserving case, symbols, punctuation, and spacing.
+
+Row groups and row labels
+-------------------------
+1. Distinguish section headings from data rows:
+   - **Section/category heading**: a text line that visually groups subsequent rows (often bold, centered, or without its own data in the right-hand columns).
+   - **Data row**: a line that has values in the data columns.
+
+2. `row_group`:
+   - For rows under a specific section or category, set `row_group` to the exact text of that section heading.
+   - For rows not under any apparent section heading, use `row_group = null`.
+   - Use the same `row_group` text for all rows in that section; do not alter or abbreviate the heading.
+
+3. Data on a section heading itself:
+   - Sometimes the section heading row contains data values in the same line.
+   - In that case, treat the heading text as `row_group`, set `row_label = null`, and create cells for each data column in that row.
+   - This is the only situation in which `row_label` should be `null`.
+
+4. `row_label`:
+   - For ordinary data rows, `row_label` is the descriptive content in the leftmost column on that row.
+   - Copy the text exactly, including symbols and footnote markers attached to the label.
+   - Do not include units or numbers from data columns in `row_label`.
+   - If a label is split across multiple lines but clearly belongs to one row (one set of data values), combine its lines into a single `row_label` string.
+
+Cells and values
+----------------
+1. Each cell object must have exactly these keys: `row_label`, `row_group`, `column_label`, `value`.
+   - `row_group` may be `null`.
+   - `row_label` must be non-null except where the section heading itself has data (`row_label = null`).
+   - `value` must always be a non-empty string.
+
+2. What to record as `value`:
+   - Record any visible entry in a data column: numbers, text, percentages, ranges, confidence intervals, symbols, and any footnote markers attached to the value.
+   - Copy values verbatim, preserving units, parentheses, decimal places, signs, and spacing.
+
+3. Empty cells:
+   - If a cell is truly empty (no number, text, or marker), do **not** create a cell object.
+   - Never use null, empty, or whitespace-only strings for `value`.
+
+4. Zeros and special markers:
+   - A printed zero is a real value and must be recorded exactly as shown.
+   - Printed markers like ""N/A"" or dashes are text values and must be recorded as the `value`.
+
+5. Uniqueness and duplicates:
+   - For each combination of (`row_group`, `row_label`, `column_label`) there must be at most one cell.
+   - Do not create multiple cells for a single physical table cell.
+
+Recognizing common patterns
+---------------------------
+1. Counts and percentages:
+   - If counts and percentages are printed together in one column (e.g., a number followed by a percentage in parentheses), treat them as a single `value` string in one column.
+   - If counts and percentages are split into separate columns, each column must have its own `column_label` and cell.
+
+2. Stratified columns (groups/categories):
+   - When columns represent different groups or categories, treat each as a separate data column.
+   - Include any group descriptors or sample sizes that appear in the header as part of the column label.
+
+3. Multiple statistics for the same row:
+   - Some rows have multiple statistics across different columns (e.g., separate columns for different measures).
+   - Each statistic belongs to its own column and becomes its own cell.
+   - Do not merge data from separate columns into a single `value`.
+
+4. Hierarchical row structure:
+   - If a main characteristic has multiple levels listed on separate lines underneath:
+     - The main heading can be a `row_group` if it visually functions as a section title and does not simply act as one row among others.
+     - Each level under that heading is a separate row with its own `row_label` and appropriate `row_group`.
+   - If the main characteristic itself has data in a row, it is a `row_label`, not a `row_group`.
+
+5. Summary rows:
+   - Overall or summary rows at the top or bottom of a section are treated like standard data rows.
+   - Their `row_group` is the section they summarize (or `null` if the table is not divided into sections).
+
+Complex header layouts
+----------------------
+1. Multi-row header blocks:
+   - When there are several header lines above the data columns, identify the lowest line that directly labels each leaf data column.
+   - For each leaf column, trace upward to find any group headers that apply.
+   - Construct the final `column_label` by combining group and leaf as required by the prompt.
+
+2. Label-column header:
+   - If the leftmost column has a printed header label, include it in the `columns` list but do not assign data cells under that header.
+   - Its contents always go into `row_label` and never into `value`.
+
+Footnotes and special text
+--------------------------
+1. Footnote text at the bottom of the table (explanations) should **not** become `row_label`, `row_group`, `column_label`, or `value`, unless it appears inside the main body of the table as part of a label or value.
+
+2. Superscripts or footnote markers attached to a label or value are part of that string and should be included.
+
+Step-by-step extraction
+-----------------------
+1. Identify the exact boundaries of Table 1.
+2. Read the header area carefully:
+   - Determine all leaf data columns and any spanning group headers.
+   - Build the `columns` list from leaf columns, combining with group headers as required.
+   - Add the label-column header if present, but remember not to create cells for it.
+3. Move through the body of the table from top to bottom:
+   - Recognize section headings and set `row_group` accordingly for subsequent rows.
+   - For each data row, set `row_label` from the leftmost column and `row_group` from the most recent relevant heading (or `null`).
+4. For every non-empty data entry:
+   - Determine which column it belongs to.
+   - Create a cell object with `row_group`, `row_label`, `column_label`, and `value`.
+5. Ensure there is no duplicate cell for any (`row_group`, `row_label`, `column_label`) combination.
+6. Do not create cells for empty table positions.
+
+Applying these rules will yield a structured representation of Table 1 that closely follows its printed layout, correctly handles section headings and grouped headers, and preserves all reported values exactly as shown."

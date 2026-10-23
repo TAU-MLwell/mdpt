@@ -1,0 +1,339 @@
+{
+  "paper_id": "PMC13650419",
+  "table_number": 1,
+  "found": true,
+  "table_title": "Baseline characteristics of enrolled patients treated with telitacicept.",
+  "columns": [
+    "Total (n = 19)",
+    "Refractory OMG (n = 11)",
+    "Newly/reinitiated treatment OMG (n = 8)",
+    "p value"
+  ],
+  "cells": [
+    {
+      "row_label": null,
+      "row_group": "Gender, n (%)",
+      "column_label": "p value",
+      "value": "1.000"
+    },
+    {
+      "row_label": "Male",
+      "row_group": "Gender, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "11 (57.89)"
+    },
+    {
+      "row_label": "Male",
+      "row_group": "Gender, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "6 (54.55)"
+    },
+    {
+      "row_label": "Male",
+      "row_group": "Gender, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "5 (62.50)"
+    },
+    {
+      "row_label": "Female",
+      "row_group": "Gender, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "8 (42.11)"
+    },
+    {
+      "row_label": "Female",
+      "row_group": "Gender, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "5 (45.45)"
+    },
+    {
+      "row_label": "Female",
+      "row_group": "Gender, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "3 (37.50)"
+    },
+    {
+      "row_label": "Disease duration (months) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Total (n = 19)",
+      "value": "26.13 (6.98–131.53)"
+    },
+    {
+      "row_label": "Disease duration (months) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "60.00 (18.00–131.53)"
+    },
+    {
+      "row_label": "Disease duration (months) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "6.98 (0.52–94.45)"
+    },
+    {
+      "row_label": "Disease duration (months) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "p value",
+      "value": "0.341"
+    },
+    {
+      "row_label": "Onset age (years) (mean ± SD)",
+      "row_group": "Clinical parameters",
+      "column_label": "Total (n = 19)",
+      "value": "33.89 ± 24.78"
+    },
+    {
+      "row_label": "Onset age (years) (mean ± SD)",
+      "row_group": "Clinical parameters",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "32.45 ± 24.99"
+    },
+    {
+      "row_label": "Onset age (years) (mean ± SD)",
+      "row_group": "Clinical parameters",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "35.88 ± 26.06"
+    },
+    {
+      "row_label": "Onset age (years) (mean ± SD)",
+      "row_group": "Clinical parameters",
+      "column_label": "p value",
+      "value": "0.776"
+    },
+    {
+      "row_label": null,
+      "row_group": "Symptom, n (%)",
+      "column_label": "p value",
+      "value": "0.170"
+    },
+    {
+      "row_label": "Ptosis",
+      "row_group": "Symptom, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "9 (47.37)"
+    },
+    {
+      "row_label": "Ptosis",
+      "row_group": "Symptom, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "7 (63.64)"
+    },
+    {
+      "row_label": "Ptosis",
+      "row_group": "Symptom, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "2 (25.00)"
+    },
+    {
+      "row_label": "Ptosis and diplopia",
+      "row_group": "Symptom, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "10 (52.63)"
+    },
+    {
+      "row_label": "Ptosis and diplopia",
+      "row_group": "Symptom, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "4 (36.36)"
+    },
+    {
+      "row_label": "Ptosis and diplopia",
+      "row_group": "Symptom, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "6 (75.00)"
+    },
+    {
+      "row_label": null,
+      "row_group": "Thymus status, n (%)",
+      "column_label": "p value",
+      "value": "1.000"
+    },
+    {
+      "row_label": "Normal",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "13 (68.42)"
+    },
+    {
+      "row_label": "Normal",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "7 (63.64)"
+    },
+    {
+      "row_label": "Normal",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "6 (75.00)"
+    },
+    {
+      "row_label": "Thymoma",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "3 (15.79)"
+    },
+    {
+      "row_label": "Thymoma",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "2 (18.18)"
+    },
+    {
+      "row_label": "Thymoma",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "1 (12.50)"
+    },
+    {
+      "row_label": "Thymic hyperplasia",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "3 (15.79)"
+    },
+    {
+      "row_label": "Thymic hyperplasia",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "2 (18.18)"
+    },
+    {
+      "row_label": "Thymic hyperplasia",
+      "row_group": "Thymus status, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "1 (12.50)"
+    },
+    {
+      "row_label": null,
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "p value",
+      "value": "1.000"
+    },
+    {
+      "row_label": "No",
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "16 (84.21)"
+    },
+    {
+      "row_label": "No",
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "9 (81.82)"
+    },
+    {
+      "row_label": "No",
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "7 (87.50)"
+    },
+    {
+      "row_label": "Yes",
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "3 (15.79)"
+    },
+    {
+      "row_label": "Yes",
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "2 (18.18)"
+    },
+    {
+      "row_label": "Yes",
+      "row_group": "Thymectomy, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "1 (12.50)"
+    },
+    {
+      "row_label": null,
+      "row_group": "Antibody, n (%)",
+      "column_label": "p value",
+      "value": "0.603"
+    },
+    {
+      "row_label": "Negative",
+      "row_group": "Antibody, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "5 (26.32)"
+    },
+    {
+      "row_label": "Negative",
+      "row_group": "Antibody, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "2 (18.18)"
+    },
+    {
+      "row_label": "Negative",
+      "row_group": "Antibody, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "3 (37.50)"
+    },
+    {
+      "row_label": "AChR‐Ab",
+      "row_group": "Antibody, n (%)",
+      "column_label": "Total (n = 19)",
+      "value": "14 (73.68)"
+    },
+    {
+      "row_label": "AChR‐Ab",
+      "row_group": "Antibody, n (%)",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "9 (81.82)"
+    },
+    {
+      "row_label": "AChR‐Ab",
+      "row_group": "Antibody, n (%)",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "5 (62.50)"
+    },
+    {
+      "row_label": "Baseline MG‐ADL score (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Total (n = 19)",
+      "value": "3.00 (3.00‐6.00)"
+    },
+    {
+      "row_label": "Baseline MG‐ADL score (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "3.00 (3.00‐4.50)"
+    },
+    {
+      "row_label": "Baseline MG‐ADL score (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "5.50 (4.50‐6.00)"
+    },
+    {
+      "row_label": "Baseline MG‐ADL score (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "p value",
+      "value": "0.085"
+    },
+    {
+      "row_label": "Initial dose of Pri (mg/day) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Total (n = 19)",
+      "value": "20.00 (15.00‐35.00)"
+    },
+    {
+      "row_label": "Initial dose of Pri (mg/day) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Refractory OMG (n = 11)",
+      "value": "30.00 (17.50‐50.00)"
+    },
+    {
+      "row_label": "Initial dose of Pri (mg/day) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "Newly/reinitiated treatment OMG (n = 8)",
+      "value": "17.50 (15.00‐22.50)"
+    },
+    {
+      "row_label": "Initial dose of Pri (mg/day) (IQR)",
+      "row_group": "Clinical parameters",
+      "column_label": "p value",
+      "value": "0.335"
+    }
+  ],
+  "raw_table_text": "Table 1. Baseline characteristics of enrolled patients treated with telitacicept.\nClinical parameters\nTotal (n = 19)\nRefractory OMG (n = 11)\nNewly/reinitiated treatment OMG (n = 8)\np value\nGender, n (%)\n1.000\nMale\n11 (57.89)\n6 (54.55)\n5 (62.50)\nFemale\n8 (42.11)\n5 (45.45)\n3 (37.50)\nDisease duration (months) (IQR)\n26.13 (6.98–131.53)\n60.00 (18.00–131.53)\n6.98 (0.52–94.45)\n0.341\nOnset age (years) (mean ± SD)\n33.89 ± 24.78\n32.45 ± 24.99\n35.88 ± 26.06\n0.776\nSymptom, n (%)\n0.170\nPtosis\n9 (47.37)\n7 (63.64)\n2 (25.00)\nPtosis and diplopia\n10 (52.63)\n4 (36.36)\n6 (75.00)\nThymus status, n (%)\n1.000\nNormal\n13 (68.42)\n7 (63.64)\n6 (75.00)\nThymoma\n3 (15.79)\n2 (18.18)\n1 (12.50)\nThymic hyperplasia\n3 (15.79)\n2 (18.18)\n1 (12.50)\nThymectomy, n (%)\n1.000\nNo\n16 (84.21)\n9 (81.82)\n7 (87.50)\nYes\n3 (15.79)\n2 (18.18)\n1 (12.50)\nAntibody, n (%)\n0.603\nNegative\n5 (26.32)\n2 (18.18)\n3 (37.50)\nAChR‐Ab\n14 (73.68)\n9 (81.82)\n5 (62.50)\nBaseline MG‐ADL score (IQR)\n3.00 (3.00‐6.00)\n3.00 (3.00‐4.50)\n5.50 (4.50‐6.00)\n0.085\nInitial dose of Pri (mg/day) (IQR)\n20.00 (15.00‐35.00)\n30.00 (17.50‐50.00)\n17.50 (15.00‐22.50)\n0.335\n"
+}

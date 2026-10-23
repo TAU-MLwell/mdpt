@@ -1,0 +1,729 @@
+{
+  "paper_id": "PMC13649618",
+  "table_number": 1,
+  "found": true,
+  "table_title": "Participants’ characteristics according to depressive symptoms",
+  "columns": [
+    "All (N = 20,142)",
+    "without depressive symptoms (N = 17,753)",
+    "with depressive symptoms (N = 2,389)",
+    "p value"
+  ],
+  "cells": [
+    {
+      "row_group": "Age, years",
+      "row_label": "Mean age (SD), y",
+      "column_label": "All (N = 20,142)",
+      "value": "74.5 (6.2)"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "Mean age (SD), y",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "74.4 (6.1)"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "Mean age (SD), y",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "75.4 (6.6)"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "Mean age (SD), y",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "60–69",
+      "column_label": "All (N = 20,142)",
+      "value": "4,644"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "60–69",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "4,150"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "60–69",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "494"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "60–69",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "70–79",
+      "column_label": "All (N = 20,142)",
+      "value": "11,068"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "70–79",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "9,842"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "70–79",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,226"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "80–89",
+      "column_label": "All (N = 20,142)",
+      "value": "4,235"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "80–89",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "3,607"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "80–89",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "628"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "≥90",
+      "column_label": "All (N = 20,142)",
+      "value": "195"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "≥90",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "154"
+    },
+    {
+      "row_group": "Age, years",
+      "row_label": "≥90",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "41"
+    },
+    {
+      "row_group": null,
+      "row_label": "Sex",
+      "column_label": "p value",
+      "value": "0.066"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Female",
+      "column_label": "All (N = 20,142)",
+      "value": "10,893"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Female",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "9,643"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Female",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,250"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Male",
+      "column_label": "All (N = 20,142)",
+      "value": "9,249"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Male",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "8,110"
+    },
+    {
+      "row_group": "Sex",
+      "row_label": "Male",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,139"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean number of prescribed medications (SD)",
+      "column_label": "All (N = 20,142)",
+      "value": "3.4 (3.0)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean number of prescribed medications (SD)",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "3.2 (2.9)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean number of prescribed medications (SD)",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "4.2 (3.4)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean number of prescribed medications (SD)",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": null,
+      "row_label": "Missing",
+      "column_label": "All (N = 20,142)",
+      "value": "36"
+    },
+    {
+      "row_group": null,
+      "row_label": "Missing",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "32"
+    },
+    {
+      "row_group": null,
+      "row_label": "Missing",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "4"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Hypertension",
+      "column_label": "All (N = 20,142)",
+      "value": "9,606"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Hypertension",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "8,388"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Hypertension",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,218"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Hypertension",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Diabetes",
+      "column_label": "All (N = 20,142)",
+      "value": "2,799"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Diabetes",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "2,415"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Diabetes",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "384"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Diabetes",
+      "column_label": "p value",
+      "value": "0.001"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Stroke",
+      "column_label": "All (N = 20,142)",
+      "value": "1,111"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Stroke",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "908"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Stroke",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "203"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Stroke",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Respiratory disease",
+      "column_label": "All (N = 20,142)",
+      "value": "2,572"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Respiratory disease",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "2,205"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Respiratory disease",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "367"
+    },
+    {
+      "row_group": "Disease history",
+      "row_label": "Respiratory disease",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean MMSE score (SD), points",
+      "column_label": "All (N = 20,142)",
+      "value": "27.1 (2.3)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean MMSE score (SD), points",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "27.2 (2.3)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean MMSE score (SD), points",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "26.7 (2.5)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Mean MMSE score (SD), points",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": ">2 million",
+      "column_label": "All (N = 20,142)",
+      "value": "8,583"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": ">2 million",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "7,341"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": ">2 million",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,242"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": ">2 million",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "2–4 million",
+      "column_label": "All (N = 20,142)",
+      "value": "7,951"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "2–4 million",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "7,164"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "2–4 million",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "787"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "≥4 million",
+      "column_label": "All (N = 20,142)",
+      "value": "2,077"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "≥4 million",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "1,952"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "≥4 million",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "125"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "Missing",
+      "column_label": "All (N = 20,142)",
+      "value": "1,531"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "Missing",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "1,296"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "Missing",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "235"
+    },
+    {
+      "row_group": "Equivalized income, JPY",
+      "row_label": "Missing",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "No",
+      "column_label": "All (N = 20,142)",
+      "value": "16,302"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "No",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "14,538"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "No",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,764"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "No",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Yes",
+      "column_label": "All (N = 20,142)",
+      "value": "3,599"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Yes",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "3,023"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Yes",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "576"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Missing",
+      "column_label": "All (N = 20,142)",
+      "value": "241"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Missing",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "192"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Missing",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "49"
+    },
+    {
+      "row_group": "Living alone",
+      "row_label": "Missing",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "≥1 d/wk",
+      "column_label": "All (N = 20,142)",
+      "value": "15,888"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "≥1 d/wk",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "14,263"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "≥1 d/wk",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,625"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "≥1 d/wk",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "<1 d/wk",
+      "column_label": "All (N = 20,142)",
+      "value": "4,245"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "<1 d/wk",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "3,482"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "<1 d/wk",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "763"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "Missing",
+      "column_label": "All (N = 20,142)",
+      "value": "9"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "Missing",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "8"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "Missing",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1"
+    },
+    {
+      "row_group": "Regular exercise",
+      "row_label": "Missing",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Satisfied",
+      "column_label": "All (N = 20,142)",
+      "value": "15,989"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Satisfied",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "14,511"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Satisfied",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,478"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Satisfied",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Dissatisfied",
+      "column_label": "All (N = 20,142)",
+      "value": "4,150"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Dissatisfied",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "3,239"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Dissatisfied",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "911"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Missing",
+      "column_label": "All (N = 20,142)",
+      "value": "3"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Missing",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "3"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Missing",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "0"
+    },
+    {
+      "row_group": "Sleep satisfaction",
+      "row_label": "Missing",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "No",
+      "column_label": "All (N = 20,142)",
+      "value": "11,576"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "No",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "10,099"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "No",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,477"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "No",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Yes",
+      "column_label": "All (N = 20,142)",
+      "value": "8,565"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Yes",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "7,653"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Yes",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "912"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Missing",
+      "column_label": "All (N = 20,142)",
+      "value": "1"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Missing",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "1"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Missing",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "0"
+    },
+    {
+      "row_group": "Alcohol consumption",
+      "row_label": "Missing",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Current",
+      "column_label": "All (N = 20,142)",
+      "value": "1,327"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Current",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "1,098"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Current",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "229"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Current",
+      "column_label": "p value",
+      "value": "<0.001"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Former",
+      "column_label": "All (N = 20,142)",
+      "value": "6,445"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Former",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "5,649"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Former",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "796"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Never",
+      "column_label": "All (N = 20,142)",
+      "value": "12,370"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Never",
+      "column_label": "without depressive symptoms (N = 17,753)",
+      "value": "11,006"
+    },
+    {
+      "row_group": "Smoking",
+      "row_label": "Never",
+      "column_label": "with depressive symptoms (N = 2,389)",
+      "value": "1,364"
+    }
+  ],
+  "raw_table_text": "Table 1. Participants’ characteristics according to depressive symptoms\nAll\nwithout depressivesymptoms\nwith depressive symptoms\np value\n(N = 20,142)\n(N = 17,753)\n(N = 2,389)\nAge, years\nMean age (SD), y\n74.5 (6.2)\n74.4 (6.1)\n75.4 (6.6)\n<0.001\n60–69\n4,644\n23.1%\n4,150\n23.4%\n494\n20.7%\n<0.001\n70–79\n11,068\n54.9%\n9,842\n55.4%\n1,226\n51.3%\n80–89\n4,235\n21.0%\n3,607\n20.3%\n628\n26.3%\n≥90\n195\n1.0%\n154\n0.9%\n41\n1.7%\nSex\nFemale\n10,893\n54.1%\n9,643\n54.3%\n1,250\n52.3%\n0.066\nMale\n9,249\n45.9%\n8,110\n45.7%\n1,139\n47.7%\nMean number of prescribed medications (SD)\n3.4 (3.0)\n3.2 (2.9)\n4.2 (3.4)\n<0.001\nMissing\n36\n0.2%\n32\n0.2%\n4\n0.2%\nDisease history\nHypertension\n9,606\n47.7%\n8,388\n47.2%\n1,218\n51.0%\n<0.001\nDiabetes\n2,799\n13.9%\n2,415\n13.6%\n384\n16.1%\n0.001\nStroke\n1,111\n5.5%\n908\n5.1%\n203\n8.5%\n<0.001\nRespiratory disease\n2,572\n12.8%\n2,205\n12.4%\n367\n15.4%\n<0.001\nMean MMSE score (SD), points\n27.1 (2.3)\n27.2 (2.3)\n26.7 (2.5)\n<0.001\nEquivalized income, JPY\n>2 million\n8,583\n42.6%\n7,341\n41.4%\n1,242\n52.0%\n<0.001\n2–4 million\n7,951\n39.5%\n7,164\n40.4%\n787\n32.9%\n≥4 million\n2,077\n10.3%\n1,952\n11.0%\n125\n5.2%\nMissing\n1,531\n7.6%\n1,296\n7.3%\n235\n9.8%\nLiving alone\nNo\n16,302\n80.9%\n14,538\n81.9%\n1,764\n73.8%\n<0.001\nYes\n3,599\n17.9%\n3,023\n17.0%\n576\n24.1%\nMissing\n241\n1.2%\n192\n1.1%\n49\n2.1%\nRegular exercise\n≥1 d/wk\n15,888\n78.9%\n14,263\n80.3%\n1,625\n68.0%\n<0.001\n<1 d/wk\n4,245\n21.1%\n3,482\n19.6%\n763\n31.9%\nMissing\n9\n0.0%\n8\n0.0%\n1\n0.0%\nSleep satisfaction\nSatisfied\n15,989\n79.4%\n14,511\n81.7%\n1,478\n61.9%\n<0.001\nDissatisfied\n4,150\n20.6%\n3,239\n18.2%\n911\n38.1%\nMissing\n3\n0.0%\n3\n0.0%\n0\n0.0%\nAlcohol consumption\nNo\n11,576\n57.5%\n10,099\n56.9%\n1,477\n61.8%\n<0.001\nYes\n8,565\n42.5%\n7,653\n43.1%\n912\n38.2%\nMissing\n1\n0.0%\n1\n0.0%\n0\n0.0%\nSmoking\nCurrent\n1,327\n6.6%\n1,098\n6.2%\n229\n9.6%\n<0.001\nFormer\n6,445\n32.0%\n5,649\n31.8%\n796\n33.3%\nNever\n12,370\n61.4%\n11,006\n62.0%\n1,364\n57.1%\nSD, standard deviation; JPY, Japanese yen; MMSE, Mini-Mental State ExaminationDepressive symptoms were classified based on the 15-item Geriatric Depression Scale: ≤5, without depressive symptoms; ≥6, with depressive symptoms. Missing values of disease history: Hypertension, n = 1; Diabetes, n = 9; Stroke, n = 3; Respiratory disease, n = 7. Statistical analysis was performed using the t-test or the chi-square test.\nRegarding smoking history, 6.6% were current smokers, 32.0% were former smokers, and 61.4% had never smoked. The prevalence of depressive symptoms (GDS score ≥6) was 11.9%. Participants with depressive symptoms were significantly older, had a higher prevalence of a history of diseases, were more likely to have lower income, were more likely to live alone, exercised less frequently, consumed less alcohol, and were more likely to be smokers (all p < 0.05). Among former smokers, the mean duration since smoking cessation was 21.7 years (SD, 16.7). Participants who quit smoking before age 65 years had a substantially longer duration of abstinence (mean, 29.3 years [SD, 13.7]) than those who quit smoking at age ≥65 years (mean, 7.8 years [SD, 5.4]).\nParticipant characteristics according to smoking status are presented in Additional File\n2\n. Ever smokers were more likely to be male, have no regular exercise habits, and report lower sleep satisfaction than never smokers.\nAssociation between duration since smoking cessation and depressive symptoms\nWe employed restricted cubic spline analysis to examine the nonlinear association between duration since smoking cessation and depressive symptoms. After adjusting for age and sex, a longer duration since smoking cessation was associated with a lower probability of depressive symptoms (Fig.\n1\n).\n"
+}

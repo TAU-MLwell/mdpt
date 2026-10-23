@@ -1,0 +1,795 @@
+{
+  "paper_id": "PMC13652315",
+  "table_number": 1,
+  "found": true,
+  "table_title": "Table 1. Baseline characteristics.",
+  "columns": [
+    "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+    "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+    "NOCTET (n = 75): Combination (n = 37)",
+    "NOCTET (n = 75): Cyclosporine (n = 38)"
+  ],
+  "cells": [
+    {
+      "row_group": "Demographics",
+      "row_label": "Age at transplant (yr)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "51 ± 13"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age at transplant (yr)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "52 ± 12"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age at transplant (yr)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "53 ± 12"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age at transplant (yr)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "55 ± 10"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Male sex (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "73"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Male sex (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "74"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Male sex (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "92"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Male sex (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "85"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Systolic blood pressure (mmHg)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "136 ± 16"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Systolic blood pressure (mmHg)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "135 ± 14"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Systolic blood pressure (mmHg)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "141 ± 15"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Systolic blood pressure (mmHg)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "143 ± 16"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diastolic blood pressure (mmHg)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "80 ± 12"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diastolic blood pressure (mmHg)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "82 ± 9"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diastolic blood pressure (mmHg)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "88 ± 12"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diastolic blood pressure (mmHg)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "90 ± 9"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Heart rate (beats/min)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "89 ± 10"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Heart rate (beats/min)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "84 ± 11"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Heart rate (beats/min)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "83 ± 13"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Heart rate (beats/min)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "84 ± 14"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "24 ± 4"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "25 ± 3"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "27 ± 5"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Body mass index (kg/m2)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "25 ± 6"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age of donor (yr)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "41 ± 14"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age of donor (yr)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "47 ± 13"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age of donor (yr)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "39 ± 14"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Age of donor (yr)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "34 ± 14"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Cold ischemia time—min (IQR)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "211 (45–305)"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Cold ischemia time—min (IQR)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "206 (35–343)"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Cold ischemia time—min (IQR)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "180 (88–228)"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Cold ischemia time—min (IQR)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "172 (61–203)"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Creatinine (µmol/L)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "111 ± 45"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Creatinine (µmol/L)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "103 ± 32"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Creatinine (µmol/L)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "128 ± 29"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Creatinine (µmol/L)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "123 ± 27"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Estimated glomerular filtration rate (ml/min)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "67 ± 30"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Estimated glomerular filtration rate (ml/min)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "69 ± 24"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Hypertension (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "11"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Hypertension (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "14"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Hypertension (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "78"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Hypertension (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "71"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diabetes Mellitus (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "9"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diabetes Mellitus (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "22"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diabetes Mellitus (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "18"
+    },
+    {
+      "row_group": "Demographics",
+      "row_label": "Diabetes Mellitus (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "11"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Platelet inhibitor (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "39"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Platelet inhibitor (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "41"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Platelet inhibitor (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "19"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Platelet inhibitor (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "16"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Anticoagulant (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "4"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Anticoagulant (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "0"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Anticoagulant (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "0"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Anticoagulant (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "0"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Diuretics (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "43"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Diuretics (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "39"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Diuretics (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "16"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Diuretics (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "18"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "73"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "76"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "84"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "76"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Beta blockers (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "21"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Beta blockers (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "24"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Beta blockers (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "8"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Beta blockers (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "8"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "ACEi /ARB (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "29"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "ACEi /ARB (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "31"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "ACEi /ARB (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "54"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "ACEi /ARB (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "39"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Calcium antagonist (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "32"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Calcium antagonist (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "40"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Calcium antagonist (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "32"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Calcium antagonist (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "32"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (n)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "1.3 ± 0.5"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (n)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "1.4 ± 0.4"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (n)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "1.2 ± 0.8"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Any anti‐hypertensive (n)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "1.0 ± 0.5"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Aldosterone antagonist (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "0"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Aldosterone antagonist (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "2"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Aldosterone antagonist (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "3"
+    },
+    {
+      "row_group": "Medication",
+      "row_label": "Aldosterone antagonist (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic diameter (mm)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "47.6 ± 4.7"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic diameter (mm)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "48.4 ± 4.7"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic diameter (mm)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "49.1 ± 5.2"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic diameter (mm)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "49.3 ± 5.0"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic Inter‐ventricular septum thickness (mm)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "11.3 ± 1.7"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic Inter‐ventricular septum thickness (mm)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "11.0 ± 1.4"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic Inter‐ventricular septum thickness (mm)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "10.5 ± 1.6"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV end‐diastolic Inter‐ventricular septum thickness (mm)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "10.2 ± 1.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV posterior wall thickness in end‐diastole (mm)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "9.6 ± 1.4"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV posterior wall thickness in end‐diastole (mm)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "9.4 ± 1.2"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV posterior wall thickness in end‐diastole (mm)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "9.3 ±1.4"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV posterior wall thickness in end‐diastole (mm)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "9.3 ±1.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Ejection fraction (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "58 ± 5"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Ejection fraction (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "60 ± 5"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Ejection fraction (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "62 ± 5"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Ejection fraction (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "60 ± 7"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Fraction shortening (%)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "38 ± 6"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Fraction shortening (%)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "36 ± 6"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Fraction shortening (%)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "37 ± 8"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "Fraction shortening (%)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "35 ± 8"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/A ratio",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "2.0 ± 0.8"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/A ratio",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "2.3 ± 0.9"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/A ratio",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "1.9 ± 0.5"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/A ratio",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "2.0 ± 0.7"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E‐wave deceleration time (ms)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "169 ± 36"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E‐wave deceleration time (ms)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "175 ± 42"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E‐wave deceleration time (ms)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "153 ± 30"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E‐wave deceleration time (ms)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "167 ± 39"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ septal (cm/s)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "6.6 ± 1.5"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ septal (cm/s)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "6.5 ± 1.6"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ septal (cm/s)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "7.7 ± 2.0"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ septal (cm/s)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "8.7 ± 2.5"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ lateral (cm/s)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "10.6 ± 3.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ lateral (cm/s)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "10.7 ± 2.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ lateral (cm/s)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "10.7 ± 2.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E’ lateral (cm/s)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "12.3 ± 3.2"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/e’ septal",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "10.2 ± 3.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/e’ septal",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "9.4 ± 2.3"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/e’ septal",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "10.2 ± 4.1"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "E/e’ septal",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "9.0 ± 3.0"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass (g)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "180 ± 49"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass (g)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "179 ± 44"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass (g)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "157 ± 46"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass (g)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "154 ± 40"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass index (g/m2)",
+      "column_label": "SCHEDULE (n = 83) a: Everolimus (n = 38)",
+      "value": "94 ± 21"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass index (g/m2)",
+      "column_label": "SCHEDULE (n = 83) a: Cyclosporine (n = 45)",
+      "value": "89 ± 18"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass index (g/m2)",
+      "column_label": "NOCTET (n = 75): Combination (n = 37)",
+      "value": "87 ± 22"
+    },
+    {
+      "row_group": "Echocardiography",
+      "row_label": "LV mass index (g/m2)",
+      "column_label": "NOCTET (n = 75): Cyclosporine (n = 38)",
+      "value": "86 ± 17"
+    }
+  ],
+  "raw_table_text": "Table 1. Baseline characteristics.\nSCHEDULE (n = 83) a\nNOCTET (n = 75)\nEverolimus (n = 38)\nCyclosporine (n = 45)\nCombination (n = 37)\nCyclosporine (n = 38)\nDemographics\nAge at transplant (yr)\n51 ± 13\n52 ± 12\n53 ± 12\n55 ± 10\nMale sex (%)\n73\n74\n92\n85\nSystolic blood pressure (mmHg)\n136 ± 16\n135 ± 14\n141 ± 15\n143 ± 16\nDiastolic blood pressure (mmHg)\n80 ± 12\n82 ± 9\n88 ± 12\n90 ± 9\nHeart rate (beats/min)\n89 ± 10\n84 ± 11\n83 ± 13\n84 ± 14\nBody mass index (kg/m2)\n24 ± 4\n25 ± 3\n27 ± 5\n25 ± 6\nAge of donor (yr)\n41 ± 14\n47 ± 13\n39 ± 14\n34 ± 14\nCold ischemia time—min (IQR)\n211 (45–305)\n206 (35–343)\n180 (88–228)\n172 (61–203)\nCreatinine (µmol/L)\n111 ± 45\n103 ± 32\n128 ± 29\n123 ± 27\nEstimated glomerular filtration rate (ml/min)\n67 ± 30\n69 ± 24\nHypertension (%)\n11\n14\n78\n71\nDiabetes Mellitus (%)\n9\n22\n18\n11\nMedication\nPlatelet inhibitor (%)\n39\n41\n19\n16\nAnticoagulant (%)\n4\n0\n0\n0\nDiuretics (%)\n43\n39\n16\n18\nAny anti‐hypertensive (%)\n73\n76\n84\n76\nBeta blockers (%)\n21\n24\n8\n8\nACEi /ARB (%)\n29\n31\n54\n39\nCalcium antagonist (%)\n32\n40\n32\n32\nAny anti‐hypertensive (n)\n1.3 ± 0.5\n1.4 ± 0.4\n1.2 ± 0.8\n1.0 ± 0.5\nAldosterone antagonist (%)\n0\n2\n3\n3\nEchocardiography\nLV end‐diastolic diameter (mm)\n47.6 ± 4.7\n48.4 ± 4.7\n49.1 ± 5.2\n49.3 ± 5.0\nLV end‐diastolic Inter‐ventricular septum thickness (mm)\n11.3 ± 1.7\n11.0 ± 1.4\n10.5 ± 1.6\n10.2 ± 1.3\nLV posterior wall thickness in end‐diastole (mm)\n9.6 ± 1.4\n9.4 ± 1.2\n9.3 ±1.4\n9.3 ±1.3\nEjection fraction (%)\n58 ± 5\n60 ± 5\n62 ± 5\n60 ± 7\nFraction shortening (%)\n38 ± 6\n36 ± 6\n37 ± 8\n35 ± 8\nE/A ratio\n2.0 ± 0.8\n2.3 ± 0.9\n1.9 ± 0.5\n2.0 ± 0.7\nE‐wave deceleration time (ms)\n169 ± 36\n175 ± 42\n153 ± 30\n167 ± 39\nE’ septal (cm/s)\n6.6 ± 1.5\n6.5 ± 1.6\n7.7 ± 2.0\n8.7 ± 2.5\nE’ lateral (cm/s)\n10.6 ± 3.3\n10.7 ± 2.3\n10.7 ± 2.3\n12.3 ± 3.2\nE/e’ septal\n10.2 ± 3.3\n9.4 ± 2.3\n10.2 ± 4.1\n9.0 ± 3.0\nLV mass (g)\n180 ± 49\n179 ± 44\n157 ± 46\n154 ± 40\nLV mass index (g/m2)\n94 ± 21\n89 ± 18\n87 ± 22\n86 ± 17\n"
+}

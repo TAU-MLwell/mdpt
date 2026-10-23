@@ -1,0 +1,15 @@
+{
+  "loop_id": "loop_20261018T095907Z_5638a483",
+  "started_at": "2026-10-18T09:59:07.843835+00:00",
+  "status": "failed",
+  "max_iterations": 4,
+  "min_improvement": 0.005,
+  "patience": 2,
+  "baseline_version": "baseline",
+  "baseline_reused": false,
+  "completed_at": "2026-10-18T10:03:35.298098+00:00",
+  "failure": {
+    "stage": "iteration_2_propose",
+    "exception_type": "ValueError"
+  }
+}

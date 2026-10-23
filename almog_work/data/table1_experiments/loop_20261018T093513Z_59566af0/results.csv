@@ -1,0 +1,168 @@
+iteration,version,status,cell_f1,cell_precision,cell_recall,key_f1,value_accuracy,f1_test_paper,f1_PMC13651293,f1_PMC13652250,f1_PMC13652315,f1_PMC13651901,f1_PMC13652390,feedback_remaining,evaluations_remaining,is_best,run_dir,guidance
+0,baseline,completed,0.572727,0.688525,0.490272,0.6,0.954545,0.0,0.476923,0.837209,0.878788,1.0,0.266667,20,19,True,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T093513Z_59566af0/runs/v00,"Extract the whole table faithfully, including every row and every reported value, exactly as written."
+1,v01,completed,0.498031,0.503984,0.492218,0.53937,0.923358,0.759582,0.476923,0.988764,0.0,1.0,0.266667,15,18,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T093513Z_59566af0/runs/v01,"Read Table 1 as a structured grid and capture its organization exactly as presented. Focus on: (1) column headers, (2) row labels and section headings, and (3) the alignment of each data cell to its row and column.
+
+SCOPE
+1. Work only on what is explicitly part of Table 1. Ignore other tables, figures, and narrative text outside the table.
+2. Return three things: a single table_title string, a `columns` list of unique column header strings, and a `cells` list of objects with exactly `row_label`, `row_group`, `column_label`, and `value`.
+3. Table 1 often describes baseline characteristics or sample descriptions. These can include descriptive statistics, counts, percentages, and sometimes derived metrics. All of these are data cells that must be captured.
+
+COLUMN HEADERS
+4. Identify all explicit column headers, including the leftmost label-column header if it has a printed name. Add that name to `columns`, but do not create data cells for the label-column entries (those become `row_label`).
+5. Preserve header text exactly as written: include abbreviations, sample sizes in parentheses, units, symbols, and footnote markers attached to the header. Do not rephrase or shorten.
+6. Handle nested headers by distinguishing between group headers (higher tier) and leaf headers (lower tier). Only leaf headers represent data columns.
+7. For a column under a group header, create a unique column label by combining them as ""<group>: <leaf header>"". Use this consistently across the table.
+8. If a leaf header does not sit under a named group (for example, the group cell is blank or spans multiple leaf headers without text), use the leaf header alone as the column label.
+9. When a header tier contains multiple subcolumns (e.g., separate subcolumns for different statistics or groups), treat each subcolumn as a distinct leaf header and therefore a distinct column_label.
+10. Ensure every column_label used in `cells` appears exactly once in `columns`. Do not create duplicate labels or slightly altered variants for the same column.
+
+ROW LABELS
+11. `row_label` is the descriptor of a specific row of data, taken from the leftmost data column. Copy it exactly, including units, qualifiers (such as mean±SD), and any footnote markers.
+12. Treat each visually distinct data row as a separate row_label. Do not merge multiple rows into one, even if they describe levels of the same variable.
+13. When a variable has multiple levels listed on separate lines (e.g., a scale with numeric levels, categories, or ranges), keep each level as its own row_label.
+14. If the table visually splits a single descriptor into multiple lines but they share one continuous set of data cells, treat these lines as one combined row_label. If data cells differ per line, treat each line as a separate row.
+15. Do not skip rows because they look like totals, summary lines, or unusual formats. If they have values under one or more data columns, they must be captured.
+
+ROW GROUPS (SECTION HEADINGS)
+16. `row_group` represents a section or category heading that sits above one or more rows. It often appears as a standalone line, spanning across columns, without data in the same row.
+17. When a heading appears and the following rows are visually grouped under it (e.g., indented, listed, or otherwise clearly nested), set `row_group` to that heading for all those rows.
+18. Use `row_group=null` for rows that are not clearly under a section heading.
+19. Do not invent row_group names. Only create a row_group when the table explicitly presents a heading or category label.
+20. If a heading row has no data entries in any data column, treat it purely as a row_group and not as a data row (no `cells` for that heading row itself).
+21. If a heading row does have associated numeric or textual values under data columns, treat it as a category statistic:
+    - use the heading text as `row_group`;
+    - set `row_label=null`;
+    - create cells for each column that contains a value.
+22. Some tables repeat a heading or category label for emphasis. If the repeated line has no distinct data, treat it as part of the grouping structure rather than a separate row with cells.
+
+CELLS AND VALUES
+23. Each entry in `cells` must represent a single source cell with one value string and three keys that locate it: row_group, row_label, and column_label.
+24. Copy the value string exactly as shown, including:
+    - numbers, precision, and signs;
+    - symbols (%, ±, <, >, ≥, etc.);
+    - units (for example, kg, years);
+    - parentheses or brackets (for counts, percentages, ranges, or intervals);
+    - any footnote markers embedded in the cell.
+25. Do not reformat, round, interpret, or compute values. Do not separate combined statistics (e.g., mean±SD, count (percentage)) into multiple cells; keep the entire content of the source cell as one string value.
+26. Record all meaningful textual values, including ""N/A"", dashes, or phrases like ""not reported"" when they appear as the actual contents of a cell.
+27. A reported zero is a real value and must be captured.
+28. If a cell is truly blank (no characters), do not create a `cells` record for it. Never emit null, empty, or whitespace-only value strings.
+29. Align each value to the correct row and column by position. Do not shift values between columns based on interpretation; rely on the table’s grid layout.
+
+NO DUPLICATES
+30. The combination (row_group, row_label, column_label) must uniquely identify a cell. Do not create more than one cell for the same combination.
+31. If you notice multiple candidate values for the same combination, recheck the table’s structure: usually only one value belongs in that intersection.
+
+SPECIAL COLUMN TYPES
+32. Table 1 often includes additional columns beyond the main comparison groups, such as columns for derived metrics, tests, or ratios. Treat each such column as a separate column_label.
+33. Place these columns in `columns` with their exact printed names (e.g., including any abbreviations, symbols, or footnote markers).
+34. Do not drop these extra columns. Missing values in these columns are a frequent source of errors; ensure that if a row contains a value under them, you record it.
+
+HANDLING CATEGORY ROWS
+35. When you see a heading followed by several detailed rows (for example, a category followed by its levels):
+    - Set row_group to the heading for all the level rows.
+    - Use row_label for each specific level.
+36. If a category has an overall summary row (for example, an aggregate statistic covering the entire category) without a separate descriptor, treat it as a heading-based row with row_group=the category name and row_label=null.
+37. Maintain the order of sections and rows as they appear, but note that ordering is not represented explicitly in the JSON; the important part is that all rows and values are captured and correctly linked.
+
+QUALITY CHECKS
+38. After constructing `columns`, verify that every column in the table that carries data appears there and that each name matches the source exactly.
+39. Ensure all visible data cells in the table appear once in `cells`, with the correct row_group, row_label, and column_label.
+40. Check that no `cells` entry refers to a column_label not present in `columns`.
+41. Review rows under each section heading to confirm none were skipped, especially rows that look like totals, means, or ratios.
+42. Pay particular attention to rows or columns at the edges of the table (top, bottom, leftmost, rightmost), as these are often missed.
+
+By following these principles, you will capture Table 1 completely and accurately, preserving its hierarchy of headings and its alignment of row labels, column headers, and data cells in a faithful structured representation."
+2,v02,completed,0.303653,0.367403,0.258755,0.326484,0.93007,0.0,0.476923,0.953488,0.0,1.0,0.0,10,17,False,/home/almogalfamon/mdpt/almog_work/data/table1_experiments/loop_20261018T093513Z_59566af0/runs/v02,"Reconstruct Table 1 as a grid that preserves the table’s structure: which text is a column header, which is a row label, which is a section heading (row_group), and which is a data value. Your goal is to capture every visible non-blank data cell and align it with the correct row_group, row_label, and column_label.
+
+SCOPE AND OUTPUT
+1. Work strictly on Table 1. Ignore anything outside it except the table title.
+2. Return:
+   - `table_title`: the Table 1 title as a single string.
+   - `columns`: a list of all explicit data-column headers.
+   - `cells`: one entry per non-blank data cell with `row_group`, `row_label`, `column_label`, and `value`.
+3. Do not infer, interpret, or compute values. Use only printed content.
+
+COLUMN HEADERS
+4. Identify all column headers above the data area, including the leftmost label-column header if it has a name.
+5. Copy each header exactly: keep text, numbers, punctuation, units, symbols, and footnote markers.
+6. If headers are multi-tier (nested):
+   - Upper-tier cells that span several subcolumns are group headers.
+   - Lower-tier cells directly above data cells are leaf headers.
+7. Only leaf headers represent data columns. For a leaf under a group header, form the column_label as ""<group>: <leaf>"".
+8. If a leaf header has no named group above it, use the leaf text alone as the column_label.
+9. When a group header spans multiple different leaf headers, each leaf becomes a separate column_label.
+10. Treat any additional statistic columns (e.g., p values, ratio-type measures, test results) as normal data columns if they have a header or a clearly aligned column.
+11. Every column_label used in `cells` must appear once in `columns` and must exactly match the header text.
+
+ROW LABELS
+12. `row_label` is the descriptor in the leftmost data column for that row. Copy it exactly, including units, qualifiers, ranges, and footnotes.
+13. Each visually distinct horizontal data row (a line with at least one value) needs a row_label, except for heading rows used only as row_group.
+14. When a variable has multiple levels on separate lines, treat each level as its own row_label.
+15. If one descriptor is printed on multiple lines but its data cells span that whole band as a single row, merge the descriptor lines into one row_label.
+16. Include summary or total rows if they carry any data; they are ordinary rows with row_labels.
+
+ROW GROUPS (SECTION HEADINGS)
+17. A `row_group` is a section heading placed above several related rows, usually spanning multiple columns or styled distinctly.
+18. When a heading is followed by rows that clearly belong to that section, assign that heading as row_group for those rows.
+19. Use `row_group=null` when no section heading applies.
+20. Use only headings that actually appear in the table; do not invent row_group text.
+21. If a heading row itself has data values (e.g., an overall summary for that section), treat it as a data row:
+    - row_group = heading text
+    - row_label = null
+    - create cells for all non-blank data entries in that row.
+22. If a heading row has no data in any column, it is purely structural; do not create cells for it.
+
+CELLS AND ALIGNMENT
+23. Each `cells` entry corresponds to exactly one visible, non-blank data cell.
+24. For each cell:
+    - row_label = descriptor on the same horizontal line in the leftmost data column (or null when it is a heading-statistics row).
+    - row_group = the most recent applicable section heading above that row, or null.
+    - column_label = the leaf header (or group: leaf header) directly above that cell.
+25. Use spatial alignment to determine where each value belongs. Do not move values between columns based on meaning.
+26. If a column is visually present but blank for some rows, those rows simply have no cells for that column.
+
+VALUES
+27. Copy the cell value exactly as printed, including:
+    - digits and decimal precision;
+    - symbols (<, >, ±, %, etc.);
+    - units;
+    - content inside parentheses or brackets (counts, percentages, ranges, intervals);
+    - textual entries such as ""N/A"" or dashes used as values;
+    - footnote markers attached to the value.
+28. Do not split combined statistics (e.g., count with percentage, mean with standard deviation) into multiple cells; keep them as a single string.
+29. A printed zero is a real value and must be captured.
+30. If a cell is truly blank (no characters), do not create any `cells` entry for it. Never emit null, empty, or whitespace-only values.
+
+AVOIDING MISSING CELLS
+31. Scan every row across all columns. If you see any non-blank content under a column header, you must create a cell for it.
+32. Pay special attention to:
+    - rightmost columns (often statistics like p values or ratios);
+    - rows with subcategories or rare events;
+    - the first and last rows in each section.
+33. Ensure that values under additional statistic columns (e.g., risk measures, tests) are captured for every row that has them.
+
+AVOIDING EXTRA CELLS
+34. Do not create a cell unless the table visibly shows a value at that position.
+35. Blank grid spaces are not data; they should produce no cell.
+36. Do not treat spacing, indentation, or layout decorations as values.
+37. Be careful with cells that span multiple columns or rows: treat them as headers or structure unless they clearly belong in the data body under leaf headers.
+38. Do not assume a cell should exist in a row just because other rows have values in that column.
+
+CATEGORY/LEVEL STRUCTURE
+39. When a section lists multiple levels of a variable (e.g., score categories or strata) under a common heading:
+    - Use the heading as row_group for those rows.
+    - Use the specific level text in the leftmost data column as row_label.
+40. If the section includes an overall summary row without a distinct descriptor, treat it as heading-based statistics (row_group = heading, row_label = null) and record its data cells.
+41. If levels have associated statistics (e.g., risk measures, test results), ensure each level’s values appear in `cells` under the right column_label.
+
+CONSISTENCY AND FINAL CHECKS
+42. After building `columns`, confirm that:
+    - every leaf header above the data area is represented;
+    - nested headers are correctly combined as group: leaf when appropriate.
+43. Review the table row by row, making sure every non-blank cell is present exactly once in `cells`.
+44. Check that no `cells` entry uses a column_label that is missing from `columns` or differs in spelling, spacing, or symbols.
+45. Confirm that no two `cells` entries share the same (row_group, row_label, column_label) combination.
+46. Re-check complex sections with nested headers, multiple statistic columns, or many levels; these are prone to both missing and extra cells.
+
+Following these guidelines will help you capture Table 1 completely and accurately, with each data value correctly linked to its row_group, row_label, and column_label, and with no added or omitted cells."

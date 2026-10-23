@@ -1,0 +1,227 @@
+{
+  "paper_id": "PMC13652390",
+  "table_number": 1,
+  "found": true,
+  "table_title": "Table 1. Baseline characteristics of Chinese public hospitals sampled across 7 geographic regions (N=158).",
+  "columns": [
+    "Characteristics",
+    "Total hospitals",
+    "Tertiary general hospitals (n=39)",
+    "Secondary general hospitals (n=40)",
+    "Traditional Chinese medicine hospitals (n=39)",
+    "Maternal and child health hospitals (n=40)"
+  ],
+  "cells": [
+    {
+      "row_group": null,
+      "row_label": "Total hospitals",
+      "column_label": "Total hospitals",
+      "value": "94 (59.5)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Total hospitals",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "39 (100)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Total hospitals",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "0 (0)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Total hospitals",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "30 (76.9)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Total hospitals",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "25 (62.5)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Tertiary hospital, n (%)",
+      "column_label": "Total hospitals",
+      "value": "94 (59.5)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Tertiary hospital, n (%)",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "39 (100)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Tertiary hospital, n (%)",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "0 (0)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Tertiary hospital, n (%)",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "30 (76.9)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Tertiary hospital, n (%)",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "25 (62.5)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Beds available, mean (SD)",
+      "column_label": "Total hospitals",
+      "value": "1058 (980)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Beds available, mean (SD)",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "2132 (1015)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Beds available, mean (SD)",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "388 (214)a"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Beds available, mean (SD)",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "1046 (751)"
+    },
+    {
+      "row_group": "Hospital profile",
+      "row_label": "Beds available, mean (SD)",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "589 (563)b"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Internet hospital",
+      "column_label": "Total hospitals",
+      "value": "40 (25.3)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Internet hospital",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "22 (56.4)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Internet hospital",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "2 (5)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Internet hospital",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "10 (25.6)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Internet hospital",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "6 (15)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with official websites",
+      "column_label": "Total hospitals",
+      "value": "103 (65.2)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with official websites",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "35 (89.7)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with official websites",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "11 (27.5)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with official websites",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "31 (79.5)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with official websites",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "27 (67.5)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with WeChat accounts",
+      "column_label": "Total hospitals",
+      "value": "155 (98.1)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with WeChat accounts",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "39 (100)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with WeChat accounts",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "38 (95)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with WeChat accounts",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "39 (100)"
+    },
+    {
+      "row_group": "Digital engagement, n (%)",
+      "row_label": "Hospitals with WeChat accounts",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "39 (97.5)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Annual publication volume per hospital, median (IQR)c",
+      "column_label": "Total hospitals",
+      "value": "562 (156-1213)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Annual publication volume per hospital, median (IQR)c",
+      "column_label": "Tertiary general hospitals (n=39)",
+      "value": "724 (95-1345)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Annual publication volume per hospital, median (IQR)c",
+      "column_label": "Secondary general hospitals (n=40)",
+      "value": "271 (83-759)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Annual publication volume per hospital, median (IQR)c",
+      "column_label": "Traditional Chinese medicine hospitals (n=39)",
+      "value": "680 (300-1586)"
+    },
+    {
+      "row_group": null,
+      "row_label": "Annual publication volume per hospital, median (IQR)c",
+      "column_label": "Maternal and child health hospitals (n=40)",
+      "value": "743 (188-1250)"
+    }
+  ],
+  "raw_table_text": "Table 1. Baseline characteristics of Chinese public hospitals sampled across 7 geographic regions (N=158).\nCharacteristics\nTotal hospitals\nTertiary general hospitals (n=39)\nSecondary general hospitals (n=40)\nTraditional Chinese medicine hospitals (n=39)\nMaternal and child health hospitals (n=40)\nHospital profile\nTertiary hospital, n (%)\n94 (59.5)\n39 (100)\n0 (0)\n30 (76.9)\n25 (62.5)\nBeds available, mean (SD)\n1058 (980)\n2132 (1015)\n388 (214)a\n1046 (751)\n589 (563)b\nDigital engagement, n (%)\nInternet hospital\n40 (25.3)\n22 (56.4)\n2 (5)\n10 (25.6)\n6 (15)\nHospitals with official websites\n103 (65.2)\n35 (89.7)\n11 (27.5)\n31 (79.5)\n27 (67.5)\nHospitals with WeChat accounts\n155 (98.1)\n39 (100)\n38 (95)\n39 (100)\n39 (97.5)\nAnnual publication volume per hospital, median (IQR)c\n562 (156-1213)\n724 (95-1345)\n271 (83-759)\n680 (300-1586)\n743 (188-1250)\naBeds available in secondary general hospitals were significantly lower than those in both tertiary general hospitals and traditional Chinese medicine hospitals (Kruskal-Wallis test followed by Dunn post hoc tests with Bonferroni corrections; P<.05). bBeds available in maternal and child health hospitals were significantly lower than those in both tertiary general hospitals and traditional Chinese medicine hospitals (Kruskal-Wallis test followed by Dunn post hoc tests with Bonferroni corrections; P<.05).cPublication volumes differed significantly among hospital categories (Kruskal-Wallis H=15.520; P=.001). Of the 6 pairwise Dunn post hoc comparisons with Bonferroni correction, 3 remained statistically significant: secondary general hospitals had significantly lower publication volumes than tertiary general hospitals (adjusted P=.01), traditional Chinese medicine hospitals (adjusted P<.001), and maternal and child health hospitals (adjusted P=.03).\nQuality Assessment of BBD-Related Articles\nOverview\nOf the 158 hospitals in the overall sample, 103 contributed at least 1 eligible BBD-related article, yielding 464 articles for analysis. Among these, 248 (53.4%) focused on prevention and 216 (46.6%) on treatment. Linear regression confirmed a significant upward trend in annual publication volume over the 5-year study period (\nβ\n=15.7 articles per year, 95% CI 6.0-25.4;\nP\n=.01; Figure S2 in\nMultimedia Appendix 1\n).\nReadability\nThe mean reading grade level was 12.9 (SD 1.7, range 6-20) years. Among these materials, 15.7% (73/464) were written at a primary school level, the majority (336/464, 72.4%) at a junior high school level, and 11.9% (55/464) at a senior high school level, indicating that the overall text complexity was generally acceptable and appropriate for the literacy level of the general population (\nTable 2\n).\n"
+}

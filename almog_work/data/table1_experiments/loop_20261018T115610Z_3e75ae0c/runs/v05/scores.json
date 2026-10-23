@@ -1,0 +1,149 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 217,
+      "fp_exact": 262,
+      "fn_exact": 297,
+      "precision": 0.453027,
+      "recall": 0.422179,
+      "f1": 0.437059
+    },
+    "keys_only": {
+      "tp": 236,
+      "fp": 243,
+      "fn": 278,
+      "precision": 0.492693,
+      "recall": 0.459144,
+      "f1": 0.475327,
+      "value_accuracy_on_matched_keys": 0.919492
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 117,
+      "missing_prediction_file": false,
+      "cell_precision": 0.649573,
+      "cell_recall": 0.506667,
+      "cell_f1": 0.569288,
+      "key_precision": 0.726496,
+      "key_recall": 0.566667,
+      "value_accuracy_on_matched_keys": 0.894118
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 42,
+      "missing_prediction_file": false,
+      "cell_precision": 0.97619,
+      "cell_recall": 0.931818,
+      "cell_f1": 0.953488,
+      "key_precision": 0.97619,
+      "key_recall": 0.931818,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.0,
+      "cell_recall": 0.0,
+      "cell_f1": 0.0,
+      "key_precision": 0.0,
+      "key_recall": 0.0,
+      "value_accuracy_on_matched_keys": 0.0
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "PMC13651293",
+      "error_type": "wrong_value",
+      "row_group": "Biochemical characteristics",
+      "row_label": "Triglycerides (mg/dL)",
+      "column_label": "Effect size (95% CI)",
+      "predicted_value": "g = 0.37 (- 0.16 to 0.90)"
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Gestational agea, weeks, n (%)",
+      "row_label": "30-32",
+      "column_label": "Allergic infants (n = 6,911)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Systolic blood pressure (mmHg)",
+      "column_label": "SCHEDULE: Everolimus (n = 38)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13652315",
+      "error_type": "missing_cell",
+      "row_group": "Demographics",
+      "row_label": "Cold ischemia time-min (IQR)",
+      "column_label": "SCHEDULE: Cyclosporine (n = 45)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "extra_cell",
+      "row_group": "Health history, n (%)",
+      "row_label": "Hyperlipidemia",
+      "column_label": "20-30 years(n = 20)",
+      "predicted_value": "1 (5%)"
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "Triglycerides (mg/dL)",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    }
+  ],
+  "feedback_remaining": 30,
+  "evaluations_remaining": 14
+}

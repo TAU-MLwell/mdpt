@@ -1,0 +1,88 @@
+{
+  "run_id": "v05",
+  "started_at": "2026-10-18T12:04:36.096186+00:00",
+  "status": "completed",
+  "prompt_version": "v05",
+  "prompt_sha256": "df09a4c5bd3af88b644239b97521f2849859bd69b1f281f61b40cc1ac2f3a45b",
+  "model": {
+    "provider": "azure_openai",
+    "deployment": "almog-gpt-5.1",
+    "max_new_tokens": 16000
+  },
+  "table_number": 1,
+  "max_table_section_chars": 20000,
+  "scoring": {
+    "transport": "http",
+    "timeout_seconds": 120.0,
+    "scope": "full scorer-configured benchmark",
+    "request_attempted": true,
+    "automatic_retries": 0,
+    "budget_scope": "scorer process",
+    "feedback_remaining": 30,
+    "evaluations_remaining": 14
+  },
+  "papers": [
+    {
+      "key": "test_paper",
+      "source_file": "test_paper.txt",
+      "source_sha256": "a7ca507b7a2474696b77fce3bb59dcdab1ad6759dee52ac9341788fc713894c9",
+      "extraction_attempts": 2,
+      "prediction": "predictions/test_paper_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 117,
+      "duplicates_dropped": 23
+    },
+    {
+      "key": "PMC13651293",
+      "source_file": "PMC13651293.txt",
+      "source_sha256": "c5a463d0ed23502632d9866745ccce2b103457e45ddf74ae567904f1c2f7b8c1",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13651293_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 130,
+      "duplicates_dropped": 0
+    },
+    {
+      "key": "PMC13652250",
+      "source_file": "PMC13652250.txt",
+      "source_sha256": "d3944ec5e2ff2ad3e117965de5d6370de5aca5a14f2750aeedcdefc8cebd7d6b",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13652250_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 42,
+      "duplicates_dropped": 0
+    },
+    {
+      "key": "PMC13652315",
+      "source_file": "PMC13652315.txt",
+      "source_sha256": "d81fd9cf67e194e5118e3f2bbac07ee017353cfa518b48fc00824173f1103ed5",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13652315_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 130,
+      "duplicates_dropped": 0
+    },
+    {
+      "key": "PMC13651901",
+      "source_file": "PMC13651901.txt",
+      "source_sha256": "d85597105d05e0f127ef10cdcc3c6af4afedc855bdfb6716582d7eb8869ff381",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13651901_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 30,
+      "duplicates_dropped": 0
+    },
+    {
+      "key": "PMC13652390",
+      "source_file": "PMC13652390.txt",
+      "source_sha256": "942428317a10cb17e3a1d3b8d23ef778d876a3720e8d451e2dc85c16d6374b8a",
+      "extraction_attempts": 1,
+      "prediction": "predictions/PMC13652390_table_1_pred.json",
+      "found": true,
+      "cells_extracted": 30,
+      "duplicates_dropped": 0
+    }
+  ],
+  "completed_at": "2026-10-18T12:06:31.560567+00:00",
+  "score_file": "scores.json"
+}

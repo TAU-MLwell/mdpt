@@ -1,0 +1,28 @@
+{
+  "papers_dir": "../data/table1_papers",
+  "split_seed": 42,
+  "split_note": "test_paper is dev (used while building the extractor); other 9 shuffled with the seed: 5 dev, 4 holdout. Chosen from file names only.",
+  "splits": {
+    "dev": {
+      "papers": ["test_paper", "PMC13651293", "PMC13652250", "PMC13652315", "PMC13651901", "PMC13652390"],
+      "scorer_url": "http://127.0.0.1:18765/score",
+      "scorer_port": 18765,
+      "max_evaluations": 20,
+      "feedback_budget": 25,
+      "max_examples": 5
+    },
+    "holdout": {
+      "papers": ["PMC13650419", "PMC13652246", "PMC13649618", "PMC13649870"],
+      "scorer_url": "http://127.0.0.1:18766/score",
+      "scorer_port": 18766,
+      "max_evaluations": 1,
+      "feedback_budget": 0,
+      "max_examples": 0
+    }
+  },
+  "loop": {
+    "max_iterations": 10,
+    "min_improvement": 0.005,
+    "patience": null
+  }
+}

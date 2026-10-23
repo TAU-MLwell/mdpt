@@ -1,0 +1,141 @@
+{
+  "summary": {
+    "papers_scored": 6,
+    "cells": {
+      "tp_exact": 173,
+      "fp_exact": 348,
+      "fn_exact": 341,
+      "precision": 0.332054,
+      "recall": 0.336576,
+      "f1": 0.3343
+    },
+    "keys_only": {
+      "tp": 217,
+      "fp": 304,
+      "fn": 297,
+      "precision": 0.416507,
+      "recall": 0.422179,
+      "f1": 0.419324,
+      "value_accuracy_on_matched_keys": 0.797235
+    },
+    "missing_prediction_files": []
+  },
+  "per_paper": [
+    {
+      "paper": "test_paper",
+      "gold_cells": 150,
+      "pred_cells": 148,
+      "missing_prediction_file": false,
+      "cell_precision": 0.202703,
+      "cell_recall": 0.2,
+      "cell_f1": 0.201342,
+      "key_precision": 0.263514,
+      "key_recall": 0.26,
+      "value_accuracy_on_matched_keys": 0.769231
+    },
+    {
+      "paper": "PMC13651293",
+      "gold_cells": 130,
+      "pred_cells": 130,
+      "missing_prediction_file": false,
+      "cell_precision": 0.476923,
+      "cell_recall": 0.476923,
+      "cell_f1": 0.476923,
+      "key_precision": 0.553846,
+      "key_recall": 0.553846,
+      "value_accuracy_on_matched_keys": 0.861111
+    },
+    {
+      "paper": "PMC13652250",
+      "gold_cells": 44,
+      "pred_cells": 48,
+      "missing_prediction_file": false,
+      "cell_precision": 0.8125,
+      "cell_recall": 0.886364,
+      "cell_f1": 0.847826,
+      "key_precision": 0.8125,
+      "key_recall": 0.886364,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652315",
+      "gold_cells": 130,
+      "pred_cells": 135,
+      "missing_prediction_file": false,
+      "cell_precision": 0.02963,
+      "cell_recall": 0.030769,
+      "cell_f1": 0.030189,
+      "key_precision": 0.214815,
+      "key_recall": 0.223077,
+      "value_accuracy_on_matched_keys": 0.137931
+    },
+    {
+      "paper": "PMC13651901",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 1.0,
+      "cell_recall": 1.0,
+      "cell_f1": 1.0,
+      "key_precision": 1.0,
+      "key_recall": 1.0,
+      "value_accuracy_on_matched_keys": 1.0
+    },
+    {
+      "paper": "PMC13652390",
+      "gold_cells": 30,
+      "pred_cells": 30,
+      "missing_prediction_file": false,
+      "cell_precision": 0.266667,
+      "cell_recall": 0.266667,
+      "cell_f1": 0.266667,
+      "key_precision": 0.266667,
+      "key_recall": 0.266667,
+      "value_accuracy_on_matched_keys": 1.0
+    }
+  ],
+  "error_examples": [
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "5",
+      "column_label": "Relative risk",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "missing_cell",
+      "row_group": "",
+      "row_label": "Sex (female), n (%)",
+      "column_label": "Nonallergic infants (n = 363,387)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Drug therapy, n (%)",
+      "row_label": "Lipid-lowering drugs (statins)",
+      "column_label": "20-30 years (n = 20)",
+      "predicted_value": null
+    },
+    {
+      "paper": "PMC13651293",
+      "error_type": "missing_cell",
+      "row_group": "Biochemical characteristics",
+      "row_label": "BUN (mg/dL)",
+      "column_label": ">=65 years (n = 40)",
+      "predicted_value": null
+    },
+    {
+      "paper": "test_paper",
+      "error_type": "extra_cell",
+      "row_group": "Socioeconomic scorea, n (%)",
+      "row_label": "Unknown",
+      "column_label": "p value",
+      "predicted_value": "0.46"
+    }
+  ],
+  "feedback_remaining": 20,
+  "evaluations_remaining": 19
+}
